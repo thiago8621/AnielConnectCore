@@ -1,0 +1,982 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ABRIRATENDIMENTO" xml:space="preserve">
+    <value>Abrir Atendimento</value>
+  </data>
+  <data name="ALTO" xml:space="preserve">
+    <value>Alta</value>
+  </data>
+  <data name="ANALFABETO" xml:space="preserve">
+    <value>Sem Instrução</value>
+  </data>
+  <data name="ANIELFINANCEIRO" xml:space="preserve">
+    <value>Aniel E.V.A</value>
+  </data>
+  <data name="ANIELCONNECT" xml:space="preserve">
+    <value>Aniel Connect</value>
+  </data>
+  <data name="ANEXOREMOVIDO" xml:space="preserve">
+    <value>Anexo Removido</value>
+  </data>
+  <data name="ATE5ANO" xml:space="preserve">
+    <value>Até o 5º ano incompleto do Ensino Fundamental.</value>
+  </data>
+  <data name="ATUALIZARATUAL" xml:space="preserve">
+    <value>Atualizar Atual</value>
+  </data>
+  <data name="ATENCAO_" xml:space="preserve">
+    <value>Atenção!</value>
+  </data>
+  <data name="BAIXO" xml:space="preserve">
+    <value>Baixo</value>
+  </data>
+  <data name="CADASTRARCLIENTE" xml:space="preserve">
+    <value>Cadastrar Cliente</value>
+  </data>
+  <data name="CASADO" xml:space="preserve">
+    <value>Casado</value>
+  </data>
+  <data name="CHANGEPASSWORDSUCCESS" xml:space="preserve">
+    <value>Sua senha foi alterada.</value>
+  </data>
+  <data name="CONFIRMACAOCOMPARE" xml:space="preserve">
+    <value>Senha {0} diferente de {1}</value>
+  </data>
+  <data name="CONFIRMPASSWORD" xml:space="preserve">
+    <value>Confirmação de Senha</value>
+  </data>
+  <data name="COPIAR" xml:space="preserve">
+    <value>Copiar</value>
+  </data>
+  <data name="CRIAROS" xml:space="preserve">
+    <value>Criar OS</value>
+  </data>
+  <data name="CSV" xml:space="preserve">
+    <value>CSV</value>
+  </data>
+  <data name="DATA_TABLE_FILTERED" xml:space="preserve">
+    <value>(Filtrando de _MAX_ registros)</value>
+  </data>
+  <data name="DATA_TABLE_INFO" xml:space="preserve">
+    <value>Total</value>
+  </data>
+  <data name="DATA_TABLE_INFOEMPTY" xml:space="preserve">
+    <value>Sem dados para exibir</value>
+  </data>
+  <data name="DATA_TABLE_LENGTHMENU" xml:space="preserve">
+    <value>Exibindo _MENU_ registros por página</value>
+  </data>
+  <data name="DATA_TABLE_ZERORECORDS" xml:space="preserve">
+    <value>Sem dados para exibir</value>
+  </data>
+  <data name="DESCONHECIDO" xml:space="preserve">
+    <value>Desconhecido</value>
+  </data>
+  <data name="DIVORCIADO" xml:space="preserve">
+    <value>Divorciado</value>
+  </data>
+  <data name="DOUTORADO" xml:space="preserve">
+    <value>Doutorado</value>
+  </data>
+  <data name="EDICAO" xml:space="preserve">
+    <value>Edição</value>
+  </data>
+  <data name="EDUCACAO_SUPERIOR" xml:space="preserve">
+    <value>Educação Superior</value>
+  </data>
+  <data name="ENSINO_FUNDAMENTAL" xml:space="preserve">
+    <value>Ensino Fundamental</value>
+  </data>
+  <data name="ENSINO_MEDIO" xml:space="preserve">
+    <value>Ensino Médio</value>
+  </data>
+  <data name="ENSINO_MEDIO_INCOMPLETO" xml:space="preserve">
+    <value>Ensino Médio incompleto.</value>
+  </data>
+  <data name="ENSINO_SUPERIOR" xml:space="preserve">
+    <value>Educação Superior</value>
+  </data>
+  <data name="ERRO" xml:space="preserve">
+    <value>Erro</value>
+  </data>
+  <data name="ERROAORECUPERARLISTAGEMDOSERVIDOR" xml:space="preserve">
+    <value>Erro ao recuperar listagem do servidor. Tente novamente mais tarde.</value>
+  </data>
+  <data name="ERROAORETORNARDADOSDOSERVIDOR" xml:space="preserve">
+    <value>Erro ao retornar dados do servidor. Tente novamente mais tarde.</value>
+  </data>
+  <data name="ERROR" xml:space="preserve">
+    <value>Um erro ocorreu</value>
+  </data>
+  <data name="ERRO_BINDINGOBJ" xml:space="preserve">
+    <value>Erro de Binding de Objeto</value>
+  </data>
+  <data name="ERRO_GRAVARDADOSNOSERVIDOR" xml:space="preserve">
+    <value>Erro ao gravar dados do servidor. Tente novamente mais tarde.</value>
+  </data>
+  <data name="EXCEL" xml:space="preserve">
+    <value>Excel</value>
+  </data>
+  <data name="EXCLUIR" xml:space="preserve">
+    <value>Excluir</value>
+  </data>
+  <data name="EXPORTAR" xml:space="preserve">
+    <value>Opções</value>
+  </data>
+  <data name="FECHARATUAL" xml:space="preserve">
+    <value>Fechar Atual</value>
+  </data>
+  <data name="FECHARTUDO" xml:space="preserve">
+    <value>Fechar Tudo</value>
+  </data>
+  <data name="FEMININO" xml:space="preserve">
+    <value>Feminino</value>
+  </data>
+  <data name="FILTRO" xml:space="preserve">
+    <value>Filtro</value>
+  </data>
+  <data name="FILTROS" xml:space="preserve">
+    <value>Filtros</value>
+  </data>
+  <data name="FISICA" xml:space="preserve">
+    <value>Física</value>
+  </data>
+  <data name="GRANDE" xml:space="preserve">
+    <value>Grande</value>
+  </data>
+  <data name="IMPORTAR" xml:space="preserve">
+    <value>Importar</value>
+  </data>
+  <data name="IMPRIMIR" xml:space="preserve">
+    <value>Imprimir</value>
+  </data>
+  <data name="IMPRIMIRSELECIONADOS" xml:space="preserve">
+    <value>Imprimir Selecionados</value>
+  </data>
+  <data name="INCLUIR" xml:space="preserve">
+    <value>Incluir</value>
+  </data>
+  <data name="INSERCAO" xml:space="preserve">
+    <value>Inserção</value>
+  </data>
+  <data name="INVALIDUSERNAMEORPASSWORD" xml:space="preserve">
+    <value>Usuário ou Senha Invalido(s).</value>
+  </data>
+  <data name="JURIDICA" xml:space="preserve">
+    <value>Jurídica</value>
+  </data>
+  <data name="LEMBREME" xml:space="preserve">
+    <value>Lembre-me</value>
+  </data>
+  <data name="LIMPAR_FILTRO" xml:space="preserve">
+    <value>Limpar Filtro</value>
+  </data>
+  <data name="LOGIN" xml:space="preserve">
+    <value>Login</value>
+  </data>
+  <data name="LOGINEMAIL" xml:space="preserve">
+    <value>Login</value>
+  </data>
+  <data name="LOGINREQUIRED" xml:space="preserve">
+    <value>Login Requirido</value>
+  </data>
+  <data name="LOGOFF" xml:space="preserve">
+    <value>Sair</value>
+  </data>
+  <data name="MASCULINO" xml:space="preserve">
+    <value>Masculino</value>
+  </data>
+  <data name="MAXLENGHT" xml:space="preserve">
+    <value>{0} - Tamanho máximo de {1} caracter(es)</value>
+  </data>
+  <data name="MEDIO" xml:space="preserve">
+    <value>Médio</value>
+  </data>
+  <data name="MESTRADO" xml:space="preserve">
+    <value>Mestrado</value>
+  </data>
+  <data name="NAOENCONTRADO" xml:space="preserve">
+    <value>Não encontrado</value>
+  </data>
+  <data name="NAVEGADORSEMSUPORTECAM" xml:space="preserve">
+    <value>Câmera não encontrada</value>
+  </data>
+  <data name="NEWPASSWORD" xml:space="preserve">
+    <value>Nova Senha</value>
+  </data>
+  <data name="NEWPASSWORDREQUIRED" xml:space="preserve">
+    <value>Nova Senha Requerida</value>
+  </data>
+  <data name="NOMEREQUIRED" xml:space="preserve">
+    <value>Informe Nome </value>
+  </data>
+  <data name="OLDPASSWORD" xml:space="preserve">
+    <value>Senha Anterior</value>
+  </data>
+  <data name="OPERACAOBEMSUCEDIDA" xml:space="preserve">
+    <value>Operação bem sucedida</value>
+  </data>
+  <data name="PASSWORD" xml:space="preserve">
+    <value>Senha</value>
+  </data>
+  <data name="PASSWORDLENGHT" xml:space="preserve">
+    <value>A Senha deve conter {0} caracteres</value>
+  </data>
+  <data name="PASSWORDREQUIRED" xml:space="preserve">
+    <value>Senha Requerida</value>
+  </data>
+  <data name="PDF" xml:space="preserve">
+    <value>PDF</value>
+  </data>
+  <data name="PEQUENO" xml:space="preserve">
+    <value>Pequeno</value>
+  </data>
+  <data name="PRIORIDADEPADRAOREQUIRED" xml:space="preserve">
+    <value>Informe Prioridade Padrão</value>
+  </data>
+  <data name="QUINTOANOCOMPLETO" xml:space="preserve">
+    <value>5º ano completo do Ensino Fundamental.</value>
+  </data>
+  <data name="RECEITA_DADOSNAOCONFEREM" xml:space="preserve">
+    <value>Dados não conferem com a base da Receita Federal</value>
+  </data>
+  <data name="REMOVELOGINSUCCESS" xml:space="preserve">
+    <value>O login externo foi alterado</value>
+  </data>
+  <data name="REQUIRED" xml:space="preserve">
+    <value>Informe {0}</value>
+  </data>
+  <data name="ROLENOTFOUND" xml:space="preserve">
+    <value>Regra {0} não existe.</value>
+  </data>
+  <data name="SCRIPTREQUIRED" xml:space="preserve">
+    <value>Informe Script</value>
+  </data>
+  <data name="SELECIONE" xml:space="preserve">
+    <value>Selecione</value>
+  </data>
+  <data name="SESSAOCAIU" xml:space="preserve">
+    <value>Sua sessão foi encerrada. Favor faça o login novamente.</value>
+  </data>
+  <data name="SETPASSWORDSUCCESS" xml:space="preserve">
+    <value>Sua senha foi gravada</value>
+  </data>
+  <data name="SEXTOAONONOANO" xml:space="preserve">
+    <value>Do 6º ao 9º ano do Ensino Fundamental incompleto.</value>
+  </data>
+  <data name="SOLTEIRO" xml:space="preserve">
+    <value>Solteiro</value>
+  </data>
+  <data name="TUDOEXCETO" xml:space="preserve">
+    <value>Tudo, exceto essa</value>
+  </data>
+  <data name="UNIAOESTAVEL" xml:space="preserve">
+    <value>União Estável</value>
+  </data>
+  <data name="VALUECANNOTBENULLOREMPTY" xml:space="preserve">
+    <value>Valor não pode ser nulo ou vazio</value>
+  </data>
+  <data name="VIUVO" xml:space="preserve">
+    <value>Viúvo</value>
+  </data>
+  <data name="CADASTRAR_PLANO" xml:space="preserve">
+    <value>Cadastrar Plano</value>
+  </data>
+  <data name="TIRARFOTO" xml:space="preserve">
+    <value>Tirar Foto</value>
+  </data>
+  <data name="CADASTRAR_PRODUTO" xml:space="preserve">
+    <value>Cadastrar Produto</value>
+  </data>
+  <data name="SALVAR" xml:space="preserve">
+    <value>Salvar</value>
+  </data>
+  <data name="ESCOLHAUMARQUIVO" xml:space="preserve">
+    <value>Escolha um Arquivo</value>
+  </data>
+  <data name="TODOS" xml:space="preserve">
+    <value>Todos</value>
+  </data>
+  <data name="ATIVAR" xml:space="preserve">
+    <value>Ativar</value>
+  </data>
+  <data name="EXPORTAREXCEL" xml:space="preserve">
+    <value>Exportar Excel</value>
+  </data>
+  <data name="INATIVAR" xml:space="preserve">
+    <value>Inativar</value>
+  </data>
+  <data name="INFORMACAO" xml:space="preserve">
+    <value>Informação</value>
+  </data>
+  <data name="NENHUMREGISTROSELECIONADO" xml:space="preserve">
+    <value>Nenhum registro selecionado</value>
+  </data>
+  <data name="COPIARPLANO" xml:space="preserve">
+    <value>Copiar Dados do Plano</value>
+  </data>
+  <data name="DATA" xml:space="preserve">
+    <value>Data</value>
+  </data>
+  <data name="MULTIPLA_ESCOLHA" xml:space="preserve">
+    <value>Multipla Escolha</value>
+  </data>
+  <data name="TEXTO" xml:space="preserve">
+    <value>Texto</value>
+  </data>
+  <data name="UNICA_ESCOLHA" xml:space="preserve">
+    <value>Única Escolha</value>
+  </data>
+  <data name="VALOR" xml:space="preserve">
+    <value>Valor</value>
+  </data>
+  <data name="REGISTROREMOVIDO" xml:space="preserve">
+    <value>Registro Removido</value>
+  </data>
+  <data name="DESCRICAO" xml:space="preserve">
+    <value>Descrição</value>
+  </data>
+  <data name="JA_EXISTE" xml:space="preserve">
+    <value>{0} já lançado no sistema</value>
+  </data>
+  <data name="NAO" xml:space="preserve">
+    <value>Não</value>
+  </data>
+  <data name="SIM" xml:space="preserve">
+    <value>Sim</value>
+  </data>
+  <data name="HORA_INVALIDA" xml:space="preserve">
+    <value>Hora Inválida</value>
+  </data>
+  <data name="CNPJ" xml:space="preserve">
+    <value>CNPJ</value>
+  </data>
+  <data name="PERIODO_INVALIDO" xml:space="preserve">
+    <value>Período inválido</value>
+  </data>
+  <data name="TITULOFINANCEIRO" xml:space="preserve">
+    <value>EVA</value>
+  </data>
+  <data name="TITULOCONNECT" xml:space="preserve">
+    <value>Connect</value>
+  </data>
+  <data name="DATA_INICIO" xml:space="preserve">
+    <value>Data Início</value>
+  </data>
+  <data name="DATA_TERMINO" xml:space="preserve">
+    <value>Data Término</value>
+  </data>
+  <data name="ABRIL" xml:space="preserve">
+    <value>Abril</value>
+  </data>
+  <data name="AGOSTO" xml:space="preserve">
+    <value>Agosto</value>
+  </data>
+  <data name="ANO" xml:space="preserve">
+    <value>Ano</value>
+  </data>
+  <data name="DEZEMBRO" xml:space="preserve">
+    <value>Dezembro</value>
+  </data>
+  <data name="FEVEREIRO" xml:space="preserve">
+    <value>Fevereiro</value>
+  </data>
+  <data name="JANEIRO" xml:space="preserve">
+    <value>Janeiro</value>
+  </data>
+  <data name="JULHO" xml:space="preserve">
+    <value>Julho</value>
+  </data>
+  <data name="JUNHO" xml:space="preserve">
+    <value>Junho</value>
+  </data>
+  <data name="MAIO" xml:space="preserve">
+    <value>Maio</value>
+  </data>
+  <data name="MARCO" xml:space="preserve">
+    <value>Março</value>
+  </data>
+  <data name="NOVEMBRO" xml:space="preserve">
+    <value>Novembro</value>
+  </data>
+  <data name="OUTUBRO" xml:space="preserve">
+    <value>Outubro</value>
+  </data>
+  <data name="SETEMBRO" xml:space="preserve">
+    <value>Setembro</value>
+  </data>
+  <data name="META_MENSAL_INVALIDA" xml:space="preserve">
+    <value>Meta Mensal Inválida</value>
+  </data>
+  <data name="ANO_INVALIDO" xml:space="preserve">
+    <value>Ano Inválido</value>
+  </data>
+  <data name="FORMATO_MOEDA" xml:space="preserve">
+    <value>R$ {0:N2}</value>
+  </data>
+  <data name="ERROVALORDISCRIMINADO" xml:space="preserve">
+    <value>O Valor Discriminado deve ser Menor que o Valor do Plano</value>
+  </data>
+  <data name="ERROPLANO" xml:space="preserve">
+    <value>O Valor do Plano deve ser Maior que o Valor Discriminado da Nota Fiscal</value>
+  </data>
+  <data name="ERROPRODUTO" xml:space="preserve">
+    <value>O Valor do Produto deve ser Maior que o Valor Discriminado da Nota Fiscal</value>
+  </data>
+  <data name="ERROVALORDISCRIMINADOPRODUTO" xml:space="preserve">
+    <value>O Valor Discriminado deve ser Menor que o Valor do Produto</value>
+  </data>
+  <data name="DATA_INVALIDA" xml:space="preserve">
+    <value>Data Inválida</value>
+  </data>
+  <data name="AMBOS" xml:space="preserve">
+    <value>Ambos</value>
+  </data>
+  <data name="GERARFATURAMENTO" xml:space="preserve">
+    <value>Gerar Faturamento</value>
+  </data>
+  <data name="MES" xml:space="preserve">
+    <value>Mês</value>
+  </data>
+  <data name="DIA_FECHAMENTO" xml:space="preserve">
+    <value>Dia de fechamento inválido</value>
+  </data>
+  <data name="DIA_VENCIMENTO" xml:space="preserve">
+    <value>Dia de vencimento inválido</value>
+  </data>
+  <data name="DIA_FATURAMENTO" xml:space="preserve">
+    <value>Dia de Faturamento inválido</value>
+  </data>
+  <data name="FILTRODATAVENCIMENTO" xml:space="preserve">
+    <value>Filtrar por Data de Vencimento</value>
+  </data>
+  <data name="FILTROSVENCIMENTO" xml:space="preserve">
+    <value>Filtro por Data de Vencimento</value>
+  </data>
+  <data name="STATUS_ABERTO" xml:space="preserve">
+    <value>Aberto</value>
+  </data>
+  <data name="STATUS_BAIXADO" xml:space="preserve">
+    <value>Baixado</value>
+  </data>
+  <data name="STATUS_VENCIDO" xml:space="preserve">
+    <value>Vencido</value>
+  </data>
+  <data name="DESLIGADO" xml:space="preserve">
+    <value>Desligado</value>
+  </data>
+  <data name="LIGADO" xml:space="preserve">
+    <value>Ligado</value>
+  </data>
+  <data name="CRIAR" xml:space="preserve">
+    <value>Criar</value>
+  </data>
+  <data name="CONNECT" xml:space="preserve">
+    <value>Connect</value>
+  </data>
+  <data name="OLA_CLIENTE" xml:space="preserve">
+    <value>Ola Cliente</value>
+  </data>
+  <data name="CANCELAR_ATENDIMENTOS_SELECIONADOS" xml:space="preserve">
+    <value>Cancelar Atendimentos Selecionados</value>
+  </data>
+  <data name="GERENCIAR_MODELOS_DE_VIZUALIZACAO" xml:space="preserve">
+    <value>Gerenciar Modelos De Vizualização</value>
+  </data>
+  <data name="ATIVAR_PROSPECTOS_SELECIONADOS" xml:space="preserve">
+    <value>Ativar Prospectos Selecionados</value>
+  </data>
+  <data name="EXPORTAR_LISTAGEM" xml:space="preserve">
+    <value>Exportar Listagem</value>
+  </data>
+  <data name="IMPORTAR_PROSPECTO" xml:space="preserve">
+    <value>Importar Prospecto</value>
+  </data>
+  <data name="STATUS_PROSPECTO" xml:space="preserve">
+    <value>Status Prospecto</value>
+  </data>
+  <data name="DESATIVAR_PROSPECTOS_SELECIONADOS" xml:space="preserve">
+    <value>Desativar Prospectos Selecionados</value>
+  </data>
+  <data name="RESPONSAVEL_FINANCEIRO" xml:space="preserve">
+    <value>Resposável Financeiro</value>
+  </data>
+  <data name="IMPORTAREXCEL" xml:space="preserve">
+    <value>Importar Excel</value>
+  </data>
+  <data name="ANO_DEVE_TER_4_DIGITOS_EX" xml:space="preserve">
+    <value>Ano Deve ter 4 Dígitos Ex:</value>
+  </data>
+  <data name="EXPORTARLISTAGEM" xml:space="preserve">
+    <value>Exportar Listagem</value>
+  </data>
+  <data name="FILTROSLISTAGEMPONTOSVENDA" xml:space="preserve">
+    <value>Filtros Listagem Pontos Venda</value>
+  </data>
+  <data name="IMPORTARPONTOSVENDA" xml:space="preserve">
+    <value>Importar Pontos Venda</value>
+  </data>
+  <data name="EXPORTAR_PARA_O_EXCEL" xml:space="preserve">
+    <value>Exportar Para o Excel</value>
+  </data>
+  <data name="USUARIO_SEM_ACESSO" xml:space="preserve">
+    <value>Usuario sem acesso ao recurso</value>
+  </data>
+  <data name="INDIFERENTE" xml:space="preserve">
+    <value>Indiferente</value>
+  </data>
+  <data name="POS_GRADUADO" xml:space="preserve">
+    <value>Pós-Graduado</value>
+  </data>
+  <data name="FILTROSLISTAGEMPONTOSPARTIDA" xml:space="preserve">
+    <value>Filtros Listagem Pontos Venda</value>
+  </data>
+  <data name="MASK_TELEFONE11" xml:space="preserve">
+    <value>(00) 00000-0000</value>
+  </data>
+  <data name="MASK_TELEFONEOTHER" xml:space="preserve">
+    <value>(00) 0000-00009</value>
+  </data>
+  <data name="A" xml:space="preserve">
+    <value>a</value>
+  </data>
+  <data name="PAIS" xml:space="preserve">
+    <value>Pais</value>
+  </data>
+  <data name="CANCELAR" xml:space="preserve">
+    <value>Cancelar</value>
+  </data>
+  <data name="NAO_EXISTE_ENDERECO_INSTALACAO_ASSOCIADO_AO_CLIENTE" xml:space="preserve">
+    <value>Não Existe Endereço de Instalação Associado ao Cliente</value>
+  </data>
+  <data name="USERNAMENOTFOUND" xml:space="preserve">
+    <value>Usuário {0} não encontrado.</value>
+  </data>
+  <data name="USUARIOJATEMSENHA" xml:space="preserve">
+    <value>Usuário já possue uma senha</value>
+  </data>
+  <data name="LOG_ALTERACOES" xml:space="preserve">
+    <value>Log de Alterações</value>
+  </data>
+  <data name="CPF_NAO_PERTENCE_A_MATRICULA" xml:space="preserve">
+    <value>CPF informado não pertence a esta matrícula</value>
+  </data>
+  <data name="CANCELAR_OS" xml:space="preserve">
+    <value>Cancelar OS</value>
+  </data>
+  <data name="PRIMEIROACESSO" xml:space="preserve">
+    <value>Primeiro Acesso</value>
+  </data>
+  <data name="CONFIGURARPASSWORD" xml:space="preserve">
+    <value>Gravar</value>
+  </data>
+  <data name="CONFIRMACAO" xml:space="preserve">
+    <value>Confirmação</value>
+  </data>
+  <data name="OBSPRIMEIROACESSO" xml:space="preserve">
+    <value>Informa dados de acesso</value>
+  </data>
+  <data name="APPLICATIONNAME" xml:space="preserve">
+    <value>Connect</value>
+  </data>
+  <data name="TODOSDIREITOSRESERVADOS" xml:space="preserve">
+    <value>© Copyright 2019-2019 Copyright.com.br - All Rights Reserved</value>
+  </data>
+  <data name="CONSULTA_NAO_RETORNOU_DADOS" xml:space="preserve">
+    <value>Consulta não retornou dados</value>
+  </data>
+  <data name="TOTAL" xml:space="preserve">
+    <value>Total</value>
+  </data>
+  <data name="SELECIONE_DATAINICIAL_DATAFINAL" xml:space="preserve">
+    <value>Selecione Data Inicial e Data Final</value>
+  </data>
+  <data name="INFORME_FILTRO" xml:space="preserve">
+    <value>Informe pelo menos um filtro</value>
+  </data>
+  <data name="NAOCADASTRADO" xml:space="preserve">
+    <value>Não Cadastrado</value>
+  </data>
+  <data name="MASK_CPF" xml:space="preserve">
+    <value>('000.000.000-00', { reverse: true })</value>
+  </data>
+  <data name="ANIELCHERRY" xml:space="preserve">
+    <value>Aniel Cherry</value>
+  </data>
+  <data name="TITULOCHERRY" xml:space="preserve">
+    <value>Cherry</value>
+  </data>
+  <data name="EVA" xml:space="preserve">
+    <value>E.V.A.</value>
+  </data>
+  <data name="AGUARDANDO_APROVACAO_VENDA" xml:space="preserve">
+    <value>Aguardando aprovacão da venda</value>
+  </data>
+  <data name="NOTIFICACAO_SUPERVISOR_APROV" xml:space="preserve">
+    <value>O Vendedor {0} - {1} Aprovou a venda {2} 
+	• CPF-CNPJ: {3} 
+	• Cliente: {4}</value>
+  </data>
+  <data name="NOTIFICACAO_SUPERVISRO_REPROV" xml:space="preserve">
+    <value>O Vendedor {0} - {1} Reprovou a venda {2} 
+ • CPF-CNPJ: {3} 
+ • Cliente: {4}</value>
+  </data>
+  <data name="JAEXISTESOLICITACAO" xml:space="preserve">
+    <value>Já existe uma solicitação para assumir essa venda em seu nome. Aguarde a aprovação ou entre em contato com seu supervisor para o mesmo aprovar a solicitação.</value>
+  </data>
+  <data name="TODAS" xml:space="preserve">
+    <value>Todas</value>
+  </data>
+  <data name="PASSWORDEMPTY" xml:space="preserve">
+    <value>Usuário não possui senha cadastrada no sistema.</value>
+  </data>
+  <data name="ENECESSARIOFINALIZARCHECKIN" xml:space="preserve">
+    <value>É necessário fazer o Checkout no Ponto de Vendas {0} para prosseguir</value>
+  </data>
+  <data name="JA_VINCULADO_AO_PONTOVENDA" xml:space="preserve">
+    <value>Você já está vinculado ao Ponto de Venda selecionado</value>
+  </data>
+  <data name="ESCOLHA_PERIODO" xml:space="preserve">
+    <value>Escolha um tipo de período</value>
+  </data>
+  <data name="IGNORAR" xml:space="preserve">
+    <value>Ignorar</value>
+  </data>
+  <data name="OPCOES" xml:space="preserve">
+    <value>Opções</value>
+  </data>
+  <data name="NOVO" xml:space="preserve">
+    <value>Novo</value>
+  </data>
+  <data name="TITULOPONTOELETRONICO" xml:space="preserve">
+    <value>Ponto Eletrônico</value>
+  </data>
+  <data name="ANIELPONTOELETRONICO" xml:space="preserve">
+    <value>Aniel Ponto Eletrônico</value>
+  </data>
+  <data name="EMITIR_BOLETO" xml:space="preserve">
+    <value>Emitir Boleto</value>
+  </data>
+  <data name="BAIXAR" xml:space="preserve">
+    <value>Baixar</value>
+  </data>
+  <data name="EXPORTARPDF" xml:space="preserve">
+    <value>Exportar PDF</value>
+  </data>
+  <data name="ABRIL_SIMPLICADO" xml:space="preserve">
+    <value>ABR</value>
+  </data>
+  <data name="AGOSTO_SIMPLICADO" xml:space="preserve">
+    <value>AGO</value>
+  </data>
+  <data name="DEZEMBRO_SIMPLICADO" xml:space="preserve">
+    <value>DEZ</value>
+  </data>
+  <data name="FEVEREIRO_SIMPLICADO" xml:space="preserve">
+    <value>FEV</value>
+  </data>
+  <data name="JANEIRO_SIMPLICADO" xml:space="preserve">
+    <value>JAN</value>
+  </data>
+  <data name="JULHO_SIMPLICADO" xml:space="preserve">
+    <value>JUL</value>
+  </data>
+  <data name="JUNHO_SIMPLICADO" xml:space="preserve">
+    <value>JUN</value>
+  </data>
+  <data name="MAIO_SIMPLICADO" xml:space="preserve">
+    <value>MAI</value>
+  </data>
+  <data name="MARCO_SIMPLICADO" xml:space="preserve">
+    <value>MAR</value>
+  </data>
+  <data name="NOVEMBRO_SIMPLICADO" xml:space="preserve">
+    <value>NOV</value>
+  </data>
+  <data name="OUTUBRO_SIMPLICADO" xml:space="preserve">
+    <value>OUT</value>
+  </data>
+  <data name="SETEMBRO_SIMPLICADO" xml:space="preserve">
+    <value>SET</value>
+  </data>
+  <data name="INICIO" xml:space="preserve">
+    <value>Início</value>
+  </data>
+  <data name="CONFIRMAR" xml:space="preserve">
+    <value>Confirmar</value>
+  </data>
+  <data name="TITULOCOMPRAS" xml:space="preserve">
+    <value>Compras</value>
+  </data>
+  <data name="ESTE_CAMPO_SO_ACEITA_NUMERO" xml:space="preserve">
+    <value>Este Campo só aceita números</value>
+  </data>
+  <data name="TIPO_INTERVALO" xml:space="preserve">
+    <value>Tipo de Intervalo</value>
+  </data>
+  <data name="IMPORTACAO_FINALIZADA" xml:space="preserve">
+    <value>Importação de funcionários concluída com sucesso</value>
+  </data>
+  <data name="MENSAGEM" xml:space="preserve">
+    <value>Mensagem</value>
+  </data>
+  <data name="INVALIDO" xml:space="preserve">
+    <value>Inválido</value>
+  </data>
+  <data name="EXPANDIR_TODOS" xml:space="preserve">
+    <value>Expandir Todos</value>
+  </data>
+  <data name="RECOLHER_TODOS" xml:space="preserve">
+    <value>Recolher Todos</value>
+  </data>
+  <data name="PREENCHA_CAMPOS_OBRIGATORIOS" xml:space="preserve">
+    <value>Os campos obrigatórios não podem ficar em branco. Certifique-se de que todos estão corretamente preenchidos.</value>
+  </data>
+  <data name="DOMINGO" xml:space="preserve">
+    <value>Domingo</value>
+  </data>
+  <data name="QUARTA" xml:space="preserve">
+    <value>Quarta</value>
+  </data>
+  <data name="QUINTA" xml:space="preserve">
+    <value>Quinta</value>
+  </data>
+  <data name="SABADO" xml:space="preserve">
+    <value>Sábado</value>
+  </data>
+  <data name="SEGUNDA" xml:space="preserve">
+    <value>Segunda</value>
+  </data>
+  <data name="SEXTA" xml:space="preserve">
+    <value>Sexta</value>
+  </data>
+  <data name="TERCA" xml:space="preserve">
+    <value>Terça</value>
+  </data>
+  <data name="DOMINGO_SIMPLIFICADO" xml:space="preserve">
+    <value>Dom</value>
+  </data>
+  <data name="QUARTA_SIMPLIFICADO" xml:space="preserve">
+    <value>Qua</value>
+  </data>
+  <data name="QUINTA_SIMPLIFICADO" xml:space="preserve">
+    <value>Qui</value>
+  </data>
+  <data name="SABADO_SIMPLIFICADO" xml:space="preserve">
+    <value>Sáb</value>
+  </data>
+  <data name="SEGUNDA_SIMPLIFICADO" xml:space="preserve">
+    <value>Seg</value>
+  </data>
+  <data name="SEXTA_SIMPLIFICADO" xml:space="preserve">
+    <value>Sex</value>
+  </data>
+  <data name="TERCA_SIMPLIFICADO" xml:space="preserve">
+    <value>Ter</value>
+  </data>
+  <data name="DESABILITADO" xml:space="preserve">
+    <value>DESABILITADO</value>
+  </data>
+  <data name="HABILITADO" xml:space="preserve">
+    <value>HABILITADO</value>
+  </data>
+  <data name="ALTA" xml:space="preserve">
+    <value>Alta</value>
+  </data>
+  <data name="BAIXA" xml:space="preserve">
+    <value>Baixa</value>
+  </data>
+  <data name="MEDIA" xml:space="preserve">
+    <value>Média</value>
+  </data>
+  <data name="DATA_HORA_ALTERACAO" xml:space="preserve">
+    <value>Data e Hora de Alteração</value>
+  </data>
+  <data name="DATA_HORA_CRIACAO" xml:space="preserve">
+    <value>Data e Hora de Criação</value>
+  </data>
+  <data name="USUARIO_ALTERACAO" xml:space="preserve">
+    <value>Usuário de Alteração</value>
+  </data>
+  <data name="USUARIO_CRIACAO" xml:space="preserve">
+    <value>Usuário de Criação</value>
+  </data>
+  <data name="APENAS_UM_REGISTRO_PODE_SER_SELECIONADO" xml:space="preserve">
+    <value>Apenas um registro pode ser selecionado</value>
+  </data>
+  <data name="ALTERACAO" xml:space="preserve">
+    <value>Alteração</value>
+  </data>
+  <data name="EXCLUSAO" xml:space="preserve">
+    <value>Exclusão</value>
+  </data>
+  <data name="VIZUALIZAR_LOG" xml:space="preserve">
+    <value>Visualizar Log</value>
+  </data>
+  <data name="CAMPO" xml:space="preserve">
+    <value>Campo</value>
+  </data>
+  <data name="DATAHORA" xml:space="preserve">
+    <value>Data/Hora</value>
+  </data>
+  <data name="DATA_FINAL" xml:space="preserve">
+    <value>Data Final</value>
+  </data>
+  <data name="OPERACAO" xml:space="preserve">
+    <value>Operação</value>
+  </data>
+  <data name="TIPOOPERACAO" xml:space="preserve">
+    <value>Tipo Operação</value>
+  </data>
+  <data name="USUARIO" xml:space="preserve">
+    <value>Usuario</value>
+  </data>
+  <data name="VALORANTES" xml:space="preserve">
+    <value>Valor Antes</value>
+  </data>
+  <data name="VALORDEPOIS" xml:space="preserve">
+    <value>Valor Depois</value>
+  </data>
+  <data name="NAO_POSSUI_AREA_ACESSO" xml:space="preserve">
+    <value>Vocè não possui aréa de acesso para utilizar este recurso.</value>
+  </data>
+  <data name="NAO_POSSUI_ACESSO_PARA" xml:space="preserve">
+    <value>Você não possui acesso para {0}</value>
+  </data>
+  <data name="EXEMPLO" xml:space="preserve">
+    <value>Exemplo</value>
+  </data>
+  <data name="INVALIDO_FORMAT" xml:space="preserve">
+    <value>{0} Inválido</value>
+  </data>
+  <data name="CONFIGURACAO" xml:space="preserve">
+    <value>Configuração</value>
+  </data>
+  <data name="CARREGAR" xml:space="preserve">
+    <value>Carregar</value>
+  </data>
+  <data name="FISICA_RURAL" xml:space="preserve">
+    <value>Física Rural</value>
+  </data>
+  <data name="JURIDICA_RURAL" xml:space="preserve">
+    <value>Jurídica Rural</value>
+  </data>
+</root>

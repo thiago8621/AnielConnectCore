@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FluentNHibernate" Version="2.1.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Sinapse.Model.AspNetCore\Sinapse.Model.AspNetCore.csproj" />
+    <ProjectReference Include="..\Sinapse.ModelLog.AspNetCore\Sinapse.ModelLog.AspNetCore.csproj" />
+  </ItemGroup>
+
+</Project>

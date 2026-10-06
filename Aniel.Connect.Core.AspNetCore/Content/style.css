@@ -1,0 +1,139 @@
+
+
+
+/*Alinhamento Icon/text SideMenu*/
+span.title.menu-text {
+    font-size: 16px;
+    height: auto !important;
+}
+.la-1-4x {
+    font-size: 1.4em !important;
+}
+
+/*Buttons Nav*/
+.roll-nav {
+    color: rgba(95, 95, 95, 0.6) !important;
+}
+
+/*H2*/
+h2 {
+    margin-left: 8px;
+}
+/*******************
+Content Tabs - Guias
+********************/
+
+/*Button Navgation*/
+button.roll-nav.roll-left.tabLeft {
+    border: none;
+}
+
+button.roll-nav.roll-right.tabRight {
+    border: none;
+}
+
+.btn-group.roll-nav.roll-right {
+    border: none;
+}
+
+button.roll-nav.roll-right.fullscreen {
+    border: none;
+}
+
+
+/*Icon Close - X*/
+.fa-remove:before, .fa-close:before, .fa-times:before {
+    padding-left: 5px;
+}
+
+/*Border, background, Color, Margim*/
+.content-tabs {
+    /*border-bottom: solid 1px rgba(95, 95, 95, 0.2784313725490196);*/
+    border-bottom: none;
+}
+
+/*.page_tab_title {
+    margin-right: 3px !important;
+    font-size: 15px !important;
+}*/
+
+/*.content-tabs .page-tabs a {
+    background-color: #ececec;
+    color: lightslategray;
+    margin-right: 3px !important;
+    height: 38px;
+}*/
+/*Hover Icon SVG*/
+/*.page-tabs-content a svg:hover {
+    color: red!important;
+}*/
+/*.content-tabs .page-tabs a.active {
+    background-color: #367fa9;
+    border-right: none;
+    color: #fff !important;
+    height: 38px;
+}*/
+.content-tabs .page-tabs a.active i{
+    background-color: orange;
+    border-right: none;
+    color: #fff;
+}
+.content-tabs .page-tabs a.active i:hover {
+    background-color: orange;
+    border-right: none;
+    color: red!important;
+}
+/*Tab Btn Fechar Guias*/
+.content-tabs .roll-right.btn-group {
+    width: auto!important;
+}
+    .content-tabs .roll-right.btn-group button {
+        width: auto !important;
+        right: 157px;
+    }
+/*******
+SideMenu
+********/
+.skin-blue .treeview-menu > li > a {
+    background-color: brown;
+    color: #fff;
+}
+.skin-blue .treeview-menu > li > a:hover {
+    color: orange;
+}
+/*.skin-blue .sidebar-menu > li:hover > a, .skin-blue .sidebar-menu > li.active > a {
+    border-left-color: orange;
+    background: #000;
+}*/
+
+/*Button Login Logout*/
+#btn_login_out {
+    background-color: transparent;
+    color: #fff;
+    width: auto;
+    border: solid 2px #fff;
+    line-height: 0px;
+    height: 25px;
+    border-radius: 0.5rem;
+    padding-top: 11px;
+}
+
+#btn_login_out:hover {
+    background-color: #c9302c;
+    border-color: #ac2925;
+}
+
+
+/*Hover Link List - Nav Dropdwn-Menu Login Logout*/
+.navbar-nav > .user-menu > .dropdown-menu > .user-body a:hover{
+    color: steelblue!important;
+}
+
+
+.custom-select {
+    height: calc(2.25rem + 11px) !important;
+}
+
+#datatable_filter {
+    display: none;
+}

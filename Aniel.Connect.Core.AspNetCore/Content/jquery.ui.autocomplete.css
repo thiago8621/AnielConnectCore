@@ -1,0 +1,112 @@
+/*
+ * jQuery UI Autocomplete 1.8.7
+ *
+ * Copyright 2010, AUTHORS.txt (http://jqueryui.com/about)
+ * Dual licensed under the MIT or GPL Version 2 licenses.
+ * http://jquery.org/license
+ *
+ * http://docs.jquery.com/UI/Autocomplete#theming
+ */
+.ui-autocomplete { position: absolute; cursor: default; }	
+
+/* workarounds */
+* html .ui-autocomplete { width:1px; } /* without this, the menu expands to 100% in IE6 */
+
+/*
+ * jQuery UI Menu 1.8.7
+ *
+ * Copyright 2010, AUTHORS.txt (http://jqueryui.com/about)
+ * Dual licensed under the MIT or GPL Version 2 licenses.
+ * http://jquery.org/license
+ *
+ * http://docs.jquery.com/UI/Menu#theming
+ */
+.ui-menu {
+	list-style:none;
+	padding: 2px;
+	margin: 0;
+	display:block;
+	float: left;
+}
+.ui-menu .ui-menu {
+	margin-top: -3px;
+}
+.ui-menu .ui-menu-item {
+	margin:0;
+	padding: 0;
+	zoom: 1;
+	float: left;
+	clear: left;
+	width: 100%;
+}
+.ui-menu .ui-menu-item a {
+	text-decoration:none;
+	display:block;
+	padding:.2em .4em;
+	line-height:1.5;
+	zoom:1;
+}
+.ui-menu .ui-menu-item a.ui-state-hover,
+.ui-menu .ui-menu-item a.ui-state-active {
+	font-weight: normal;
+	margin: -1px;
+}
+
+.ui-corner-all
+{
+	-moz-border-radius: 10px;
+}
+
+.ui-widget-content
+{
+	border: 1px solid #ccc;
+	color: #222222;
+	background-color: #fffcfc;
+}
+.ui-widget
+{
+	font-family: Verdana,Arial,sans-serif;
+	font-size: 15px;
+}
+.ui-menu
+{
+	display: block;
+	float: left;
+	list-style: none outside none;
+	margin: 0;    
+	padding: 3px 12px;
+}
+.ui-autocomplete
+{
+	cursor: default;
+	position: absolute;
+}
+.ui-menu .ui-menu-item
+{
+	clear: left;
+	float: left;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+}
+.ui-menu .ui-menu-item a
+{
+	display: block;
+	padding: 3px 3px 3px 3px;
+	text-decoration: none;
+	cursor: pointer;
+	background-color: Green;
+}
+.ui-menu .ui-menu-item a:hover
+{
+	display: block;
+	padding: 3px 3px 3px 3px;
+	text-decoration: none;
+	color: White;
+	cursor: pointer;
+	background-color: ButtonText;
+}
+.ui-widget-content a
+{
+	color: #222222;
+}

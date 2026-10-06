@@ -1,0 +1,681 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ABRIL" xml:space="preserve">
+    <value>Abril</value>
+  </data>
+  <data name="ACURACIDADE_FISICO" xml:space="preserve">
+    <value>Acuracidade de estoque físico</value>
+  </data>
+  <data name="ACURACIDADE_MOVEL" xml:space="preserve">
+    <value>Acuracidade de estoque móvel</value>
+  </data>
+  <data name="AGOSTO" xml:space="preserve">
+    <value>Agosto</value>
+  </data>
+  <data name="APLICADO_PLANTA" xml:space="preserve">
+    <value>APLICADO PLANTA</value>
+  </data>
+  <data name="APLICAR" xml:space="preserve">
+    <value>Aplicar</value>
+  </data>
+  <data name="ARMAZEM" xml:space="preserve">
+    <value>Armazém</value>
+  </data>
+  <data name="ARMAZEM_DEPOSITO" xml:space="preserve">
+    <value>Armazém / Depósito</value>
+  </data>
+  <data name="ATENDIMENTOS_ABERTOS" xml:space="preserve">
+    <value>Nº de Atendimentos Abertos</value>
+  </data>
+  <data name="ATENDIMENTOS_REALIZADOS" xml:space="preserve">
+    <value>Nº de Atendimentos Realizados</value>
+  </data>
+  <data name="ATENDIMENTO_CANCELADO" xml:space="preserve">
+    <value>Atendimento Cancelado</value>
+  </data>
+  <data name="ATENDIMENTO_CLIENTE" xml:space="preserve">
+    <value>Atendimento ao Cliente</value>
+  </data>
+  <data name="ATIVACAO_PERDA_CLIENTE" xml:space="preserve">
+    <value>Ativação x Perda do Cliente</value>
+  </data>
+  <data name="ATIVIDADE_PERDA_CLIENTES" xml:space="preserve">
+    <value>Atividade X Perda Clientes</value>
+  </data>
+  <data name="ATRASADO_CONFORME" xml:space="preserve">
+    <value>Atrasado mas conforme</value>
+  </data>
+  <data name="ATRASADO_NAO_CONFORME" xml:space="preserve">
+    <value>Atrasado e não conforme</value>
+  </data>
+  <data name="BASE_VALOR_EM_REAIS" xml:space="preserve">
+    <value>Base: Valor em R$</value>
+  </data>
+  <data name="CANCELAMENTO_PEDIDO" xml:space="preserve">
+    <value>Cancelamento de Pedido</value>
+  </data>
+  <data name="CAPACIDADE_ESTOCAGEM" xml:space="preserve">
+    <value>Utilização da Capacidade de Estocagem</value>
+  </data>
+  <data name="CARREGANDO" xml:space="preserve">
+    <value>Carregando ...</value>
+  </data>
+  <data name="CARTEIRA_CLIENTE_ATUAL_LOCALIDADE" xml:space="preserve">
+    <value>Carteira de Cliente Atual por Localidade</value>
+  </data>
+  <data name="CARTEIRA_CLIENTE_ATUAL_PLANO" xml:space="preserve">
+    <value>Carteira de Cliente Atual por Plano</value>
+  </data>
+  <data name="CARTEIRA_CLIENTE_ATUAL_PLANO_CONTRATADO" xml:space="preserve">
+    <value>Carteira de Cliente por Plano Contratado</value>
+  </data>
+  <data name="CARTEIRA_CLIENTE_CATEGORIA" xml:space="preserve">
+    <value>Carteira de Cliente por Categoria</value>
+  </data>
+  <data name="CARTEIRA_CLIENTE_FAIXA_VALOR" xml:space="preserve">
+    <value>Carteira Cliente por Faixa de Valor</value>
+  </data>
+  <data name="CARTEIRA_CLIENTE_LOCALIDADE" xml:space="preserve">
+    <value>Carteira de Clientes por Localidade</value>
+  </data>
+  <data name="CARTEIRA_CLIENTE_TEMPO_PERMANENCIA" xml:space="preserve">
+    <value>Carteira de Cliente por Tempo de Permanência</value>
+  </data>
+  <data name="CATEGORIA_CLIENTE" xml:space="preserve">
+    <value>Categoria de Cliente</value>
+  </data>
+  <data name="CENTRO_CUSTO" xml:space="preserve">
+    <value>Centro de Custo</value>
+  </data>
+  <data name="CHAT" xml:space="preserve">
+    <value>Chat</value>
+  </data>
+  <data name="CICLO_REVERSA" xml:space="preserve">
+    <value>Ciclo da Reversa</value>
+  </data>
+  <data name="COBERTURA_ESTOQUE" xml:space="preserve">
+    <value>Cobertura de Estoque (STOCKOUT)</value>
+  </data>
+  <data name="COBERTURA_RELEVANCIA_PRODUTOS" xml:space="preserve">
+    <value>Cobertura por Relevância dos Produtos</value>
+  </data>
+  <data name="COMERCIAL" xml:space="preserve">
+    <value>Comercial</value>
+  </data>
+  <data name="COMISSAO_VENDA" xml:space="preserve">
+    <value>Comissão de Vendas</value>
+  </data>
+  <data name="CONSOLIDADO_EM" xml:space="preserve">
+    <value>Consolidade em</value>
+  </data>
+  <data name="CUSTO_TOTAL_SERVICO_NATUREZA" xml:space="preserve">
+    <value>Custo Total do Serviço por Natureza</value>
+  </data>
+  <data name="DATA_BAIXA" xml:space="preserve">
+    <value>Data Baixa</value>
+  </data>
+  <data name="DATA_PROGRAMACAO" xml:space="preserve">
+    <value>Data Programação</value>
+  </data>
+  <data name="DEPARTAMENTO" xml:space="preserve">
+    <value>Departamento</value>
+  </data>
+  <data name="DEPOSITO" xml:space="preserve">
+    <value>Depósito</value>
+  </data>
+  <data name="DETALHES" xml:space="preserve">
+    <value>Detalhes</value>
+  </data>
+  <data name="DEVOLUCAO_TRATAMENTO_DIAS" xml:space="preserve">
+    <value>DEVOLUÇÃO-TRATAMENTO(DIAS)</value>
+  </data>
+  <data name="DEVOLVIDO_ESTOQUE" xml:space="preserve">
+    <value>DEVOLVIDO AO ESTOQUE</value>
+  </data>
+  <data name="DEZEMBRO" xml:space="preserve">
+    <value>Dezembro</value>
+  </data>
+  <data name="EMPRESA" xml:space="preserve">
+    <value>Empresa</value>
+  </data>
+  <data name="EMPRESA_FILIAL" xml:space="preserve">
+    <value>Empresa / Filial</value>
+  </data>
+  <data name="EQUILIBRIO_FISICO_MOVEL" xml:space="preserve">
+    <value>Equilíbrio Físico e Móvel</value>
+  </data>
+  <data name="ESTA_SEMANA" xml:space="preserve">
+    <value>Esta Semana</value>
+  </data>
+  <data name="ESTE_ANO" xml:space="preserve">
+    <value>Este Ano</value>
+  </data>
+  <data name="ESTE_MES" xml:space="preserve">
+    <value>Este Mês</value>
+  </data>
+  <data name="ESTOQUE_15_DIAS" xml:space="preserve">
+    <value>Estoque para até 15 dias</value>
+  </data>
+  <data name="ESTOQUE_30_DIAS" xml:space="preserve">
+    <value>Estoque para até 30 dias</value>
+  </data>
+  <data name="ESTOQUE_60_DIAS" xml:space="preserve">
+    <value>Estoque para até 60 dias</value>
+  </data>
+  <data name="ESTOQUE_MAIS_60_DIAS" xml:space="preserve">
+    <value>Estoque para mais de 60 dias</value>
+  </data>
+  <data name="EVOLUCAO_CARTEIRA_CLIENTE" xml:space="preserve">
+    <value>Evolução da Carteira de Clientes</value>
+  </data>
+  <data name="EVOLUCAO_INSTALACAO_MES_MES" xml:space="preserve">
+    <value>Evolução de Instalações Mês a Mês</value>
+  </data>
+  <data name="EVOLUCAO_OS_PRODUTIVA_X_IMPRODUTIVA" xml:space="preserve">
+    <value>Evolução de OS Produtivas x Improdutivas</value>
+  </data>
+  <data name="EVOLUCAO_TAXA_ABANDONO" xml:space="preserve">
+    <value>Evolução da Taxa de Abandono</value>
+  </data>
+  <data name="EVOLUCAO_TEMPO_MEDIO_ATENDIMENTO" xml:space="preserve">
+    <value>Evolução do Tempo Médio de Atendimento</value>
+  </data>
+  <data name="EVOLUCAO_TMA" xml:space="preserve">
+    <value>Evolução do TMA</value>
+  </data>
+  <data name="EXPEDIDO_CAMPO" xml:space="preserve">
+    <value>EXPEDIDO CAMPO</value>
+  </data>
+  <data name="EXPORTAR_EXCEL" xml:space="preserve">
+    <value>Exportar em Excel</value>
+  </data>
+  <data name="EXPORTAR_PDF" xml:space="preserve">
+    <value>Exportar em PDF</value>
+  </data>
+  <data name="FAIXA" xml:space="preserve">
+    <value>Faixa</value>
+  </data>
+  <data name="FAMILIA_PRODUTO" xml:space="preserve">
+    <value>Família de Produto</value>
+  </data>
+  <data name="FATURAMENTO_PREVISTO_X_REAL" xml:space="preserve">
+    <value>Faturamento Previsto x Real</value>
+  </data>
+  <data name="FECHAR" xml:space="preserve">
+    <value>Fechar</value>
+  </data>
+  <data name="FEVEREIRO" xml:space="preserve">
+    <value>Fevereiro</value>
+  </data>
+  <data name="FILIAL" xml:space="preserve">
+    <value>Filial</value>
+  </data>
+  <data name="FILTROS" xml:space="preserve">
+    <value>Filtros</value>
+  </data>
+  <data name="FINANCEIRO" xml:space="preserve">
+    <value>Financeiro</value>
+  </data>
+  <data name="FORA_PRAZO" xml:space="preserve">
+    <value>Fora do Prazo</value>
+  </data>
+  <data name="FROTA" xml:space="preserve">
+    <value>Frota</value>
+  </data>
+  <data name="GESTAO_ATENDIMENTO" xml:space="preserve">
+    <value>Gestão de Atendimento</value>
+  </data>
+  <data name="GESTAO_CLIENTE" xml:space="preserve">
+    <value>Gestão de Clientes</value>
+  </data>
+  <data name="GESTAO_COMERCIAL" xml:space="preserve">
+    <value>Gestão Comercial</value>
+  </data>
+  <data name="GESTAO_MATERIAL" xml:space="preserve">
+    <value>Gestão de Materiais</value>
+  </data>
+  <data name="GESTAO_SERVICOS" xml:space="preserve">
+    <value>Gestão de Serviços</value>
+  </data>
+  <data name="GESTOR" xml:space="preserve">
+    <value>Gestor</value>
+  </data>
+  <data name="GIRO_ESTOQUE" xml:space="preserve">
+    <value>Giro de Estoque</value>
+  </data>
+  <data name="GIRO_ESTOQUE_FISICO" xml:space="preserve">
+    <value>Giro de Estoque Físico</value>
+  </data>
+  <data name="GIRO_ESTOQUE_FISICO_VOLANTE" xml:space="preserve">
+    <value>Giro de Estoque Físico e Volante</value>
+  </data>
+  <data name="GIRO_ESTOQUE_PROPORCAO" xml:space="preserve">
+    <value>Giro de Estoque Proporcão</value>
+  </data>
+  <data name="GIRO_ESTOQUE_SERIAL" xml:space="preserve">
+    <value>Giro de Estoque Serial</value>
+  </data>
+  <data name="GIRO_ESTOQUE_VOLUME" xml:space="preserve">
+    <value>Giro de Estoque Volumes</value>
+  </data>
+  <data name="HISTORICO" xml:space="preserve">
+    <value>Histórico</value>
+  </data>
+  <data name="HISTORICO_PRODUTIVIDADE" xml:space="preserve">
+    <value>Histórico de Produtividade</value>
+  </data>
+  <data name="HISTORICO_ULTIMOS_MESES" xml:space="preserve">
+    <value>Histórico dos Últimos 12 Meses</value>
+  </data>
+  <data name="HOJE" xml:space="preserve">
+    <value>Hoje</value>
+  </data>
+  <data name="IMPRODUTIVA" xml:space="preserve">
+    <value>Improdutiva</value>
+  </data>
+  <data name="IMPRODUTIVAS_MOTIVO" xml:space="preserve">
+    <value>Improdutivas por Motivo</value>
+  </data>
+  <data name="INDICADORES_REINCIDENCIA" xml:space="preserve">
+    <value>Indicadores de Reincidência</value>
+  </data>
+  <data name="INDISPONIVEL" xml:space="preserve">
+    <value>Indisponível</value>
+  </data>
+  <data name="JANEIRO" xml:space="preserve">
+    <value>Janeiro</value>
+  </data>
+  <data name="JULHO" xml:space="preserve">
+    <value>Julho</value>
+  </data>
+  <data name="JUNHO" xml:space="preserve">
+    <value>Junho</value>
+  </data>
+  <data name="LOGISTICA" xml:space="preserve">
+    <value>Logística</value>
+  </data>
+  <data name="LOGISTICA_REVERSA" xml:space="preserve">
+    <value>Ciclo de Logística Reversa</value>
+  </data>
+  <data name="MAIO" xml:space="preserve">
+    <value>Maio</value>
+  </data>
+  <data name="MARCO" xml:space="preserve">
+    <value>Março</value>
+  </data>
+  <data name="MATERIAIS_ESTOQUE_ALTO" xml:space="preserve">
+    <value>Materiais de Estoque Alto</value>
+  </data>
+  <data name="MATERIAL_MAIS_UTILIZADO_MES" xml:space="preserve">
+    <value>Materiais Mais Utilizados no Mês</value>
+  </data>
+  <data name="MATERIAL_SEM_ESTOQUE" xml:space="preserve">
+    <value>Materiais Sem Estoque</value>
+  </data>
+  <data name="MEDIA_DIAS" xml:space="preserve">
+    <value>Média em dias</value>
+  </data>
+  <data name="MEDIA_VENDAS" xml:space="preserve">
+    <value>Média de Vendas</value>
+  </data>
+  <data name="MES_ATUAL" xml:space="preserve">
+    <value>Mês Atual</value>
+  </data>
+  <data name="META" xml:space="preserve">
+    <value>Meta</value>
+  </data>
+  <data name="META_VENDAS" xml:space="preserve">
+    <value>Meta (Vendas X Meta)</value>
+  </data>
+  <data name="META_X_PRODUCAO_PREVISTA" xml:space="preserve">
+    <value>Meta X Produção Prevista</value>
+  </data>
+  <data name="META_X_PRODUCAO_REAL" xml:space="preserve">
+    <value>Meta x Produção Real</value>
+  </data>
+  <data name="MIGRACAO_MATERIAL_DIRETA" xml:space="preserve">
+    <value>Migração do Material (Direta)</value>
+  </data>
+  <data name="MIGRACAO_MATERIAL_REVERSA" xml:space="preserve">
+    <value>Migração do Material (Reversa)</value>
+  </data>
+  <data name="MOVEL_VS_FISICO" xml:space="preserve">
+    <value>Estoque Móvel em relação ao Físico e volumes de aplicações</value>
+  </data>
+  <data name="MOVIMENTACAO_LOGISTICA_DIRETA" xml:space="preserve">
+    <value>Movimentação Logística Direta</value>
+  </data>
+  <data name="MOVIMENTACAO_LOGISTICA_REVERSA" xml:space="preserve">
+    <value>Movimentação Logistica Reversa</value>
+  </data>
+  <data name="NATUREZA_SERVICO" xml:space="preserve">
+    <value>Natureza de Serviço</value>
+  </data>
+  <data name="NIVEL_ABASTECIMENTO_PERFIL" xml:space="preserve">
+    <value>Nível de abastecimento por perfil</value>
+  </data>
+  <data name="NIVEL_SERVICO" xml:space="preserve">
+    <value>Nível de Serviço</value>
+  </data>
+  <data name="NOVEMBRO" xml:space="preserve">
+    <value>Novembro</value>
+  </data>
+  <data name="NOVIDADES_SINAPSE" xml:space="preserve">
+    <value>Novidades Sinapses</value>
+  </data>
+  <data name="NO_PRAZO" xml:space="preserve">
+    <value>No Prazo</value>
+  </data>
+  <data name="NO_PRAZO_CONFORME" xml:space="preserve">
+    <value>No prazo e Conforme</value>
+  </data>
+  <data name="NO_PRAZO_NAO_CONFORME" xml:space="preserve">
+    <value>No prazo mas não conforme</value>
+  </data>
+  <data name="OBRA_INFRAESTRUTURA" xml:space="preserve">
+    <value>Obras &amp; Infraestrutura</value>
+  </data>
+  <data name="OFR" xml:space="preserve">
+    <value>OFR – Order Fill Rate</value>
+  </data>
+  <data name="ONTEM" xml:space="preserve">
+    <value>Ontem</value>
+  </data>
+  <data name="OPERACAO" xml:space="preserve">
+    <value>Operação</value>
+  </data>
+  <data name="ORDEM_SERVICO_ABERTO_TIPO_SERVICO" xml:space="preserve">
+    <value>O.S. Abertas por Tipo de Serviços</value>
+  </data>
+  <data name="OTD" xml:space="preserve">
+    <value>On-Time Delivery – OTD</value>
+  </data>
+  <data name="OTIF" xml:space="preserve">
+    <value>OTIF (On-Time &amp; In-Full)</value>
+  </data>
+  <data name="OUTUBRO" xml:space="preserve">
+    <value>Outubro</value>
+  </data>
+  <data name="PERCENTUAL_CUMPRIMENTO_JANELA" xml:space="preserve">
+    <value>Percentual de Cumprimento da Janela</value>
+  </data>
+  <data name="PERCENTUAL_PRODUTIVA" xml:space="preserve">
+    <value>% Produtiva</value>
+  </data>
+  <data name="PERCENTUAL_UTILIZACAO_CAPACIDADE" xml:space="preserve">
+    <value>Percentual de Utilização da Capacidade</value>
+  </data>
+  <data name="PERCENTUAL_VENDA" xml:space="preserve">
+    <value>Percentual de Vendas</value>
+  </data>
+  <data name="PERFIL" xml:space="preserve">
+    <value>Perfil</value>
+  </data>
+  <data name="PERFORMANCE_ESTOQUE" xml:space="preserve">
+    <value>Performance de Estoque</value>
+  </data>
+  <data name="PERIODOS" xml:space="preserve">
+    <value>Períodos</value>
+  </data>
+  <data name="PERIODO_ESPECIFICO" xml:space="preserve">
+    <value>Período Específico</value>
+  </data>
+  <data name="PRODUCAO_META_PREVISTA_REAL" xml:space="preserve">
+    <value>Produção Meta x Produção Prevista x Produção Real</value>
+  </data>
+  <data name="PRODUCAO_META_X_PRODUCAO_PREVISTA_X_PRODUCAO_REAL" xml:space="preserve">
+    <value>Produção Meta x Produção Prevista x Produção Real</value>
+  </data>
+  <data name="PRODUCAO_PREVISTA" xml:space="preserve">
+    <value>Produção Prevista</value>
+  </data>
+  <data name="PRODUCAO_REAL" xml:space="preserve">
+    <value>Produção Real</value>
+  </data>
+  <data name="PRODUCAO_REALIZADA" xml:space="preserve">
+    <value>Produção Realizada</value>
+  </data>
+  <data name="PRODUTIVA" xml:space="preserve">
+    <value>Produtiva</value>
+  </data>
+  <data name="QUANTIDADE_OS" xml:space="preserve">
+    <value>Quantidade de Ordem de Serviço</value>
+  </data>
+  <data name="RANKING_PRODUTIVIDADE" xml:space="preserve">
+    <value>Ranking de Produtividade</value>
+  </data>
+  <data name="RANKING_TECNICOS_OFENSORES_REINCIDENCIA" xml:space="preserve">
+    <value>Ranking Técnicos em Reincidência</value>
+  </data>
+  <data name="RECEBIDO_EM_ESTOQUE" xml:space="preserve">
+    <value>RECEBIDO EM ESTOQUE</value>
+  </data>
+  <data name="REINCIDENCIA_RESPONSABILIDADE" xml:space="preserve">
+    <value>Reincidência por Responsabilidade</value>
+  </data>
+  <data name="REMOCAO_DEVOLUCAO_DIAS" xml:space="preserve">
+    <value>REMOÇÃO-DEVOLUÇÃO(DIAS)</value>
+  </data>
+  <data name="RESUMO_CONEXOES_BLOQUEADAS" xml:space="preserve">
+    <value>Resumo de Conexões Bloqueadas</value>
+  </data>
+  <data name="RETIRADO_PLANTA" xml:space="preserve">
+    <value>RETIRADO PLANTA</value>
+  </data>
+  <data name="SAIDA_ESTOQUE" xml:space="preserve">
+    <value>SAÍDA DO ESTOQUE</value>
+  </data>
+  <data name="SALDO_ATUAL" xml:space="preserve">
+    <value>Saldo Atual</value>
+  </data>
+  <data name="SALDO_ATUAL_POR_PERFIL" xml:space="preserve">
+    <value>Saldo atual por perfil</value>
+  </data>
+  <data name="SALDO_FISICO" xml:space="preserve">
+    <value>SALDO FÍSICO</value>
+  </data>
+  <data name="SALDO_MOVEL" xml:space="preserve">
+    <value>SALDO MÓVEL</value>
+  </data>
+  <data name="SEGMENTO" xml:space="preserve">
+    <value>Segmento</value>
+  </data>
+  <data name="SEQUENCIAL" xml:space="preserve">
+    <value>Sequencial</value>
+  </data>
+  <data name="SERIAL" xml:space="preserve">
+    <value>Serial</value>
+  </data>
+  <data name="SERVICOS_PRODUCAO" xml:space="preserve">
+    <value>Serviços e Produção</value>
+  </data>
+  <data name="SETEMBRO" xml:space="preserve">
+    <value>Setembro</value>
+  </data>
+  <data name="SITUACAO" xml:space="preserve">
+    <value>Situação</value>
+  </data>
+  <data name="STATUS_INDISPONIVEL" xml:space="preserve">
+    <value>Status Indisponível</value>
+  </data>
+  <data name="STOCKOUT" xml:space="preserve">
+    <value>Riscos de ruptura de estoque (Stockout)</value>
+  </data>
+  <data name="STOCKOUT_FISICO" xml:space="preserve">
+    <value>Cobertura de Estoque Físico (STOCKOUT)</value>
+  </data>
+  <data name="STOCKOUT_FISICO_VOLANTE" xml:space="preserve">
+    <value>Cobertura de Estoque Físico e Volante (STOCKOUT)</value>
+  </data>
+  <data name="TAXA ABANDONO_MES" xml:space="preserve">
+    <value>Taxa de Abandono (Mês)</value>
+  </data>
+  <data name="TEMPO_MEDIO_EXECUCAO_NATUREZA_SERVICO" xml:space="preserve">
+    <value>Tempo Médio Execução Natureza de Serviço</value>
+  </data>
+  <data name="TEMPO_MEDIO_STATUS_TECNICO" xml:space="preserve">
+    <value>Tempo Médio por Status do Técnico</value>
+  </data>
+  <data name="TIPO_PRODUTO" xml:space="preserve">
+    <value>Tipo de Produto</value>
+  </data>
+  <data name="TOP_10_PRODUTIVIDADE" xml:space="preserve">
+    <value>Top 10 – Produtividade</value>
+  </data>
+  <data name="TOTAL_CONTRATO_CANCELADO" xml:space="preserve">
+    <value>Total de Contratos Cancelados</value>
+  </data>
+  <data name="TOTAL_VENDA_PRODUTO_SERVICO" xml:space="preserve">
+    <value>Total de Vendas por Produto / Serviço R$</value>
+  </data>
+  <data name="ULTIMOS_3_MESES" xml:space="preserve">
+    <value>Últimos 03 Meses</value>
+  </data>
+  <data name="ULTIMOS_6_MESES" xml:space="preserve">
+    <value>Últimos 06 Meses</value>
+  </data>
+  <data name="USUARIO" xml:space="preserve">
+    <value>Usuário</value>
+  </data>
+  <data name="VALORES" xml:space="preserve">
+    <value>Valores (R$)</value>
+  </data>
+  <data name="VALOR_APLICADO" xml:space="preserve">
+    <value>Valor Aplicado</value>
+  </data>
+  <data name="VALOR_ESTOQUE" xml:space="preserve">
+    <value>Valor Estoque</value>
+  </data>
+  <data name="VALOR_FISICO" xml:space="preserve">
+    <value>Valor Físico</value>
+  </data>
+  <data name="VALOR_MATERIAL_ESTOQUE" xml:space="preserve">
+    <value>Valor em R$ de Materiais Estoque</value>
+  </data>
+  <data name="VALOR_VOLANTE" xml:space="preserve">
+    <value>Valor Volante</value>
+  </data>
+  <data name="VOLUME_REINCIDENCIA" xml:space="preserve">
+    <value>Volume de Reincidência</value>
+  </data>
+  <data name="VOLUME_SERVICOS_CIDADE_CATEGORIA_CLIENTE" xml:space="preserve">
+    <value>Volume Serviços Cidade e Categoria Cliente</value>
+  </data>
+</root>

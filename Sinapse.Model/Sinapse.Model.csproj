@@ -1,0 +1,667 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{41D3BBA2-4CD6-4661-9A0A-C4E4A77B688D}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Sinapse.Model</RootNamespace>
+    <AssemblyName>Sinpase.Model</AssemblyName>
+    <TargetFrameworkVersion>v4.6.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <LangVersion>7.3</LangVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <LangVersion>7.3</LangVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'IPNET|AnyCPU'">
+    <OutputPath>bin\IPNET\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <LangVersion>7.3</LangVersion>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'CERTTO|AnyCPU'">
+    <OutputPath>bin\CERTTO\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <LangVersion>7.3</LangVersion>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Servidor7|AnyCPU'">
+    <OutputPath>bin\Servidor7\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <LangVersion>7.3</LangVersion>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'CloudTreinamento|AnyCPU'">
+    <OutputPath>bin\CloudTreinamento\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <LangVersion>7.3</LangVersion>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Bluephone|AnyCPU'">
+    <OutputPath>bin\Bluephone\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <LangVersion>7.3</LangVersion>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'CloudBluephone|AnyCPU'">
+    <OutputPath>bin\CloudBluephone\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <LangVersion>7.3</LangVersion>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'CloudApresentacao|AnyCPU'">
+    <OutputPath>bin\CloudApresentacao\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <LangVersion>7.3</LangVersion>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Cloud_Treinamento|AnyCPU'">
+    <OutputPath>bin\Cloud_Treinamento\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <LangVersion>7.3</LangVersion>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'CloudTreina|AnyCPU'">
+    <OutputPath>bin\CloudTreina\</OutputPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Alpitel|AnyCPU'">
+    <OutputPath>bin\Alpitel\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <LangVersion>7.3</LangVersion>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Servidor7Geral|AnyCPU'">
+    <OutputPath>bin\Servidor7Geral\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <LangVersion>7.3</LangVersion>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Cloud.Ezentis|AnyCPU'">
+    <OutputPath>bin\Cloud.Ezentis\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <LangVersion>7.3</LangVersion>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Frionline|AnyCPU'">
+    <OutputPath>bin\Frionline\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <LangVersion>7.3</LangVersion>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'WLNet|AnyCPU'">
+    <OutputPath>bin\WLNet\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <LangVersion>7.3</LangVersion>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Acesso|AnyCPU'">
+    <OutputPath>bin\Acesso\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <LangVersion>7.3</LangVersion>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'CloudOnLine|AnyCPU'">
+    <OutputPath>bin\CloudOnLine\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <LangVersion>7.3</LangVersion>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Cloud2Alpitel|AnyCPU'">
+    <OutputPath>bin\Cloud2Alpitel\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <LangVersion>7.3</LangVersion>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'ApiMobile|AnyCPU'">
+    <OutputPath>bin\ApiMobile\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <LangVersion>7.3</LangVersion>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Cloud.Apresentacao|AnyCPU'">
+    <OutputPath>bin\Cloud.Apresentacao\</OutputPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Cloud.Apresentacao2|AnyCPU'">
+    <OutputPath>bin\Cloud.Apresentacao2\</OutputPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'CloudAlpitel|AnyCPU'">
+    <OutputPath>bin\CloudAlpitel\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <LangVersion>7.3</LangVersion>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'AZZA|AnyCPU'">
+    <OutputPath>bin\AZZA\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <LangVersion>7.3</LangVersion>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'CloudAnielProjImp|AnyCPU'">
+    <OutputPath>bin\CloudAnielProjImp\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <LangVersion>7.3</LangVersion>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Servlog|AnyCPU'">
+    <OutputPath>bin\Servlog\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <LangVersion>7.3</LangVersion>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'WeClix|AnyCPU'">
+    <OutputPath>bin\WeClix\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <LangVersion>7.3</LangVersion>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'ClickTelecom|AnyCPU'">
+    <OutputPath>bin\ClickTelecom\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <LangVersion>7.3</LangVersion>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'EletroNet|AnyCPU'">
+    <OutputPath>bin\EletroNet\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <LangVersion>7.3</LangVersion>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'EletronNet|AnyCPU'">
+    <OutputPath>bin\EletronNet\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <LangVersion>7.3</LangVersion>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'MAXTELECOM|AnyCPU'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\MAXTELECOM\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <LangVersion>7.3</LangVersion>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'MEGATURBO|AnyCPU'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\MEGATURBO\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <LangVersion>7.3</LangVersion>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'LPNET|AnyCPU'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\LPNET\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <LangVersion>7.3</LangVersion>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Antlr3.Runtime, Version=3.5.0.2, Culture=neutral, PublicKeyToken=eb42632606e9261f, processorArchitecture=MSIL">
+      <HintPath>..\packages\Antlr3.Runtime.3.5.1\lib\net40-client\Antlr3.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="Chart.Mvc, Version=1.0.0.2, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Chart.Mvc.1.0.0.2\lib\net45\Chart.Mvc.dll</HintPath>
+    </Reference>
+    <Reference Include="Iesi.Collections, Version=4.0.0.4000, Culture=neutral, PublicKeyToken=aa95f207798dfdb4, processorArchitecture=MSIL">
+      <HintPath>..\packages\Iesi.Collections.4.0.4\lib\net461\Iesi.Collections.dll</HintPath>
+    </Reference>
+    <Reference Include="IPAddressRange, Version=4.2.0.0, Culture=neutral, PublicKeyToken=578e3c3d17e7c751, processorArchitecture=MSIL">
+      <HintPath>..\packages\IPAddressRange.4.2.0\lib\net45\IPAddressRange.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AspNet.Identity.Core">
+      <HintPath>..\packages\Microsoft.AspNet.Identity.Core.2.2.1\lib\net45\Microsoft.AspNet.Identity.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AspNet.Identity.Owin">
+      <HintPath>..\packages\Microsoft.AspNet.Identity.Owin.2.2.1\lib\net45\Microsoft.AspNet.Identity.Owin.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AspNetCore.Http.Abstractions, Version=2.3.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNetCore.Http.Abstractions.2.3.0\lib\netstandard2.0\Microsoft.AspNetCore.Http.Abstractions.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AspNetCore.Http.Extensions, Version=2.3.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNetCore.Http.Extensions.2.3.0\lib\netstandard2.0\Microsoft.AspNetCore.Http.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AspNetCore.Http.Features, Version=2.3.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNetCore.Http.Features.2.3.0\lib\netstandard2.0\Microsoft.AspNetCore.Http.Features.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Bcl.AsyncInterfaces, Version=8.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Bcl.AsyncInterfaces.8.0.0\lib\netstandard2.0\Microsoft.Bcl.AsyncInterfaces.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.DependencyInjection.Abstractions, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Extensions.DependencyInjection.Abstractions.8.0.2\lib\netstandard2.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.FileProviders.Abstractions, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Extensions.FileProviders.Abstractions.8.0.0\lib\netstandard2.0\Microsoft.Extensions.FileProviders.Abstractions.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.Logging.Abstractions, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Extensions.Logging.Abstractions.8.0.2\lib\netstandard2.0\Microsoft.Extensions.Logging.Abstractions.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.Options, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Extensions.Options.8.0.2\lib\netstandard2.0\Microsoft.Extensions.Options.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.Primitives, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Extensions.Primitives.8.0.0\lib\netstandard2.0\Microsoft.Extensions.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Net.Http.Headers, Version=2.3.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Net.Http.Headers.2.3.0\lib\netstandard2.0\Microsoft.Net.Http.Headers.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Owin, Version=3.0.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\Microsoft.Owin.3.0.1\lib\net45\Microsoft.Owin.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Owin.Security, Version=3.0.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\Microsoft.Owin.Security.3.0.1\lib\net45\Microsoft.Owin.Security.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Owin.Security.Cookies, Version=3.0.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\Microsoft.Owin.Security.Cookies.3.0.1\lib\net45\Microsoft.Owin.Security.Cookies.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Owin.Security.OAuth, Version=3.0.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\Microsoft.Owin.Security.OAuth.3.0.1\lib\net45\Microsoft.Owin.Security.OAuth.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Web.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Web.Infrastructure.1.0.0.0\lib\net40\Microsoft.Web.Infrastructure.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=12.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.12.0.2\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="NHibernate, Version=5.2.0.0, Culture=neutral, PublicKeyToken=aa95f207798dfdb4, processorArchitecture=MSIL">
+      <HintPath>..\packages\NHibernate.5.2.4\lib\net461\NHibernate.dll</HintPath>
+    </Reference>
+    <Reference Include="Owin">
+      <HintPath>..\packages\Owin.1.0\lib\net40\Owin.dll</HintPath>
+    </Reference>
+    <Reference Include="Parse.Api">
+      <HintPath>..\packages\Parse.Api.2.0.0.0\lib\portable-win+net40+sl40+wp71\Parse.Api.dll</HintPath>
+    </Reference>
+    <Reference Include="Remotion.Linq, Version=2.2.0.0, Culture=neutral, PublicKeyToken=fee00910d6e5f53b, processorArchitecture=MSIL">
+      <HintPath>..\packages\Remotion.Linq.2.2.0\lib\net45\Remotion.Linq.dll</HintPath>
+    </Reference>
+    <Reference Include="Remotion.Linq.EagerFetching, Version=2.2.0.0, Culture=neutral, PublicKeyToken=fee00910d6e5f53b, processorArchitecture=MSIL">
+      <HintPath>..\packages\Remotion.Linq.EagerFetching.2.2.0\lib\net45\Remotion.Linq.EagerFetching.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Buffers, Version=4.0.2.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Buffers.4.6.0\lib\netstandard2.0\System.Buffers.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ComponentModel.Annotations, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.ComponentModel.Annotations.5.0.0\lib\net461\System.ComponentModel.Annotations.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Diagnostics.DiagnosticSource, Version=8.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Diagnostics.DiagnosticSource.8.0.1\lib\netstandard2.0\System.Diagnostics.DiagnosticSource.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Memory, Version=4.0.1.2, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Memory.4.5.5\lib\net461\System.Memory.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.IPNetwork, Version=3.1.764.0, Culture=neutral, PublicKeyToken=717343cc2c25edcf, processorArchitecture=MSIL">
+      <HintPath>..\packages\IPNetwork2.3.1.764\lib\netstandard2.0\System.Net.IPNetwork.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Numerics" />
+    <Reference Include="System.Numerics.Vectors, Version=4.1.4.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Numerics.Vectors.4.5.0\lib\net46\System.Numerics.Vectors.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.CompilerServices.Unsafe, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Runtime.CompilerServices.Unsafe.6.0.0\lib\net461\System.Runtime.CompilerServices.Unsafe.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Text.Encodings.Web, Version=8.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Text.Encodings.Web.8.0.0\lib\netstandard2.0\System.Text.Encodings.Web.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.Tasks.Extensions, Version=4.2.0.1, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Threading.Tasks.Extensions.4.5.4\lib\net461\System.Threading.Tasks.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Transactions" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Helpers, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.3\lib\net45\System.Web.Helpers.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Mvc, Version=5.2.3.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.Mvc.5.2.3\lib\net45\System.Web.Mvc.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Razor, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.Razor.3.2.3\lib\net45\System.Web.Razor.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.WebPages, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.3\lib\net45\System.Web.WebPages.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.WebPages.Deployment, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.3\lib\net45\System.Web.WebPages.Deployment.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.WebPages.Razor, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.3\lib\net45\System.Web.WebPages.Razor.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Certificação_Assinatura\Integracao_AssinaturaModels.cs" />
+    <Compile Include="Certificação_Assinatura\LexioModels.cs" />
+    <Compile Include="ChangeLog.cs" />
+    <Compile Include="Banco.cs" />
+    <Compile Include="Comissionamento.cs" />
+    <Compile Include="Config_Certificacao_Assinatura_RequestModel.cs" />
+    <Compile Include="CriteriosParamCredito.cs" />
+    <Compile Include="enumerados\Condicoes_Padroes.cs" />
+    <Compile Include="enumerados\Enum_VisualizacaoDashboard.cs" />
+    <Compile Include="enumerados\Perfil_DashBoard_Sistema.cs" />
+    <Compile Include="enumerados\StatusLoginRadius.cs" />
+    <Compile Include="enumerados\Status_ProspectoAniel.cs" />
+    <Compile Include="enumerados\Tipo_ClienteAniel.cs" />
+    <Compile Include="enumerados\Versao_OLT.cs" />
+    <Compile Include="ModeloMensagem.cs" />
+    <Compile Include="enumerados\EtapasValidacaoConsultaViabilidadeEnum.cs" />
+    <Compile Include="enumerados\Lexio_StatusEnum.cs" />
+    <Compile Include="enumerados\SituacaoPessoaFisica.cs" />
+    <Compile Include="enumerados\StatusEtapaConsultaViabilidadeEnum.cs" />
+    <Compile Include="enumerados\StatusEtapaVenda.cs" />
+    <Compile Include="enumerados\EnumEtapaVenda.cs" />
+    <Compile Include="enumerados\AprovacaoCriterioParametroCredito.cs" />
+    <Compile Include="enumerados\Status_Autenticacao_Radius.cs" />
+    <Compile Include="enumerados\Status_Motivo_Para.cs" />
+    <Compile Include="enumerados\Status_PlanoProduto.cs" />
+    <Compile Include="enumerados\IntegracaoExternaConsultaCredEnum.cs" />
+    <Compile Include="enumerados\Tipo_Comprovante_Termo.cs" />
+    <Compile Include="enumerados\TipoIntegracaoAssinaturaEnum.cs" />
+    <Compile Include="ParametrosConsultaCredito.cs" />
+    <Compile Include="CustomGenerator.cs" />
+    <Compile Include="Departamento.cs" />
+    <Compile Include="Detalhes_Dash_Gerencial.cs" />
+    <Compile Include="Detalhes_Dash_Inicial.cs" />
+    <Compile Include="Empresa.cs" />
+    <Compile Include="enumerados\Abrangencia.cs" />
+    <Compile Include="enumerados\base\TipoOperacao.cs" />
+    <Compile Include="enumerados\Circuito_Did_CobrancaEnum.cs" />
+    <Compile Include="enumerados\PadraoEIA598_A.cs" />
+    <Compile Include="enumerados\Padrao_ABNT.cs" />
+    <Compile Include="enumerados\Padrao_Cor.cs" />
+    <Compile Include="enumerados\Padrao.cs" />
+    <Compile Include="enumerados\Estilo_LinhaEnum.cs" />
+    <Compile Include="enumerados\Situacao_Porta.cs" />
+    <Compile Include="enumerados\Tipo_CaboEnum.cs" />
+    <Compile Include="enumerados\Status_Elemento.cs" />
+    <Compile Include="enumerados\DashBoardInicialConnect.cs" />
+    <Compile Include="enumerados\DashBoardInicialEVA.cs" />
+    <Compile Include="enumerados\DashBoard_Gerencial.cs" />
+    <Compile Include="enumerados\Exigibilidade_ISS.cs" />
+    <Compile Include="enumerados\Grau_Instrucao.cs" />
+    <Compile Include="enumerados\Dia_da_semana.cs" />
+    <Compile Include="enumerados\Mes_Simplicado.cs" />
+    <Compile Include="enumerados\Natureza_TributacaoEnum.cs" />
+    <Compile Include="enumerados\Recurso_Mobile.cs" />
+    <Compile Include="enumerados\Pesquisa_Tipo_Resposta.cs" />
+    <Compile Include="enumerados\Mes.cs" />
+    <Compile Include="enumerados\Porte.cs" />
+    <Compile Include="enumerados\Estado_Civil.cs" />
+    <Compile Include="enumerados\Regime_TributarioEnum.cs" />
+    <Compile Include="enumerados\Regime_Tributario_EspecialEnum.cs" />
+    <Compile Include="enumerados\SecaoConnectPerfil.cs" />
+    <Compile Include="enumerados\Sexo.cs" />
+    <Compile Include="enumerados\Status_Cliente.cs" />
+    <Compile Include="enumerados\Status_Default.cs" />
+    <Compile Include="enumerados\Status_Contrato.cs" />
+    <Compile Include="enumerados\Tipo_Atividade_Nf.cs" />
+    <Compile Include="enumerados\Tipo_Feriado.cs" />
+    <Compile Include="enumerados\Tipo_Integracao_SMS.cs" />
+    <Compile Include="enumerados\Tipo_Notificacao .cs" />
+    <Compile Include="enumerados\Tipo_PlanoProduto.cs" />
+    <Compile Include="enumerados\Tipo_SLA.cs" />
+    <Compile Include="enumerados\Tipo_Status.cs" />
+    <Compile Include="enumerados\Tipo_Pessoa.cs" />
+    <Compile Include="enumerados\Tipo_Tributacao_ISS.cs" />
+    <Compile Include="Faixa_Comissionamento_Item.cs" />
+    <Compile Include="Faixa_Comissionamento.cs" />
+    <Compile Include="Filial.cs" />
+    <Compile Include="Funcionario.cs" />
+    <Compile Include="Identity\DomainModel\BaseObject.cs" />
+    <Compile Include="Identity\DomainModel\BaseObjectEqualityComparer.cs" />
+    <Compile Include="Identity\DomainModel\DomainSignatureAttribute.cs" />
+    <Compile Include="Identity\DomainModel\Entity.cs" />
+    <Compile Include="Identity\DomainModel\EntityWithTypedId.cs" />
+    <Compile Include="Identity\DomainModel\IEntityWithTypedId.cs" />
+    <Compile Include="Identity\DomainModel\IHasAssignedId.cs" />
+    <Compile Include="Identity\DomainModel\ValidatableObject.cs" />
+    <Compile Include="Identity\DomainModel\ValueObject.cs" />
+    <Compile Include="Identity\IdentityRole.cs" />
+    <Compile Include="Identity\IdentityUser.cs" />
+    <Compile Include="Identity\IdentityUserClaim.cs" />
+    <Compile Include="Identity\IdentityUserLogin.cs" />
+    <Compile Include="menus\IMenu_IFrame.cs" />
+    <Compile Include="menus\MenuPai_IFrame.cs" />
+    <Compile Include="menus\Menu_IFrame.cs" />
+    <Compile Include="menus\Footer_IFrame.cs" />
+    <Compile Include="menus\Title_IFrame.cs" />
+    <Compile Include="Meta.cs" />
+    <Compile Include="nhibernate\attributes\BindAttribute.cs" />
+    <Compile Include="nhibernate\attributes\ObjetoAuxiliarLogAttribute.cs" />
+    <Compile Include="nhibernate\attributes\ObjetoPrincipalLogAttribute.cs" />
+    <Compile Include="nhibernate\attributes\ReadOnlyAttribute.cs" />
+    <Compile Include="nhibernate\base\BaseLog.cs" />
+    <Compile Include="nhibernate\base\BaseModel.cs" />
+    <Compile Include="nhibernate\base\BaseGerarLog.cs" />
+    <Compile Include="nhibernate\base\LogVincularPerfilBase.cs" />
+    <Compile Include="nhibernate\interface\IBindViewToObj.cs" />
+    <Compile Include="nhibernate\interface\IEndereco.cs" />
+    <Compile Include="nhibernate\interface\ILegado.cs" />
+    <Compile Include="nhibernate\interface\IModelLog.cs" />
+    <Compile Include="nhibernate\interface\IModel.cs" />
+    <Compile Include="nhibernate\interface\IPerfilAcesso.cs" />
+    <Compile Include="nhibernate\interface\ITelefone.cs" />
+    <Compile Include="nhibernate\interface\IViewModel.cs" />
+    <Compile Include="ConsultaSerasaDados.cs" />
+    <Compile Include="PendenciaFinanceira.cs" />
+    <Compile Include="PendenciaFinanceiraDados.cs" />
+    <Compile Include="PendenciaEnderecoDados.cs" />
+    <Compile Include="PerfilVisualizacaoServico.cs" />
+    <Compile Include="PerfilVisualizacaoServicoParamMonitor.cs" />
+    <Compile Include="PerfilVisualizacaoServicoParamSupervisor.cs" />
+    <Compile Include="PerfilVisualizacaoServicoParamSetorDepto.cs" />
+    <Compile Include="PerfilVisualizacaoServicoParamArea.cs" />
+    <Compile Include="PerfilVisualizacaoServicoParamContratoProjeto.cs" />
+    <Compile Include="PendenciaEndereco.cs" />
+    <Compile Include="ParametrosConsultaPreQual.cs" />
+    <Compile Include="PerfilVisualizacaoVenda.cs" />
+    <Compile Include="ParametrosConsultaPreQualParamCategoriaCliente.cs" />
+    <Compile Include="ParametrosConsultaPreQualParamRegiao.cs" />
+    <Compile Include="PerfilVisualizacaoVendaParamRegiao.cs" />
+    <Compile Include="PerfilVisualizacaoVendaParamMeioCaptacao.cs" />
+    <Compile Include="PerfilVisualizacaoVendaParamCategoriaCliente.cs" />
+    <Compile Include="PerfilVisualizacaoVendaParamEquipeVenda.cs" />
+    <Compile Include="ParametrosConsultaPreQualParamSetorDepto.cs" />
+    <Compile Include="ParametrosConsultaPreQualParamTipoPessoa.cs" />
+    <Compile Include="PerfilVisualizacaoVendaParamTipoPessoa.cs" />
+    <Compile Include="PerfilVisualizacaoVendaParamSetorDepto.cs" />
+    <Compile Include="Perfil_DashBoard_Connect.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SMS.cs" />
+    <Compile Include="T5\ConsultaViabilidadeEtapa.cs" />
+    <Compile Include="T5\Elemento_RedeFotosArquivos.cs" />
+    <Compile Include="T5\Elemento_RedePorta.cs" />
+    <Compile Include="T5\Elemento_Rede_Fibra.cs" />
+    <Compile Include="T5\Modelo_Elemento_Rede.cs" />
+    <Compile Include="T5\Tipo_Cabo.cs" />
+    <Compile Include="T5\Tipo_ElementoIcone.cs" />
+    <Compile Include="T5\Tipo_Elemento_Rede.cs" />
+    <Compile Include="T5\Elemento_Rede_Enderecos.cs" />
+    <Compile Include="T5\Elemento_Rede.cs" />
+    <Compile Include="T5\ConsultaViabilidadePortaDisponivel.cs" />
+    <Compile Include="T5\ConsultaViabilidadeDados.cs" />
+    <Compile Include="T5\ConsultaViabilidadeMotivo.cs" />
+    <Compile Include="T5\ConsultaViabilidade.cs" />
+    <!--COMENTADO PARA EVITAR CONFLITO DE DUPLICIDADE, PARA REMOVER OU DESCOMENTAR ENTRAR EM CONTATO YAGO OU THALUAN-->
+    <Compile Include="POP.cs" />
+    <Compile Include="Radius.cs" />
+    <Compile Include="Concentradora.cs" />
+    <Compile Include="Concentradora_Grupo_Area.cs" />
+    <Compile Include="enumerados\Marca_Modelo_Concentradora.cs" />
+    <Compile Include="enumerados\Marca_Modelo_OLT.cs" />
+    <Compile Include="enumerados\Medida_Velocidade_ConexaoEnum.cs" />
+    <Compile Include="enumerados\ONU_Tipo_Identificacao.cs" />
+    <Compile Include="enumerados\StatusONU.cs" />
+    <Compile Include="enumerados\Tipo_Ip.cs" />
+    <Compile Include="OLT.cs" />
+    <Compile Include="OLT_Grupo_Area.cs" />
+    <Compile Include="enumerados\Tipo_OLT.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ResourcesCore\ResourcesCore.csproj">
+      <Project>{b49bfa8a-0dea-4776-9fcb-c0faaa1a03a3}</Project>
+      <Name>ResourcesCore</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Sinapse.Core\Sinapse.Core.csproj">
+      <Project>{cda9d9bb-6ebf-4f5f-89ef-a0ab3598a723}</Project>
+      <Name>Sinapse.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Sinapse.ModelLog\Sinapse.ModelLog.csproj">
+      <Project>{62472664-c8f3-4e48-9b91-f5c7099cf61f}</Project>
+      <Name>Sinapse.ModelLog</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Identity\Helpers\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

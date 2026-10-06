@@ -1,0 +1,241 @@
+/*Card Content Main*/
+.main-raised {
+    border-radius: 6px;
+    box-shadow: 0 16px 24px 2px rgba(0,0,0,.14), 0 6px 30px 5px rgba(0,0,0,.12), 0 8px 10px -5px rgba(0,0,0,.2);
+}
+
+/*Tooltip - Smile*/
+.tooltip-inner{
+  background-color: #000;
+  color: #fff;
+}
+/*Tooltip - Arrow*/
+.tooltip.bs-tooltip-auto[x-placement^=top] .arrow:before,.tooltip.bs-tooltip-top .arrow:before{
+    border-top-color:#000;
+}
+
+
+/*Emoji CSS*/
+.em, .em-svg {
+    opacity: 0.5;
+    height: 1.4em;
+    width: 1.4em;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 2.2rem !important;
+    margin-right: 5px !important;
+    background-color: transparent;
+    box-shadow: inherit;
+}
+
+.em:hover {
+    opacity: initial;
+    height: 1.4em;
+    width: 1.4em;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 2.2rem;
+    margin-right: 5px;
+    background-color: transparent !important;
+}
+
+.em.active {
+    opacity: initial;
+    height: 1.4em;
+    width: 1.4em;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 2.4rem;
+    margin-right: 5px;
+    background-color: transparent !important;
+}
+
+/*Link*/
+a{
+    color: #26a69a;
+}
+a:hover{
+    color: #26a69a;
+}
+
+/*Background Filter Header*/
+.purple-filter:after {
+    background: rgba(47, 102, 142, 0.64);
+    background: linear-gradient(45deg,rgba(47, 97, 142, 0.88),rgba(46, 127, 185, 0.45));
+    background: -webkit-linear-gradient(135deg,rgba(22, 65, 86, 0.88),rgba(46, 89, 185, 0.45));
+}
+
+/*Text Area*/
+.form-control, .is-focused .form-control {
+    background-image: linear-gradient(0deg,#00bcd4 2px,rgba(156,39,176,0) 0),linear-gradient(0deg,#d2d2d2 1px,hsla(0,0%,82%,0) 0);
+}
+
+.bmd-form-group label:focus-visible {
+    color: #26a69a !important;
+}
+
+/*Button Submit*/
+.send{
+    background-color: #26a69a;
+    color: #fff;
+}
+
+/* emojis
+.emoojis > span {
+    font-size: 40px;
+    opacity: 0.4;
+}
+.emoojis > span:hover {
+    font-size: 50px;
+    opacity: inherit;
+}
+.emoojis {
+    font-size: 40px;
+} */
+
+/*Title Question*/
+.h3, h3 {
+    font-size: 1.5625rem;
+    line-height: 1.4em;
+    font-weight: 400;
+}
+
+/*Font Size Check Label - Radio Checkbox*/
+.form-check .form-check-label {
+    cursor: pointer;
+    padding-left: 25px;
+    position: relative;
+    font-size: 1rem;
+    color: dimgray;
+}
+
+/*Checkbox*/
+.form-check .form-check-sign .check {
+    position: relative;
+    display: inline-block;
+    width: 21px;
+    height: 21px;
+    border: 2px solid #bdbdbd;
+    overflow: hidden;
+    z-index: 1;
+    border-radius: 3px;
+}
+.form-check .form-check-input:checked+.form-check-sign .check {
+    background: #26a69a;
+}
+
+/*RadioButton*/
+.form-check .form-check-label .circle {
+    border: 2px solid #bdbdbd;
+    height: 17px;
+    width: 17px;
+    border-radius: 100%;
+    top: 1px;
+}
+.form-check .form-check-label .circle .check {
+    height: 15px;
+    width: 15px;
+    border-radius: 100%;
+    background-color: #26a69a;
+    transform: scale3d(0,0,0);
+}
+.form-check .form-check-input:checked~.circle {
+    border-color: #26a69a;
+}
+
+/*Buttons scale hot colors*/
+.red0 {
+    background-color:#ef231f;
+}
+.red0:hover {
+    background-color: #000;
+}
+.red1 {
+    background-color: #f53d39;
+}
+.red1:hover {
+    background-color: #000;
+}
+.red2 {
+    background-color: #FF524F;
+}
+.red2:hover {
+    background-color: #000;
+}
+.red3 {
+    background-color: #ff8481;
+}
+.red3:hover {
+    background-color: #000;
+}
+.orange4 {
+    background-color: #FFA900;
+}
+.orange4:hover {
+    background-color: #000;
+}
+.orange5 {
+    background-color: #FFC200;
+}
+.orange5:hover {
+    background-color: #000;
+}
+.orange6 {
+    background-color: #FFD90A;
+}
+.orange6:hover {
+    background-color: #000;
+}
+.green7 {
+    background-color: #D0E248;
+}
+.green7:hover {
+    background-color: #000;
+}
+.green8 {
+    background-color: #84CD5D;
+}
+.green8:hover {
+    background-color: #000;
+}
+.green9 {
+    background-color: #00BC65;
+}
+.green9:hover {
+    background-color: #000;
+}
+.green10 {
+    background-color: #00A13D;
+}
+.green10:hover {
+    background-color: #000;
+}
+
+.em-angry, .em-angry.active {
+    background-image: url("./images/1f620.png") !important;
+}
+
+.em-slightly_frowning_face, .em-slightly_frowning_face.active {
+    background-image: url("./images/1f641.png") !important;
+}
+
+.em-neutral_face, .em-neutral_face.active {
+    background-image: url("./images/1f610.png") !important;
+}
+
+.em-slightly_smiling_face, .em-slightly_smiling_face.active {
+    background-image: url("./images/1f642.png") !important;
+}
+
+.em-smiley, .em-smiley.active {
+    background-image: url("./images/1f603.png") !important;
+}

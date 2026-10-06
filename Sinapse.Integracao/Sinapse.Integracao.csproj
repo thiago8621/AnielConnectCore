@@ -1,0 +1,263 @@
+﻿<Project ToolsVersion="15.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props" Condition="Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{72FB7546-3729-4F4B-901D-5DCFB191B2B2}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Sinapse.Integracao</RootNamespace>
+    <AssemblyName>Sinapse.Integracao</AssemblyName>
+    <TargetFrameworkVersion>v4.6.2</TargetFrameworkVersion>
+    <LangVersion>8.0</LangVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <Use64BitIISExpress />
+    <IISExpressSSLPort>44322</IISExpressSSLPort>
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="IPAddressRange, Version=4.2.0.0, Culture=neutral, PublicKeyToken=578e3c3d17e7c751, processorArchitecture=MSIL">
+      <HintPath>..\packages\IPAddressRange.4.2.0\lib\net45\IPAddressRange.dll</HintPath>
+    </Reference>
+    <Reference Include="log4net, Version=2.0.8.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.4.5.6\lib\net40\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="NHibernate, Version=5.2.0.0, Culture=neutral, PublicKeyToken=aa95f207798dfdb4" />
+    <Reference Include="PrimS.Telnet.NetStandard, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Telnet.0.11.3\lib\netstandard2.0\PrimS.Telnet.NetStandard.dll</HintPath>
+    </Reference>
+    <Reference Include="Renci.SshNet, Version=2016.1.0.0, Culture=neutral, PublicKeyToken=1cee9f8bde3db106, processorArchitecture=MSIL">
+      <HintPath>..\packages\SSH.NET.2016.1.0\lib\net40\Renci.SshNet.dll</HintPath>
+    </Reference>
+    <Reference Include="RestSharp, Version=106.11.7.0, Culture=neutral, PublicKeyToken=598062e77f915f75, processorArchitecture=MSIL">
+      <HintPath>..\..\AnielConnect\packages\RestSharp.106.11.7\lib\net452\RestSharp.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Net.Http.Formatting, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebApi.Client.4.0.20710.0\lib\net40\System.Net.Http.Formatting.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http.WebRequest" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Web.Http, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\Microsoft.AspNet.WebApi.Core.5.2.3\lib\net45\System.Web.Http.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform">
+      <HintPath>..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="License.txt" />
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <!--COMENTADO PARA EVITAR CONFLITO DE DUPLICIDADE, PARA REMOVER OU DESCOMENTAR ENTRAR EM CONTATO YAGO OU THALUAN-->
+    <Compile Include="Ativacao\Concentradoras\Huawei.cs" />
+    <Compile Include="Ativacao\Concentradoras\Juniper.cs" />
+    <Compile Include="Ativacao\Concentradoras\Mikrotik.cs" />
+    <Compile Include="Ativacao\Interfaces\HistoricoConsumoPeriodoEnum.cs" />
+    <Compile Include="Ativacao\Interfaces\IntegracaoAtivacao.cs" />
+    <Compile Include="Ativacao\Interfaces\IntegracaoConcentradora.cs" />
+    <Compile Include="Ativacao\Interfaces\IntegracaoRadius.cs" />
+    <Compile Include="Ativacao\Models\ConfigurarONUModels.cs" />
+    <Compile Include="Ativacao\Models\IntegracaoRadiusModels.cs" />
+    <Compile Include="Ativacao\Models\Relatorio_Historico_ConexaoModels.cs" />
+    <Compile Include="Ativacao\Models\TesteONUModels.cs" />
+    <Compile Include="Ativacao\OLTs\Datacom.cs" />
+    <Compile Include="Ativacao\OLTs\Fiberhome_A_B.cs" />
+    <Compile Include="Ativacao\OLTs\Fiberhome_A1.cs" />
+    <Compile Include="Ativacao\OLTs\Huawei.cs" />
+    <Compile Include="Ativacao\OLTs\Nokia.cs" />
+    <Compile Include="Ativacao\OLTs\ZTE.cs" />
+    <Compile Include="Ativacao\Radius\AnielRadius.cs" />
+    <Compile Include="Certificacao_Assinatura\Integracoes\Lexio.cs" />
+    <Compile Include="Certificacao_Assinatura\Interfaces\IntegracaoAssinatura.cs" />
+    <Compile Include="Certificacao_Assinatura\Repositorio\IntegracaoAssinaturaRepository.cs" />
+    <Compile Include="MetaBusiness\Integracoes\MetaWhatsAppBusiness.cs" />
+    <Compile Include="GeoCoding\Integracoes\GoogleGeocodingService.cs" />
+    <Compile Include="GeoCoding\Interfaces\IGeocodingService.cs" />
+    <Compile Include="IntegracoesERP\Ixc\IxcHelper.cs" />
+    <Compile Include="IntegracoesERP\Ixc\Models\AssuntoModels.cs" />
+    <Compile Include="IntegracoesERP\Ixc\Models\BaseModels.cs" />
+    <Compile Include="IntegracoesERP\Ixc\Models\CaixaModels.cs" />
+    <Compile Include="IntegracoesERP\Ixc\Models\CidadeResponse.cs" />
+    <Compile Include="IntegracoesERP\Ixc\Models\ClienteModels.cs" />
+    <Compile Include="IntegracoesERP\Ixc\Models\ContratoModels.cs" />
+    <Compile Include="IntegracoesERP\Ixc\Models\LoginModels.cs" />
+    <Compile Include="IntegracoesERP\Ixc\Models\OrdemServicoModels.cs" />
+    <Compile Include="IntegracoesERP\Ixc\Models\UfModels.cs" />
+    <Compile Include="MetaBusiness\Interface\IntegracaoWhatsAppBusiness.cs" />
+    <Compile Include="MetaBusiness\Models\WhatsAppBusinessModel.cs" />
+    <Compile Include="MetaBusiness\Repositorio\IntegracaoWhatsAppBusinessRepository.cs" />
+    <Compile Include="MostQI\Integracoes\MostQI.cs" />
+    <Compile Include="MostQI\Interface\IntegracaoMostQI.cs" />
+    <Compile Include="MostQI\Models\MostQI.cs" />
+    <Compile Include="MostQI\Repositorio\MostQIRepository.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ProvaVida\Integracoes\MostqLivenessDetect.cs" />
+    <Compile Include="ProvaVida\Interface\IntegracaoProvaVida.cs" />
+    <Compile Include="ProvaVida\Models\ProvaVidaModel.cs" />
+    <Compile Include="ProvaVida\Repositorio\IntegracaoProvaVidaRepository.cs" />
+    <Compile Include="Rastreamento\Integracoes\Cobli.cs" />
+    <Compile Include="Rastreamento\Interface\IntegracaoRastreamento.cs" />
+    <Compile Include="Rastreamento\Models\IntegracaoModels.cs" />
+    <Compile Include="Rastreamento\Models\CobliModel.cs" />
+    <Compile Include="Rastreamento\Repositorio\IntegracaoRastreamentoRepository.cs" />
+    <Compile Include="ReconhecimentoFacial\Integracoes\MostqFaceMatch.cs" />
+    <Compile Include="ReconhecimentoFacial\Interface\IntegracaoReconhecimentoFacial.cs" />
+    <Compile Include="ReconhecimentoFacial\Models\ReconhecimentoFacialModels.cs" />
+    <Compile Include="ReconhecimentoFacial\Repositorio\IntegracaoReconhecimentoFacialRepository.cs" />
+    <Compile Include="Roteamento\Interface\IOSRMRoteamento.cs" />
+    <Compile Include="Roteamento\Models\OSRMTableResponse.cs" />
+    <Compile Include="Roteamento\Repositorio\OSRMRepository.cs" />
+    <Compile Include="Serasa\Interface\IntegracaoSerasa.cs" />
+    <Compile Include="Serasa\Models\RetornoSerasaModel.cs" />
+    <Compile Include="Serasa\Serasa.cs" />
+    <Compile Include="SMS\Integracoes\Blip.cs" />
+    <Compile Include="SMS\Integracoes\BVTelecom.cs" />
+    <Compile Include="SMS\Integracoes\PontalTech.cs" />
+    <Compile Include="SMS\Interface\IntegracaoSMS.cs" />
+    <Compile Include="SMS\Models\PontalTech.cs" />
+    <Compile Include="SMS\Models\SMSModel.cs" />
+    <Compile Include="SMS\Repositorio\IntegracaoSMSRepository.cs" />
+    <Compile Include="ValidacaoDocumento\Integracoes\MostqVioExtraction.cs" />
+    <Compile Include="ValidacaoDocumento\Integracoes\MostqContentExtraction.cs" />
+    <Compile Include="ValidacaoDocumento\Interface\IntegracaoValidacaoDocumentoContent.cs" />
+    <Compile Include="ValidacaoDocumento\Interface\IntegracaoValidacaoDocumentoVio.cs" />
+    <Compile Include="ValidacaoDocumento\Models\MostqContentExtractionModels.cs" />
+    <Compile Include="ValidacaoDocumento\Models\MostqVioExtractionModels.cs" />
+    <Compile Include="ValidacaoDocumento\Repositorio\IntegracaoValidacaoDocumentoRepository.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+    <None Include="Properties\PublishProfiles\ADM_CPProfile.pubxml" />
+    <None Include="Properties\PublishProfiles\QualidadeProfile.pubxml" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Ativacao\Repositorio\" />
+    <Folder Include="IntegracoesERP\Interfaces\" />
+    <Folder Include="Viabilidade\Business\" />
+    <Folder Include="Viabilidade\Repository\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\AnielConnect\Aniel.Connect.Model\Aniel.Connect.Model.csproj">
+      <Project>{4D57034D-DD35-4C11-8205-64FD3689AD8E}</Project>
+      <Name>Aniel.Connect.Model</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Aniel.Connect.Core\Aniel.Connect.Core.csproj">
+      <Project>{1C501BDC-FDF2-4EAA-BA9D-CE9643CA5B4E}</Project>
+      <Name>Aniel.Connect.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Sinapse.Core\Sinapse.Core.csproj">
+      <Project>{CDA9D9BB-6EBF-4F5F-89EF-A0AB3598A723}</Project>
+      <Name>Sinapse.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Sinapse.DAO.base\Sinapse.DAO.csproj">
+      <Project>{ADEEF9CA-F00F-42C4-9019-A434A8AAB776}</Project>
+      <Name>Sinapse.DAO</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Sinapse.JSON\Sinapse.JSON.csproj">
+      <Project>{2F7F458B-0051-4907-843B-88B045FE2AFA}</Project>
+      <Name>Sinapse.JSON</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Sinapse.Model\Sinapse.Model.csproj">
+      <Project>{41d3bba2-4cd6-4661-9a0a-c4e4a77b688d}</Project>
+      <Name>Sinapse.Model</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Sinapse.Util\Sinapse.Util.csproj">
+      <Project>{377DE89A-60CD-4F3A-83C4-401CFD6CFE0D}</Project>
+      <Name>Sinapse.Util</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>55583</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>https://localhost:44322/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>Este projeto faz referência a pacotes do NuGet que não estão presentes neste computador. Use a Restauração de Pacotes do NuGet para baixá-los.  Para obter mais informações, consulte http://go.microsoft.com/fwlink/?LinkID=322105. O arquivo ausente é {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props'))" />
+  </Target>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

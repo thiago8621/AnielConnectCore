@@ -1,0 +1,2241 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ABERTO" xml:space="preserve">
+    <value>Aberto</value>
+  </data>
+  <data name="AGENCIA" xml:space="preserve">
+    <value>Agência</value>
+  </data>
+  <data name="ANALITICO" xml:space="preserve">
+    <value>Analítico</value>
+  </data>
+  <data name="ANUAL" xml:space="preserve">
+    <value>Anual</value>
+  </data>
+  <data name="BAIXADO" xml:space="preserve">
+    <value>Baixado</value>
+  </data>
+  <data name="BANCO" xml:space="preserve">
+    <value>Banco</value>
+  </data>
+  <data name="BIMENSTRAL" xml:space="preserve">
+    <value>Bimenstral</value>
+  </data>
+  <data name="CADASTROBANCO" xml:space="preserve">
+    <value>Banco</value>
+  </data>
+  <data name="CADASTRO_CARTAOCREDITO" xml:space="preserve">
+    <value>Cadastrar Cartão de Crédito</value>
+  </data>
+  <data name="CADASTRO_CENTRO_CUSTO" xml:space="preserve">
+    <value>Centro de Custo</value>
+  </data>
+  <data name="CODIGO" xml:space="preserve">
+    <value>Código</value>
+  </data>
+  <data name="CARTAO" xml:space="preserve">
+    <value>Cartão</value>
+  </data>
+  <data name="CARTAO_CREDITO" xml:space="preserve">
+    <value>Cartão de Crédito</value>
+  </data>
+  <data name="CENTRO_CUSTO" xml:space="preserve">
+    <value>Centro de Custo</value>
+  </data>
+  <data name="CODIGO_AUXILIAR" xml:space="preserve">
+    <value>Código Auxiliar</value>
+  </data>
+  <data name="CODIGO_CADASTRO" xml:space="preserve">
+    <value>Código de Cadastro</value>
+  </data>
+  <data name="CONTA_CORRENTE" xml:space="preserve">
+    <value>Conta Corrente</value>
+  </data>
+  <data name="CORRENTE" xml:space="preserve">
+    <value>Corrente</value>
+  </data>
+  <data name="DESCRICAO" xml:space="preserve">
+    <value>Descrição</value>
+  </data>
+  <data name="DATAFECHAMENTO" xml:space="preserve">
+    <value>Dia de Fechamento</value>
+  </data>
+  <data name="DATAVALIDADE" xml:space="preserve">
+    <value>Data de Validade</value>
+  </data>
+  <data name="DATAVENCIMENTO" xml:space="preserve">
+    <value>Dia de Vencimento</value>
+  </data>
+  <data name="DESCRICAOCARTAO" xml:space="preserve">
+    <value>Descrição do Cartão</value>
+  </data>
+  <data name="DESCRICAO_CUSTO" xml:space="preserve">
+    <value>Descrição do Centro de Custo</value>
+  </data>
+  <data name="DESPESA" xml:space="preserve">
+    <value>Despesa</value>
+  </data>
+  <data name="DIARIO" xml:space="preserve">
+    <value>Diário</value>
+  </data>
+  <data name="INVESTIMENTO" xml:space="preserve">
+    <value>Investimento</value>
+  </data>
+  <data name="MENSAL" xml:space="preserve">
+    <value>Mensal</value>
+  </data>
+  <data name="NOMECARTAO" xml:space="preserve">
+    <value>Nome do Cartão</value>
+  </data>
+  <data name="NOMEIMPRESSOCARTAO" xml:space="preserve">
+    <value>Nome Impresso no Cartão</value>
+  </data>
+  <data name="NOME_GRUPO" xml:space="preserve">
+    <value>Nome do Grupo</value>
+  </data>
+  <data name="NOME_SUBGRUPO" xml:space="preserve">
+    <value>Nome do Subgrupo</value>
+  </data>
+  <data name="NUMEROCARTAO" xml:space="preserve">
+    <value>Nº do Cartão</value>
+  </data>
+  <data name="OPCOES" xml:space="preserve">
+    <value>Opções</value>
+  </data>
+  <data name="PAINELCARTAO_CREDITO" xml:space="preserve">
+    <value>Listagem de Cartão de Crédito</value>
+  </data>
+  <data name="PAINELBANCO" xml:space="preserve">
+    <value>Listagem de Banco</value>
+  </data>
+  <data name="POR_FATURAMENTO" xml:space="preserve">
+    <value>Por Faturamento</value>
+  </data>
+  <data name="POR_IGUAL" xml:space="preserve">
+    <value>Por Igual</value>
+  </data>
+  <data name="POUPANCA" xml:space="preserve">
+    <value>Poupança</value>
+  </data>
+  <data name="RECEITA" xml:space="preserve">
+    <value>Receita</value>
+  </data>
+  <data name="RELATORIOCCUSTO" xml:space="preserve">
+    <value>Relatório Centro de Custo</value>
+  </data>
+  <data name="SEMESTRAL" xml:space="preserve">
+    <value>Semestral</value>
+  </data>
+  <data name="SINTETICO" xml:space="preserve">
+    <value>Sintético</value>
+  </data>
+  <data name="STATUS" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="TRIMENSTRAL" xml:space="preserve">
+    <value>Trimenstral</value>
+  </data>
+  <data name="VENCIDO" xml:space="preserve">
+    <value>Vencido</value>
+  </data>
+  <data name="ACEITA_RATEIO" xml:space="preserve">
+    <value>Aceita Rateio de Despesa ?</value>
+  </data>
+  <data name="CODIGO_SUBGRUPO" xml:space="preserve">
+    <value>Código do Subgrupo</value>
+  </data>
+  <data name="DESCRICAO_SUBGRUPO" xml:space="preserve">
+    <value>Descrição do Subgrupo</value>
+  </data>
+  <data name="GRUPO_CENTRO_CUSTO" xml:space="preserve">
+    <value>Grupo de Centro de Custo</value>
+  </data>
+  <data name="GRUPO_CENTROCUSTO" xml:space="preserve">
+    <value>Grupo Centro de Custo</value>
+  </data>
+  <data name="METODO_RATEIO" xml:space="preserve">
+    <value>Método de Rateio</value>
+  </data>
+  <data name="PAINELGRUPO_CENTROCUSTO" xml:space="preserve">
+    <value>Cadastrar Grupo de Centro de Custo</value>
+  </data>
+  <data name="SUBGRUPO_CENTRO_CUSTO" xml:space="preserve">
+    <value>Subgrupo Centro de Custo</value>
+  </data>
+  <data name="CADASTRO_GRUPO_CENTROCUSTO" xml:space="preserve">
+    <value>Grupo de Centro de Custo</value>
+  </data>
+  <data name="ID_SUBGRUPO" xml:space="preserve">
+    <value>ID do Subgrupo</value>
+  </data>
+  <data name="CONTA_FINANCEIRA" xml:space="preserve">
+    <value>Conta Financeira</value>
+  </data>
+  <data name="PAINELCONTA_FINANCEIRA" xml:space="preserve">
+    <value>Plano de Contas Financeiro</value>
+  </data>
+  <data name="CONTA_CONTABIL" xml:space="preserve">
+    <value>Conta Contábil</value>
+  </data>
+  <data name="TIPO_MOVIMENTO" xml:space="preserve">
+    <value>Tipo de Movimento</value>
+  </data>
+  <data name="TIPO_CONTA_FINANCEIRA" xml:space="preserve">
+    <value>Tipo de Conta Financeira</value>
+  </data>
+  <data name="CADASTRO_CONTA_BANCARIA" xml:space="preserve">
+    <value>Conta Bancária</value>
+  </data>
+  <data name="PAINELCONTA_CONTABIL" xml:space="preserve">
+    <value>Listagem de Conta Contábil</value>
+  </data>
+  <data name="CONTA" xml:space="preserve">
+    <value>Conta</value>
+  </data>
+  <data name="GRUPO_CONTA_CONTABIL" xml:space="preserve">
+    <value>Grupo Conta Contábil</value>
+  </data>
+  <data name="CONTA_BANCARIA" xml:space="preserve">
+    <value>Conta Bancária</value>
+  </data>
+  <data name="SUBGRUPO_CONTA_CONTABIL" xml:space="preserve">
+    <value>Subgrupo Conta Contábil</value>
+  </data>
+  <data name="GERENTE_CONTA" xml:space="preserve">
+    <value>Gerente da Conta</value>
+  </data>
+  <data name="NOME_CONTA" xml:space="preserve">
+    <value>Nome da Conta</value>
+  </data>
+  <data name="PAINEL_CONTA_BANCARIA" xml:space="preserve">
+    <value>Listagem de Conta Bancária</value>
+  </data>
+  <data name="RAZAO_SOCIAL" xml:space="preserve">
+    <value>Razão Social</value>
+  </data>
+  <data name="SALDO" xml:space="preserve">
+    <value>Saldo</value>
+  </data>
+  <data name="TELEFONE_AGENCIA" xml:space="preserve">
+    <value>Telefone da Agência</value>
+  </data>
+  <data name="CADASTRAR_FORMA_PAGAMENTO" xml:space="preserve">
+    <value>Cadastrar Forma de Pagamento</value>
+  </data>
+  <data name="DATASALDO" xml:space="preserve">
+    <value>Data do Saldo</value>
+  </data>
+  <data name="EMPRESA" xml:space="preserve">
+    <value>Empresa</value>
+  </data>
+  <data name="FILIAL" xml:space="preserve">
+    <value>Filial</value>
+  </data>
+  <data name="GRUPO_RATEIO_FILIAIS" xml:space="preserve">
+    <value>Grupo de Rateio Filiais</value>
+  </data>
+  <data name="NUMERO_CONTA" xml:space="preserve">
+    <value>Nº da Conta</value>
+  </data>
+  <data name="OBSERVACOES" xml:space="preserve">
+    <value>Observações</value>
+  </data>
+  <data name="RATEIO" xml:space="preserve">
+    <value>Rateio</value>
+  </data>
+  <data name="SALDOINICIAL" xml:space="preserve">
+    <value>Saldo Inicial</value>
+  </data>
+  <data name="VENCIMENTO" xml:space="preserve">
+    <value>Vencimento</value>
+  </data>
+  <data name="DATAFATURAMENTO" xml:space="preserve">
+    <value>Data de Faturamento</value>
+  </data>
+  <data name="GERA_FATURAMENTO_AUTO" xml:space="preserve">
+    <value>Gera Faturamento Auto</value>
+  </data>
+  <data name="PAINEL_VENCIMENTO" xml:space="preserve">
+    <value>Listagem de Vencimento</value>
+  </data>
+  <data name="DIAFATURAMENTO" xml:space="preserve">
+    <value>Dia Faturamento</value>
+  </data>
+  <data name="DIAFECHAMENTO" xml:space="preserve">
+    <value>Dia Fechamento</value>
+  </data>
+  <data name="DIAVENCIMENTO" xml:space="preserve">
+    <value>Dia Vencimento</value>
+  </data>
+  <data name="CAIXA_INTERNO" xml:space="preserve">
+    <value>Caixa Interno</value>
+  </data>
+  <data name="SALDO_CAIXA" xml:space="preserve">
+    <value>Saldo Inicial do Caixa</value>
+  </data>
+  <data name="PAINEL_CAIXA_INTERNO" xml:space="preserve">
+    <value>Listagem de Caixa Interno</value>
+  </data>
+  <data name="PERCENTUAL" xml:space="preserve">
+    <value>Percentual</value>
+  </data>
+  <data name="TEMRATEIO_DE_CCUSTO" xml:space="preserve">
+    <value>Rateio de Centro de Custo?</value>
+  </data>
+  <data name="PERCENTUALACIMADE100" xml:space="preserve">
+    <value>O percentual não pode ultrapassar 100%</value>
+  </data>
+  <data name="CADASTRO_FORMA_PAGAMENTO" xml:space="preserve">
+    <value>Forma de Pagamento</value>
+  </data>
+  <data name="FORMA_PAGAMENTO" xml:space="preserve">
+    <value>Forma de Pagamento</value>
+  </data>
+  <data name="TIPO_FORMA_PAGAMENTO" xml:space="preserve">
+    <value>Tipo de Pagamento</value>
+  </data>
+  <data name="GRUPORATEIO" xml:space="preserve">
+    <value>Grupo de Rateio</value>
+  </data>
+  <data name="EXISTE_GRUPO_RATEIO" xml:space="preserve">
+    <value>Existe Grupo de Rateio</value>
+  </data>
+  <data name="PAINEL_CENTRO_CUSTO" xml:space="preserve">
+    <value>Listagem de Centro de Custo</value>
+  </data>
+  <data name="CADASTRO_GRUPO_RATEIO_EMPRESA_FILIAL" xml:space="preserve">
+    <value>Grupos de Rateio</value>
+  </data>
+  <data name="GRUPO_RATEIO_EMPRESA_FILIAL" xml:space="preserve">
+    <value>Grupos de Rateio de Empresa</value>
+  </data>
+  <data name="PAINELGRUPO_RATEIO_EMPRESA_FILIAL" xml:space="preserve">
+    <value>Listagem dos Grupos de Rateio de Empresa</value>
+  </data>
+  <data name="BANCARIA" xml:space="preserve">
+    <value>Bancária</value>
+  </data>
+  <data name="PROGAMADO" xml:space="preserve">
+    <value>Progamado</value>
+  </data>
+  <data name="DATA" xml:space="preserve">
+    <value>Data</value>
+  </data>
+  <data name="DESTINO" xml:space="preserve">
+    <value>Destino</value>
+  </data>
+  <data name="ORIGEM" xml:space="preserve">
+    <value>Origem</value>
+  </data>
+  <data name="PAINEL_TRANSFERENCIA" xml:space="preserve">
+    <value>Listagem de Tranferência</value>
+  </data>
+  <data name="PRAZO_DETERMINADO" xml:space="preserve">
+    <value>Prazo Determinado</value>
+  </data>
+  <data name="PRAZO_INDETERMINADO" xml:space="preserve">
+    <value>Prazo Indeterminado</value>
+  </data>
+  <data name="QTDE_DIAS" xml:space="preserve">
+    <value>Quantidade de Dias</value>
+  </data>
+  <data name="TRANSFERENCA" xml:space="preserve">
+    <value>Transferência</value>
+  </data>
+  <data name="VALOR" xml:space="preserve">
+    <value>Valor</value>
+  </data>
+  <data name="CADASTRO_TRANSFERENCIA" xml:space="preserve">
+    <value>Transferência</value>
+  </data>
+  <data name="TRANSFERENCIA_RECORRENTE" xml:space="preserve">
+    <value>Transferência é Recorrente ?</value>
+  </data>
+  <data name="TIPO_RECORRENCIA" xml:space="preserve">
+    <value>Tipo de Recorrencia</value>
+  </data>
+  <data name="BIMESTRAL" xml:space="preserve">
+    <value>Bimestral</value>
+  </data>
+  <data name="TRIMESTRAL" xml:space="preserve">
+    <value>Trimestral</value>
+  </data>
+  <data name="GERAR_BOLETO_AUTOMATICO" xml:space="preserve">
+    <value>Gerar Boleto Automaticamente</value>
+  </data>
+  <data name="PERCENTUAL_DESCONTO" xml:space="preserve">
+    <value>Percentual de Desconto</value>
+  </data>
+  <data name="VALOR_DESCONTO" xml:space="preserve">
+    <value>Valor de Desconto</value>
+  </data>
+  <data name="BOLETO" xml:space="preserve">
+    <value>Boleto</value>
+  </data>
+  <data name="CARNE" xml:space="preserve">
+    <value>Carnê</value>
+  </data>
+  <data name="CARTAO_DEBITO" xml:space="preserve">
+    <value>Cartão de Débito</value>
+  </data>
+  <data name="CHEQUE" xml:space="preserve">
+    <value>Cheque</value>
+  </data>
+  <data name="DEBITO_CONTA" xml:space="preserve">
+    <value>Débito em conta</value>
+  </data>
+  <data name="DINHEIRO" xml:space="preserve">
+    <value>Dinheiro</value>
+  </data>
+  <data name="CLIENTE" xml:space="preserve">
+    <value>Cliente</value>
+  </data>
+  <data name="CADASTRO_CONTA_RECEBER" xml:space="preserve">
+    <value>Conta a Receber</value>
+  </data>
+  <data name="DATA_EMISSAO" xml:space="preserve">
+    <value>Data de Emissão</value>
+  </data>
+  <data name="FORNECEDOR" xml:space="preserve">
+    <value>Fornecedor</value>
+  </data>
+  <data name="NUMERO_DOCUMENTO" xml:space="preserve">
+    <value>Número do Documento</value>
+  </data>
+  <data name="PAGAMENTO" xml:space="preserve">
+    <value>Pagamento</value>
+  </data>
+  <data name="PAINEL_CONTA_RECEBER" xml:space="preserve">
+    <value>Listagem de Contas a Receber</value>
+  </data>
+  <data name="SELECIONE" xml:space="preserve">
+    <value>Selecione</value>
+  </data>
+  <data name="VALOR_PAGO" xml:space="preserve">
+    <value>Valor Pago</value>
+  </data>
+  <data name="DATA_RECEBIMENTO" xml:space="preserve">
+    <value>Data de Recebimento</value>
+  </data>
+  <data name="RECEBIMENTO" xml:space="preserve">
+    <value>Recebimento</value>
+  </data>
+  <data name="VALOR_RECEBIDO" xml:space="preserve">
+    <value>Valor Recebido</value>
+  </data>
+  <data name="DATA_PREV_RECEBIMENTO" xml:space="preserve">
+    <value>Data Prevista de Recebimento</value>
+  </data>
+  <data name="VALOR_PREVISTO" xml:space="preserve">
+    <value>Valor Previsto</value>
+  </data>
+  <data name="TIPO_PRAZO_TRANSFERENCIA" xml:space="preserve">
+    <value>Tipo de Prazo de Transferência</value>
+  </data>
+  <data name="CADASTRO_GRUPO_CONTAFINANCEIRA" xml:space="preserve">
+    <value>Grupo Conta Financeira</value>
+  </data>
+  <data name="GRUPO_CONTAFINANCEIRA" xml:space="preserve">
+    <value>Grupo Conta Financeira</value>
+  </data>
+  <data name="PAINELGRUPO_CONTAFINANCEIRA" xml:space="preserve">
+    <value>Listagem de Grupo Conta Financeira</value>
+  </data>
+  <data name="SUBGRUPO_CONTAFINANCEIRA" xml:space="preserve">
+    <value>Subgrupo Conta Financeira</value>
+  </data>
+  <data name="PAINEL_FORMA_PAGAMENTO" xml:space="preserve">
+    <value>Listagem de Forma de Pagamento</value>
+  </data>
+  <data name="DOCUMENTO" xml:space="preserve">
+    <value>Documento</value>
+  </data>
+  <data name="PAINEL_FATURAMENTO" xml:space="preserve">
+    <value>Listagem de Faturamento</value>
+  </data>
+  <data name="FATURAMENTO" xml:space="preserve">
+    <value>Faturamento</value>
+  </data>
+  <data name="CPF_CNPJ_CLIENTE" xml:space="preserve">
+    <value>CPF/CNPJ do Cliente</value>
+  </data>
+  <data name="MES_REFERENCIA" xml:space="preserve">
+    <value>Mês de Referência</value>
+  </data>
+  <data name="PERIODO" xml:space="preserve">
+    <value>Período</value>
+  </data>
+  <data name="TIPO_PAGAMENTO" xml:space="preserve">
+    <value>Tipo de Pagamento</value>
+  </data>
+  <data name="AGUARDANDO_GERACAO_BOLETO" xml:space="preserve">
+    <value>Aguardando Geração do Boleto</value>
+  </data>
+  <data name="CANCELADO" xml:space="preserve">
+    <value>Cancelado</value>
+  </data>
+  <data name="CRIADO" xml:space="preserve">
+    <value>Criado</value>
+  </data>
+  <data name="PROCESSADO" xml:space="preserve">
+    <value>Processado</value>
+  </data>
+  <data name="FATURAMENTO_CLIENTE" xml:space="preserve">
+    <value>Faturamento do Cliente</value>
+  </data>
+  <data name="PAINEL_FATURAMENTO_CLIENTE" xml:space="preserve">
+    <value>Listagem de Faturamento do Cliente</value>
+  </data>
+  <data name="VALOR_BRUTO" xml:space="preserve">
+    <value>Valor Bruto</value>
+  </data>
+  <data name="VALOR_LIQUIDO" xml:space="preserve">
+    <value>Valor Líquido</value>
+  </data>
+  <data name="STATUS_FATURAMENTO" xml:space="preserve">
+    <value>Status do Faturamento</value>
+  </data>
+  <data name="DATA_PAGAMENTO" xml:space="preserve">
+    <value>Data de Pagamento</value>
+  </data>
+  <data name="PROTOCOLO_FATURAMENTO" xml:space="preserve">
+    <value>Protocolo do Faturamento</value>
+  </data>
+  <data name="DATA_FECHAMENTO" xml:space="preserve">
+    <value>Data de Fechamento</value>
+  </data>
+  <data name="DATA_VENCIMENTO" xml:space="preserve">
+    <value>Data de Vencimento</value>
+  </data>
+  <data name="CNPJ" xml:space="preserve">
+    <value>CNPJ</value>
+  </data>
+  <data name="PERIODO_INVALIDO" xml:space="preserve">
+    <value>Período Inválido</value>
+  </data>
+  <data name="CONTA_PAGAR" xml:space="preserve">
+    <value>Conta a Pagar</value>
+  </data>
+  <data name="CONTA_RECORRENTE" xml:space="preserve">
+    <value>Conta Recorrente</value>
+  </data>
+  <data name="PAINEL_CONTA_PAGAR" xml:space="preserve">
+    <value>Listagem de Contas a pagar</value>
+  </data>
+  <data name="GRUPORATEIO_ENTREFILIAIS" xml:space="preserve">
+    <value>Grupo de Rateio Entre Filiais</value>
+  </data>
+  <data name="FORMA_RECEBIMENTO" xml:space="preserve">
+    <value>Forma de Recebimento</value>
+  </data>
+  <data name="FORMA_PAGAMENTO_CLIENTE" xml:space="preserve">
+    <value>Forma de Pagamento do Cliente</value>
+  </data>
+  <data name="COEFICIENTE" xml:space="preserve">
+    <value>Coeficiente</value>
+  </data>
+  <data name="FAIXA_FINAL" xml:space="preserve">
+    <value>Faixa Final</value>
+  </data>
+  <data name="FAIXA_INICIAL" xml:space="preserve">
+    <value>Faixa Inicial</value>
+  </data>
+  <data name="CODIGO_EMPRESA" xml:space="preserve">
+    <value>Codigo da Empresa</value>
+  </data>
+  <data name="NOME_EMPRESA" xml:space="preserve">
+    <value>Nome da Empresa</value>
+  </data>
+  <data name="CADASTROCARTAOCREDITO" xml:space="preserve">
+    <value>Cartão de Crédito</value>
+  </data>
+  <data name="PERCENTUALABAIXODE100" xml:space="preserve">
+    <value>A soma dos percentuais não pode ser menor do que 100%</value>
+  </data>
+  <data name="TIPO_CONTA_CONTABIL" xml:space="preserve">
+    <value>Tipo de Conta Contábil</value>
+  </data>
+  <data name="CADASTRO_GRUPO_CONTACONTABIL" xml:space="preserve">
+    <value>Grupo Conta Contábil</value>
+  </data>
+  <data name="GRUPO_CONTACONTABIL" xml:space="preserve">
+    <value>Grupo Conta Contábil</value>
+  </data>
+  <data name="PAINELGRUPO_CONTACONTABIL" xml:space="preserve">
+    <value>Listagem de Grupo Conta Contábil</value>
+  </data>
+  <data name="RELATORIOPRODUCAO" xml:space="preserve">
+    <value>Relatório de Produção</value>
+  </data>
+  <data name="ANO" xml:space="preserve">
+    <value>Ano</value>
+  </data>
+  <data name="CADASTRO_CONTA_PAGAR" xml:space="preserve">
+    <value>Conta a Pagar</value>
+  </data>
+  <data name="MES" xml:space="preserve">
+    <value>Mês</value>
+  </data>
+  <data name="NOTA_FISCAL" xml:space="preserve">
+    <value>Nota Fiscal</value>
+  </data>
+  <data name="ORCAMENTO" xml:space="preserve">
+    <value>Orçamento</value>
+  </data>
+  <data name="EMITIR_NOTA" xml:space="preserve">
+    <value>Emitir Nota Fiscal</value>
+  </data>
+  <data name="ORCAMENTO_CENTRO_CUSTO" xml:space="preserve">
+    <value>Orçamento de Centro de Custo</value>
+  </data>
+  <data name="NOTAS_GERADAS" xml:space="preserve">
+    <value>Notas Fiscais Geradas</value>
+  </data>
+  <data name="GERAR_NOTAS" xml:space="preserve">
+    <value>Gerar Notas</value>
+  </data>
+  <data name="CIDADE" xml:space="preserve">
+    <value>Cidade</value>
+  </data>
+  <data name="DIASATRASO" xml:space="preserve">
+    <value>Dias em Atraso</value>
+  </data>
+  <data name="TOTALDIVIDA" xml:space="preserve">
+    <value>Total da Dívida</value>
+  </data>
+  <data name="VALORPARCELA" xml:space="preserve">
+    <value>Valor da Parcela</value>
+  </data>
+  <data name="VALORMINIMO" xml:space="preserve">
+    <value>Valor Minimo</value>
+  </data>
+  <data name="PAINEL_ORCAMENTO_CENTRO_CUSTO" xml:space="preserve">
+    <value>Listagem de Orçamento Centro Custo</value>
+  </data>
+  <data name="CENTROCUSTO" xml:space="preserve">
+    <value>Centro de Custo</value>
+  </data>
+  <data name="LANC" xml:space="preserve">
+    <value>Lanc</value>
+  </data>
+  <data name="MOVIMENTO_JAN" xml:space="preserve">
+    <value>Movimento de Janeiro</value>
+  </data>
+  <data name="ORC" xml:space="preserve">
+    <value>Orç</value>
+  </data>
+  <data name="ORCAMENTO_JAN" xml:space="preserve">
+    <value>Orçamento de Janeiro</value>
+  </data>
+  <data name="SALDO_JAN" xml:space="preserve">
+    <value>Saldo de Janeiro</value>
+  </data>
+  <data name="FORMASDEPAGAMENTO" xml:space="preserve">
+    <value>Formas de Pagamento</value>
+  </data>
+  <data name="CONTAFINANCEIRA" xml:space="preserve">
+    <value>Conta Financeira</value>
+  </data>
+  <data name="AFATURAR" xml:space="preserve">
+    <value>A Faturar</value>
+  </data>
+  <data name="PADRAO" xml:space="preserve">
+    <value>Padrão</value>
+  </data>
+  <data name="TIPO" xml:space="preserve">
+    <value>Tipo</value>
+  </data>
+  <data name="ATENCAOHORA" xml:space="preserve">
+    <value>Preencha o horário de inicio e horário de Termino</value>
+  </data>
+  <data name="CANCELAR_NOTA" xml:space="preserve">
+    <value>Cancelar Nota </value>
+  </data>
+  <data name="DIASVENCIMENTO" xml:space="preserve">
+    <value>Dias Vencimento</value>
+  </data>
+  <data name="CODIGO_GRUPO" xml:space="preserve">
+    <value>Código do Grupo</value>
+  </data>
+  <data name="EXCLUIR_GRUPO_CENTROCUSTO" xml:space="preserve">
+    <value>Não é possível excluir este(s) registro(s).</value>
+  </data>
+  <data name="DIA_VENCIMENTO" xml:space="preserve">
+    <value>Dia de Vencimento</value>
+  </data>
+  <data name="PAINELVENCIMENTOFECHAMENTO" xml:space="preserve">
+    <value>Listagem de Vencimento e Fechamento</value>
+  </data>
+  <data name="VENCIMENTOFECHAMENTO" xml:space="preserve">
+    <value>Vencimento/Fechamento</value>
+  </data>
+  <data name="FORMARECEB_CAIXA_INTERNO" xml:space="preserve">
+    <value>Informe o código ou descrição do caixa interno</value>
+  </data>
+  <data name="FORMARECEB_CONTA_BANCARIA" xml:space="preserve">
+    <value>Informe o código ou descrição da conta bancária</value>
+  </data>
+  <data name="PREVISAO_RECEBIMENTO" xml:space="preserve">
+    <value>Previsão de Recebimento</value>
+  </data>
+  <data name="ACOMPANHAMENTO" xml:space="preserve">
+    <value>Acompanhamento</value>
+  </data>
+  <data name="CLIENTES_INADIMPLENTES" xml:space="preserve">
+    <value>Clientes Inadimplentes</value>
+  </data>
+  <data name="DEMONSTRACAO_RESULTADO" xml:space="preserve">
+    <value>Demonstrativo Financeiro do Período</value>
+  </data>
+  <data name="EVOLUCAO_FATURAMENTO" xml:space="preserve">
+    <value>Evolução de Faturamento</value>
+  </data>
+  <data name="FINANCEIRO" xml:space="preserve">
+    <value>Financeiro</value>
+  </data>
+  <data name="FLUXO_CAIXA" xml:space="preserve">
+    <value>Fluxo de Caixa</value>
+  </data>
+  <data name="FINANCEIROS" xml:space="preserve">
+    <value>Financeiros</value>
+  </data>
+  <data name="FORMARECEB_CARTAO_CREDITO" xml:space="preserve">
+    <value>Informe o cartão de crédito</value>
+  </data>
+  <data name="INFORME_QTDE_DIAS" xml:space="preserve">
+    <value>Informe a quantidade de dias</value>
+  </data>
+  <data name="ESTORNO_PAGAMENTO" xml:space="preserve">
+    <value>Estorno de Pagamento</value>
+  </data>
+  <data name="CONTA_RECEBER" xml:space="preserve">
+    <value>Conta a Receber</value>
+  </data>
+  <data name="ESTORNO_REALIZADO" xml:space="preserve">
+    <value>Estorno Realizado</value>
+  </data>
+  <data name="ESTORNAR" xml:space="preserve">
+    <value>Estornar</value>
+  </data>
+  <data name="ESTORNO" xml:space="preserve">
+    <value>Estorno</value>
+  </data>
+  <data name="DATA_CANCELAMENTO" xml:space="preserve">
+    <value>Data de Cancelamento</value>
+  </data>
+  <data name="MOTIVO_ESTORNO" xml:space="preserve">
+    <value>Motivo do Estorno</value>
+  </data>
+  <data name="SERVICOS_AGENDADOS" xml:space="preserve">
+    <value>Serviços Agendados</value>
+  </data>
+  <data name="SERVICOS_NAO_EXECUTADOS" xml:space="preserve">
+    <value>Serviços não Executados</value>
+  </data>
+  <data name="SERVICOS_PARALISADOS" xml:space="preserve">
+    <value>Serviços Paralisados</value>
+  </data>
+  <data name="SERVICOS_SEM_AGENDAMENTO" xml:space="preserve">
+    <value>Serviços sem Agendamento</value>
+  </data>
+  <data name="INFORMEDATAPAGAMENTO" xml:space="preserve">
+    <value>Informe a Data de Pagamento</value>
+  </data>
+  <data name="INFORMEQTD" xml:space="preserve">
+    <value>Informe a Quantidade</value>
+  </data>
+  <data name="INFORMEVALORPAGO" xml:space="preserve">
+    <value>Informe o Valor Pago</value>
+  </data>
+  <data name="LISTA_GRUPO_CONTAFINANCEIRA" xml:space="preserve">
+    <value>Listagem Grupo Conta Financeira</value>
+  </data>
+  <data name="DATAEMISSAOMAIORQUEDATAVENC" xml:space="preserve">
+    <value>A data de emissão não pode ser maior que a data de vencimento</value>
+  </data>
+  <data name="PROCESSANDO" xml:space="preserve">
+    <value>Processando</value>
+  </data>
+  <data name="LISTAGEM_TRANSFERENCIA" xml:space="preserve">
+    <value>Listagem de Transferência</value>
+  </data>
+  <data name="AGUARDANDO_PROCESSAMENTO" xml:space="preserve">
+    <value>Aguardando Processamento</value>
+  </data>
+  <data name="SELECIONEPERIODO" xml:space="preserve">
+    <value>Selecione o período da recorrência</value>
+  </data>
+  <data name="CODIGO_COMPLEMENTAR" xml:space="preserve">
+    <value>Código Complementar</value>
+  </data>
+  <data name="EQUIPAMENTOS" xml:space="preserve">
+    <value>Equipamentos</value>
+  </data>
+  <data name="INFORMECONTA_FINANCEIRA" xml:space="preserve">
+    <value>Informe a conta financeira</value>
+  </data>
+  <data name="INFORMEQTD_PARCELA" xml:space="preserve">
+    <value>Informe a quantidade de parcelas</value>
+  </data>
+  <data name="INFORMEVALOR_INSTALACAO" xml:space="preserve">
+    <value>Informe o valor da instalação</value>
+  </data>
+  <data name="INFORMEVALOR_PLANO" xml:space="preserve">
+    <value>Informe o valor do plano</value>
+  </data>
+  <data name="NUM_OS" xml:space="preserve">
+    <value>Número da OS</value>
+  </data>
+  <data name="STATUS_OS" xml:space="preserve">
+    <value>Status da OS</value>
+  </data>
+  <data name="AGENDAMENTO" xml:space="preserve">
+    <value>Agendamento</value>
+  </data>
+  <data name="SLA_ATUAL" xml:space="preserve">
+    <value>SLA Atual</value>
+  </data>
+  <data name="EMISSAO_NOTAFISCAL" xml:space="preserve">
+    <value>Emissão de Nota Fiscal</value>
+  </data>
+  <data name="PROTOCOLO" xml:space="preserve">
+    <value>Protocolo</value>
+  </data>
+  <data name="GERAR" xml:space="preserve">
+    <value>Gerar</value>
+  </data>
+  <data name="REPROCESSAR" xml:space="preserve">
+    <value>Reprocessar</value>
+  </data>
+  <data name="CALCULADO" xml:space="preserve">
+    <value>Calculado</value>
+  </data>
+  <data name="AGUARDANDO_CALCULO" xml:space="preserve">
+    <value>Aguardando Calculo</value>
+  </data>
+  <data name="CALCULANDO" xml:space="preserve">
+    <value>Calculando</value>
+  </data>
+  <data name="CALCULAR" xml:space="preserve">
+    <value>Calcular</value>
+  </data>
+  <data name="PROCESSAR" xml:space="preserve">
+    <value>Processar</value>
+  </data>
+  <data name="RECALCULAR" xml:space="preserve">
+    <value>Recalcular</value>
+  </data>
+  <data name="FATURAMENTO_INTEGRAL" xml:space="preserve">
+    <value>Faturamento Integral</value>
+  </data>
+  <data name="FATURAMENTO_PARCIAL" xml:space="preserve">
+    <value>Faturamento Parcial</value>
+  </data>
+  <data name="ALTERARVENCIMENTO" xml:space="preserve">
+    <value>Alterar Vencimento</value>
+  </data>
+  <data name="CLIENTES" xml:space="preserve">
+    <value>Clientes</value>
+  </data>
+  <data name="CRIAR_FATURAMENTO_INTEGRAL" xml:space="preserve">
+    <value>Criar Faturamento Integral</value>
+  </data>
+  <data name="CRIAR_FATURAMENTO_PARCIAL" xml:space="preserve">
+    <value>Criar Faturamento Parcial</value>
+  </data>
+  <data name="FORMAS_PAGAMENTO" xml:space="preserve">
+    <value>Formas de Pagamento</value>
+  </data>
+  <data name="INTEGRAL" xml:space="preserve">
+    <value>Integral</value>
+  </data>
+  <data name="PARCIAL" xml:space="preserve">
+    <value>Parcial</value>
+  </data>
+  <data name="DATAHORA_ALTERACAO" xml:space="preserve">
+    <value>Data/Hora Alteração</value>
+  </data>
+  <data name="ID" xml:space="preserve">
+    <value>Id</value>
+  </data>
+  <data name="TIPO_CONTA" xml:space="preserve">
+    <value>Tipo de conta</value>
+  </data>
+  <data name="RECALCULAR_SELECIONADOS" xml:space="preserve">
+    <value>Recalcular Selecionados</value>
+  </data>
+  <data name="RECALCULAR_TODOS" xml:space="preserve">
+    <value>Recalcular Todos</value>
+  </data>
+  <data name="TIPO_FATURAMENTO" xml:space="preserve">
+    <value>Tipo de Faturamento</value>
+  </data>
+  <data name="CADASTRO_SUB_GRUPO_CONTACONTABIL" xml:space="preserve">
+    <value>SubGrupo de Conta Contábil</value>
+  </data>
+  <data name="RETIRAR_FORMA_PAGAMENTO" xml:space="preserve">
+    <value>Retirar Forma de Pagamento</value>
+  </data>
+  <data name="CADASTRO_SUBGRUPO_CONTAFINANCEIRA" xml:space="preserve">
+    <value>Sub Grupo Conta Financeira</value>
+  </data>
+  <data name="LISTA_SUBGRUPO_CONTAFINANCEIRA" xml:space="preserve">
+    <value>Listagem Sub Grupo Conta Financeira</value>
+  </data>
+  <data name="CADASTRO_SUBGRUPO_CENTROCUSTO" xml:space="preserve">
+    <value>Sub Grupo Centro de Custo</value>
+  </data>
+  <data name="SUBGRUPO_CENTROCUSTO" xml:space="preserve">
+    <value>Subgrupo Centro de Custo</value>
+  </data>
+  <data name="BOLETO_GERADO" xml:space="preserve">
+    <value>Boleto Gerado</value>
+  </data>
+  <data name="BOLETO_PENDENTE" xml:space="preserve">
+    <value>Boleto Pendente</value>
+  </data>
+  <data name="BOLETO_REGISTRADO" xml:space="preserve">
+    <value>Boleto Registrado</value>
+  </data>
+  <data name="ID_GRUPO" xml:space="preserve">
+    <value>Id Grupo</value>
+  </data>
+  <data name="INFORMECODIGO_GRUPO_CENTROCUSTO" xml:space="preserve">
+    <value>Informe Codigo Grupo Centro Custo</value>
+  </data>
+  <data name="INFORMEDESCRICAO_GRUPO_CENTROCUSTO" xml:space="preserve">
+    <value>Informe Descrição Grupo Centro Custo</value>
+  </data>
+  <data name="DIGITO_AGENCIA" xml:space="preserve">
+    <value>Digito Agência</value>
+  </data>
+  <data name="DIGITO_CONTA" xml:space="preserve">
+    <value>Digito Conta</value>
+  </data>
+  <data name="NOSSO_NUMERO" xml:space="preserve">
+    <value>Nosso Número</value>
+  </data>
+  <data name="BUSCAR_LANCAMENTO" xml:space="preserve">
+    <value>Buscar Lançamento</value>
+  </data>
+  <data name="NOVA_CONTA_PAGAR" xml:space="preserve">
+    <value>Nova Conta a Pagar</value>
+  </data>
+  <data name="NOVA_CONTA_RECEBER" xml:space="preserve">
+    <value>Nova Conta a Receber</value>
+  </data>
+  <data name="NOVA_TRANSFERENCIA" xml:space="preserve">
+    <value>Nova Transferência</value>
+  </data>
+  <data name="CONCILIACAO_BANCARIA" xml:space="preserve">
+    <value>Conciliação Bancária</value>
+  </data>
+  <data name="NOVA_CONCILIACAO" xml:space="preserve">
+    <value>Nova Conciliação</value>
+  </data>
+  <data name="CRIAR_CONCILIACAO" xml:space="preserve">
+    <value>Criar Conciliação</value>
+  </data>
+  <data name="ARQUIVO_OFX" xml:space="preserve">
+    <value>Arquivo OFX</value>
+  </data>
+  <data name="MOVIMENTACAO_REMOVIDA" xml:space="preserve">
+    <value>A movimentação foi removida com sucesso</value>
+  </data>
+  <data name="BAIXAR_ARQUIVO_REMESSA" xml:space="preserve">
+    <value>Baixar Arquivo de Remessa</value>
+  </data>
+  <data name="CANCELAR_CONTA_RECEBER" xml:space="preserve">
+    <value>Cancelar  Conta a Receber</value>
+  </data>
+  <data name="EMITIR_RECIBO" xml:space="preserve">
+    <value>Emitir Recibo</value>
+  </data>
+  <data name="ESTONAR_MOVIMENTO" xml:space="preserve">
+    <value>Estornar Movimento</value>
+  </data>
+  <data name="SEGUNDA_VIA_BOLETO" xml:space="preserve">
+    <value>2ª Via de Boleto</value>
+  </data>
+  <data name="MOVIMENTACAO_CONCILIADA" xml:space="preserve">
+    <value>Movimentação conciliada com sucesso</value>
+  </data>
+  <data name="BUSCAR_MOVIMENTACAO" xml:space="preserve">
+    <value>Buscar Movimentação</value>
+  </data>
+  <data name="CONTA_PAGAR_RECEBER" xml:space="preserve">
+    <value>Conta a Pagar ou Receber</value>
+  </data>
+  <data name="AJUDA" xml:space="preserve">
+    <value>Ajuda</value>
+  </data>
+  <data name="CONFIGURACOES" xml:space="preserve">
+    <value>Configurações</value>
+  </data>
+  <data name="INICIO" xml:space="preserve">
+    <value>Início</value>
+  </data>
+  <data name="RELATORIOS" xml:space="preserve">
+    <value>Relatórios</value>
+  </data>
+  <data name="BOLETOS_EMITIDOS" xml:space="preserve">
+    <value>Boletos Emitidos</value>
+  </data>
+  <data name="TOTAL_REGISTROS" xml:space="preserve">
+    <value>Total Registros</value>
+  </data>
+  <data name="PERFIL_DASHBOARD" xml:space="preserve">
+    <value>Perfil Dashboard</value>
+  </data>
+  <data name="BAIXAR_CONTA_RECEBER" xml:space="preserve">
+    <value>Baixar Conta a Receber</value>
+  </data>
+  <data name="DIGITE_MOTIVO_ESTORNO" xml:space="preserve">
+    <value>Digite o motivo para estorno?</value>
+  </data>
+  <data name="NAO_SERA_POSSIVEL_RETORNAR_ACAO" xml:space="preserve">
+    <value>Não será possível retornar esta ação!</value>
+  </data>
+  <data name="ESTORNAR_PAGAMENTO" xml:space="preserve">
+    <value>Estornar Pagamento</value>
+  </data>
+  <data name="CONTA_CANCELADA_NAO_PODE_SER_ESTORNADA" xml:space="preserve">
+    <value>A conta {0} já foi cancelada e não pode ser estornada</value>
+  </data>
+  <data name="CONTA_PAGA_NAO_PODE_SER_CANCELADA" xml:space="preserve">
+    <value>A conta {0} já foi paga e não pode ser cancelada</value>
+  </data>
+  <data name="CONTA_CANCELADA_NAO_PODE_BAIXAR" xml:space="preserve">
+    <value>A conta {0} já foi cancelada e não pode ser baixada</value>
+  </data>
+  <data name="SELECIONE_MODELO_RECIBO" xml:space="preserve">
+    <value>Selecione um modelo de recibo?</value>
+  </data>
+  <data name="CREDITO" xml:space="preserve">
+    <value>Crédito</value>
+  </data>
+  <data name="DEBITO" xml:space="preserve">
+    <value>Débito</value>
+  </data>
+  <data name="RECORRENCIA" xml:space="preserve">
+    <value>Recorrência</value>
+  </data>
+  <data name="CONTA_JA_BAIXADA" xml:space="preserve">
+    <value>Conta {0} já foi baixada, não pode ser baixada novamente</value>
+  </data>
+  <data name="CONTA_NAO_FOI_PAGA" xml:space="preserve">
+    <value>Conta {0} não foi paga, não pode ser estornada</value>
+  </data>
+  <data name="BAIXAR_CONTA_PAGAR" xml:space="preserve">
+    <value>Baixar Conta a Pagar</value>
+  </data>
+  <data name="CANCELAR_CONTA_PAGAR" xml:space="preserve">
+    <value>Cancelar Conta a Pagar</value>
+  </data>
+  <data name="GERAR_NOTA_FISCAL" xml:space="preserve">
+    <value>Gerar Nota Fiscal</value>
+  </data>
+  <data name="IMPRIMIR" xml:space="preserve">
+    <value>Imprimir</value>
+  </data>
+  <data name="FLUXO_CAIXA_SINTETICO" xml:space="preserve">
+    <value>Fluxo de Caixa Sintético</value>
+  </data>
+  <data name="AGUARDANDO" xml:space="preserve">
+    <value>Aguardando</value>
+  </data>
+  <data name="ANALISE" xml:space="preserve">
+    <value>Em análise</value>
+  </data>
+  <data name="CONTESTADO" xml:space="preserve">
+    <value>Contestado</value>
+  </data>
+  <data name="ESTORNADO" xml:space="preserve">
+    <value>Estornado</value>
+  </data>
+  <data name="RECEBIDO" xml:space="preserve">
+    <value>Recebido</value>
+  </data>
+  <data name="RECEBIDO_MANUAL" xml:space="preserve">
+    <value>Recebido manualmente</value>
+  </data>
+  <data name="RECUSADO" xml:space="preserve">
+    <value>Recusado</value>
+  </data>
+  <data name="FLUXO_CAIXA_ANALITICO" xml:space="preserve">
+    <value>Fluxo de Caixa Analítico</value>
+  </data>
+  <data name="MOVIMENTO" xml:space="preserve">
+    <value>Movimento</value>
+  </data>
+  <data name="CENTRO_CUSTO_" xml:space="preserve">
+    <value>Centro de Custo</value>
+  </data>
+  <data name="EXIBIR_LANCAMENTOS_PREVISTOS" xml:space="preserve">
+    <value>Exibir Lançamentos Previstos?</value>
+  </data>
+  <data name="TODAS_LOCALIDADES" xml:space="preserve">
+    <value>Todas Localidades</value>
+  </data>
+  <data name="MOTIVO_CREDITO" xml:space="preserve">
+    <value>Motivo Crédito</value>
+  </data>
+  <data name="APROVAR" xml:space="preserve">
+    <value>Aprovar</value>
+  </data>
+  <data name="APROVADO" xml:space="preserve">
+    <value>Aprovado</value>
+  </data>
+  <data name="PENDENTE" xml:space="preserve">
+    <value>Pendente</value>
+  </data>
+  <data name="MOVIMENTACOES_FINANCEIRAS" xml:space="preserve">
+    <value>Movimentações Financeiras</value>
+  </data>
+  <data name="CONTAS_PAGAR" xml:space="preserve">
+    <value>Contas a Pagar</value>
+  </data>
+  <data name="CONTAS_RECEBER" xml:space="preserve">
+    <value>Contas a Receber</value>
+  </data>
+  <data name="MOV_FINANCEIRAS" xml:space="preserve">
+    <value>Mov. Financeiras</value>
+  </data>
+  <data name="GERAR_CREDITO" xml:space="preserve">
+    <value>Gerar Crédito</value>
+  </data>
+  <data name="DATAHORA_CRIACAO" xml:space="preserve">
+    <value>Data/Hora Criação</value>
+  </data>
+  <data name="SEM_ALTERACAO" xml:space="preserve">
+    <value>Sem Alteração</value>
+  </data>
+  <data name="CODIGO_CADASTRADO" xml:space="preserve">
+    <value>Código já cadastrado no sistema</value>
+  </data>
+  <data name="LISTAGEM_SUBGRUPO_CONTACONTABIL" xml:space="preserve">
+    <value>Listagem de Sub Grupo de Conta Contábil</value>
+  </data>
+  <data name="IMPRIMIR_BOLETO" xml:space="preserve">
+    <value>Imprimir Boleto</value>
+  </data>
+  <data name="ATIVAR_SUBGRUPO_GRUPO_INATIVO" xml:space="preserve">
+    <value>Para Para Ativar o Subgrupo é necessário ter o grupo ativo.</value>
+  </data>
+  <data name="DESCRICAO_OU_GRUPO" xml:space="preserve">
+    <value>Descrição ou Grupo</value>
+  </data>
+  <data name="JUROS_ATRASO" xml:space="preserve">
+    <value>Juros por atraso</value>
+  </data>
+  <data name="MULTA" xml:space="preserve">
+    <value>Multa</value>
+  </data>
+  <data name="DIAS_COMPENSACAO" xml:space="preserve">
+    <value>Dias Compensação</value>
+  </data>
+  <data name="RECORRENCIA_CONFIRAMADA" xml:space="preserve">
+    <value>Recorrência Ativada! Grave seu Registro para gerar Recorrência.</value>
+  </data>
+  <data name="CLIENTES_FATURAMENTO" xml:space="preserve">
+    <value>Clientes Faturados</value>
+  </data>
+  <data name="COMPROMISSOS_DIA" xml:space="preserve">
+    <value>Compromissos do Dia</value>
+  </data>
+  <data name="CONTAS_PAGAR_CONTAS_RECEBER" xml:space="preserve">
+    <value>Contas a Pagar e Contas a Receber</value>
+  </data>
+  <data name="CONTAS_PAGAS_FORA_PRAZO" xml:space="preserve">
+    <value>Contas Pagas Fora do Prazo</value>
+  </data>
+  <data name="CONTAS_PAGAS_NO_PRAZO" xml:space="preserve">
+    <value>Contas Pagas no Prazo</value>
+  </data>
+  <data name="LISTAGEM_CREDITO" xml:space="preserve">
+    <value>Listagem de Crédito</value>
+  </data>
+  <data name="CREDITO_JA_PROCESSADO" xml:space="preserve">
+    <value>Não foi possível alterar creditos já pocessados</value>
+  </data>
+  <data name="VENCIMENTO_JA_ADICIONADO" xml:space="preserve">
+    <value>Vencimento já Adicionado</value>
+  </data>
+  <data name="DASHBOARD_INICIAL" xml:space="preserve">
+    <value>Dashboard Inicial</value>
+  </data>
+  <data name="RECURSO_ESTA_INATIVO" xml:space="preserve">
+    <value>{0} está Inativo. Tente ativar o para prosseguir.</value>
+  </data>
+  <data name="VALOR_REALIZADO" xml:space="preserve">
+    <value>Valor Realizado</value>
+  </data>
+  <data name="DIFERENCA" xml:space="preserve">
+    <value>Diferença</value>
+  </data>
+  <data name="DIFERENCA_PORCENTAGEM" xml:space="preserve">
+    <value>Percentual Diferença </value>
+  </data>
+  <data name="PERCENTUAL_PREVISTO" xml:space="preserve">
+    <value>Percentual Previsto</value>
+  </data>
+  <data name="PERCIGUALSOMIMP" xml:space="preserve">
+    <value>Percentual Tem Que Ser Igual a Soma do Icms, Pis, Cofins, Iss</value>
+  </data>
+  <data name="DATA_BAIXA" xml:space="preserve">
+    <value>Data da Baixa</value>
+  </data>
+  <data name="DATA_PREVISTA" xml:space="preserve">
+    <value>Data Prevista</value>
+  </data>
+  <data name="CONTA_MOVIMENTADA" xml:space="preserve">
+    <value>Conta Movimentada</value>
+  </data>
+  <data name="EXTRATO_CONTA" xml:space="preserve">
+    <value>Extrato de Conta</value>
+  </data>
+  <data name="A_PAGAR" xml:space="preserve">
+    <value>A Pagar</value>
+  </data>
+  <data name="A_RECEBER" xml:space="preserve">
+    <value>A Receber</value>
+  </data>
+  <data name="DATA_RECEBIMENTO_MENOR_EMISSAO" xml:space="preserve">
+    <value>Data de Recebimento menor que Emissão</value>
+  </data>
+  <data name="DATA_VENCIMENTO_MENOR_EMISSAO" xml:space="preserve">
+    <value>Data de Vencimento menor que Emissão</value>
+  </data>
+  <data name="DOCUMENTO_X_JA_LANCADO" xml:space="preserve">
+    <value>Documento {0} já lançado no sistema</value>
+  </data>
+  <data name="SEMANA" xml:space="preserve">
+    <value>Semana</value>
+  </data>
+  <data name="PROGRAMADO" xml:space="preserve">
+    <value>Programado</value>
+  </data>
+  <data name="REALIZADO" xml:space="preserve">
+    <value>Realizado</value>
+  </data>
+  <data name="TRANSFERENCIA_NAO_FOI_ESTORNADA" xml:space="preserve">
+    <value>Nem todas as Transferências foram estornadas.</value>
+  </data>
+  <data name="STATUS_INICIAL" xml:space="preserve">
+    <value>Status Inicial</value>
+  </data>
+  <data name="PERCENTUAL_REALIZADO" xml:space="preserve">
+    <value>Percentual Realizado</value>
+  </data>
+  <data name="NOME_CLIENTE" xml:space="preserve">
+    <value>Nome do Cliente</value>
+  </data>
+  <data name="DESCONCILIAR" xml:space="preserve">
+    <value>Desconciliar</value>
+  </data>
+  <data name="DESEJA_CANCELAR_RECORRENTES" xml:space="preserve">
+    <value>Deseja Cancelar Transferências Recorrentes?</value>
+  </data>
+  <data name="DATA_SALDO_INICIAL" xml:space="preserve">
+    <value>Data Saldo Inicial</value>
+  </data>
+  <data name="FUNCIONARIO" xml:space="preserve">
+    <value>Funcionário</value>
+  </data>
+  <data name="EM_PROCESSO" xml:space="preserve">
+    <value>Em Processo</value>
+  </data>
+  <data name="ENCERRADA" xml:space="preserve">
+    <value>Encerrada</value>
+  </data>
+  <data name="NEGOCIADO" xml:space="preserve">
+    <value>Negociado</value>
+  </data>
+  <data name="CONTAS_DEBITO" xml:space="preserve">
+    <value>Contas em Débito</value>
+  </data>
+  <data name="NEGOCIACAO" xml:space="preserve">
+    <value>Negociação</value>
+  </data>
+  <data name="A_VISTA" xml:space="preserve">
+    <value>A Vista</value>
+  </data>
+  <data name="CRIAR_NEGOCIACAO" xml:space="preserve">
+    <value>Criar Negociação</value>
+  </data>
+  <data name="PARCELADO" xml:space="preserve">
+    <value>Parcelado</value>
+  </data>
+  <data name="VALOR_DIVIDA" xml:space="preserve">
+    <value>Valor da Dívida</value>
+  </data>
+  <data name="VALOR_NEGOCIADO" xml:space="preserve">
+    <value>Valor Negociado</value>
+  </data>
+  <data name="CARTEIRA" xml:space="preserve">
+    <value>Carteira</value>
+  </data>
+  <data name="ID_CARTEIRA_WIDEPAY" xml:space="preserve">
+    <value>Id Carteira Wide Pay</value>
+  </data>
+  <data name="TOKEN_AUTENTICACAO_WIDEPAY" xml:space="preserve">
+    <value>Token de Autenticação do Wide Pay</value>
+  </data>
+  <data name="UTILIZAR_TRANSFERENCIA" xml:space="preserve">
+    <value>Utilizar Transferência</value>
+  </data>
+  <data name="CONFIGURACOES_EMPRESA" xml:space="preserve">
+    <value>Configurações da Empresa</value>
+  </data>
+  <data name="QTDE_PARCELAS" xml:space="preserve">
+    <value>Qtde. Parcelas</value>
+  </data>
+  <data name="TEM_RATEIO" xml:space="preserve">
+    <value>Tem Rateio</value>
+  </data>
+  <data name="ENVIAR EMAIL" xml:space="preserve">
+    <value>Enviar Email</value>
+  </data>
+  <data name="CLIENTES_A_FATURAR" xml:space="preserve">
+    <value>Clientes a Faturar</value>
+  </data>
+  <data name="CONTAS_PAGAR_BAIXADAS" xml:space="preserve">
+    <value>Contas a Pagar Baixadas</value>
+  </data>
+  <data name="CONTAS_RECEBER_BAIXADAS" xml:space="preserve">
+    <value>Contas a Receber Baixadas</value>
+  </data>
+  <data name="TOTAL_CLIENTES" xml:space="preserve">
+    <value>Total de Clientes</value>
+  </data>
+  <data name="VALOR_CONTAS_PAGAR_ABERTAS" xml:space="preserve">
+    <value>Valor das Contas a Pagar Abertas</value>
+  </data>
+  <data name="VALOR_CONTAS_RECEBER_ABERTAS" xml:space="preserve">
+    <value>Valor das Contas a Receber Abertas</value>
+  </data>
+  <data name="RATEIO_FILIAL" xml:space="preserve">
+    <value>Rateio por Filial</value>
+  </data>
+  <data name="QTD_ITENS_CONCILIAR" xml:space="preserve">
+    <value>Qtd de itens a conciliar</value>
+  </data>
+  <data name="CONTAS_RATEADAS" xml:space="preserve">
+    <value>Contas Rateadas</value>
+  </data>
+  <data name="CONTAS_RATEAR" xml:space="preserve">
+    <value>Contas a Ratear</value>
+  </data>
+  <data name="CADASTRO_RATEIO_FILIAL" xml:space="preserve">
+    <value>Cadastro de Rateio de Filial</value>
+  </data>
+  <data name="OBSERVACAO" xml:space="preserve">
+    <value>Observação</value>
+  </data>
+  <data name="QTD_ITENS_CONCILIADO" xml:space="preserve">
+    <value>Qtde de itens conciliados</value>
+  </data>
+  <data name="MSG_NAO_UTILIZAR_CONTAFINANCEIRA_EMPRESAFILIAL" xml:space="preserve">
+    <value>No momento em que esta configuração é desligada, o sistema não permitirá vincular empresa e filial para conta financeira. Além disso, todas as contas financeiras perderão os vínculos com empresa e filial.</value>
+  </data>
+  <data name="CLASSIFICACAO" xml:space="preserve">
+    <value>Classificação</value>
+  </data>
+  <data name="UTILIZAR_CONTAFINANCEIRA_EMPRESAFILIAL" xml:space="preserve">
+    <value>Utilizar plano de contas financeiro por Empresa e Filial</value>
+  </data>
+  <data name="CUSTO_VENDAS" xml:space="preserve">
+    <value>Custo das Vendas</value>
+  </data>
+  <data name="MSG_UTILIZAR_CONTAFINANCEIRA_EMPRESAFILIAL" xml:space="preserve">
+    <value>No momento em que esta configuração é ligada, o sistema permitirá vincular empresa e filial para conta financeira.</value>
+  </data>
+  <data name="DEDUCOES_RECEITA_BRUTA" xml:space="preserve">
+    <value>Deduções Receita Bruta</value>
+  </data>
+  <data name="UTILIZAR_AUTORIZACAO_PAGAMENTO" xml:space="preserve">
+    <value>Utilizar Autorização de Pagamento</value>
+  </data>
+  <data name="DESPESAS_FINANCEIRAS_LIQUIDAS" xml:space="preserve">
+    <value>Despesas Financeiras Líquidas</value>
+  </data>
+  <data name="DESPESAS_OPERACIONAIS" xml:space="preserve">
+    <value>Despesas Operacionais</value>
+  </data>
+  <data name="OUTRAS_RECEITAS_E_DESPESAS" xml:space="preserve">
+    <value>Outras Receitas e Despesas</value>
+  </data>
+  <data name="PROVISAO_IR_CSLL" xml:space="preserve">
+    <value>Provisão para IR e CSLL</value>
+  </data>
+  <data name="PRO_LABORE" xml:space="preserve">
+    <value>Pró Labore</value>
+  </data>
+  <data name="RECEITA_OPERACIONAL_BRUTA" xml:space="preserve">
+    <value>Receita Operacional Bruta</value>
+  </data>
+  <data name="VISIVEL_DRE" xml:space="preserve">
+    <value>Visível no Demonstrativo Financeiro do Período</value>
+  </data>
+  <data name="CAIXA" xml:space="preserve">
+    <value>Caixa</value>
+  </data>
+  <data name="COMPETENCIA" xml:space="preserve">
+    <value>Competência</value>
+  </data>
+  <data name="LUCRO_LIQUIDO_ANTES_PARTICIPACOES" xml:space="preserve">
+    <value>Lucro Líquido Antes das Participações</value>
+  </data>
+  <data name="RESULTADO_LIQUIDO_EXERCICIO" xml:space="preserve">
+    <value>Resultado Líquido do Exercício</value>
+  </data>
+  <data name="RESULTADO_OPERACIONAL_ANTES_IR_CSLL" xml:space="preserve">
+    <value>Resultado Operacional antes do IR E CSLL</value>
+  </data>
+  <data name="RESULTADO_OPERACIONAL_BRUTO" xml:space="preserve">
+    <value>Resultado Operacional Bruto</value>
+  </data>
+  <data name="RECEITA_OPERACIONAL_LIQUIDA" xml:space="preserve">
+    <value>Receita Opercional Líquida</value>
+  </data>
+  <data name="ID_CONTA" xml:space="preserve">
+    <value>ID Conta</value>
+  </data>
+  <data name="ULTIMO_PAGAMENTO" xml:space="preserve">
+    <value>Último Pagamento</value>
+  </data>
+  <data name="SALDO_PAGAR" xml:space="preserve">
+    <value>Saldo a Pagar</value>
+  </data>
+  <data name="DATAHORA_BAIXA" xml:space="preserve">
+    <value>Data/Hora Baixa</value>
+  </data>
+  <data name="USUARIO_ALTERACAO" xml:space="preserve">
+    <value>Usuário Alteração</value>
+  </data>
+  <data name="USUARIO_BAIXA" xml:space="preserve">
+    <value>Usuário Baixa</value>
+  </data>
+  <data name="USUARIO_CRIACAO" xml:space="preserve">
+    <value>Usuário Criação</value>
+  </data>
+  <data name="FAVORECIDO" xml:space="preserve">
+    <value>Favorecido</value>
+  </data>
+  <data name="OUTRAS_DESPESAS" xml:space="preserve">
+    <value>Outras Despesas</value>
+  </data>
+  <data name="OUTRAS_RECEITAS" xml:space="preserve">
+    <value>Outras Receitas</value>
+  </data>
+  <data name="REGIME" xml:space="preserve">
+    <value>Regime</value>
+  </data>
+  <data name="DEMONSTRATIVO_RESULTADO_EXERCICIO" xml:space="preserve">
+    <value>Demonstrativo Financeiro do Período</value>
+  </data>
+  <data name="CONDICAO" xml:space="preserve">
+    <value>Condição</value>
+  </data>
+  <data name="EMPRESA_ORIGEM" xml:space="preserve">
+    <value>Empresa Origem</value>
+  </data>
+  <data name="EMPRESA_PAGADORA" xml:space="preserve">
+    <value>Empresa Pagadora</value>
+  </data>
+  <data name="FILIAL_ORIGEM" xml:space="preserve">
+    <value>Filial Origem</value>
+  </data>
+  <data name="FILIAL_PAGADORA" xml:space="preserve">
+    <value>Filial Pagadora</value>
+  </data>
+  <data name="NUMERO_CHEQUE" xml:space="preserve">
+    <value>Nº Cheque</value>
+  </data>
+  <data name="LISTAGEM_GRUPO_CENTROCUSTO" xml:space="preserve">
+    <value>Listagem Grupo Centro de Custo</value>
+  </data>
+  <data name="EMPRESA_ORIG" xml:space="preserve">
+    <value>Empresa Origem</value>
+  </data>
+  <data name="FILIAL_ORIG" xml:space="preserve">
+    <value>Filial Origem</value>
+  </data>
+  <data name="EMPRESA_RECEB" xml:space="preserve">
+    <value>Empresa Recebedora</value>
+  </data>
+  <data name="FILIAL_RECEB" xml:space="preserve">
+    <value>Filial Recebedora</value>
+  </data>
+  <data name="N_DOCUMENTO" xml:space="preserve">
+    <value>Nº do Documento</value>
+  </data>
+  <data name="ULTIMO_RECEBIMENTO" xml:space="preserve">
+    <value>Último Recebimento</value>
+  </data>
+  <data name="SALDO_RECEBER" xml:space="preserve">
+    <value>Saldo a Receber</value>
+  </data>
+  <data name="PERFIL_AUTORIZACAO" xml:space="preserve">
+    <value>Perfil Autorizacao</value>
+  </data>
+  <data name="CADASTRO_PERFIL_AUTORIZACAO" xml:space="preserve">
+    <value>Cadastro de Perfil de Autorizacao</value>
+  </data>
+  <data name="PAINEL_PERFIL_AUTORIZACAO" xml:space="preserve">
+    <value>Painel de Perfil de Autorizacao</value>
+  </data>
+  <data name="A_PARTIR" xml:space="preserve">
+    <value>A partir</value>
+  </data>
+  <data name="ENTRE" xml:space="preserve">
+    <value>entre</value>
+  </data>
+  <data name="VALOR_FINAL" xml:space="preserve">
+    <value>Valor Final</value>
+  </data>
+  <data name="DEDUCAO_MATERIAL" xml:space="preserve">
+    <value>Dedução Material</value>
+  </data>
+  <data name="VALOR_INICIAL" xml:space="preserve">
+    <value>Valor Inicial</value>
+  </data>
+  <data name="DESCONTO" xml:space="preserve">
+    <value>Desconto</value>
+  </data>
+  <data name="FAIXA" xml:space="preserve">
+    <value>Faixa</value>
+  </data>
+  <data name="IMPOSTO_RETIDO" xml:space="preserve">
+    <value>Imposto Retido</value>
+  </data>
+  <data name="PAINEL_APROVACAO_PAGAMENTO" xml:space="preserve">
+    <value>Painel de Aprovação de Pagamento</value>
+  </data>
+  <data name="MES_COMPETENCIA" xml:space="preserve">
+    <value>Mês Competência</value>
+  </data>
+  <data name="MUNICIPIO" xml:space="preserve">
+    <value>Município</value>
+  </data>
+  <data name="NATUREZASERVICO" xml:space="preserve">
+    <value>Natureza de Serviço</value>
+  </data>
+  <data name="FOLHA_CHEQUE" xml:space="preserve">
+    <value>Folha de Cheque</value>
+  </data>
+  <data name="JUROS_MORA" xml:space="preserve">
+    <value>Juros/Mora</value>
+  </data>
+  <data name="DESEJA_UTILIZAR_RECORRENCIA" xml:space="preserve">
+    <value>Deseja Utilizar Recorrência</value>
+  </data>
+  <data name="VALOR_PAGO_MAIOR_QUE_LIQUIDO" xml:space="preserve">
+    <value>Valor pago maior que liquido</value>
+  </data>
+  <data name="PAINEL_AUTORIZACAO_PAGAMENTO" xml:space="preserve">
+    <value>Painel de Autorizacao de Pagamento</value>
+  </data>
+  <data name="AUTORIZAR_MULTIPLOS" xml:space="preserve">
+    <value>Autorizar Múltiplas Contas</value>
+  </data>
+  <data name="SALDO_AUTORIZADO" xml:space="preserve">
+    <value>Saldo Autorizado</value>
+  </data>
+  <data name="SALDO_AUTORIZAR" xml:space="preserve">
+    <value>Saldo a Autorizar</value>
+  </data>
+  <data name="VALOR_AUTORIZAR" xml:space="preserve">
+    <value>Valor Autorizar</value>
+  </data>
+  <data name="PERIODO_VENCIMENTO" xml:space="preserve">
+    <value>Período de Vencimento</value>
+  </data>
+  <data name="VALORFINAL_MAIOR_VALORINICIAL" xml:space="preserve">
+    <value>O valor final não pode ser maior que o valor inicial.</value>
+  </data>
+  <data name="AUTORIZACOES_PAGAMENTO" xml:space="preserve">
+    <value>Autorizações de Pagamentos</value>
+  </data>
+  <data name="CENTRO_CUSTO_JA_VINCULADO" xml:space="preserve">
+    <value>Centro de Custo já está vinculado ao perfil.</value>
+  </data>
+  <data name="CONTA_FINANCEIRA_JA_VINCULADA" xml:space="preserve">
+    <value>Conta Financeira já está vinculada ao perfil.</value>
+  </data>
+  <data name="EMPRESAFILIAL_JA_VINCULADA" xml:space="preserve">
+    <value>Empresa/Filial já está vinculada ao perfil.</value>
+  </data>
+  <data name="NAO_PREENCHEU_CENTRO_CUSTO" xml:space="preserve">
+    <value>Você não preencheu centro de custo, deseja associar todos os centros de custo deste subgrupo?</value>
+  </data>
+  <data name="NAO_PREENCHEU_CONTA_FINANCEIRA" xml:space="preserve">
+    <value>Você não preencheu conta financeira, deseja associar todas as contas deste subgrupo?</value>
+  </data>
+  <data name="NAO_PREENCHEU_FILIAL" xml:space="preserve">
+    <value>Você não preencheu filial, deseja associar todas as filiais desta empresa?</value>
+  </data>
+  <data name="NAO_PREENCHEU_SUBGRUPO_CENTRO_CUSTO" xml:space="preserve">
+    <value>Você não preencheu subgrupo de centro de custo, deseja associar todos os centros de custo deste grupo?</value>
+  </data>
+  <data name="NAO_PREENCHEU_SUBGRUPO_CONTA_FINANCEIRA" xml:space="preserve">
+    <value>Você não preencheu subgrupo de conta financeira, deseja associar todas as contas deste grupo?</value>
+  </data>
+  <data name="USUARIO_JA_VINCULADO" xml:space="preserve">
+    <value>Usuario já está vinculado ao perfil.</value>
+  </data>
+  <data name="AUTORIZADO_POR" xml:space="preserve">
+    <value>Autorizado Por</value>
+  </data>
+  <data name="DATA_APROVACAO" xml:space="preserve">
+    <value>Data Aprovação</value>
+  </data>
+  <data name="VALOR_AUTORIZADO" xml:space="preserve">
+    <value>Valor Autorizado</value>
+  </data>
+  <data name="DATAEMISSAOMAIORQUEDATAPAGTO" xml:space="preserve">
+    <value>A data de emissão não pode ser maior que a data de pagamento</value>
+  </data>
+  <data name="COMPENSADO" xml:space="preserve">
+    <value>Compensado</value>
+  </data>
+  <data name="EMITIDO" xml:space="preserve">
+    <value>Emitido</value>
+  </data>
+  <data name="NAO_COMPENSADO" xml:space="preserve">
+    <value>Não Compensaado</value>
+  </data>
+  <data name="NAO_EMITIDO" xml:space="preserve">
+    <value>Não Emitido</value>
+  </data>
+  <data name="LISTAGEM_CHEQUE" xml:space="preserve">
+    <value>Listagem de Cheque</value>
+  </data>
+  <data name="CADASTRAR_CHEQUE" xml:space="preserve">
+    <value>Cadastrar Cheque</value>
+  </data>
+  <data name="DATA_PREVISTA_COMPENSACAO" xml:space="preserve">
+    <value>Data Prevista de Compensação</value>
+  </data>
+  <data name="DATA_REAL_COMPENSACAO" xml:space="preserve">
+    <value>Data Real de Compensação</value>
+  </data>
+  <data name="NUMERO_FINAL" xml:space="preserve">
+    <value>Número Final</value>
+  </data>
+  <data name="NUMERO_FOLHAS" xml:space="preserve">
+    <value>Números de folhas</value>
+  </data>
+  <data name="PRE_DATADO" xml:space="preserve">
+    <value>Pré-Datado</value>
+  </data>
+  <data name="ULTIMO_CHQEUE_CADASTRO" xml:space="preserve">
+    <value>Ultimo Cheque Cadastrado</value>
+  </data>
+  <data name="CANCELAR_CHEQUE" xml:space="preserve">
+    <value>Cancelar Cheque</value>
+  </data>
+  <data name="SALDO_APAGAR" xml:space="preserve">
+    <value>Saldo a Pagar</value>
+  </data>
+  <data name="DESEJA_CANCELAR_CHEQUES" xml:space="preserve">
+    <value>Tem Certeza que deseja cancelar cheques ?</value>
+  </data>
+  <data name="MOTIVO_CANCELAMENTO" xml:space="preserve">
+    <value>Motivo Cancelamento</value>
+  </data>
+  <data name="AGUARDANDO_COMPENSACAO" xml:space="preserve">
+    <value>Aguardando Compensação</value>
+  </data>
+  <data name="COMPENSAR" xml:space="preserve">
+    <value>Compensar</value>
+  </data>
+  <data name="COMPENSAR_PAGAMENTO" xml:space="preserve">
+    <value>Compensar Pagamento</value>
+  </data>
+  <data name="PAGAMENTO_NAO_ENCONTRADO" xml:space="preserve">
+    <value>Pagamento não encotrado</value>
+  </data>
+  <data name="EX_VALOR_AUTORIZADOEXCEDIDO" xml:space="preserve">
+    <value>Esta conta não possui autorização de pagamento ou o valor autorizado para pagamento é menor que o valor informado. Valor autorizado {0}</value>
+  </data>
+  <data name="RECURSO_ESTA_CANCELADO" xml:space="preserve">
+    <value>{0} está Cancelado. Tente ativar o para prosseguir.</value>
+  </data>
+  <data name="VALOR_MAIOR_QUE_SALDO" xml:space="preserve">
+    <value>O valor recebido não pode ser maior do que o saldo.</value>
+  </data>
+  <data name="PAGAMENTOS" xml:space="preserve">
+    <value>Pagamentos</value>
+  </data>
+  <data name="PAGAMENTOEXTORNADO" xml:space="preserve">
+    <value>Pagamento Extornado</value>
+  </data>
+  <data name="CONTA_NAO_TEM_PAGAMENTOS" xml:space="preserve">
+    <value>A conta {0} não pode ser estornada porque ela não possui pagamentos</value>
+  </data>
+  <data name="BAIXAR_MULTIPLASCONTA_PAGAR" xml:space="preserve">
+    <value>Baixar Multiplas Contas</value>
+  </data>
+  <data name="EX_CP_DATAEMISSAO_DT_PAGAR" xml:space="preserve">
+    <value>Não foi possível baixar a conta {0}. Data de emissão não pode ser maior que a data de recebimento</value>
+  </data>
+  <data name="ORDEM_RECORRENCIA" xml:space="preserve">
+    <value>Ordem Recorrência</value>
+  </data>
+  <data name="TIPO_PRAZO" xml:space="preserve">
+    <value>Tipo Prazo</value>
+  </data>
+  <data name="CHEQUE_ESTA_EMITIDO_OU_CANCELADO" xml:space="preserve">
+    <value>Cheque já foi emitido ou está cancelado.</value>
+  </data>
+  <data name="LOG" xml:space="preserve">
+    <value>Log</value>
+  </data>
+  <data name="LOGDE" xml:space="preserve">
+    <value>Log de {0}</value>
+  </data>
+  <data name="RATEIOS" xml:space="preserve">
+    <value>Rateios</value>
+  </data>
+  <data name="DUPLICIDADE_CHEQUE" xml:space="preserve">
+    <value>Não pode haver duplicidade do número do cheque em uma mesma conta bancária.Tente usar cheque com outro número.</value>
+  </data>
+  <data name="CHEQUE_JA_UTILIZADO" xml:space="preserve">
+    <value>Cheque já está sendo utilizado em outra conta ou pagamento.</value>
+  </data>
+  <data name="EMPRESA_RECEBEDORA" xml:space="preserve">
+    <value>Empresa Recebedora</value>
+  </data>
+  <data name="FILIAL_RECEBEDORA" xml:space="preserve">
+    <value>Filial Recebedora</value>
+  </data>
+  <data name="CFOP" xml:space="preserve">
+    <value>CFOP</value>
+  </data>
+  <data name="PAINELNATUREZASERVICO" xml:space="preserve">
+    <value>Listagem de Natureza de Serviço</value>
+  </data>
+  <data name="PERCENTUAL_MATERIAL" xml:space="preserve">
+    <value>Percentual de Material</value>
+  </data>
+  <data name="RETENCAO_CONTRATO" xml:space="preserve">
+    <value>Retenção do Contrato</value>
+  </data>
+  <data name="CADASTRONATUREZASERVICO" xml:space="preserve">
+    <value>Natureza de Serviço</value>
+  </data>
+  <data name="CODIGO_NATUREZASERVICO" xml:space="preserve">
+    <value>Código de Natureza do Serviço</value>
+  </data>
+  <data name="TEXTO_NOTAFISCAL" xml:space="preserve">
+    <value>Informações Complementares na Nota Fiscal</value>
+  </data>
+  <data name="CADASTROIMPOSTO" xml:space="preserve">
+    <value>Imposto</value>
+  </data>
+  <data name="CADASTRONATUREZA_SERVICO_IMPOSTO" xml:space="preserve">
+    <value>Cadastar Base de Cálculo de Retenção de Imposto</value>
+  </data>
+  <data name="DEDUZIR_MATERIAL_" xml:space="preserve">
+    <value>Deduzir Material?</value>
+  </data>
+  <data name="DEDUZIR_VALOR_LIQUIDO_" xml:space="preserve">
+    <value>Deduzir do Valor Liquido ?</value>
+  </data>
+  <data name="IMPOSTO" xml:space="preserve">
+    <value>Imposto</value>
+  </data>
+  <data name="NATUREZASERVICO_IMPOSTO" xml:space="preserve">
+    <value>Base de Cálculo de Retenção de Imposto</value>
+  </data>
+  <data name="PAINELIMPOSTO" xml:space="preserve">
+    <value>Listagem de Impostos</value>
+  </data>
+  <data name="PAINELNATUREZA_SERVICO_IMPOSTO" xml:space="preserve">
+    <value>Base de Cálculo de Retenção de Imposto</value>
+  </data>
+  <data name="CADASTRO" xml:space="preserve">
+    <value>Cadastro</value>
+  </data>
+  <data name="_JA_CADASTRADO" xml:space="preserve">
+    <value>{0} já cadastrado</value>
+  </data>
+  <data name="FORMA_PAGAMENTO_PREVISTA" xml:space="preserve">
+    <value>Forma de Pagamento Prevista</value>
+  </data>
+  <data name="DESEJA_PROCEGUIR_PAGAMENTO_PACIAL" xml:space="preserve">
+    <value>Deseja prosseguir com o recebimento parcial e manter a conta em aberto?</value>
+  </data>
+  <data name="DESEJA_PROCEGUIR_RECEBIMENTO_PACIAL" xml:space="preserve">
+    <value>Deseja prosseguir com o recebimento parcial e manter a conta em aberto?</value>
+  </data>
+  <data name="VAL_PAGO_MENOR_VL_LIQUIDO" xml:space="preserve">
+    <value>O Valor Pago informado é menor que o valor líquido da conta</value>
+  </data>
+  <data name="VAL_RECEBIDO_MENOR_VL_LIQUIDO" xml:space="preserve">
+    <value>O Valor Recebido informado é menor que o valor líquido da conta</value>
+  </data>
+  <data name="RELATORIO_CONTASRECEBIDAS_ANALITICO" xml:space="preserve">
+    <value>Relatório Contas Recebidas Analítico</value>
+  </data>
+  <data name="AGRUPAR_POR" xml:space="preserve">
+    <value>Agrupar Por</value>
+  </data>
+  <data name="CONTAS_RECEBIDAS" xml:space="preserve">
+    <value>Contas Recebidas</value>
+  </data>
+  <data name="EMITIDO_POR_EM_AS" xml:space="preserve">
+    <value>Emitido por {0} em {1} às {2}</value>
+  </data>
+  <data name="RELATORIO_AGRUPADO_POR" xml:space="preserve">
+    <value>Relatório Agrupado por</value>
+  </data>
+  <data name="CONTAS_RECEBIDAS_ANALITICO" xml:space="preserve">
+    <value>Contas Recebidas Analítico</value>
+  </data>
+  <data name="CONTAS_RECEBIDAS_SINTETICO" xml:space="preserve">
+    <value>Contas Recebidas Sintético</value>
+  </data>
+  <data name="RELATORIO_CONTASRECEBIDAS_SINTETICO" xml:space="preserve">
+    <value>Relatório Contas Recebidas Sintético</value>
+  </data>
+  <data name="CONTASPAGAS_ANALITICO" xml:space="preserve">
+    <value>Pagamentos Realizados Analítico</value>
+  </data>
+  <data name="CONTASPAGAS_SINTETICO" xml:space="preserve">
+    <value>Pagamentos Realizados Sintético</value>
+  </data>
+  <data name="RELATORIO_CONTASPAGAS_ANALITICO" xml:space="preserve">
+    <value>Relatório de Pagamentos Realizados Analítico</value>
+  </data>
+  <data name="RELATORIO_CONTASPAGAS_SINTETICO" xml:space="preserve">
+    <value>Relatório de Pagamentos Realizados Sintético</value>
+  </data>
+  <data name="CONTASARECEBER_ANALITICO" xml:space="preserve">
+    <value>Contas a Receber Analítico</value>
+  </data>
+  <data name="CONTASARECEBER_SINTETICO" xml:space="preserve">
+    <value>Contas a Receber Sintético</value>
+  </data>
+  <data name="RELATORIO_CONTASARECEBER_ANALITICO" xml:space="preserve">
+    <value>Relatório de Contas a Receber Analítico</value>
+  </data>
+  <data name="RELATORIO_CONTASARECEBER_SINTETICO" xml:space="preserve">
+    <value>Relatório de Contas a Receber Sintético</value>
+  </data>
+  <data name="VALOR_A_RECEBER" xml:space="preserve">
+    <value>Valor a Receber</value>
+  </data>
+  <data name="EMPRESA_E_FILIAL" xml:space="preserve">
+    <value>Empresa e Filial</value>
+  </data>
+  <data name="MES_FINAL" xml:space="preserve">
+    <value>Mês Final</value>
+  </data>
+  <data name="VISUALIZAR_PASSIVO" xml:space="preserve">
+    <value>Visualizar Passivo</value>
+  </data>
+  <data name="PREVISTO" xml:space="preserve">
+    <value>Previsto</value>
+  </data>
+  <data name="DESCRICAO_OU_ID_CONTA" xml:space="preserve">
+    <value>Descrição ou Id. de Conta</value>
+  </data>
+  <data name="GRUPO_CENTRO_CUSTO_JA_VINCULADO" xml:space="preserve">
+    <value>Grupo de Centro de Custo já está vinculado ao perfil.</value>
+  </data>
+  <data name="SUBGRUPO_CENTRO_CUSTO_JA_VINCULADO" xml:space="preserve">
+    <value>Subgrupo de Centro de Custo já está vinculado ao perfil.</value>
+  </data>
+  <data name="GRUPO_CONTA_FINANCEIRA_JA_VINCULADA" xml:space="preserve">
+    <value>Grupo de Conta Financeira já está vinculada ao perfil.</value>
+  </data>
+  <data name="SUBGRUPO_CONTA_FINANCEIRA_JA_VINCULADA" xml:space="preserve">
+    <value>Subgrupo de Conta Financeira já está vinculada ao perfil.</value>
+  </data>
+  <data name="IGUAL_A" xml:space="preserve">
+    <value>Igual a</value>
+  </data>
+  <data name="MAIOR_QUE" xml:space="preserve">
+    <value>Maior que</value>
+  </data>
+  <data name="MENOR_QUE" xml:space="preserve">
+    <value>Menor que</value>
+  </data>
+  <data name="PORC_DEDUCAO_MATERIAL" xml:space="preserve">
+    <value>Porc. Dedução Material</value>
+  </data>
+  <data name="CODIGO_DA_NATUREZA" xml:space="preserve">
+    <value>Código da Natureza do Serviço</value>
+  </data>
+  <data name="COMPENSAR_CHEQUE" xml:space="preserve">
+    <value>Compensar Cheque</value>
+  </data>
+  <data name="CR_VALOR_MAIOR_QUE_SALDO" xml:space="preserve">
+    <value>O valor recebido não pode ser maior do que o saldo a receber. (Saldo + Juros - Desconto)</value>
+  </data>
+  <data name="CR_VALOR_MAIOR_QUE_VLR_LIQUIDO" xml:space="preserve">
+    <value>O valor recebido não pode ser maior do que o saldo a receber. (Valor Liquido + Juros/Mora)</value>
+  </data>
+  <data name="CR_VALOR_MENOR_QUE_SALDO" xml:space="preserve">
+    <value>O valor recebido não pode ser menor do que o saldo a receber. (Saldo + Juros - Desconto)</value>
+  </data>
+  <data name="CR_VALOR_MENOR_QUE_VLR_LIQUIDO" xml:space="preserve">
+    <value>O valor recebido não pode ser menor do que o saldo a receber. (Valor Liquido + Juros/Mora)</value>
+  </data>
+  <data name="BAIXA_MULTIPLA_CONTA_RECEBER" xml:space="preserve">
+    <value>Baixa Multipa Contas a Receber</value>
+  </data>
+  <data name="FORMA_RECEBIMENTO_PREVISTA" xml:space="preserve">
+    <value>Forma de Recebimento Prevista</value>
+  </data>
+  <data name="FLUXO_CAIXA_ANALITICO_PERIODO" xml:space="preserve">
+    <value>Fluxo de Caixa Analítico por Período</value>
+  </data>
+  <data name="SALDO_A_RECEBER" xml:space="preserve">
+    <value>Saldo a Receber</value>
+  </data>
+  <data name="PASSIVO" xml:space="preserve">
+    <value>Passivo</value>
+  </data>
+  <data name="CREDITO_PASSIVO" xml:space="preserve">
+    <value>Crédito Passivo</value>
+  </data>
+  <data name="CREDITO_PREVISTO" xml:space="preserve">
+    <value>Crédito Previsto</value>
+  </data>
+  <data name="CREDITO_REALIZADO" xml:space="preserve">
+    <value>Crédito Realizado</value>
+  </data>
+  <data name="DEBITO_PASSIVO" xml:space="preserve">
+    <value>Débito Passivo</value>
+  </data>
+  <data name="DEBITO_PREVISTO" xml:space="preserve">
+    <value>Débito Previsto</value>
+  </data>
+  <data name="DEBITO_REALIZADO" xml:space="preserve">
+    <value>Débito Realizado</value>
+  </data>
+  <data name="FLUXO_CAIXA_ANALITICO_MES" xml:space="preserve">
+    <value>Fluxo de Caixa Analítico por Mês</value>
+  </data>
+  <data name="PORC_CREDITO_REALIZADO_PREVISTO" xml:space="preserve">
+    <value>% Crédito Realizado x Crédito Previsto</value>
+  </data>
+  <data name="PORC_DEBITO_REALIZADO_PREVISTO" xml:space="preserve">
+    <value>% Débito Realizado x Débito Previsto</value>
+  </data>
+  <data name="PORC_DIFERENCA" xml:space="preserve">
+    <value>% Diferença</value>
+  </data>
+  <data name="CANCELAR_PROTOCOLO" xml:space="preserve">
+    <value>Cancelar Protocolo</value>
+  </data>
+  <data name="RELATORIO_FATURAMENTO SINTETICO" xml:space="preserve">
+    <value>Relatório de Faturamento Sintético</value>
+  </data>
+  <data name="RELATORIO_FATURAMENTO_ANALITICO" xml:space="preserve">
+    <value>Relatório de Faturamento Analítico</value>
+  </data>
+  <data name="CANCELADAS" xml:space="preserve">
+    <value>Canceladas</value>
+  </data>
+  <data name="FATURAS_EMITIDAS" xml:space="preserve">
+    <value>Faturas Emitidas</value>
+  </data>
+  <data name="RECEBIDAS" xml:space="preserve">
+    <value>Recebidas</value>
+  </data>
+  <data name="VENCIDAS" xml:space="preserve">
+    <value>Vencidas</value>
+  </data>
+  <data name="FATURAMENTO_ANALITICO" xml:space="preserve">
+    <value>Faturamento Analítico</value>
+  </data>
+  <data name="FATURAMENTO_SINTETICO" xml:space="preserve">
+    <value>Faturamento Sintético</value>
+  </data>
+  <data name="CERTEZA_CANCELAMENTO_CONTA" xml:space="preserve">
+    <value>Tem certeza que deseja cancelar a(s) conta(s) selecionada(s) ?</value>
+  </data>
+  <data name="NUMERO_NOTAFISCAL" xml:space="preserve">
+    <value>Nº da Nota</value>
+  </data>
+  <data name="RELATORIO_RETENCAOIMPOSTO_ANALITICO" xml:space="preserve">
+    <value>Relatório de Retenção de Imposto Analítico</value>
+  </data>
+  <data name="RELATORIO_RETENCAOIMPOSTO_SINTETICO" xml:space="preserve">
+    <value>Relatório de Retenção de Imposto Sintético</value>
+  </data>
+  <data name="RETENCAOIMPOSTO_ANALITICO" xml:space="preserve">
+    <value>Retenção de Imposto Analítico</value>
+  </data>
+  <data name="RETENCAOIMPOSTO_SINTETICO" xml:space="preserve">
+    <value>Retenção de Imposto Sintético</value>
+  </data>
+  <data name="DATA_RETENCAO" xml:space="preserve">
+    <value>Data Retenção</value>
+  </data>
+  <data name="DATA_PAGAMENTO_RECEBIMENTO" xml:space="preserve">
+    <value>Data Pagamento/Recebimento</value>
+  </data>
+  <data name="VALOR_IMPOSTO" xml:space="preserve">
+    <value>Valor Imposto</value>
+  </data>
+  <data name="CONFIGURACOES_ORCAMENTO" xml:space="preserve">
+    <value>Configurações Orçamento</value>
+  </data>
+  <data name="NAO_OBRIGATORIO_ESCOLHER_TODOS_NIVEIS" xml:space="preserve">
+    <value>Não é obrigatório escolher todos os níveis</value>
+  </data>
+  <data name="UTILIZAR_BLOQUEIO_ACIMA_ORCADO" xml:space="preserve">
+    <value>Utilizar bloqueio de criação de contas acima do que foi orçado ?</value>
+  </data>
+  <data name="ULTRAPASSA_ORCAMENTO_CENTRO_CUSTO" xml:space="preserve">
+    <value>Alerta de Orçamento de Centro de Custo</value>
+  </data>
+  <data name="ULTRAPASSA_ORCAMENTO_CONTA_FINANCEIRA" xml:space="preserve">
+    <value>Alerta de Orçamento de Conta Financeira</value>
+  </data>
+  <data name="ULTRAPASSA_ORCAMENTO_EMPRESA" xml:space="preserve">
+    <value>Alerta de Orçamento de Empresa</value>
+  </data>
+  <data name="ULTRAPASSA_ORCAMENTO_FILIAL" xml:space="preserve">
+    <value>Alerta de Orçamento de Filial</value>
+  </data>
+  <data name="IMPORTAR_ORCAMENTO" xml:space="preserve">
+    <value>Importar Orçamento</value>
+  </data>
+  <data name="RELATORIO_ORCAMENTO_ANALITICO" xml:space="preserve">
+    <value>Relatório de Orçamento Analítico</value>
+  </data>
+  <data name="SALDO_ORCADO_PREVISTO" xml:space="preserve">
+    <value>Saldo Orçado x Previsto</value>
+  </data>
+  <data name="SALDO_ORCADO_REALIZADO" xml:space="preserve">
+    <value>Saldo Orçado x Realizado</value>
+  </data>
+  <data name="UPLOADPLANILHAORCAMENTO" xml:space="preserve">
+    <value>Upload Planinha Orçamento</value>
+  </data>
+  <data name="VALOR_ORCADO" xml:space="preserve">
+    <value>Valor Orçado</value>
+  </data>
+  <data name="CADASTRO_ORCAMENTO" xml:space="preserve">
+    <value>Cadastro de Orçamento</value>
+  </data>
+  <data name="ORCAMENTO_ANALITICO" xml:space="preserve">
+    <value>Orçamento Analítico</value>
+  </data>
+  <data name="ORCAMENTO_SINTETICO" xml:space="preserve">
+    <value>Orçamento Sintético</value>
+  </data>
+  <data name="RELATORIO_ORCAMENTO_SINTETICO" xml:space="preserve">
+    <value>Relatório de Orçamento Sintético</value>
+  </data>
+  <data name="PAGAMENTOS_PREVISTOS" xml:space="preserve">
+    <value>Pagamentos Previstos</value>
+  </data>
+  <data name="PAGAMENTOS_REALIZADOS" xml:space="preserve">
+    <value>Pagamentos Realizados</value>
+  </data>
+  <data name="POSICAO_FINANCEIRA" xml:space="preserve">
+    <value>Posição Financeira</value>
+  </data>
+  <data name="RECEBIMENTOS_PREVISTOS" xml:space="preserve">
+    <value>Recebimentos Previstos</value>
+  </data>
+  <data name="RECEBIMENTOS_REALIZADOS" xml:space="preserve">
+    <value>Recebimentos Realizados</value>
+  </data>
+  <data name="RELATORIO_POSICAOFINANCEIRA" xml:space="preserve">
+    <value>Relatório de Posição Financeira</value>
+  </data>
+  <data name="PASSIVO_ANTERIOR_A_" xml:space="preserve">
+    <value>Passivo anterior a</value>
+  </data>
+  <data name="OBRIGACOES ANALITICO" xml:space="preserve">
+    <value>Obrigações Analítico</value>
+  </data>
+  <data name="OBRIGACOES_SINTETICO" xml:space="preserve">
+    <value>Obrigações Sintético</value>
+  </data>
+  <data name="RELATORIO_OBRIGACOES_ANALITICO" xml:space="preserve">
+    <value>Relatório de Obrigações Analítico</value>
+  </data>
+  <data name="RELATORIO_OBRIGACOES_SINTETICO" xml:space="preserve">
+    <value>Relatório de Obrigações Sintético</value>
+  </data>
+  <data name="SALDO_A_PAGAR" xml:space="preserve">
+    <value>Saldo a Pagar</value>
+  </data>
+  <data name="ANEXAR_ARQUIVO" xml:space="preserve">
+    <value>Anexar Arquivo</value>
+  </data>
+  <data name="ANEXOS" xml:space="preserve">
+    <value>Anexos</value>
+  </data>
+  <data name="DATA_RATEIO" xml:space="preserve">
+    <value>Data Rateio</value>
+  </data>
+  <data name="RATEIO_POR_FILIAL" xml:space="preserve">
+    <value>Rateio por Filial</value>
+  </data>
+  <data name="CONTA_PAGAR_CONTA_RECEBER" xml:space="preserve">
+    <value>Conta a Pagar/Conta a Receber</value>
+  </data>
+  <data name="RELATORIO_RATEIO_POR_FILIAL" xml:space="preserve">
+    <value>Relatório Rateio por Filial</value>
+  </data>
+  <data name="PERCENTUAL_RATEIO" xml:space="preserve">
+    <value>Percentual do Rateio</value>
+  </data>
+  <data name="VALOR_CONTA" xml:space="preserve">
+    <value>Valor da Conta</value>
+  </data>
+  <data name="VALOR_RATEIO" xml:space="preserve">
+    <value>Valor do Rateio</value>
+  </data>
+  <data name="TODOS" xml:space="preserve">
+    <value>Todos</value>
+  </data>
+  <data name="PERCENTUAL_IMPOSTO" xml:space="preserve">
+    <value>% Imposto</value>
+  </data>
+  <data name="GERAR_ARQUIVO_REMESSA" xml:space="preserve">
+    <value>Gerar Arquivo de Remessa</value>
+  </data>
+  <data name="ARQUIVO_NAO_ENCONTRADO" xml:space="preserve">
+    <value>Arquivo não encontrado</value>
+  </data>
+  <data name="DIFERENCA_CREDITO" xml:space="preserve">
+    <value>Diferença Crédito</value>
+  </data>
+  <data name="DIFERENCA_DEBITO" xml:space="preserve">
+    <value>Diferença Débito</value>
+  </data>
+  <data name="PORC_DEFERENCA_DEBITO" xml:space="preserve">
+    <value>% Diferença Débito</value>
+  </data>
+  <data name="PORC_DIFERENCA_CREDITO" xml:space="preserve">
+    <value>% Diferença Crédito</value>
+  </data>
+</root>

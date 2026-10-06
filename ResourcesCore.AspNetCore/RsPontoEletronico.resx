@@ -1,0 +1,4781 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="A" xml:space="preserve">
+    <value>à</value>
+  </data>
+  <data name="ABASTECIMENTO" xml:space="preserve">
+    <value>Abastecimento</value>
+  </data>
+  <data name="ABERTO" xml:space="preserve">
+    <value>Aberto</value>
+  </data>
+  <data name="ABONADO" xml:space="preserve">
+    <value>Abonado</value>
+  </data>
+  <data name="ABONAR" xml:space="preserve">
+    <value>Abonar</value>
+  </data>
+  <data name="ABONAR_PONTO_COM_FALTA_ATRASO" xml:space="preserve">
+    <value>Abonar Ponto com Falta / Atraso</value>
+  </data>
+  <data name="ABONO" xml:space="preserve">
+    <value>Abono</value>
+  </data>
+  <data name="ABONO_JA_LANCADO" xml:space="preserve">
+    <value>Abono Já Lançado</value>
+  </data>
+  <data name="ABRIR" xml:space="preserve">
+    <value>Abrir</value>
+  </data>
+  <data name="ACESSOPERFIL" xml:space="preserve">
+    <value>Acessos do perfil</value>
+  </data>
+  <data name="ACRESCIMODEHORAEXTRA" xml:space="preserve">
+    <value>Adicional por hora extra (%)</value>
+  </data>
+  <data name="ADD" xml:space="preserve">
+    <value>Add</value>
+  </data>
+  <data name="ADICIONAR" xml:space="preserve">
+    <value>Adicionar</value>
+  </data>
+  <data name="ADICIONARFILTRO" xml:space="preserve">
+    <value>Adicionar filtro</value>
+  </data>
+  <data name="ADICIONARTODOS" xml:space="preserve">
+    <value>Adicionar todos</value>
+  </data>
+  <data name="ADNOTURNO" xml:space="preserve">
+    <value>Adicional Noturno</value>
+  </data>
+  <data name="AFASTADO" xml:space="preserve">
+    <value>Afastado</value>
+  </data>
+  <data name="AGUARDANDO" xml:space="preserve">
+    <value>Aguardando</value>
+  </data>
+  <data name="AJUDA" xml:space="preserve">
+    <value>Ajuda</value>
+  </data>
+  <data name="AJUDA_ESCALAS" xml:space="preserve">
+    <value>&lt;ul&gt;&lt;li&gt;Evento tracinho (-) significa que não possui evento;&lt;/li&gt;
+&lt;li&gt;Eventos: “&lt;strong&gt;-&lt;/strong&gt;”, “&lt;strong&gt;Escalado&lt;/strong&gt;” e “&lt;strong&gt;DSR&lt;/strong&gt;” são fixos no sistema, (Internos), não poderão ser modificados;&lt;/li&gt;
+&lt;li&gt;Coluna “&lt;strong&gt;Permitir Marcar&lt;/strong&gt;”, diz se o evento permitirá ao funcionário marcar ou não pontos pelo aplicativo;&lt;/li&gt;
+&lt;li&gt;Coluna “&lt;strong&gt;Restrita&lt;/strong&gt;”, são eventos que só podem ser lançados nas escalas dos funcionários por um usuário específico, (acesso a área 26 do sistema);&lt;/li&gt;
+&lt;li&gt;Eventos lançados em folhas de funcionários não poderão ser excluídos ou modificados;
+&lt;/li&gt;&lt;ul&gt;</value>
+  </data>
+  <data name="AJUDA_LOCAIS_DE_MARCACAO" xml:space="preserve">
+    <value>&lt;ul&gt; &lt;li&gt;Para o funcionamento do recurso, oriente seus funcionários a deixarem o serviço de localização (GPS) do celular sempre ligado;
+&lt;/li&gt;&lt;li&gt;Os locais de marcação são verificados somente para registro de Entrada e Saída;
+&lt;/li&gt;&lt;li&gt;Recomenda-se informar uma distância de no mínimo 100 metros, pois alguns GPS’s de celulares podem apresentar uma defasagem;
+&lt;/li&gt;&lt;li&gt;É responsabilidade da empresa configurar se deseja impedir a marcação ou apenas enviar um alerta, caso o funcionário não esteja com GPS ativado;
+&lt;/li&gt;&lt;li&gt;Alguns lugares possuem área de sombra, onde não é possível obter a localização mesmo com GPS ligado. Nesses casos prosseguiremos com a marcação, com o último endereço obtido.
+&lt;/li&gt;&lt;ul&gt;</value>
+  </data>
+  <data name="AJUSTAR_PONTO" xml:space="preserve">
+    <value>Ajustar Ponto (Modificar lançamento Mobile)</value>
+  </data>
+  <data name="ALERTA_" xml:space="preserve">
+    <value>Alerta:</value>
+  </data>
+  <data name="ALTERACAO_AREAS_INTERESSE" xml:space="preserve">
+    <value>Alteração nas Áreas Interesse</value>
+  </data>
+  <data name="ALTERACAO_EM_HORARIO_JORNADA" xml:space="preserve">
+    <value>Alteração em Horário da Escala</value>
+  </data>
+  <data name="ALTERACAO_NA_JORNADA" xml:space="preserve">
+    <value>Alteração na Escala</value>
+  </data>
+  <data name="ALTERACAO_NOTIFICACOES" xml:space="preserve">
+    <value>Alteração nas Notificações</value>
+  </data>
+  <data name="ALTERACAO_REGRAS_OFFLINE" xml:space="preserve">
+    <value>Alteração nas Regras do OffLine</value>
+  </data>
+  <data name="ALTERACAO_REGRAS_PONTO_JORNADA" xml:space="preserve">
+    <value>Alteração nas Regras do Ponto da Escala</value>
+  </data>
+  <data name="ALTERAR" xml:space="preserve">
+    <value>Alterar</value>
+  </data>
+  <data name="ALTERAR_ESCALA" xml:space="preserve">
+    <value>Alterar Evento</value>
+  </data>
+  <data name="ALTERAR_JORNADA" xml:space="preserve">
+    <value>Alterar Escala</value>
+  </data>
+  <data name="ANO" xml:space="preserve">
+    <value>Ano</value>
+  </data>
+  <data name="ANOCRV" xml:space="preserve">
+    <value>Ano CRV</value>
+  </data>
+  <data name="ANOCRV_" xml:space="preserve">
+    <value>Ano CRV:</value>
+  </data>
+  <data name="ANOFABRICACAO" xml:space="preserve">
+    <value>Ano fabricação</value>
+  </data>
+  <data name="ANOFABRICACAO_" xml:space="preserve">
+    <value>Ano fabricação:</value>
+  </data>
+  <data name="ANOMODELO" xml:space="preserve">
+    <value>Ano modelo</value>
+  </data>
+  <data name="ANOMODELO_" xml:space="preserve">
+    <value>Ano modelo:</value>
+  </data>
+  <data name="ANTECIMAR_AVISO_DE" xml:space="preserve">
+    <value>Tempo de Antecipação</value>
+  </data>
+  <data name="APROVADA" xml:space="preserve">
+    <value>Aprovada</value>
+  </data>
+  <data name="APROVADO" xml:space="preserve">
+    <value>Aprovado</value>
+  </data>
+  <data name="ARQUIVOIMPORTACAO_" xml:space="preserve">
+    <value>Arquivo importação:</value>
+  </data>
+  <data name="ASSUNTO" xml:space="preserve">
+    <value>Assunto</value>
+  </data>
+  <data name="ASSUNTOEMAIL" xml:space="preserve">
+    <value>Assunto do email</value>
+  </data>
+  <data name="ATIVAR" xml:space="preserve">
+    <value>Ativar</value>
+  </data>
+  <data name="ATIVIDADE_USUARIO" xml:space="preserve">
+    <value>Atividade de usuário em campo</value>
+  </data>
+  <data name="ATIVIDADE_USUARIO_" xml:space="preserve">
+    <value>Atividade de usuário em campo:</value>
+  </data>
+  <data name="ATIVO" xml:space="preserve">
+    <value>Ativo</value>
+  </data>
+  <data name="ATRIBUIR" xml:space="preserve">
+    <value>Atribuir</value>
+  </data>
+  <data name="ATRIBUITOKEN" xml:space="preserve">
+    <value>Atribuir token</value>
+  </data>
+  <data name="ATRIBUITOKEN_AVISO" xml:space="preserve">
+    <value>Atenção! É necessário atribuir token de alguma empresa para prosseguir!</value>
+  </data>
+  <data name="ATUALIZAR_CAMPOS" xml:space="preserve">
+    <value>Atualizar os seguintes campos:</value>
+  </data>
+  <data name="ATUALIZAR_CAMPOS_N_PREENCHIDOS" xml:space="preserve">
+    <value>Atualizar os campos não preenchidos no Aniel_PontoEletronico</value>
+  </data>
+  <data name="ATUALIZAR_TODOS" xml:space="preserve">
+    <value>Atualizar todos os campos</value>
+  </data>
+  <data name="AUTORIZACAO" xml:space="preserve">
+    <value>Autorização</value>
+  </data>
+  <data name="AUTORIZACAO_" xml:space="preserve">
+    <value>Autorização:</value>
+  </data>
+  <data name="AUTORIZACAO_INICIO" xml:space="preserve">
+    <value>Autorização Inicio 1</value>
+  </data>
+  <data name="AUTORIZACAO_TERMINO" xml:space="preserve">
+    <value>Autorização Fim 2</value>
+  </data>
+  <data name="AUTORIZADO" xml:space="preserve">
+    <value>Autorizado</value>
+  </data>
+  <data name="AUTORIZAR" xml:space="preserve">
+    <value>Autorizar</value>
+  </data>
+  <data name="AUTORIZAR_ESCALA" xml:space="preserve">
+    <value>Autorizar Evento</value>
+  </data>
+  <data name="AUXILIAR" xml:space="preserve">
+    <value>Auxiliar</value>
+  </data>
+  <data name="AVALIACAO" xml:space="preserve">
+    <value>Avaliação</value>
+  </data>
+  <data name="AVALIADOPOR" xml:space="preserve">
+    <value>Usuário Autorização</value>
+  </data>
+  <data name="AVALIARHORAEXTRA" xml:space="preserve">
+    <value>Avaliar Hora Extra</value>
+  </data>
+  <data name="BAIRRO" xml:space="preserve">
+    <value>Bairro</value>
+  </data>
+  <data name="BAIRRO_" xml:space="preserve">
+    <value>Bairro:</value>
+  </data>
+  <data name="BANCODEHORAS" xml:space="preserve">
+    <value>Banco de Horas</value>
+  </data>
+  <data name="BANCO_ADICIONALNOTURNO" xml:space="preserve">
+    <value>Adicional Noturno</value>
+  </data>
+  <data name="BANCO_ADICIONALNOTURNO_FIM" xml:space="preserve">
+    <value>Adicional Noturno Fim</value>
+  </data>
+  <data name="BANCO_ADICIONALNOTURNO_INICIO" xml:space="preserve">
+    <value>Adicional Noturno Início</value>
+  </data>
+  <data name="BANCO_COMPENSAR_ATRASO_HORAEXTRA" xml:space="preserve">
+    <value>Compensar Atraso com Hora Extra</value>
+  </data>
+  <data name="BANCO_CON_HORA_EXTRA_0" xml:space="preserve">
+    <value>Consumir Banco de Horas Domingo</value>
+  </data>
+  <data name="BANCO_CON_HORA_EXTRA_1" xml:space="preserve">
+    <value>Consumir Banco de Horas Segunda</value>
+  </data>
+  <data name="BANCO_CON_HORA_EXTRA_2" xml:space="preserve">
+    <value>Consumir Banco de Horas Terça</value>
+  </data>
+  <data name="BANCO_CON_HORA_EXTRA_3" xml:space="preserve">
+    <value>Consumir Banco de Horas Quarta</value>
+  </data>
+  <data name="BANCO_CON_HORA_EXTRA_4" xml:space="preserve">
+    <value>Consumir Banco de Horas Quinta</value>
+  </data>
+  <data name="BANCO_CON_HORA_EXTRA_5" xml:space="preserve">
+    <value>Consumir Banco de Horas Sexta</value>
+  </data>
+  <data name="BANCO_CON_HORA_EXTRA_6" xml:space="preserve">
+    <value>Consumir Banco de Horas Sabado</value>
+  </data>
+  <data name="BANCO_CON_HORA_EXTRA_ADNOTUR" xml:space="preserve">
+    <value>Consumir Banco de Horas Adicional Noturno</value>
+  </data>
+  <data name="BANCO_CON_HORA_EXTRA_FERIADO" xml:space="preserve">
+    <value>Consumir Banco de Horas (Feriado)</value>
+  </data>
+  <data name="BANCO_CON_HORA_EXTRA_INTER" xml:space="preserve">
+    <value>Consumir Banco de Horas (Inter jornada)</value>
+  </data>
+  <data name="BANCO_CON_HORA_EXTRA_INTRA" xml:space="preserve">
+    <value>Consumir Banco de Horas (Intrajornada)</value>
+  </data>
+  <data name="BANCO_TETO_HORA_EXTRA" xml:space="preserve">
+    <value>Teto de Horas Extras</value>
+  </data>
+  <data name="BANCO_TOLERANCIAPARABANCO" xml:space="preserve">
+    <value>Tolerância para acrescentar no banco de horas</value>
+  </data>
+  <data name="BANCO_VLR_HORA_EXTRA_0" xml:space="preserve">
+    <value>Valor Hora Extra Domingo</value>
+  </data>
+  <data name="BANCO_VLR_HORA_EXTRA_1" xml:space="preserve">
+    <value>Valor Hora Extra Segunda</value>
+  </data>
+  <data name="BANCO_VLR_HORA_EXTRA_2" xml:space="preserve">
+    <value>Valor Hora Extra Terça</value>
+  </data>
+  <data name="BANCO_VLR_HORA_EXTRA_3" xml:space="preserve">
+    <value>Valor Hora Extra Quarta</value>
+  </data>
+  <data name="BANCO_VLR_HORA_EXTRA_4" xml:space="preserve">
+    <value>Valor Hora Extra Quinta</value>
+  </data>
+  <data name="BANCO_VLR_HORA_EXTRA_5" xml:space="preserve">
+    <value>Valor Hora Extra Sexta</value>
+  </data>
+  <data name="BANCO_VLR_HORA_EXTRA_6" xml:space="preserve">
+    <value>Valor Hora Extra Sabado</value>
+  </data>
+  <data name="BANCO_VLR_HORA_EXTRA_ADNOTURNO" xml:space="preserve">
+    <value>Valor Hora Extra (Adicional Noturno)</value>
+  </data>
+  <data name="BANCO_VLR_HORA_EXTRA_FERIADO" xml:space="preserve">
+    <value>Valor Hora Extra (Feriado)</value>
+  </data>
+  <data name="BANCO_VLR_HORA_EXTRA_INTER" xml:space="preserve">
+    <value>Valor Hora Extra (Inter jornada)</value>
+  </data>
+  <data name="BANCO_VLR_HORA_EXTRA_INTRA" xml:space="preserve">
+    <value>Valor Hora Extra (Intrajornada)</value>
+  </data>
+  <data name="BUSCALOGIMPORT" xml:space="preserve">
+    <value>Busca log de importação de serviço.</value>
+  </data>
+  <data name="BUSCALOGIMPORTABAST" xml:space="preserve">
+    <value>Busca log de importação de abastecimento</value>
+  </data>
+  <data name="BUSCALOGIMPORTACAO" xml:space="preserve">
+    <value>Log de importação de serviço</value>
+  </data>
+  <data name="BUSCALOGIMPORTACAOABAST" xml:space="preserve">
+    <value>Log de importação de abastecimento</value>
+  </data>
+  <data name="BUSCAR" xml:space="preserve">
+    <value>Buscar</value>
+  </data>
+  <data name="BUSCA_DIFERENTE" xml:space="preserve">
+    <value>Busca diferente</value>
+  </data>
+  <data name="BUSCA_IGUAL" xml:space="preserve">
+    <value>Busca igual</value>
+  </data>
+  <data name="BUSCA_INICIO" xml:space="preserve">
+    <value>Busca pelo inicio</value>
+  </data>
+  <data name="BUSCA_INTERVALO" xml:space="preserve">
+    <value>Busca intervalo</value>
+  </data>
+  <data name="BUSCA_MAIOR" xml:space="preserve">
+    <value>Busca maior</value>
+  </data>
+  <data name="BUSCA_MAIORIGUAL" xml:space="preserve">
+    <value>Busca igual ou maior</value>
+  </data>
+  <data name="BUSCA_MENOR" xml:space="preserve">
+    <value>Busca menor</value>
+  </data>
+  <data name="BUSCA_MENORIGUAL" xml:space="preserve">
+    <value>Busca igual ou menor</value>
+  </data>
+  <data name="BUSCA_QUALQUER_POSICAO" xml:space="preserve">
+    <value>Busca em qualquer posição</value>
+  </data>
+  <data name="CADASTRAR_AUTOMATICAMENTE" xml:space="preserve">
+    <value>Cadastrar automaticamente</value>
+  </data>
+  <data name="CADASTRAR_CARTAO_DIFERENCA" xml:space="preserve">
+    <value>Lançar crédito com a diferença</value>
+  </data>
+  <data name="CADASTRAR_CLASSIFICACAO_ESCALA" xml:space="preserve">
+    <value>Cadastrar Evento</value>
+  </data>
+  <data name="CADASTRAR_FERIADO" xml:space="preserve">
+    <value>Feriado</value>
+  </data>
+  <data name="CADASTROS" xml:space="preserve">
+    <value>Cadastros</value>
+  </data>
+  <data name="CADASTRO_ABASTECIMENTO" xml:space="preserve">
+    <value>Cadastro de abastecimento</value>
+  </data>
+  <data name="CADASTRO_ACESSOPERFIL" xml:space="preserve">
+    <value>Cadastro de acessos do perfil</value>
+  </data>
+  <data name="CADASTRO_ATIVIDADE_USUARIO" xml:space="preserve">
+    <value>Cadastro de atividade de usuário em campo</value>
+  </data>
+  <data name="CADASTRO_CARTAOCOMBUSTIVEL" xml:space="preserve">
+    <value>Cadastro de controle de saldo</value>
+  </data>
+  <data name="CADASTRO_CATEGORIAVEICULO" xml:space="preserve">
+    <value>Cadastro de categoria de veículo</value>
+  </data>
+  <data name="CADASTRO_CENTRO_CUSTO" xml:space="preserve">
+    <value>Cadastro de centro de custo</value>
+  </data>
+  <data name="CADASTRO_CODIGO_ENCERRAMENTO" xml:space="preserve">
+    <value>Cadastro de código de encerramento</value>
+  </data>
+  <data name="CADASTRO_COMBUSTIVELESTABELECIMENTO" xml:space="preserve">
+    <value>Cadastro de valor combustivel no Posto de Gasolina</value>
+  </data>
+  <data name="CADASTRO_COMBUSTIVELREGIAO" xml:space="preserve">
+    <value>Cadastro de valor combustivel na Região</value>
+  </data>
+  <data name="CADASTRO_CONFIGPONTOS" xml:space="preserve">
+    <value>Configuração pontos</value>
+  </data>
+  <data name="CADASTRO_CONFIG_N_CONFIRMIDADE" xml:space="preserve">
+    <value>Configurações de não conformidade</value>
+  </data>
+  <data name="CADASTRO_CONTAS_EMAIL" xml:space="preserve">
+    <value>Cadastro contas de email</value>
+  </data>
+  <data name="CADASTRO_CREDITOLIVRE" xml:space="preserve">
+    <value>Cadastro de créditos livre</value>
+  </data>
+  <data name="CADASTRO_DEBITOLIVRE" xml:space="preserve">
+    <value>Cadastro de débitos livre</value>
+  </data>
+  <data name="CADASTRO_DEPARTAMENTO" xml:space="preserve">
+    <value>Cadastro de Departamento</value>
+  </data>
+  <data name="CADASTRO_EMAILSISTEMACONFIG" xml:space="preserve">
+    <value>Cadastro de contas de email</value>
+  </data>
+  <data name="CADASTRO_EMPRESA" xml:space="preserve">
+    <value>Cadastro de empresa</value>
+  </data>
+  <data name="CADASTRO_ESTABALECIMENTO" xml:space="preserve">
+    <value>Cadastro de posto de combustível</value>
+  </data>
+  <data name="CADASTRO_EVENTO" xml:space="preserve">
+    <value>Cadastro de Evento</value>
+  </data>
+  <data name="CADASTRO_FERIADO" xml:space="preserve">
+    <value>Cadastro de Feriados</value>
+  </data>
+  <data name="CADASTRO_FILIAL" xml:space="preserve">
+    <value>Cadastro de filial</value>
+  </data>
+  <data name="CADASTRO_FORNECEDOR" xml:space="preserve">
+    <value>Cadastro de fornecedor</value>
+  </data>
+  <data name="CADASTRO_FUNCAO" xml:space="preserve">
+    <value>Cadastro de Função</value>
+  </data>
+  <data name="CADASTRO_FUNCIONARIO" xml:space="preserve">
+    <value>Cadastro de Funcionário</value>
+  </data>
+  <data name="CADASTRO_GARAGEM" xml:space="preserve">
+    <value>Cadastro de garagem</value>
+  </data>
+  <data name="CADASTRO_JORNADA_TRABALHO" xml:space="preserve">
+    <value>Cadastro de Jornada de Trabalho</value>
+  </data>
+  <data name="CADASTRO_JUSTIFICATIVA" xml:space="preserve">
+    <value>Cadastro de justificativa</value>
+  </data>
+  <data name="CADASTRO_LOCAL_MARCACAO" xml:space="preserve">
+    <value>Cadastro de Locais de Marcação</value>
+  </data>
+  <data name="CADASTRO_MARCA" xml:space="preserve">
+    <value>Cadastro de marca</value>
+  </data>
+  <data name="CADASTRO_MENU" xml:space="preserve">
+    <value>Cadastro de menu</value>
+  </data>
+  <data name="CADASTRO_MENUSISTEMA" xml:space="preserve">
+    <value>Cadastro de menu do Aniel_PontoEletronico</value>
+  </data>
+  <data name="CADASTRO_MODELO" xml:space="preserve">
+    <value>Cadastro de modelo</value>
+  </data>
+  <data name="CADASTRO_OFENSOR" xml:space="preserve">
+    <value>Cadastro ofensor</value>
+  </data>
+  <data name="CADASTRO_PAGINA" xml:space="preserve">
+    <value>Cadastro de página</value>
+  </data>
+  <data name="CADASTRO_PAGINASISTEMA" xml:space="preserve">
+    <value>Cadastro de páginas do sistema</value>
+  </data>
+  <data name="CADASTRO_PERFILACESSO" xml:space="preserve">
+    <value>Cadastro de perfil de acesso</value>
+  </data>
+  <data name="CADASTRO_PONTOS" xml:space="preserve">
+    <value>Cadastro de pontos</value>
+  </data>
+  <data name="CADASTRO_REGIAO" xml:space="preserve">
+    <value>Cadastro de região</value>
+  </data>
+  <data name="CADASTRO_SERVICOS" xml:space="preserve">
+    <value>Cadastro de serviço</value>
+  </data>
+  <data name="CADASTRO_SITUACAOVEICULO" xml:space="preserve">
+    <value>Cadastro de situação do veículo</value>
+  </data>
+  <data name="CADASTRO_SITUACAO_FUNCIONARIO" xml:space="preserve">
+    <value>Cadastro de situação do funcionário</value>
+  </data>
+  <data name="CADASTRO_SITUACAO_VEICULO" xml:space="preserve">
+    <value>Cadastro de situação do veículo</value>
+  </data>
+  <data name="CADASTRO_STATUS" xml:space="preserve">
+    <value>Cadastro de status</value>
+  </data>
+  <data name="CADASTRO_STATUSSERVICO" xml:space="preserve">
+    <value>Cadastro de status de serviço</value>
+  </data>
+  <data name="CADASTRO_STATUS_SERVICO" xml:space="preserve">
+    <value>Cadastro de status de serviço</value>
+  </data>
+  <data name="CADASTRO_TIPOCHECKPOINT" xml:space="preserve">
+    <value>Tipo Check Point</value>
+  </data>
+  <data name="CADASTRO_TIPOCOMBUSTIVEL" xml:space="preserve">
+    <value>Cadastro de tipo de combustível</value>
+  </data>
+  <data name="CADASTRO_TIPOFORNECEDOR" xml:space="preserve">
+    <value>Cadastro de tipo de fornecedor</value>
+  </data>
+  <data name="CADASTRO_TIPOVEICULO" xml:space="preserve">
+    <value>Cadastro de tipo de veículo</value>
+  </data>
+  <data name="CADASTRO_TIPO_COMBUSTIVEL" xml:space="preserve">
+    <value>Cadastro de tipo de combustível</value>
+  </data>
+  <data name="CADASTRO_TIPO_FORNECEDOR" xml:space="preserve">
+    <value>Cadastro de tipo de fornecedor</value>
+  </data>
+  <data name="CADASTRO_TIPO_FUNCIONARIO" xml:space="preserve">
+    <value>Cadastro de tipo de funcionário</value>
+  </data>
+  <data name="CADASTRO_TIPO_SERVICO" xml:space="preserve">
+    <value>Cadastro de tipo de serviço</value>
+  </data>
+  <data name="CADASTRO_TIPO_VEICULO" xml:space="preserve">
+    <value>Cadastro de tipo de veículo</value>
+  </data>
+  <data name="CADASTRO_UNIDADE_N_CONFORMIDADE" xml:space="preserve">
+    <value>Cadastro de unidade de não conformidade</value>
+  </data>
+  <data name="CADASTRO_USUARIO" xml:space="preserve">
+    <value>Cadastro de usuário</value>
+  </data>
+  <data name="CADASTRO_VEICULO" xml:space="preserve">
+    <value>Cadastro de veículo</value>
+  </data>
+  <data name="CADASTRO_VEICULO_" xml:space="preserve">
+    <value>Categoria de veículo:</value>
+  </data>
+  <data name="CALCULAR" xml:space="preserve">
+    <value>Calcular</value>
+  </data>
+  <data name="CALCULARNCALCULADO" xml:space="preserve">
+    <value>Calcular</value>
+  </data>
+  <data name="CALCULARSERVICOS" xml:space="preserve">
+    <value>Calcular os serviços ainda não calculados</value>
+  </data>
+  <data name="CALCULARTODOS" xml:space="preserve">
+    <value>Recalcular</value>
+  </data>
+  <data name="CALCULO" xml:space="preserve">
+    <value>Calculo</value>
+  </data>
+  <data name="CALCULO_CREDITOSERVICO" xml:space="preserve">
+    <value>Calculo de créditos de serviços realizados</value>
+  </data>
+  <data name="CAMINHOIMAGEM_" xml:space="preserve">
+    <value>Caminho imagem:</value>
+  </data>
+  <data name="CAMPO" xml:space="preserve">
+    <value>Campo</value>
+  </data>
+  <data name="CAMPOS" xml:space="preserve">
+    <value>Campo para importação</value>
+  </data>
+  <data name="CAMPO_" xml:space="preserve">
+    <value>Campo:</value>
+  </data>
+  <data name="CAMPO_ALTERADO" xml:space="preserve">
+    <value>Campo Alterado</value>
+  </data>
+  <data name="CANCELAR" xml:space="preserve">
+    <value>Cancelar</value>
+  </data>
+  <data name="CAPACIDADETANQUE" xml:space="preserve">
+    <value>Reposição Máxima</value>
+  </data>
+  <data name="CAPACIDADETANQUE_" xml:space="preserve">
+    <value>Reposição Máxima:</value>
+  </data>
+  <data name="CARACTERISTICA_DOCUMENTO" xml:space="preserve">
+    <value>Características/Documentos</value>
+  </data>
+  <data name="CARGA" xml:space="preserve">
+    <value>Carga</value>
+  </data>
+  <data name="CARGAR" xml:space="preserve">
+    <value>Carga (R$)</value>
+  </data>
+  <data name="CARREGARFERIADOS" xml:space="preserve">
+    <value>Carregar Feriados Padrões</value>
+  </data>
+  <data name="CARTAOCOMBUSTIVEL" xml:space="preserve">
+    <value>Nº Controle</value>
+  </data>
+  <data name="CARTAOCOMBUSTIVEL_" xml:space="preserve">
+    <value>Nº Controle:</value>
+  </data>
+  <data name="CARTAOSEMSALDO" xml:space="preserve">
+    <value>Sem sem saldo</value>
+  </data>
+  <data name="CARTEIRA_TRABALHO" xml:space="preserve">
+    <value>Carteira de Trabalho</value>
+  </data>
+  <data name="CATEGORIA" xml:space="preserve">
+    <value>Categoria</value>
+  </data>
+  <data name="CATEGORIAVEICULO" xml:space="preserve">
+    <value>Categoria do veículo</value>
+  </data>
+  <data name="CATEGORIA_" xml:space="preserve">
+    <value>Categoria:</value>
+  </data>
+  <data name="CATEGORIA_VEICULO" xml:space="preserve">
+    <value>Categoria</value>
+  </data>
+  <data name="CATEGORIA_VEICULO_" xml:space="preserve">
+    <value>Categoria:</value>
+  </data>
+  <data name="CENTRO_CUSTO" xml:space="preserve">
+    <value>Centro de custo</value>
+  </data>
+  <data name="CENTRO_CUSTO_" xml:space="preserve">
+    <value>Centro de Custo</value>
+  </data>
+  <data name="CEP" xml:space="preserve">
+    <value>CEP</value>
+  </data>
+  <data name="CEP_" xml:space="preserve">
+    <value>CEP:</value>
+  </data>
+  <data name="CERCA_ELETRONICA" xml:space="preserve">
+    <value>Cerca Eletrônica</value>
+  </data>
+  <data name="CHASSI" xml:space="preserve">
+    <value>Chassi</value>
+  </data>
+  <data name="CHASSI_" xml:space="preserve">
+    <value>Chassi:</value>
+  </data>
+  <data name="CHECKPOINT" xml:space="preserve">
+    <value>Check Point</value>
+  </data>
+  <data name="CIDADE_" xml:space="preserve">
+    <value>Cidade:</value>
+  </data>
+  <data name="CLASSIFICACAO" xml:space="preserve">
+    <value>Evento</value>
+  </data>
+  <data name="CLASSIFICACAOENDERECO_" xml:space="preserve">
+    <value>Evento:</value>
+  </data>
+  <data name="CLASSIFICACAO_ESCALA" xml:space="preserve">
+    <value>Evento</value>
+  </data>
+  <data name="CNH" xml:space="preserve">
+    <value>CNH</value>
+  </data>
+  <data name="CNH_" xml:space="preserve">
+    <value>CNH:</value>
+  </data>
+  <data name="CNPJ_" xml:space="preserve">
+    <value>CNPJ:</value>
+  </data>
+  <data name="CODCCUSTOANIEL" xml:space="preserve">
+    <value>Código do Centro de Custo no Aniel</value>
+  </data>
+  <data name="CODCPL" xml:space="preserve">
+    <value>Cód. Complementar</value>
+  </data>
+  <data name="CODCT" xml:space="preserve">
+    <value>Cód. Contrato</value>
+  </data>
+  <data name="CODEMPRESAANIEL" xml:space="preserve">
+    <value>Código da Empresa no Aniel</value>
+  </data>
+  <data name="CODFILIALANIEL" xml:space="preserve">
+    <value>Código da Filial no Aniel</value>
+  </data>
+  <data name="CODIGO" xml:space="preserve">
+    <value>Código</value>
+  </data>
+  <data name="CODIGOENCERRAMENTO" xml:space="preserve">
+    <value>Código encerramento</value>
+  </data>
+  <data name="CODIGOENCERRAMENTO_" xml:space="preserve">
+    <value>Cód. encerramento:</value>
+  </data>
+  <data name="CODIGO_" xml:space="preserve">
+    <value>Código:</value>
+  </data>
+  <data name="CODMAT" xml:space="preserve">
+    <value>Cód. Material</value>
+  </data>
+  <data name="CODSERVICOABAST" xml:space="preserve">
+    <value>Código do Serviço Abastecimento no Aniel</value>
+  </data>
+  <data name="COD_DEPTO" xml:space="preserve">
+    <value>Departamento</value>
+  </data>
+  <data name="COMBUSTIVEL" xml:space="preserve">
+    <value>Combustível</value>
+  </data>
+  <data name="COMECO" xml:space="preserve">
+    <value>Entrada</value>
+  </data>
+  <data name="COMECOTERMINO" xml:space="preserve">
+    <value>Entrada e Saída</value>
+  </data>
+  <data name="COMECO_ANT" xml:space="preserve">
+    <value>Mínima Entrada</value>
+  </data>
+  <data name="COMECO_JORNADA" xml:space="preserve">
+    <value>Entrada</value>
+  </data>
+  <data name="COMECO_MOBILE" xml:space="preserve">
+    <value>Entrada Mobile</value>
+  </data>
+  <data name="COMECO_POS" xml:space="preserve">
+    <value>Máxima Entrada</value>
+  </data>
+  <data name="COMECO_WEB" xml:space="preserve">
+    <value>Entrada Ajute</value>
+  </data>
+  <data name="COMJORNADA" xml:space="preserve">
+    <value>Com Escala</value>
+  </data>
+  <data name="COMPENSARATRASO" xml:space="preserve">
+    <value>Compensar Atraso</value>
+  </data>
+  <data name="COMPLEMENTO" xml:space="preserve">
+    <value>Complemento</value>
+  </data>
+  <data name="COMPLEMENTO_" xml:space="preserve">
+    <value>Complemento:</value>
+  </data>
+  <data name="COMUNICADOS" xml:space="preserve">
+    <value>Comunicados</value>
+  </data>
+  <data name="CONDICAO" xml:space="preserve">
+    <value>Condição</value>
+  </data>
+  <data name="CONDUTOR_TRANFERENCIA" xml:space="preserve">
+    <value>Condutor/Transferência</value>
+  </data>
+  <data name="CONFIGIMPORT01" xml:space="preserve">
+    <value>Quando a O.S já existir com a mesma data no Aniel_PontoEletronico o que fazer?</value>
+  </data>
+  <data name="CONFIGIMPORT02" xml:space="preserve">
+    <value>O que fazer com os campos associados que estiverem inválidos no Aniel_PontoEletronico? EX: Funcionario,Tipo Serviço etc..</value>
+  </data>
+  <data name="CONFIGIMPORTABAST01" xml:space="preserve">
+    <value>Quando o abastecimento já existir no Aniel_PontoEletronico o que fazer?</value>
+  </data>
+  <data name="CONFIGIMPORTABAST02" xml:space="preserve">
+    <value>O que fazer com os campos associados que estiverem inválidos no Aniel_PontoEletronico?</value>
+  </data>
+  <data name="CONFIGSERVICO" xml:space="preserve">
+    <value>Configurar serviço</value>
+  </data>
+  <data name="CONFIGSISTEMA" xml:space="preserve">
+    <value>Configurar Sistema</value>
+  </data>
+  <data name="CONFIGSIST_AVOIDHIGH" xml:space="preserve">
+    <value>O calculo de quilometragem deve &lt;b&gt;ignorar&lt;/b&gt; trajetos com &lt;b&gt;rodovias&lt;/b&gt;?</value>
+  </data>
+  <data name="CONFIGSIST_AVOIDTOLLS" xml:space="preserve">
+    <value>O calculo de quilometragem deve &lt;b&gt;ignorar&lt;/b&gt; trajetos com &lt;b&gt;pedágios&lt;/b&gt;?</value>
+  </data>
+  <data name="CONFIGSIST_BLOQ_ACESSO_KM_NECESSARIO" xml:space="preserve">
+    <value>Você quer que o sistema bloqueie o acesso  dos funcionários de campo(Mobile) configurados como &lt;b&gt;Abastecimento por Serviços&lt;/b&gt;?</value>
+  </data>
+  <data name="CONFIGURACAO" xml:space="preserve">
+    <value>Configuração</value>
+  </data>
+  <data name="CONFIGURACAO_IMPORTACAO_ABASTECIMENTO" xml:space="preserve">
+    <value>Configurar importação de abastecimento</value>
+  </data>
+  <data name="CONFIGURACAO_IMPORTACAO_SERVICO" xml:space="preserve">
+    <value>Configurar importação de serviço</value>
+  </data>
+  <data name="CONFIGURACAO_SERVICO" xml:space="preserve">
+    <value>Configurar serviço</value>
+  </data>
+  <data name="CONFIGURACOES" xml:space="preserve">
+    <value>Configurações</value>
+  </data>
+  <data name="CONFIGURAR" xml:space="preserve">
+    <value>Configurar</value>
+  </data>
+  <data name="CONFIGURARCONTAEMAIL" xml:space="preserve">
+    <value>Configurar conta de email</value>
+  </data>
+  <data name="CONFIGURARIMPORTACAOABASTECIMENTO" xml:space="preserve">
+    <value>Configurar importação de abastecimento</value>
+  </data>
+  <data name="CONFIGURARIMPORTACAOSERVICO" xml:space="preserve">
+    <value>Configurar importação de serviço</value>
+  </data>
+  <data name="CONFIGURARSERVICOADICIONAIS" xml:space="preserve">
+    <value>Campos adicionais dos serviços</value>
+  </data>
+  <data name="CONFIGURAR_HORAEXTRA" xml:space="preserve">
+    <value>Configurar Hora Extra</value>
+  </data>
+  <data name="CONFIRMACAO" xml:space="preserve">
+    <value>Confirmação</value>
+  </data>
+  <data name="CONFIRMACAO_" xml:space="preserve">
+    <value>Confirmação:</value>
+  </data>
+  <data name="CONSULTAS" xml:space="preserve">
+    <value>Consultas</value>
+  </data>
+  <data name="CONSULTA_CONSUMO_MEDIO" xml:space="preserve">
+    <value>Painel de solicitação de consumo médio</value>
+  </data>
+  <data name="CONSUMIRBANCODEHORAS" xml:space="preserve">
+    <value>Consumir Banco de Horas</value>
+  </data>
+  <data name="CONSUMOMEDIONAOINFORMADO" xml:space="preserve">
+    <value>Consumo médio não informado</value>
+  </data>
+  <data name="CONSUMO_MEDIO" xml:space="preserve">
+    <value>Consumo médio</value>
+  </data>
+  <data name="CONSUMO_MEDIO_" xml:space="preserve">
+    <value>Consumo médio:</value>
+  </data>
+  <data name="CONTAEMAIL" xml:space="preserve">
+    <value>Conta de email</value>
+  </data>
+  <data name="CONTATO" xml:space="preserve">
+    <value>Contato</value>
+  </data>
+  <data name="CONTRATO" xml:space="preserve">
+    <value>Contrato</value>
+  </data>
+  <data name="CONTRATO_" xml:space="preserve">
+    <value>Contrato:</value>
+  </data>
+  <data name="CONTROLECOMBUSTIVEL" xml:space="preserve">
+    <value>Controle combustível</value>
+  </data>
+  <data name="COR" xml:space="preserve">
+    <value>Cor</value>
+  </data>
+  <data name="CORPOEMAILSISTEMA" xml:space="preserve">
+    <value>Configurar corpo de email do sistema</value>
+  </data>
+  <data name="COR_" xml:space="preserve">
+    <value>Cor:</value>
+  </data>
+  <data name="CPF" xml:space="preserve">
+    <value>CPF</value>
+  </data>
+  <data name="CREDITO" xml:space="preserve">
+    <value>Crédito</value>
+  </data>
+  <data name="CREDITOLIVRE" xml:space="preserve">
+    <value>Crédito livre</value>
+  </data>
+  <data name="CREDITOSERVICO" xml:space="preserve">
+    <value>Créditos de serviços</value>
+  </data>
+  <data name="CRIADOEM" xml:space="preserve">
+    <value>Criado Em</value>
+  </data>
+  <data name="CRIARSOLICITACAO" xml:space="preserve">
+    <value>Criar Solicitação</value>
+  </data>
+  <data name="CRITERIO_" xml:space="preserve">
+    <value>Critério:</value>
+  </data>
+  <data name="CTPS" xml:space="preserve">
+    <value>CTPS</value>
+  </data>
+  <data name="DADOSARQUIVO" xml:space="preserve">
+    <value>Dados do arquivo</value>
+  </data>
+  <data name="DADOSPLANILHA" xml:space="preserve">
+    <value>Dados da planilha</value>
+  </data>
+  <data name="DADOS_AQUISICAO" xml:space="preserve">
+    <value>Dados/Aquisição</value>
+  </data>
+  <data name="DADOS_CADASTRAIS" xml:space="preserve">
+    <value>Dados Cadastrais</value>
+  </data>
+  <data name="DATA" xml:space="preserve">
+    <value>Data</value>
+  </data>
+  <data name="DATAAGENDAMENTO" xml:space="preserve">
+    <value>Data agendamento</value>
+  </data>
+  <data name="DATAAGENDAMENTO_" xml:space="preserve">
+    <value>Data agendamento:</value>
+  </data>
+  <data name="DATACARTAO_" xml:space="preserve">
+    <value>Atualização do saldo:</value>
+  </data>
+  <data name="DATAEXECUCAO" xml:space="preserve">
+    <value>Data execução</value>
+  </data>
+  <data name="DATAEXECUCAO_" xml:space="preserve">
+    <value>Data execução:</value>
+  </data>
+  <data name="DATAEXPIRACAO" xml:space="preserve">
+    <value>Data Expiração</value>
+  </data>
+  <data name="DATAFINALNINFORMADA" xml:space="preserve">
+    <value>Data Final não informada.</value>
+  </data>
+  <data name="DATAHORA" xml:space="preserve">
+    <value>Dara/Hora</value>
+  </data>
+  <data name="DATAHORAALTERACAO" xml:space="preserve">
+    <value>Data/Hora Alteração</value>
+  </data>
+  <data name="DATAHORAALTERACAO_" xml:space="preserve">
+    <value>Data/Hora:</value>
+  </data>
+  <data name="DATAHORAAVALIOU" xml:space="preserve">
+    <value>Data/Hora Autorização</value>
+  </data>
+  <data name="DATAHORACRIACAO" xml:space="preserve">
+    <value>Data/Hora Criação</value>
+  </data>
+  <data name="DATAHORACRIACAO_" xml:space="preserve">
+    <value>Data/Hora:</value>
+  </data>
+  <data name="DATAHORADEFINIIUHE" xml:space="preserve">
+    <value>Data/Hora Definiu HE</value>
+  </data>
+  <data name="DATAHORAEXPIRACAO" xml:space="preserve">
+    <value>Data Hora Expiração</value>
+  </data>
+  <data name="DATAHORA_" xml:space="preserve">
+    <value>Data Hora:</value>
+  </data>
+  <data name="DATAHORA_ABONOU" xml:space="preserve">
+    <value>Data/Hora Abono</value>
+  </data>
+  <data name="DATAHORA_ACAO" xml:space="preserve">
+    <value>Data/Hora Ação</value>
+  </data>
+  <data name="DATAIMPORTACAO" xml:space="preserve">
+    <value>Data importação</value>
+  </data>
+  <data name="DATAIMPORTACAO_" xml:space="preserve">
+    <value>Data importação:</value>
+  </data>
+  <data name="DATAINICIALNINFORMADA" xml:space="preserve">
+    <value>Data Inicial não informada.</value>
+  </data>
+  <data name="DATASERVICO_" xml:space="preserve">
+    <value>Data serviço:</value>
+  </data>
+  <data name="DATASOLICITACAO_" xml:space="preserve">
+    <value>Data solicitação:</value>
+  </data>
+  <data name="DATA_" xml:space="preserve">
+    <value>Data:</value>
+  </data>
+  <data name="DATA_ADMISSAO" xml:space="preserve">
+    <value>Data Admissão</value>
+  </data>
+  <data name="DATA_AGENDAMENTO" xml:space="preserve">
+    <value>Dt. Agendamento</value>
+  </data>
+  <data name="DATA_FGTS" xml:space="preserve">
+    <value>Emissão</value>
+  </data>
+  <data name="DATA_FIM" xml:space="preserve">
+    <value>Data Fim</value>
+  </data>
+  <data name="DATA_FINAL" xml:space="preserve">
+    <value>Data Final</value>
+  </data>
+  <data name="DATA_IMPRESSAO_" xml:space="preserve">
+    <value>Data Impressão:</value>
+  </data>
+  <data name="DATA_INICIO" xml:space="preserve">
+    <value>Data Início</value>
+  </data>
+  <data name="DATA_INVALIDA" xml:space="preserve">
+    <value>Data Inválida</value>
+  </data>
+  <data name="DATA_LIMITE" xml:space="preserve">
+    <value>Data Limite</value>
+  </data>
+  <data name="DATA_NASC" xml:space="preserve">
+    <value>Data Nascimento</value>
+  </data>
+  <data name="DATA_PONTO" xml:space="preserve">
+    <value>Data do Ponto</value>
+  </data>
+  <data name="DDD" xml:space="preserve">
+    <value>DDD</value>
+  </data>
+  <data name="DDD_" xml:space="preserve">
+    <value>DDD:</value>
+  </data>
+  <data name="DDI" xml:space="preserve">
+    <value>DDI</value>
+  </data>
+  <data name="DDI_" xml:space="preserve">
+    <value>DDI:</value>
+  </data>
+  <data name="DEBITO" xml:space="preserve">
+    <value>Débito</value>
+  </data>
+  <data name="DEBITOLIVRE" xml:space="preserve">
+    <value>Débito livre</value>
+  </data>
+  <data name="DECISAOPADRAO_" xml:space="preserve">
+    <value>Decisão padrão:</value>
+  </data>
+  <data name="DEFINIR" xml:space="preserve">
+    <value>Definir</value>
+  </data>
+  <data name="DEFINIRHORAEXTRA" xml:space="preserve">
+    <value>Autorizar Hora Extra</value>
+  </data>
+  <data name="DEIXARPADRAOCLT" xml:space="preserve">
+    <value>Deixar padrão da CLT</value>
+  </data>
+  <data name="DELETE" xml:space="preserve">
+    <value>Excluir</value>
+  </data>
+  <data name="DEMITIDO" xml:space="preserve">
+    <value>Demitido</value>
+  </data>
+  <data name="DEPARTAMENTO" xml:space="preserve">
+    <value>Departamento</value>
+  </data>
+  <data name="DESCRICAO" xml:space="preserve">
+    <value>Descrição</value>
+  </data>
+  <data name="DESCRICAO_" xml:space="preserve">
+    <value>Descrição:</value>
+  </data>
+  <data name="DESCRICAO_RESX_" xml:space="preserve">
+    <value>Chave do ResView:</value>
+  </data>
+  <data name="DESCRICAO_STATUS" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="DESEJA_REALMENTE_EXCLUIR" xml:space="preserve">
+    <value>Deseja realmente excluir ?</value>
+  </data>
+  <data name="DESEJA_RESTAURARPONTO" xml:space="preserve">
+    <value>Deseja restaurar pontos lançados pelo mobile?</value>
+  </data>
+  <data name="DESMONTAR_ESCALA" xml:space="preserve">
+    <value>Desfazer Eventos Lançados</value>
+  </data>
+  <data name="DIA" xml:space="preserve">
+    <value>Dia</value>
+  </data>
+  <data name="DIAS" xml:space="preserve">
+    <value>Dias</value>
+  </data>
+  <data name="DIAS_CARENCIA_" xml:space="preserve">
+    <value>Dias de carência:</value>
+  </data>
+  <data name="DIA_CORTE_" xml:space="preserve">
+    <value>Dia corte:</value>
+  </data>
+  <data name="DIA_DA_SEMANA" xml:space="preserve">
+    <value>Dia da Semana</value>
+  </data>
+  <data name="DIA_DA_SEMANA_JA_LANCADO" xml:space="preserve">
+    <value>Dia da semana já lançado para escala</value>
+  </data>
+  <data name="DIA_PONTO" xml:space="preserve">
+    <value>Dia do Ponto</value>
+  </data>
+  <data name="DISTANCIA" xml:space="preserve">
+    <value>Distância</value>
+  </data>
+  <data name="DISTANCIA_DESLOC" xml:space="preserve">
+    <value>Distância</value>
+  </data>
+  <data name="DIVERGENCIALATLONG" xml:space="preserve">
+    <value>Divergência Lat / Long</value>
+  </data>
+  <data name="DIVERGENCIALATLONGDOCPROD" xml:space="preserve">
+    <value>Divergência Lat / Long</value>
+  </data>
+  <data name="DOCUMENTOS" xml:space="preserve">
+    <value>Documentos</value>
+  </data>
+  <data name="DOMINGO" xml:space="preserve">
+    <value>Domingo</value>
+  </data>
+  <data name="EDITACAOFILTROBLOQ" xml:space="preserve">
+    <value>É possível fazer alteração de apenas um filtro por vez.</value>
+  </data>
+  <data name="EDITACAOREGISTROBLOQ" xml:space="preserve">
+    <value>É possível fazer alteração de apenas um registro por vez.</value>
+  </data>
+  <data name="EDITACAOVALORBLOQ" xml:space="preserve">
+    <value>É possível fazer alteração de apenas um valor por vez.</value>
+  </data>
+  <data name="EDITAR" xml:space="preserve">
+    <value>Editar</value>
+  </data>
+  <data name="EMAIL" xml:space="preserve">
+    <value>Email / Login</value>
+  </data>
+  <data name="EMAILSISTEMACONFIG" xml:space="preserve">
+    <value>Configuração de emails do sistema</value>
+  </data>
+  <data name="EMAIL_" xml:space="preserve">
+    <value>Email / Login:</value>
+  </data>
+  <data name="EMPRESA" xml:space="preserve">
+    <value>Empresa</value>
+  </data>
+  <data name="EMPRESA_" xml:space="preserve">
+    <value>Empresa:</value>
+  </data>
+  <data name="ENDERECO" xml:space="preserve">
+    <value>Endereço</value>
+  </data>
+  <data name="ENDERECOINICIALFINAL" xml:space="preserve">
+    <value>Endereço ponto inicial e final do serviço</value>
+  </data>
+  <data name="ENDERECOINICIALNAOINFORMADO" xml:space="preserve">
+    <value>Endereço do ponto incial não definido no veículo.</value>
+  </data>
+  <data name="ENDERECOS" xml:space="preserve">
+    <value>Endereço(s)</value>
+  </data>
+  <data name="ENDERECOS2" xml:space="preserve">
+    <value>Endereços</value>
+  </data>
+  <data name="ENVIAR_NOTIFICACAO" xml:space="preserve">
+    <value>Enviar Notificação</value>
+  </data>
+  <data name="EQUIPE" xml:space="preserve">
+    <value>Equipe</value>
+  </data>
+  <data name="EQUIPE_" xml:space="preserve">
+    <value>Equipe:</value>
+  </data>
+  <data name="ESCALA" xml:space="preserve">
+    <value>Escala</value>
+  </data>
+  <data name="ESCALACAO" xml:space="preserve">
+    <value>Evento</value>
+  </data>
+  <data name="ESCALACAO_AUTORIZAR" xml:space="preserve">
+    <value>Autorizar Evento</value>
+  </data>
+  <data name="ESCALACAO_BEM_SUCEDIDA" xml:space="preserve">
+    <value>Lançamento de Evento Bem Sucedido</value>
+  </data>
+  <data name="ESCALACAO_CLASSIFICACAO_ESCALA" xml:space="preserve">
+    <value>Cadastrar Evento</value>
+  </data>
+  <data name="ESCALACAO_COM_PROBLEMA" xml:space="preserve">
+    <value>Lançamento de Eventos Com Problemas, Verifique Abaixo.</value>
+  </data>
+  <data name="ESCALACAO_DESMONTAR_BEM_SUCEDIDA" xml:space="preserve">
+    <value>Evento Desfeito Com Sucesso</value>
+  </data>
+  <data name="ESCALACAO_DESMONTAR_ESCALA_FUNCIONARIO" xml:space="preserve">
+    <value>Desfazer Eventos Lançados</value>
+  </data>
+  <data name="ESCALACAO_DESMONTAR_ESCALA_FUNCIONARIO_LOG" xml:space="preserve">
+    <value>Desfazer Eventos de Funcionário(s)</value>
+  </data>
+  <data name="ESCALACAO_DESMONTAR_ESCALA_HISTORICO" xml:space="preserve">
+    <value>Histórico de Lançamentos Desfeitos</value>
+  </data>
+  <data name="ESCALACAO_ESCALA_EXTRA_FUNCIONARIO" xml:space="preserve">
+    <value>Definir Hora Extra Fora Escala</value>
+  </data>
+  <data name="ESCALACAO_ESCALA_FUNCIONARIO" xml:space="preserve">
+    <value>Lançar Evento na Escala</value>
+  </data>
+  <data name="ESCALACAO_ESCALA_FUNCIONARIO_LOG" xml:space="preserve">
+    <value>Eventos Não Lançados por Restrições</value>
+  </data>
+  <data name="ESCALACAO_HISTORICO_FUNCIONARIO" xml:space="preserve">
+    <value>Histórico Funcionário</value>
+  </data>
+  <data name="ESCALACAO_MONTAR_ESCALA_HISTORICO" xml:space="preserve">
+    <value>Histórico de Eventos do Funcionário</value>
+  </data>
+  <data name="ESCALA_ANTERIOR" xml:space="preserve">
+    <value>Evento Anterior</value>
+  </data>
+  <data name="ESCALA_ATUAL" xml:space="preserve">
+    <value>Evento Atual na Data</value>
+  </data>
+  <data name="ESCALA_EFETUADA_COM_SUCESSO" xml:space="preserve">
+    <value>Lançamento de Evento Efetuada Com Sucesso</value>
+  </data>
+  <data name="ESCALA_ESPECIAL" xml:space="preserve">
+    <value>Restrito</value>
+  </data>
+  <data name="ESCALA_FORA_JORNADA" xml:space="preserve">
+    <value>Evento fora escala</value>
+  </data>
+  <data name="ESTABELECIMENTO" xml:space="preserve">
+    <value>Posto de combustível</value>
+  </data>
+  <data name="ESTABELECIMENTO_" xml:space="preserve">
+    <value>Posto de combustível:</value>
+  </data>
+  <data name="ESTADO_" xml:space="preserve">
+    <value>Estado:</value>
+  </data>
+  <data name="ESTADO_CIVIL" xml:space="preserve">
+    <value>Estado Civil</value>
+  </data>
+  <data name="ESTADUAL" xml:space="preserve">
+    <value>Estadual</value>
+  </data>
+  <data name="EVENTO" xml:space="preserve">
+    <value>Evento</value>
+  </data>
+  <data name="EVENTO_" xml:space="preserve">
+    <value>Evento:</value>
+  </data>
+  <data name="EXCEL" xml:space="preserve">
+    <value>Excel</value>
+  </data>
+  <data name="EXCLUIR" xml:space="preserve">
+    <value>Excluir</value>
+  </data>
+  <data name="EXECUTADO" xml:space="preserve">
+    <value>Executado</value>
+  </data>
+  <data name="EXIBIR_" xml:space="preserve">
+    <value>Exibir:</value>
+  </data>
+  <data name="EXISTEM_ESCALAS_FORA_JORNADA" xml:space="preserve">
+    <value>Alguns funcionários tem eventos de trabalho em dias fora de sua escala. Deseja autorizar hora extra?</value>
+  </data>
+  <data name="EXPLICACAOIMPORTABAST2" xml:space="preserve">
+    <value>&lt;b&gt;Atenção:&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;
+Os campos com asteristico em vermelho são campos obrigatórios.&lt;br/&gt;
+&lt;b&gt;Tenha muita atenção na vinculação que está sendo feita&lt;/b&gt;, pois esta vinculação será regra para as importações de abastecimento.&lt;br/&gt;
+&lt;br/&gt;&lt;br/&gt;
+&lt;b&gt;Observações:&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;
+- Verifique se os dados foram importados após a conclusão da importação.&lt;br/&gt;
+- Caso você tenha problemas na vinculação e tenha percebido após a importação. É possível atualizar os dados do serviço reimportando a mesmo arquivo ou fazendo o upload de outro arquivo com os dados corrigidos.</value>
+  </data>
+  <data name="EXPLICACAOIMPORTABAST3" xml:space="preserve">
+    <value>&lt;b&gt;Observações:&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;
+- A importação é executada no servidor.&lt;br/&gt;
+- Caso você queira saber se a importação está em andamento pressione a tecla F5 para atualizar a tela.&lt;br/&gt;
+- Para ver o log da importação entre no menu importação/log de importação de abastecimento.</value>
+  </data>
+  <data name="EXPLICACAOIMPORTSERV2" xml:space="preserve">
+    <value>&lt;b&gt;Atenção:&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;
+Os campos com asteristico em vermelho são campos obrigatórios.&lt;br/&gt;
+&lt;b&gt;Tenha muita atenção na vinculação que está sendo feita&lt;/b&gt;, pois esta vinculação será regra para as importações de serviços.&lt;br/&gt;
+&lt;br/&gt;&lt;br/&gt;
+&lt;b&gt;Observações:&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;
+- Caso sua empresa tenha mais de um serviço em uma residência utilize o campo &lt;b&gt;CONTRATO&lt;/b&gt; para identificar esta situação.&lt;br/&gt;
+- Verifique se os dados foram importados após a conclusão da importação.&lt;br/&gt;
+- Caso você tenha problemas na vinculação e tenha percebido após a importação. É possível atualizar os dados do serviço reimportando a mesmo arquivo ou fazendo o upload de outro arquivo com os dados corrigidos.</value>
+  </data>
+  <data name="EXPLICACAOIMPORTSERV3" xml:space="preserve">
+    <value>&lt;b&gt;Observações:&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;
+- A importação é executada no servidor.&lt;br/&gt;
+- Caso você queira saber se a importação está em andamento pressione a tecla F5 para atualizar a tela.&lt;br/&gt;
+- Para ver o log da importação entre no menu importação/log de importação de serviço.</value>
+  </data>
+  <data name="EXPLICACAOTIPOABAST_" xml:space="preserve">
+    <value>&lt;b&gt;Odômetro&lt;/b&gt; - O sistema irá calcular crédito adicional baseado apenas na quilometragem percorrida pelo funcionário. Esta informação é obtida pela informação do odômetro no incio das atividades do funcionário.&lt;br/&gt;
+&lt;b&gt;Obs.: Utilizar esta opção caso o controle do funcionário seja apenas pelo odômetro lançado.&lt;/b&gt;
+&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Serviços&lt;/b&gt; - O sistema calcula crédito baseado nos serviços percorridos no dia de serviço anterior. O funcionário não precisa informar o odômetro no início de suas atividades.&lt;br/&gt;
+&lt;b&gt;Obs.: Utilizar esta opção caso o controle do funcionário seja pelos serviços executados.&lt;/b&gt;
+&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Técnico decide&lt;/b&gt; - Esta opção o funcionário escolhe qual base de calculo o sistema irá trabalhar no momento de informar o odômetro.&lt;br/&gt;
+&lt;b&gt;Obs.: Utilizar esta opção caso o controle do funcionário seja opcional a bem querer dele.&lt;/b&gt;</value>
+  </data>
+  <data name="EXPLICACAOTOLERANCIA" xml:space="preserve">
+    <value>Obs.: A tolerância é usada quando o abastecimento esteja &lt;b&gt;técnico decide&lt;/b&gt;. O calculo levará em consideração a tolerância para liberarção, ou não, do crédito pelo odômetro.</value>
+  </data>
+  <data name="EXPLICACAO_FECHAMENTOCARTAO" xml:space="preserve">
+    <value>Fechar Saldo - Utilize este recurso caso você queira zerar o saldo para novo controle no Aniel_PontoEletronico.&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Obs.: É necessário que o tanque do veículo esteja cheio para o bom funcionamento do sistema.&lt;/b&gt;</value>
+  </data>
+  <data name="EXSITUACAO_FUNCIONARIO_" xml:space="preserve">
+    <value>Não é possível continuar pois o funcionário encontra-se {0}.</value>
+  </data>
+  <data name="EX_ABONAR_DATA_FUTURA" xml:space="preserve">
+    <value>Não é possível abonar data futura.</value>
+  </data>
+  <data name="EX_ADMINISSAO_FUNCIONARIO_" xml:space="preserve">
+    <value>Não é possível continuar pois o funcionário {0} foi admitido {1}.</value>
+  </data>
+  <data name="EX_AJUSTAR_PONTO" xml:space="preserve">
+    <value>Você não tem acesso para Ajustar Ponto (Modificar lançamento Mobile)</value>
+  </data>
+  <data name="EX_ALTERAR_CLASSIFICACAO_C_MOBILE" xml:space="preserve">
+    <value>Não é possível alterar Evento com marcação Mobile iniciada.</value>
+  </data>
+  <data name="EX_ALTERAR_PRESENTE_OU_FUTURA" xml:space="preserve">
+    <value>Não é possível incluir horários em data atual ou em dias futuros. É preciso aguardar a marcação do funcionário via app mobile.</value>
+  </data>
+  <data name="EX_APENASUMMES" xml:space="preserve">
+    <value>Só é permitido período de 31 dias.</value>
+  </data>
+  <data name="EX_COMUNICACAO_SERVIDOR" xml:space="preserve">
+    <value>Problemas ao se comunicar com o Servidor.</value>
+  </data>
+  <data name="EX_DATA_RETROATIVA" xml:space="preserve">
+    <value>Não é possível lançar data retroativa.</value>
+  </data>
+  <data name="EX_DEL_FECHAMENTO_PERIODO_POSTERIOR" xml:space="preserve">
+    <value>Não é possível excluir período de fechamento com fechamentos posteriores.</value>
+  </data>
+  <data name="EX_DESCRICAO_NAO_INFORMADA" xml:space="preserve">
+    <value>Descrição não informada</value>
+  </data>
+  <data name="EX_DIA_SEM_JORNADA" xml:space="preserve">
+    <value>Escala não definida para este dia.</value>
+  </data>
+  <data name="EX_ESCALA_AUTORIZACAO" xml:space="preserve">
+    <value>Este evento exige autorização e será enviado email para o RH assim que gravar. É aconselhavel que a escalação seja feita pelo recurso "Evento/Lançar Evento em Folha".</value>
+  </data>
+  <data name="EX_ESCALA_ESPECIAL" xml:space="preserve">
+    <value>Você não tem acesso para lançar este tipo de evento -  (Evento Restrito somente com área acesso 26).</value>
+  </data>
+  <data name="EX_ESCALA_FORA_JORNADA" xml:space="preserve">
+    <value>Evento Fora Escala (Hora Extra)</value>
+  </data>
+  <data name="EX_ESCALA_SEM_MARCACAO" xml:space="preserve">
+    <value>Este evento não está configurado para permitir marcação de ponto. Todos os horários serão apagados na gravação.</value>
+  </data>
+  <data name="EX_FECHAMENTO_EXISTEPERIODOCOMDATAS" xml:space="preserve">
+    <value>Existe fechamento de período lançado na data.</value>
+  </data>
+  <data name="EX_FECHAMENTO_PERIODO_POSTERIOR" xml:space="preserve">
+    <value>Existem períodos mais recentes já fechados. Realize a exclusão e depois tente criar novamente.</value>
+  </data>
+  <data name="EX_FUNCIONARIO_COM_POTO_JALANCADO" xml:space="preserve">
+    <value>Funcionário com ponto já lançado deste dia</value>
+  </data>
+  <data name="EX_HORAEXTRA_FORAJORNADA" xml:space="preserve">
+    <value>É necessário informar hora extra autorizada para dia fora escala.</value>
+  </data>
+  <data name="EX_HORAEXTRA_JAAVALIADA" xml:space="preserve">
+    <value>Não é possível alterar hora extra autorizada pois ela já foi {0}</value>
+  </data>
+  <data name="EX_HORA_DE_ALMOCO_NAO_INFORMADA" xml:space="preserve">
+    <value>Não é possível exigir hora de intervalo. Verifique o preenchimento de horários na escala.</value>
+  </data>
+  <data name="EX_HORA_EXTRA_COMECO_JORNADA" xml:space="preserve">
+    <value>Os horários das faixas 2 devem ser superiores ao horário de saída {0}</value>
+  </data>
+  <data name="EX_HORA_EXTRA_TERMINO_JORNADA" xml:space="preserve">
+    <value>Os horários das faixas 1 devem ser inferior ao horário de entrada {0}</value>
+  </data>
+  <data name="EX_HORA_INVALIDA" xml:space="preserve">
+    <value>Hora informada inválida</value>
+  </data>
+  <data name="EX_INCLUIR_PONTO" xml:space="preserve">
+    <value>Você não tem acesso para Incluir Ponto</value>
+  </data>
+  <data name="EX_JORNADA_EXIGE_HORA_ALMOCO" xml:space="preserve">
+    <value>A Escala exige informar horário de intervalo.</value>
+  </data>
+  <data name="EX_JUSTIFICAR_ABONO_OBRIGATORIO" xml:space="preserve">
+    <value>Campo Justificativa Abono não informado.</value>
+  </data>
+  <data name="EX_MONTAR_ESCALA_PERIODOS_PASSADO" xml:space="preserve">
+    <value>Não é possível lançar evento em folha em períodos passados.</value>
+  </data>
+  <data name="EX_MOVIMENTO_VICULADOS" xml:space="preserve">
+    <value>Não é possível excluir registro. Possui movimentos vinculados.</value>
+  </data>
+  <data name="EX_MOVIMENTO_VICULADOS2" xml:space="preserve">
+    <value>Não é possível alterar registro. Possui movimentos vinculados.</value>
+  </data>
+  <data name="EX_NAO_MARCAR_PONTO" xml:space="preserve">
+    <value>O evento não permite marcar ponto. Os horários não podem ser informados</value>
+  </data>
+  <data name="EX_OBSERVACAO_NAO_INFORMADA" xml:space="preserve">
+    <value>Observação não informada</value>
+  </data>
+  <data name="EX_PERIODO_EM_CONFLITO" xml:space="preserve">
+    <value>Período informado conflita com período já lançado.</value>
+  </data>
+  <data name="EX_PERIODO_FUTURO" xml:space="preserve">
+    <value>É permitido somente lançamentos de períodos passados.</value>
+  </data>
+  <data name="EX_RESTAURAR_PONTO_MOBILE" xml:space="preserve">
+    <value>Problemas ao alterar ponto mobile.</value>
+  </data>
+  <data name="EX_SEM_PONTO_MARCADO" xml:space="preserve">
+    <value>Não há pontos marcados no período.</value>
+  </data>
+  <data name="EX_SESSAO_CAIU" xml:space="preserve">
+    <value>Sua sessão expirou por inatividade ou queda na internet. Para sua segurança, faça login novamente.</value>
+  </data>
+  <data name="EX_TROCA_JORNADA" xml:space="preserve">
+    <value>Não é permitido trocar a escala de funcionário com marcação de ponto no dia corrente.</value>
+  </data>
+  <data name="EX_VINCULO_JORNADA" xml:space="preserve">
+    <value>Vinculo do evento com problemas</value>
+  </data>
+  <data name="FANTASIA_" xml:space="preserve">
+    <value>Nome fantasia:</value>
+  </data>
+  <data name="FECHADO" xml:space="preserve">
+    <value>Fechado</value>
+  </data>
+  <data name="FECHAMENTO_BANCO_HORAS" xml:space="preserve">
+    <value>Banco de Horas</value>
+  </data>
+  <data name="FECHAR" xml:space="preserve">
+    <value>Fechar</value>
+  </data>
+  <data name="FECHARCARTAO" xml:space="preserve">
+    <value>Fechar saldo</value>
+  </data>
+  <data name="FEDERAL" xml:space="preserve">
+    <value>Federal</value>
+  </data>
+  <data name="FEEDBACK_TECNICO" xml:space="preserve">
+    <value>Feedback para o técnico:</value>
+  </data>
+  <data name="FERIADO" xml:space="preserve">
+    <value>Feriado</value>
+  </data>
+  <data name="FERIAS" xml:space="preserve">
+    <value>Férias</value>
+  </data>
+  <data name="FILIAL" xml:space="preserve">
+    <value>Filial</value>
+  </data>
+  <data name="FILIAL_" xml:space="preserve">
+    <value>Filial:</value>
+  </data>
+  <data name="FILTRAR" xml:space="preserve">
+    <value>Filtrar</value>
+  </data>
+  <data name="FILTRAR_SERVICOS" xml:space="preserve">
+    <value>Filtrar serviços</value>
+  </data>
+  <data name="FILTRAR_SERVICOS_" xml:space="preserve">
+    <value>Filtrar serviços:</value>
+  </data>
+  <data name="FILTRAR_STATUS" xml:space="preserve">
+    <value>Filtrar status</value>
+  </data>
+  <data name="FILTRO" xml:space="preserve">
+    <value>Filtro</value>
+  </data>
+  <data name="FILTROS" xml:space="preserve">
+    <value>Filtros</value>
+  </data>
+  <data name="FOLHADEPONTO" xml:space="preserve">
+    <value>Folha de Ponto</value>
+  </data>
+  <data name="FORMATOINVALIDO" xml:space="preserve">
+    <value>Formato de valor inválido</value>
+  </data>
+  <data name="FORNECEDOR" xml:space="preserve">
+    <value>Fornecedor</value>
+  </data>
+  <data name="FORNECEDOR_" xml:space="preserve">
+    <value>Fornecedor:</value>
+  </data>
+  <data name="FOTO" xml:space="preserve">
+    <value>Foto</value>
+  </data>
+  <data name="FOTOEMTODASMARCACOES" xml:space="preserve">
+    <value>Em Todas as Janelas</value>
+  </data>
+  <data name="FOTOS" xml:space="preserve">
+    <value>Fotos</value>
+  </data>
+  <data name="FOTOSOMENTEINICIOTERMINO" xml:space="preserve">
+    <value>Somente nas Janelas de Entrada e Saída</value>
+  </data>
+  <data name="FOTO_" xml:space="preserve">
+    <value>Foto:</value>
+  </data>
+  <data name="FROTA" xml:space="preserve">
+    <value>Frota</value>
+  </data>
+  <data name="FROTA_" xml:space="preserve">
+    <value>Frota:</value>
+  </data>
+  <data name="FUNCAO" xml:space="preserve">
+    <value>Função</value>
+  </data>
+  <data name="FUNCIONARIO" xml:space="preserve">
+    <value>Funcionário</value>
+  </data>
+  <data name="FUNCIONARIOS" xml:space="preserve">
+    <value>Funcionários</value>
+  </data>
+  <data name="FUNCIONARIOS_DATA_SELECIONADOS_" xml:space="preserve">
+    <value>Funcionários/Datas Selecionados:</value>
+  </data>
+  <data name="FUNCIONARIOS_SELECIONADOS_" xml:space="preserve">
+    <value>Funcionários Selecionados:</value>
+  </data>
+  <data name="FUNCIONARIO_" xml:space="preserve">
+    <value>Funcionário:</value>
+  </data>
+  <data name="FUNCIONARIO_ACERTO_DE_HORAS" xml:space="preserve">
+    <value>Ponto</value>
+  </data>
+  <data name="FUNCIONARIO_ANIEL" xml:space="preserve">
+    <value>Funcionário Aniel</value>
+  </data>
+  <data name="FUNCIONARIO_ANIEL_" xml:space="preserve">
+    <value>Funcionário Aniel:</value>
+  </data>
+  <data name="FUNCIONARIO_COM_SEM_JORNADA" xml:space="preserve">
+    <value>Funcionários com e sem escala vinculada</value>
+  </data>
+  <data name="FUNCIONARIO_DADOSCADASTRAIS" xml:space="preserve">
+    <value>Dados Cadastrais</value>
+  </data>
+  <data name="FUNCIONARIO_REQUERIDO" xml:space="preserve">
+    <value>Funcionário Requerido</value>
+  </data>
+  <data name="FUNCIONARIO_SELECIONADO_" xml:space="preserve">
+    <value>Funcionário(a):</value>
+  </data>
+  <data name="FUNCIONARIO_SEM_EQUIPE" xml:space="preserve">
+    <value>Funcionário sem vinculo com Equipe</value>
+  </data>
+  <data name="FUNCIONARIO_SEM_JORNADA" xml:space="preserve">
+    <value>Somente funcionários sem escala vinculada</value>
+  </data>
+  <data name="FUNCIONARIO_SUPERVISOR" xml:space="preserve">
+    <value>Supervisor</value>
+  </data>
+  <data name="FUSO_HORARIO" xml:space="preserve">
+    <value>Fuso Horário</value>
+  </data>
+  <data name="GARAGEM" xml:space="preserve">
+    <value>Garagem</value>
+  </data>
+  <data name="GARAGEM_" xml:space="preserve">
+    <value>Garagem:</value>
+  </data>
+  <data name="GEOREFERENCIADOS" xml:space="preserve">
+    <value>GeoReferenciados</value>
+  </data>
+  <data name="GEOREFERENCIAMENTO" xml:space="preserve">
+    <value>GeoReferenciamento</value>
+  </data>
+  <data name="GEOREFERENCIAMENTO_MASSA" xml:space="preserve">
+    <value>GeoReferenciamento em massa</value>
+  </data>
+  <data name="GEOREFERENCIASERVICOMASSA" xml:space="preserve">
+    <value>Georeferenciamento em massa</value>
+  </data>
+  <data name="GERARGOODCARD" xml:space="preserve">
+    <value>Good Card</value>
+  </data>
+  <data name="GERARTICKET" xml:space="preserve">
+    <value>Ticket Card</value>
+  </data>
+  <data name="GRADE_DE_HORARIOS" xml:space="preserve">
+    <value>Grade de Horários/Dias da Escala</value>
+  </data>
+  <data name="GRAVAR" xml:space="preserve">
+    <value>Gravar</value>
+  </data>
+  <data name="GRAVARALTERACAOENDERECO" xml:space="preserve">
+    <value>Gravar Alterações Endereço</value>
+  </data>
+  <data name="GRAVARHORAEXTRA" xml:space="preserve">
+    <value>Gravar Hora Extra</value>
+  </data>
+  <data name="GRAVARJORNADA" xml:space="preserve">
+    <value>Gravar Escala</value>
+  </data>
+  <data name="GRAVAR_ESCALA" xml:space="preserve">
+    <value>Gravar Evento</value>
+  </data>
+  <data name="GRAVAR_FECHAR" xml:space="preserve">
+    <value>Gravar &amp; fechar</value>
+  </data>
+  <data name="GRAVAR_HORAEXTRAAUTORIZADA" xml:space="preserve">
+    <value>Autorizar Hora Extra</value>
+  </data>
+  <data name="GRAVAR_HORARIO" xml:space="preserve">
+    <value>Gravar Horário</value>
+  </data>
+  <data name="GRAVAR_NOVO" xml:space="preserve">
+    <value>Gravar &amp; novo</value>
+  </data>
+  <data name="HISTORICO" xml:space="preserve">
+    <value>Histórico</value>
+  </data>
+  <data name="HISTORICO_FUNCIONARIO" xml:space="preserve">
+    <value>Histórico Funcionário</value>
+  </data>
+  <data name="HISTORICO_JORNADA" xml:space="preserve">
+    <value>Histórico de Escala</value>
+  </data>
+  <data name="HORA" xml:space="preserve">
+    <value>Hora</value>
+  </data>
+  <data name="HORAAGENDAMENTO" xml:space="preserve">
+    <value>Hora agendamento</value>
+  </data>
+  <data name="HORAAGENDAMENTO_" xml:space="preserve">
+    <value>Hora agendamento:</value>
+  </data>
+  <data name="HORAEXECUCAO" xml:space="preserve">
+    <value>Hora execução</value>
+  </data>
+  <data name="HORAEXECUCAO_" xml:space="preserve">
+    <value>Hora execução:</value>
+  </data>
+  <data name="HORAEXPIRACAO" xml:space="preserve">
+    <value>Hora Expiração</value>
+  </data>
+  <data name="HORAEXTRA" xml:space="preserve">
+    <value>Hora Extra</value>
+  </data>
+  <data name="HORAEXTRA_AVALIARHORAEXTRA" xml:space="preserve">
+    <value>Avaliar Hora Extra</value>
+  </data>
+  <data name="HORARIOS" xml:space="preserve">
+    <value>Horários</value>
+  </data>
+  <data name="HORAS" xml:space="preserve">
+    <value>Horas</value>
+  </data>
+  <data name="HORA_" xml:space="preserve">
+    <value>Hora:</value>
+  </data>
+  <data name="HORA_EXTRA_ANT_FIM" xml:space="preserve">
+    <value>Fim HE 1</value>
+  </data>
+  <data name="HORA_EXTRA_ANT_INICIO" xml:space="preserve">
+    <value>Ini. HE 1</value>
+  </data>
+  <data name="HORA_EXTRA_POS_FIM" xml:space="preserve">
+    <value>Fim HE 2</value>
+  </data>
+  <data name="HORA_EXTRA_POS_INICIO" xml:space="preserve">
+    <value>Ini. HE 2</value>
+  </data>
+  <data name="HORA_INICIO" xml:space="preserve">
+    <value>Hora Início</value>
+  </data>
+  <data name="HORA_TERMINO" xml:space="preserve">
+    <value>Hora Término</value>
+  </data>
+  <data name="HR_FINAL" xml:space="preserve">
+    <value>Hr. Final</value>
+  </data>
+  <data name="HR_INICIO" xml:space="preserve">
+    <value>Hr. Início</value>
+  </data>
+  <data name="ID" xml:space="preserve">
+    <value>Id</value>
+  </data>
+  <data name="IDENTIFICACAO" xml:space="preserve">
+    <value>Identificação</value>
+  </data>
+  <data name="ID_SOLICITACAO" xml:space="preserve">
+    <value>Solicitação</value>
+  </data>
+  <data name="IGNORAR" xml:space="preserve">
+    <value>Ignorar</value>
+  </data>
+  <data name="IGNORAR_CAMPO" xml:space="preserve">
+    <value>Ignorar o campo</value>
+  </data>
+  <data name="IGNORAR_OS" xml:space="preserve">
+    <value>Ignorar a O.S</value>
+  </data>
+  <data name="IGNORAR_REGISTRO" xml:space="preserve">
+    <value>Ignorar registro</value>
+  </data>
+  <data name="IMGCSS_" xml:space="preserve">
+    <value>Camiho img CSS:</value>
+  </data>
+  <data name="IMPORTACAOSERVICO" xml:space="preserve">
+    <value>Importação de serviços</value>
+  </data>
+  <data name="IMPORTACAO_ABASTECIMENTO" xml:space="preserve">
+    <value>Importação de abastecimento</value>
+  </data>
+  <data name="IMPORTACAO_SERVICOS" xml:space="preserve">
+    <value>Importação de serviços</value>
+  </data>
+  <data name="IMPORTACOES" xml:space="preserve">
+    <value>Importações</value>
+  </data>
+  <data name="IMPORTAR" xml:space="preserve">
+    <value>Importar</value>
+  </data>
+  <data name="IMPORTARVEICULOSANIEL" xml:space="preserve">
+    <value>Ativar Veículos do Aniel no Aniel_PontoEletronico</value>
+  </data>
+  <data name="IMPORTAR_FUNCIONARIO" xml:space="preserve">
+    <value>Importar Funcionários</value>
+  </data>
+  <data name="IMPOSSIVELEXCLUIR" xml:space="preserve">
+    <value>Impossível excluir registro pois possui registros associados.</value>
+  </data>
+  <data name="IMPRIMIR" xml:space="preserve">
+    <value>Imprimir</value>
+  </data>
+  <data name="IMPRIMIR_FOLHA_DEPONTO" xml:space="preserve">
+    <value>Imprimir Folha de Ponto</value>
+  </data>
+  <data name="INCLUIR" xml:space="preserve">
+    <value>Incluir</value>
+  </data>
+  <data name="INCLUIRCAMPO" xml:space="preserve">
+    <value>Incluir campo</value>
+  </data>
+  <data name="INCLUIR_PONTO" xml:space="preserve">
+    <value>Habilitar Edição Ponto (Alterar/Incluir)</value>
+  </data>
+  <data name="INFORMAR_INTERVALO_DE_HORARIO" xml:space="preserve">
+    <value>Informar Intervalo de Horário</value>
+  </data>
+  <data name="INFORMAR_INTERVALO_HORA" xml:space="preserve">
+    <value>Informar Intervalo de Horário</value>
+  </data>
+  <data name="INFORMEFOTO_" xml:space="preserve">
+    <value>Informe foto:</value>
+  </data>
+  <data name="INFORMELOGOTIPO_" xml:space="preserve">
+    <value>Selecione logotipo:</value>
+  </data>
+  <data name="INFORMESMSOUEMAIL" xml:space="preserve">
+    <value>Informe pelo menos uma forma de comprovação de ponto</value>
+  </data>
+  <data name="INFORMEUMAHORADESCANSO" xml:space="preserve">
+    <value>Informe no mínimo 1 hora de descanso.</value>
+  </data>
+  <data name="INFORME_ESCALA" xml:space="preserve">
+    <value>Informe Escala</value>
+  </data>
+  <data name="INICIO_HORAEXTRA" xml:space="preserve">
+    <value>Hr. Ex. Auto. Início 1</value>
+  </data>
+  <data name="INICIO_HORAEXTRA2" xml:space="preserve">
+    <value>Hr. Ex. Auto. Fim 1</value>
+  </data>
+  <data name="INICIO_HORA_EXTRA" xml:space="preserve">
+    <value>Hr. Ex. Auto. Início</value>
+  </data>
+  <data name="INSERIR" xml:space="preserve">
+    <value>Inserir</value>
+  </data>
+  <data name="INTEGRACAOABASTECIMENTO" xml:space="preserve">
+    <value>Na Integração do Abastecimento Aniel</value>
+  </data>
+  <data name="INTEGRACAO_EXCEL" xml:space="preserve">
+    <value>Erro no Excel.</value>
+  </data>
+  <data name="INTERJORNADA" xml:space="preserve">
+    <value>Interjornada</value>
+  </data>
+  <data name="INTERNO" xml:space="preserve">
+    <value>Interno</value>
+  </data>
+  <data name="INTERVALO_DE_DESCANSO_NAO_INFORMADO" xml:space="preserve">
+    <value>Intervalo de descanso mínimo não informado</value>
+  </data>
+  <data name="INTERVALO_HORAS" xml:space="preserve">
+    <value>Intervalo de Horas</value>
+  </data>
+  <data name="INTRAJORNADA" xml:space="preserve">
+    <value>Intra Jornada</value>
+  </data>
+  <data name="IRPARAAniel_PontoEletronico" xml:space="preserve">
+    <value>Aniel_PontoEletronico</value>
+  </data>
+  <data name="IRPARADMINISTRADOR" xml:space="preserve">
+    <value>Administração da página</value>
+  </data>
+  <data name="JORNADA" xml:space="preserve">
+    <value>Jornada</value>
+  </data>
+  <data name="JORNADA_DE_TRABALHO" xml:space="preserve">
+    <value>Jornada de Trabalho</value>
+  </data>
+  <data name="JORNADA_JORNADA_DE_TRABALHO" xml:space="preserve">
+    <value>Jornada de Trabalho</value>
+  </data>
+  <data name="JORNADA_LOCAIS_MARCACAO_PONTO" xml:space="preserve">
+    <value>Definir Locais de Marcação</value>
+  </data>
+  <data name="JORNADA_NOTIFICACOES_MARCACAO" xml:space="preserve">
+    <value>Notificações de Marcação</value>
+  </data>
+  <data name="JORNADA_REGRAS_PONTO" xml:space="preserve">
+    <value>Regras do Ponto</value>
+  </data>
+  <data name="JORNADA_SELECIONADA_" xml:space="preserve">
+    <value>Escala Selecionada:</value>
+  </data>
+  <data name="JORNADA_VINCULAR_FUNC_JORNADA" xml:space="preserve">
+    <value>Vincular Funcionários à Escala</value>
+  </data>
+  <data name="JUSTIFICAR_ABONO" xml:space="preserve">
+    <value>Justificar Abono</value>
+  </data>
+  <data name="JUSTIFICATIVA" xml:space="preserve">
+    <value>Justificativa</value>
+  </data>
+  <data name="JUSTIFICATIVA_" xml:space="preserve">
+    <value>Justificativa:</value>
+  </data>
+  <data name="JUSTIFICATIVA_ABONO" xml:space="preserve">
+    <value>Justificativa Abono</value>
+  </data>
+  <data name="JUSTIFICATIVA_HORAEXTRA" xml:space="preserve">
+    <value>Justificativa Hora Extra</value>
+  </data>
+  <data name="KILOMETROS" xml:space="preserve">
+    <value>Quilometros</value>
+  </data>
+  <data name="KMNECESSARIO" xml:space="preserve">
+    <value>Serviços</value>
+  </data>
+  <data name="KMNECESSARIO_ENDERECO" xml:space="preserve">
+    <value>Endereço - {0}</value>
+  </data>
+  <data name="KMNECESSARIO_ERRO6" xml:space="preserve">
+    <value>Verifique os serviços do funcionario {0} antes de prosseguir. &lt;br/&gt; {1}</value>
+  </data>
+  <data name="KMNECESSARIO_GARAGEM" xml:space="preserve">
+    <value>Garagem - {0}</value>
+  </data>
+  <data name="KMNECESSÁRIO_ERRO1" xml:space="preserve">
+    <value>Erro - Informe consumo médio e reposição máxima do veículo</value>
+  </data>
+  <data name="KMNECESSÁRIO_ERRO2" xml:space="preserve">
+    <value>Erro - Endereço da garagem não definido</value>
+  </data>
+  <data name="KMNECESSÁRIO_ERRO3" xml:space="preserve">
+    <value>Erro - Latitude/Longitude do endereço da garagem não definido</value>
+  </data>
+  <data name="KMNECESSÁRIO_ERRO4" xml:space="preserve">
+    <value>Erro - Endereço não definido no veiculo</value>
+  </data>
+  <data name="KMNECESSÁRIO_ERRO5" xml:space="preserve">
+    <value>Erro - Latitude/Longitude do endereço do veiculo não definido</value>
+  </data>
+  <data name="KMREAL" xml:space="preserve">
+    <value>Odômetro</value>
+  </data>
+  <data name="LANCAMENTOSMOBILE" xml:space="preserve">
+    <value>Lançamentos Mobile</value>
+  </data>
+  <data name="LANCAR_ABONO" xml:space="preserve">
+    <value>Lançar Abono</value>
+  </data>
+  <data name="LATITUDE" xml:space="preserve">
+    <value>Latitude</value>
+  </data>
+  <data name="LATITUDE_" xml:space="preserve">
+    <value>Latitude:</value>
+  </data>
+  <data name="LATITUDE_BAIXOU_" xml:space="preserve">
+    <value>Latitude Baixou:</value>
+  </data>
+  <data name="LATITUDE_IMPORTOU" xml:space="preserve">
+    <value>Latitude Aniel</value>
+  </data>
+  <data name="LATITUDE_IMPORTOU_" xml:space="preserve">
+    <value>Latitude Aniel:</value>
+  </data>
+  <data name="LATLONGADOTADA_" xml:space="preserve">
+    <value>Lat/Long Adotada:</value>
+  </data>
+  <data name="LIMITEMETROS" xml:space="preserve">
+    <value>Limite Metros</value>
+  </data>
+  <data name="LIMITE_HORAEXTRA" xml:space="preserve">
+    <value>Hr. Ex. Auto. Início 2</value>
+  </data>
+  <data name="LIMITE_HORAEXTRA2" xml:space="preserve">
+    <value>Hr. Ex. Auto. Fim 2</value>
+  </data>
+  <data name="LIMPAR" xml:space="preserve">
+    <value>Limpar</value>
+  </data>
+  <data name="LISTAGEM_DEPARTAMENTO" xml:space="preserve">
+    <value>Listagem de Departamentos</value>
+  </data>
+  <data name="LISTAGEM_FUNCIONARIO" xml:space="preserve">
+    <value>Listagem de Funcionários</value>
+  </data>
+  <data name="LISTAGEM_FUNCAO" xml:space="preserve">
+    <value>Listagem de Função</value>
+  </data>
+  <data name="LISTALOGS" xml:space="preserve">
+    <value>Lista de Logs</value>
+  </data>
+  <data name="LITROS" xml:space="preserve">
+    <value>litros</value>
+  </data>
+  <data name="LITROS2" xml:space="preserve">
+    <value>Litros</value>
+  </data>
+  <data name="LITROSCREDITADOS" xml:space="preserve">
+    <value>Litros Creditados</value>
+  </data>
+  <data name="LITROSKM" xml:space="preserve">
+    <value>litros/Km</value>
+  </data>
+  <data name="LITROSSERVICO" xml:space="preserve">
+    <value>Litros Serviço</value>
+  </data>
+  <data name="LOADINGPANEL" xml:space="preserve">
+    <value>Carregando</value>
+  </data>
+  <data name="LOCAIS_DE_MARCACAO_DE_PONTO" xml:space="preserve">
+    <value>Locais de Marcação de Ponto</value>
+  </data>
+  <data name="LOCAL" xml:space="preserve">
+    <value>Local</value>
+  </data>
+  <data name="LOCAL_ENTREGA" xml:space="preserve">
+    <value>Local de Entrega</value>
+  </data>
+  <data name="LOG" xml:space="preserve">
+    <value>Log</value>
+  </data>
+  <data name="LOGIN" xml:space="preserve">
+    <value>Login</value>
+  </data>
+  <data name="LOGIN_" xml:space="preserve">
+    <value>Login:</value>
+  </data>
+  <data name="LOGOTIPO" xml:space="preserve">
+    <value>Logotipo</value>
+  </data>
+  <data name="LOGOTIPO_" xml:space="preserve">
+    <value>Logotipo:</value>
+  </data>
+  <data name="LOGRADOURO" xml:space="preserve">
+    <value>Logradouro</value>
+  </data>
+  <data name="LOGRADOURO_" xml:space="preserve">
+    <value>Logradouro:</value>
+  </data>
+  <data name="LONGITUDE" xml:space="preserve">
+    <value>Longitude</value>
+  </data>
+  <data name="LONGITUDE_" xml:space="preserve">
+    <value>Longitude:</value>
+  </data>
+  <data name="LONGITUDE_BAIXOU_" xml:space="preserve">
+    <value>Longitude Baixou:</value>
+  </data>
+  <data name="LONGITUDE_IMPORTOU" xml:space="preserve">
+    <value>Longitude Aniel</value>
+  </data>
+  <data name="LONGITUDE_IMPORTOU_" xml:space="preserve">
+    <value>Longitude Aniel:</value>
+  </data>
+  <data name="MARCA" xml:space="preserve">
+    <value>Marca</value>
+  </data>
+  <data name="MARCA_" xml:space="preserve">
+    <value>Marca:</value>
+  </data>
+  <data name="MATRICULA" xml:space="preserve">
+    <value>Matrícula</value>
+  </data>
+  <data name="MATRICULAFUNCIONARIO_" xml:space="preserve">
+    <value>Matrícula func.:</value>
+  </data>
+  <data name="MATRICULA_" xml:space="preserve">
+    <value>Matrícula:</value>
+  </data>
+  <data name="MAXDISTANCIALATLONG" xml:space="preserve">
+    <value>Maximo de distância:</value>
+  </data>
+  <data name="MAX_COMECO" xml:space="preserve">
+    <value>Max. Entrada</value>
+  </data>
+  <data name="MAX_RETORNO_ALMOCO" xml:space="preserve">
+    <value>Max. Retorno Intervalo</value>
+  </data>
+  <data name="MAX_SAIDA_ALMOCO" xml:space="preserve">
+    <value>Max. Saída Intervalo</value>
+  </data>
+  <data name="MAX_TERMINO" xml:space="preserve">
+    <value>Max. Saída</value>
+  </data>
+  <data name="MENORQUE" xml:space="preserve">
+    <value>menor que</value>
+  </data>
+  <data name="MENSAGEM" xml:space="preserve">
+    <value>Mensagem</value>
+  </data>
+  <data name="MENU" xml:space="preserve">
+    <value>Menu</value>
+  </data>
+  <data name="MENUPAI_" xml:space="preserve">
+    <value>Menu pai:</value>
+  </data>
+  <data name="MENUSISTEMA" xml:space="preserve">
+    <value>Menu</value>
+  </data>
+  <data name="MENU_" xml:space="preserve">
+    <value>Menu:</value>
+  </data>
+  <data name="MES" xml:space="preserve">
+    <value>Mês</value>
+  </data>
+  <data name="MESCOMPETENCIA" xml:space="preserve">
+    <value>Mês Competência</value>
+  </data>
+  <data name="MES_REQUERIDO" xml:space="preserve">
+    <value>Mês Requerido</value>
+  </data>
+  <data name="METROS" xml:space="preserve">
+    <value>Metros</value>
+  </data>
+  <data name="MINUTOS" xml:space="preserve">
+    <value>Minutos</value>
+  </data>
+  <data name="MIN_COMECO" xml:space="preserve">
+    <value>Min. Entrada</value>
+  </data>
+  <data name="MIN_RETORNO_ALMOCO" xml:space="preserve">
+    <value>Min. Retorno</value>
+  </data>
+  <data name="MIN_SAIDA_ALMOCO" xml:space="preserve">
+    <value>Min. Saída</value>
+  </data>
+  <data name="MODELO" xml:space="preserve">
+    <value>Modelo</value>
+  </data>
+  <data name="MODELO_" xml:space="preserve">
+    <value>Modelo:</value>
+  </data>
+  <data name="MOTIVO" xml:space="preserve">
+    <value>Motivo</value>
+  </data>
+  <data name="MOVIMENTOCARTAO" xml:space="preserve">
+    <value>Movimentos</value>
+  </data>
+  <data name="MUNICIPAL" xml:space="preserve">
+    <value>Municipal</value>
+  </data>
+  <data name="MUNICIPIO" xml:space="preserve">
+    <value>Municipio</value>
+  </data>
+  <data name="MUNICIPIO_TRABALHO" xml:space="preserve">
+    <value>Municipio de Trabalho</value>
+  </data>
+  <data name="NAO" xml:space="preserve">
+    <value>Não</value>
+  </data>
+  <data name="NAOCALCULADO" xml:space="preserve">
+    <value>Não calculado</value>
+  </data>
+  <data name="NAOROTEIRADOS" xml:space="preserve">
+    <value>Não calculados</value>
+  </data>
+  <data name="NAO_NECESSITA" xml:space="preserve">
+    <value>Não Necessita</value>
+  </data>
+  <data name="NENHUMAJANELA" xml:space="preserve">
+    <value>Em Nenhuma da Janelas</value>
+  </data>
+  <data name="NENHUMA_ESCALA_INFORMADA" xml:space="preserve">
+    <value>Nenhuma escala informada</value>
+  </data>
+  <data name="NENHUM_FUNCIONARIO_INFORMADO" xml:space="preserve">
+    <value>Nenhum Funcionário Informado</value>
+  </data>
+  <data name="NENHUM_REGISTRO" xml:space="preserve">
+    <value>Nenhum registro encontrado</value>
+  </data>
+  <data name="NENHUM_REGISTRO_SELECIONADO" xml:space="preserve">
+    <value>Nenhum Registro Selecionado</value>
+  </data>
+  <data name="NOME" xml:space="preserve">
+    <value>Nome</value>
+  </data>
+  <data name="NOMEEMPRESA" xml:space="preserve">
+    <value>Nome da empresa:</value>
+  </data>
+  <data name="NOMEFUNCIONARIO_" xml:space="preserve">
+    <value>Nome funcionário:</value>
+  </data>
+  <data name="NOME_" xml:space="preserve">
+    <value>Nome:</value>
+  </data>
+  <data name="NOME_EQUIPE" xml:space="preserve">
+    <value>Favorecido</value>
+  </data>
+  <data name="NOPERMISSION" xml:space="preserve">
+    <value>Sem permissão ao recurso</value>
+  </data>
+  <data name="NOTIFICACOES_DE_MARCACAO" xml:space="preserve">
+    <value>Notificações de Marcação</value>
+  </data>
+  <data name="NOTIF_COMECO" xml:space="preserve">
+    <value>Notificação Entrada</value>
+  </data>
+  <data name="NOTIF_COMECO2" xml:space="preserve">
+    <value>Entrada</value>
+  </data>
+  <data name="NOTIF_RETORNO_ALMOCO" xml:space="preserve">
+    <value>Notificação Retorno Intervalo</value>
+  </data>
+  <data name="NOTIF_RETORNO_ALMOCO2" xml:space="preserve">
+    <value>Retorno Intervalo</value>
+  </data>
+  <data name="NOTIF_SAIDA_ALMOCO" xml:space="preserve">
+    <value>Notificação Saída Intervalo</value>
+  </data>
+  <data name="NOTIF_SAIDA_ALMOCO2" xml:space="preserve">
+    <value>Saída Intervalo</value>
+  </data>
+  <data name="NOTIF_TERMINO" xml:space="preserve">
+    <value>Notificação Saída</value>
+  </data>
+  <data name="NOTIF_TERMINO2" xml:space="preserve">
+    <value>Saída</value>
+  </data>
+  <data name="NOVA_CLASSIFICACAO" xml:space="preserve">
+    <value>Novo Evento</value>
+  </data>
+  <data name="NOVA_JORNADA" xml:space="preserve">
+    <value>Nova Escala</value>
+  </data>
+  <data name="NOVO" xml:space="preserve">
+    <value>Novo</value>
+  </data>
+  <data name="NOVOCALCULO" xml:space="preserve">
+    <value>Novo Calculo</value>
+  </data>
+  <data name="NOVOCALCULOBANCODEHORAS" xml:space="preserve">
+    <value>Calculo de Banco de Horas</value>
+  </data>
+  <data name="NOVOUSUARIO" xml:space="preserve">
+    <value>Novo Usuário</value>
+  </data>
+  <data name="NOVO_ABONO" xml:space="preserve">
+    <value>Novo Abono</value>
+  </data>
+  <data name="NOVO_FERIADO" xml:space="preserve">
+    <value>Novo Feriado</value>
+  </data>
+  <data name="NOVO_HORARIO" xml:space="preserve">
+    <value>Novo Horário</value>
+  </data>
+  <data name="NOVO_PERIODO" xml:space="preserve">
+    <value>Novo Período</value>
+  </data>
+  <data name="NUMERO" xml:space="preserve">
+    <value>Número</value>
+  </data>
+  <data name="NUMEROCARTAO" xml:space="preserve">
+    <value>Nº Controle</value>
+  </data>
+  <data name="NUMEROCARTAO_" xml:space="preserve">
+    <value>Nº Controle:</value>
+  </data>
+  <data name="NUMEROENDERECO_" xml:space="preserve">
+    <value>Número:</value>
+  </data>
+  <data name="NUMEROSERVICO" xml:space="preserve">
+    <value>Número serviço</value>
+  </data>
+  <data name="NUMEROSERVICO_" xml:space="preserve">
+    <value>Número serviço:</value>
+  </data>
+  <data name="NUMERO_" xml:space="preserve">
+    <value>Número:</value>
+  </data>
+  <data name="NUM_FRE" xml:space="preserve">
+    <value>Matrícula</value>
+  </data>
+  <data name="NUM_FRE_" xml:space="preserve">
+    <value>Matrícula:</value>
+  </data>
+  <data name="NUM_OBRA" xml:space="preserve">
+    <value>Evento\Massiva</value>
+  </data>
+  <data name="OBJETO_" xml:space="preserve">
+    <value>Objeto:</value>
+  </data>
+  <data name="OBRIGATORIODATAHORAFUTURA" xml:space="preserve">
+    <value>Obrigatório infomar data/hora futura. </value>
+  </data>
+  <data name="OBSERVACAO" xml:space="preserve">
+    <value>Observação</value>
+  </data>
+  <data name="OBSERVACAO_" xml:space="preserve">
+    <value>Observação:</value>
+  </data>
+  <data name="OBSJORNADA_DIA" xml:space="preserve">
+    <value>Horários de Intervalo devem ser informados caso a regra da escala exija este tipo de marcação no mobile.</value>
+  </data>
+  <data name="OBS_DESMARCAR_EMAIL" xml:space="preserve">
+    <value>Ao desmarcar esta opção todos os funcionários nessa escala não receberão nenhum comprovante de marcação de ponto, consulte portaria 1510 MTE Art. 7º Inciso 1.</value>
+  </data>
+  <data name="OBS_HORA_EXTRA_AGUARDANDO" xml:space="preserve">
+    <value>* Hora Extra Aguardando Aprovação</value>
+  </data>
+  <data name="OBS_HORA_EXTRA_APROVADA" xml:space="preserve">
+    <value>* Hora Extra Aprovada</value>
+  </data>
+  <data name="OBS_HORA_EXTRA_REPROVADA" xml:space="preserve">
+    <value>* Hora Extra Reprovada</value>
+  </data>
+  <data name="OBS_LIMITE_METROS" xml:space="preserve">
+    <value>Obs.: Limite da Distância entre o ponto GeoReferenciado e o ponto inicial do Veículo.</value>
+  </data>
+  <data name="OBS_MAXDISTANCIALATLONG" xml:space="preserve">
+    <value>Maximo de distância entre a Latitude Cliente e Google em metros. &lt;br/&gt; Critério utilizado no momento da roteirização de serviços no Painel de Serviços do Aniel.</value>
+  </data>
+  <data name="OBS_PONTOS_ALTERADOS" xml:space="preserve">
+    <value>* Ponto Alterado</value>
+  </data>
+  <data name="OBS_PONTOS_INCLUIDO" xml:space="preserve">
+    <value>* Ponto Incluido</value>
+  </data>
+  <data name="OBS_PONTOS_LANCADO_MOBILE" xml:space="preserve">
+    <value>* Ponto Lançado Usuário</value>
+  </data>
+  <data name="OBS_PONTOS_MOBILE_OFFILINE" xml:space="preserve">
+    <value>* Ponto Lançado Mobile Off-Line</value>
+  </data>
+  <data name="ODOMETRO" xml:space="preserve">
+    <value>Odômtro</value>
+  </data>
+  <data name="ODOMETROATUAL_" xml:space="preserve">
+    <value>Odômetro atual:</value>
+  </data>
+  <data name="ODOMETROINICIAL" xml:space="preserve">
+    <value>Odômetro inicial do veículo.</value>
+  </data>
+  <data name="ODOMETROINICIAL_" xml:space="preserve">
+    <value>Odômetro inicial:</value>
+  </data>
+  <data name="ODOMETRO_" xml:space="preserve">
+    <value>Odômetro:</value>
+  </data>
+  <data name="OFENSOR" xml:space="preserve">
+    <value>Ofensor</value>
+  </data>
+  <data name="OFENSOR_" xml:space="preserve">
+    <value>Ofensor:</value>
+  </data>
+  <data name="OFFLINE" xml:space="preserve">
+    <value>Off-Line</value>
+  </data>
+  <data name="OK" xml:space="preserve">
+    <value>Ok</value>
+  </data>
+  <data name="OPCOES" xml:space="preserve">
+    <value>Opções</value>
+  </data>
+  <data name="OPERACAO_BEM_SUCEDIDA" xml:space="preserve">
+    <value>Operação Bem Sucedida</value>
+  </data>
+  <data name="OPERADOR_" xml:space="preserve">
+    <value>Operador:</value>
+  </data>
+  <data name="ORDEM_" xml:space="preserve">
+    <value>Ordem:</value>
+  </data>
+  <data name="ORDENACAOINVALIDA" xml:space="preserve">
+    <value>Ordenação Indisponível</value>
+  </data>
+  <data name="O_DIA_INTEIRO" xml:space="preserve">
+    <value>O dia inteiro</value>
+  </data>
+  <data name="PAGINA" xml:space="preserve">
+    <value>Página</value>
+  </data>
+  <data name="PAGINADADOSCADASTRAIS" xml:space="preserve">
+    <value>Página Dados Cadastrais</value>
+  </data>
+  <data name="PAGINASISTEMA" xml:space="preserve">
+    <value>Página</value>
+  </data>
+  <data name="PAGINAVINCFUNCJORNADA" xml:space="preserve">
+    <value>Página Vinc. Func. Escala</value>
+  </data>
+  <data name="PAGINA_" xml:space="preserve">
+    <value>Página:</value>
+  </data>
+  <data name="PAGINA_ACERTO_DE_HORAS" xml:space="preserve">
+    <value>Página de Ponto</value>
+  </data>
+  <data name="PAGINA_DEFINIR_HE" xml:space="preserve">
+    <value>Página Definição de Hora Extra</value>
+  </data>
+  <data name="PAGINA_MONTAGEM_ESCALA" xml:space="preserve">
+    <value>Página de Lançamento de Evento na Escala</value>
+  </data>
+  <data name="PAINEL" xml:space="preserve">
+    <value>Painel</value>
+  </data>
+  <data name="PAINELCONSULTACONSUMOMEDIO" xml:space="preserve">
+    <value>Feedback de consumo médio</value>
+  </data>
+  <data name="PAIS_" xml:space="preserve">
+    <value>Pais:</value>
+  </data>
+  <data name="PASSO1IMPORTACAO" xml:space="preserve">
+    <value>Passo 1: Informar planilha de serviços (.csv, .txt, .xls)</value>
+  </data>
+  <data name="PASSO1IMPORTACAOABAST" xml:space="preserve">
+    <value>Passo 1: Informar arquivo de abastecimento (.csv, .txt, .xls)</value>
+  </data>
+  <data name="PASSO2IMPORTACAO" xml:space="preserve">
+    <value>Passo 2: Especificar campos para importação.</value>
+  </data>
+  <data name="PASSO2IMPORTACAOABAST" xml:space="preserve">
+    <value>Passo 2: Especificar campos para importação.</value>
+  </data>
+  <data name="PASSO3IMPORTACAO" xml:space="preserve">
+    <value>Passo 3: Importar planilha</value>
+  </data>
+  <data name="PASSO3IMPORTACAOABAST" xml:space="preserve">
+    <value>Passo 3: Importar arquivo</value>
+  </data>
+  <data name="PDF" xml:space="preserve">
+    <value>PDF</value>
+  </data>
+  <data name="PENDENCIA" xml:space="preserve">
+    <value>Pendência</value>
+  </data>
+  <data name="PENDENCIAS" xml:space="preserve">
+    <value>Pendências</value>
+  </data>
+  <data name="PERCENTUALTOLERANCIA_" xml:space="preserve">
+    <value>Percentual de tolerância:</value>
+  </data>
+  <data name="PERFIL" xml:space="preserve">
+    <value>Perfil</value>
+  </data>
+  <data name="PERFILACESSO" xml:space="preserve">
+    <value>Perfil de acesso</value>
+  </data>
+  <data name="PERFILDEACESSO" xml:space="preserve">
+    <value>Perfil de acesso</value>
+  </data>
+  <data name="PERFIL_" xml:space="preserve">
+    <value>Perfil:</value>
+  </data>
+  <data name="PERIODO" xml:space="preserve">
+    <value>Período</value>
+  </data>
+  <data name="PERIODOAGENDAMENTO_" xml:space="preserve">
+    <value>Período agendamento:</value>
+  </data>
+  <data name="PERIODOEXECUCAO_" xml:space="preserve">
+    <value>Período execução:</value>
+  </data>
+  <data name="PERIODO_" xml:space="preserve">
+    <value>Período:</value>
+  </data>
+  <data name="PERIODO_DEVE_SER_NO_MES" xml:space="preserve">
+    <value>Período informado deve ser no mesmo mês</value>
+  </data>
+  <data name="PERIODO_DE_TRINTA_DIAS" xml:space="preserve">
+    <value>Período Informado Precisa ser Dentro de um Período de Trinta Dias</value>
+  </data>
+  <data name="PERIODO_FECHADO" xml:space="preserve">
+    <value>Período Fechado</value>
+  </data>
+  <data name="PERIODO_FECHAMENTO_PONTO" xml:space="preserve">
+    <value>Período de Fechamento de Ponto</value>
+  </data>
+  <data name="PERIODO_INVALIDO" xml:space="preserve">
+    <value>Período Inválido</value>
+  </data>
+  <data name="PERMITIR_MARCAR" xml:space="preserve">
+    <value>Permitir Marcar</value>
+  </data>
+  <data name="PESQUISAR" xml:space="preserve">
+    <value>Pesquisar</value>
+  </data>
+  <data name="PIS" xml:space="preserve">
+    <value>PIS</value>
+  </data>
+  <data name="PLACA" xml:space="preserve">
+    <value>Placa</value>
+  </data>
+  <data name="PLACA_" xml:space="preserve">
+    <value>Placa:</value>
+  </data>
+  <data name="PLANILHAIMPORTACAO" xml:space="preserve">
+    <value>Arquivo importação</value>
+  </data>
+  <data name="PLANILHAIMPORTACAO_" xml:space="preserve">
+    <value>Planilha importação:</value>
+  </data>
+  <data name="PONTO" xml:space="preserve">
+    <value>Ponto</value>
+  </data>
+  <data name="PONTOINICIALFINAL" xml:space="preserve">
+    <value>Ponto Inicial</value>
+  </data>
+  <data name="PONTOINICIALGARAGEM_" xml:space="preserve">
+    <value>Ponto inicial:</value>
+  </data>
+  <data name="PONTOS" xml:space="preserve">
+    <value>Pontos</value>
+  </data>
+  <data name="PONTOS_" xml:space="preserve">
+    <value>Pontos:</value>
+  </data>
+  <data name="PONTO_" xml:space="preserve">
+    <value>Ponto:</value>
+  </data>
+  <data name="PONTO_ATUACAO" xml:space="preserve">
+    <value>Ponto Atual</value>
+  </data>
+  <data name="PONTO_ELETRONICO" xml:space="preserve">
+    <value>Ponto Eletrônico</value>
+  </data>
+  <data name="PONTUACAO_INICIAL_" xml:space="preserve">
+    <value>Pontuação inicial:</value>
+  </data>
+  <data name="POR_DATA" xml:space="preserve">
+    <value>Por Data</value>
+  </data>
+  <data name="POR_LOCAL_ATUACAO" xml:space="preserve">
+    <value>Por Áreas de Atuação do Técnico</value>
+  </data>
+  <data name="POR_LOCAL_ATUACAO_TECNICO" xml:space="preserve">
+    <value>Por Loc. Téc.</value>
+  </data>
+  <data name="POR_LOCAL_DESLOCAMENTO_TECNICO" xml:space="preserve">
+    <value>Por Locais de Deslocamento do Técnico</value>
+  </data>
+  <data name="POR_LOCAL_GARAGEM" xml:space="preserve">
+    <value>Garageamento</value>
+  </data>
+  <data name="POR_LOCAL_GARAGEM2" xml:space="preserve">
+    <value>Por Local de Garageamento</value>
+  </data>
+  <data name="POR_LOCAL_SERVICOS" xml:space="preserve">
+    <value>Local de Serviços Roteirizados</value>
+  </data>
+  <data name="POR_LOCAL_SERVICO_ROTEIRADOS" xml:space="preserve">
+    <value>Por Rot.</value>
+  </data>
+  <data name="POR_LOCAL_SERVICO_ROTEIRADOS2" xml:space="preserve">
+    <value>Por Local de Serviços Roteirados</value>
+  </data>
+  <data name="POR_LOCAL_TECNICO" xml:space="preserve">
+    <value>Deslocamento</value>
+  </data>
+  <data name="POR_MES" xml:space="preserve">
+    <value>Por Mês</value>
+  </data>
+  <data name="POR_PERIODO" xml:space="preserve">
+    <value>Por Período</value>
+  </data>
+  <data name="POSSUIAREAATUACAO" xml:space="preserve">
+    <value>Áreas de Atuação</value>
+  </data>
+  <data name="POSSUIVEICULO_" xml:space="preserve">
+    <value>Possui Veiculo ?</value>
+  </data>
+  <data name="PREVISAO_HORAEXTRA" xml:space="preserve">
+    <value>Previsão Hora Extra</value>
+  </data>
+  <data name="PRIMEIRAESCALA" xml:space="preserve">
+    <value>Primeiro Evento</value>
+  </data>
+  <data name="PRINCIPAL" xml:space="preserve">
+    <value>Principal</value>
+  </data>
+  <data name="PROCESSOS" xml:space="preserve">
+    <value>Processos</value>
+  </data>
+  <data name="PROJETO" xml:space="preserve">
+    <value>Projeto</value>
+  </data>
+  <data name="PROSSEGUIR" xml:space="preserve">
+    <value>Prosseguir</value>
+  </data>
+  <data name="PROTOCOLO" xml:space="preserve">
+    <value>Protocolo</value>
+  </data>
+  <data name="PROTOCOLOABAST" xml:space="preserve">
+    <value>Protocolar Liberação de Abastecimento</value>
+  </data>
+  <data name="PROTOCOLOSALDOCARTAO" xml:space="preserve">
+    <value>Protocolos Saldo de Abastecimento</value>
+  </data>
+  <data name="PROXIMO" xml:space="preserve">
+    <value>Próximo</value>
+  </data>
+  <data name="QRCODEEMTODASMARCACOES" xml:space="preserve">
+    <value>Qr Code Em Todas as Janelas</value>
+  </data>
+  <data name="QRCODESOMENTEINICIOTERMINO" xml:space="preserve">
+    <value>Qr Code Somente nas Janelas de Entrada e Saída</value>
+  </data>
+  <data name="QRCODE_FUNCIONARIO" xml:space="preserve">
+    <value>Qr Code / Código de Barras</value>
+  </data>
+  <data name="QTDE_ENTREGUE" xml:space="preserve">
+    <value>Qtde. Entregue</value>
+  </data>
+  <data name="QTDE_PENDENTE" xml:space="preserve">
+    <value>Qtde. Pendente</value>
+  </data>
+  <data name="QTDE_PROGRAMADA" xml:space="preserve">
+    <value>Qtde. Programada</value>
+  </data>
+  <data name="QTDE_SOLICITADA" xml:space="preserve">
+    <value>Qtde. Solicitada</value>
+  </data>
+  <data name="QUANTIDADE" xml:space="preserve">
+    <value>Quantidade</value>
+  </data>
+  <data name="QUANTIDADE_PONTOS" xml:space="preserve">
+    <value>Qtde pontos:</value>
+  </data>
+  <data name="QUARTA" xml:space="preserve">
+    <value>Quarta</value>
+  </data>
+  <data name="QUARTAFEIRA" xml:space="preserve">
+    <value>Quarta-Feira</value>
+  </data>
+  <data name="QUINTA" xml:space="preserve">
+    <value>Quinta</value>
+  </data>
+  <data name="QUINTAFEIRA" xml:space="preserve">
+    <value>Quinta-Feira</value>
+  </data>
+  <data name="RAIO" xml:space="preserve">
+    <value>Raio</value>
+  </data>
+  <data name="RAIO(METROS)" xml:space="preserve">
+    <value>Raio (Metros)</value>
+  </data>
+  <data name="RAIO_ALERTAR_MARCACAO_GPS" xml:space="preserve">
+    <value>Alertar ao funcionário para ativar GPS</value>
+  </data>
+  <data name="RAIO_BLOQUEAR_MARCACAO_GPS" xml:space="preserve">
+    <value>Bloquear Marcação não tendo GPS</value>
+  </data>
+  <data name="RAIO_LOCAL_ATUACAO_TECNICO" xml:space="preserve">
+    <value>Distância Atuação Técnico</value>
+  </data>
+  <data name="RAIO_LOCAL_GARAGEM" xml:space="preserve">
+    <value>Distância</value>
+  </data>
+  <data name="RAIO_LOCAL_SERVICO_ROTEIRADOS" xml:space="preserve">
+    <value>Distância Serviçõ Roteirados</value>
+  </data>
+  <data name="RAIO_VIEW_ALERTAR_GPS" xml:space="preserve">
+    <value>Alertar ao funcionário para ativar o serviço de localização do celular mas não impedi-lo de marcar seu ponto caso o mesmo opte por não ativar.</value>
+  </data>
+  <data name="RAIO_VIEW_BLOCK_GPS" xml:space="preserve">
+    <value>Bloquear a marcação caso funcionário não ative o serviço de localização.</value>
+  </data>
+  <data name="RAMAL" xml:space="preserve">
+    <value>Ramal</value>
+  </data>
+  <data name="RAMAL_" xml:space="preserve">
+    <value>Ramal:</value>
+  </data>
+  <data name="RAZAO_SOCIAL_" xml:space="preserve">
+    <value>Razão social:</value>
+  </data>
+  <data name="RECALCULARSERVICOS" xml:space="preserve">
+    <value>Calcular todos serviços incluindo os já calculados.</value>
+  </data>
+  <data name="RECORRENCIAENDERECO" xml:space="preserve">
+    <value>Recorrências no Endereço</value>
+  </data>
+  <data name="RECURSO" xml:space="preserve">
+    <value>Recurso</value>
+  </data>
+  <data name="RECURSOEXISTENTE" xml:space="preserve">
+    <value>Recurso(s) existente(s)</value>
+  </data>
+  <data name="RECURSOSELECIONADO" xml:space="preserve">
+    <value>Recurso(s) selecionado(s)</value>
+  </data>
+  <data name="REDIRECIONADO3SEG" xml:space="preserve">
+    <value>Você será redirecionado em 3 segundos.</value>
+  </data>
+  <data name="REFERENCIA" xml:space="preserve">
+    <value>Referência</value>
+  </data>
+  <data name="REFERENCIAMENTOBEMSUCEDIDO" xml:space="preserve">
+    <value>Referênciamento bem sucedido.</value>
+  </data>
+  <data name="REFERENCIAMENTOPROBLEMAS" xml:space="preserve">
+    <value>Atenção! Houve referenciamento com problemas no endereço. Favor Verifique.</value>
+  </data>
+  <data name="REFERENCIARMASSA" xml:space="preserve">
+    <value>Referenciar em massa</value>
+  </data>
+  <data name="REGIAO" xml:space="preserve">
+    <value>Região</value>
+  </data>
+  <data name="REGIAO_" xml:space="preserve">
+    <value>Região:</value>
+  </data>
+  <data name="REGRAROTEIRIZACAO" xml:space="preserve">
+    <value>No Calculo da Rota</value>
+  </data>
+  <data name="REGRAS_DO_PONTO" xml:space="preserve">
+    <value>Regras do Ponto</value>
+  </data>
+  <data name="REGRA_ALMOCO_TIPO_MARCACAO1" xml:space="preserve">
+    <value>Criticar e impedir marcação de retorno com duração menor que a definida na escala.</value>
+  </data>
+  <data name="REGRA_ALMOCO_TIPO_MARCACAO1_" xml:space="preserve">
+    <value>Criticar e impedir marcação.</value>
+  </data>
+  <data name="REGRA_ALMOCO_TIPO_MARCACAO2" xml:space="preserve">
+    <value>Informar ao técnico que o intervalo ainda não foi concluído, deixando-o prosseguir ou não com a marcação</value>
+  </data>
+  <data name="REGRA_ALMOCO_TIPO_MARCACAO2_" xml:space="preserve">
+    <value>Informar ao técnico.</value>
+  </data>
+  <data name="REGRA_APENAS_ALERTAR_INTERVALO" xml:space="preserve">
+    <value>Apenas alertar que o intervalor não foi cumprido.</value>
+  </data>
+  <data name="REGRA_CKEXIGE_FOTO" xml:space="preserve">
+    <value>Exigir Foto na Marcação do Ponto</value>
+  </data>
+  <data name="REGRA_CKEXIGE_FOTO_ALMOCO" xml:space="preserve">
+    <value>Incluir exigência no Intervalo (?)</value>
+  </data>
+  <data name="REGRA_CKEXIGE_QRCOD" xml:space="preserve">
+    <value>Exigir Qr-Code na Marcação do Ponto</value>
+  </data>
+  <data name="REGRA_CKEXIGE_QRCOD_ALMOCO" xml:space="preserve">
+    <value>Incluir exigência no Intervalo (?)</value>
+  </data>
+  <data name="REGRA_COMPROVACAO" xml:space="preserve">
+    <value>Recebimento do Comprovante de Ponto:</value>
+  </data>
+  <data name="REGRA_CONSIDERAR_INTERVALO_DIA" xml:space="preserve">
+    <value>Descanso mínimo</value>
+  </data>
+  <data name="REGRA_CONSIDERAR_INTERVALO_DIA2" xml:space="preserve">
+    <value>Considerar intervalo mínimo de descanso entre um dia e outro</value>
+  </data>
+  <data name="REGRA_CONSIDERAR_TOLERANCIA" xml:space="preserve">
+    <value>Considerar Tolerância </value>
+  </data>
+  <data name="REGRA_CONSIDERAR_TOLERANCIA2" xml:space="preserve">
+    <value>Considerar tolerância máxima e mínima para marcar ponto de janelas.</value>
+  </data>
+  <data name="REGRA_ENVIAR_EMAIL" xml:space="preserve">
+    <value>Comprovação Email</value>
+  </data>
+  <data name="REGRA_ENVIAR_EMAIL2" xml:space="preserve">
+    <value>Via E-mail - Somente funcionários com e-mail cadastrado no Aniel T5 receberão este documento.</value>
+  </data>
+  <data name="REGRA_ENVIAR_SMS" xml:space="preserve">
+    <value>Comprovação SMS</value>
+  </data>
+  <data name="REGRA_ENVIAR_SMS2" xml:space="preserve">
+    <value>Via SMS</value>
+  </data>
+  <data name="REGRA_EXIGE_FOTO" xml:space="preserve">
+    <value>Exige Foto</value>
+  </data>
+  <data name="REGRA_EXIGE_FOTO2" xml:space="preserve">
+    <value>Utilizar Critérios de Segurança para Marcar Ponto</value>
+  </data>
+  <data name="REGRA_EXIGE_MARCACAO_ALMOCO" xml:space="preserve">
+    <value>Exige Intervalo</value>
+  </data>
+  <data name="REGRA_EXIGE_MARCACAO_ALMOCO2" xml:space="preserve">
+    <value>Exige marcação de intervalo</value>
+  </data>
+  <data name="REGRA_EXIGE_QRCODE" xml:space="preserve">
+    <value>Exige QrCode</value>
+  </data>
+  <data name="REGRA_HORAEXTRA_BLOQ_MARC" xml:space="preserve">
+    <value>Permite que o técnico realize marcação mesmo se não houver uma predefinição de faixas - O técnico será notificado que não há hora extra programada, cabendo a ele a decisão de prosseguir ou não, sujeito a ajustes na folha caso a hr. extra seja invalidada.</value>
+  </data>
+  <data name="REGRA_HORAEXTRA_BLOQ_MARC2" xml:space="preserve">
+    <value>Permite que o técnico realize marcação mesmo se não houver uma predefinição de faixas.</value>
+  </data>
+  <data name="REGRA_HORAEXTRA_SO_AUTO" xml:space="preserve">
+    <value>Somente com pré autorização - faixas definidas. O técnico será bloqueado de marcar ponto se não estiver em horário de trabalho.</value>
+  </data>
+  <data name="REGRA_HORAEXTRA_SO_AUTO2" xml:space="preserve">
+    <value>Somente com pré autorização - faixas definidas.</value>
+  </data>
+  <data name="REGRA_INTERVALO_DIA" xml:space="preserve">
+    <value>Intevalor entre dias</value>
+  </data>
+  <data name="REGRA_MARCACAO_HORAEXTRA" xml:space="preserve">
+    <value>Quanto a Marcação de Hora Extra:</value>
+  </data>
+  <data name="REGRA_NECESSITA_AVALIACAO" xml:space="preserve">
+    <value>Necessita Avaliação do RH</value>
+  </data>
+  <data name="REGRA_NECESSITA_AVALIACAO2" xml:space="preserve">
+    <value>Necessita Avaliação do RH para Marcar Ponto</value>
+  </data>
+  <data name="REGRA_OBRIGAR_MARCACAO" xml:space="preserve">
+    <value>Obrigar o técnico iniciar a marcação somente após o cumprimento do período de descanso.</value>
+  </data>
+  <data name="REGRA_OBRIGAR_MARCACAO1" xml:space="preserve">
+    <value>Obrigar o técnico iniciar a marcação.</value>
+  </data>
+  <data name="REGRA_OFFLINE" xml:space="preserve">
+    <value>Marcação Off-Line - Permitir que os Funcionários vinculados a esta jornada lancem Ponto Off-Line</value>
+  </data>
+  <data name="REGRA_SOMENTE_APP_AUTORIZADOS" xml:space="preserve">
+    <value>App Autorizado</value>
+  </data>
+  <data name="REGRA_SOMENTE_APP_AUTORIZADOS2" xml:space="preserve">
+    <value>Somente em aplicativos autorizados</value>
+  </data>
+  <data name="REGRA_TIPO_MARCACAO_ALMOCO" xml:space="preserve">
+    <value>Tipo Marcação Intervalo</value>
+  </data>
+  <data name="RELATORIOS" xml:space="preserve">
+    <value>Relatórios</value>
+  </data>
+  <data name="REL_ABONODEPONTO" xml:space="preserve">
+    <value>Relatório Abono de Ponto</value>
+  </data>
+  <data name="REL_ALTERACAO_SOBRE_JORNADA" xml:space="preserve">
+    <value>Relatório de Alterações de Escala</value>
+  </data>
+  <data name="REL_FUNCIONARIOJORNADA" xml:space="preserve">
+    <value>Relatório de Funcionarios Vinculados a Escala</value>
+  </data>
+  <data name="REL_FUNCIONARIOSJORNADA" xml:space="preserve">
+    <value>Relatório Funcionarios na Escala</value>
+  </data>
+  <data name="REL_LOGDEALTERACOESSOBREPONTO" xml:space="preserve">
+    <value>Relatório Alteração Sobre Ponto</value>
+  </data>
+  <data name="REL_LOGDEJORNADAVINCULADAS" xml:space="preserve">
+    <value>Relatório Alteração Sobre Ponto</value>
+  </data>
+  <data name="REL_LOGDEMARCACOESALTERACOES" xml:space="preserve">
+    <value>Relatório Marcações</value>
+  </data>
+  <data name="REL_LOGESCALASDESFEITAS" xml:space="preserve">
+    <value>Relatótio Eventos Desfeitos</value>
+  </data>
+  <data name="REL_LOGMONTAGEMESCALA" xml:space="preserve">
+    <value>Relatório Escalas Vinculadas</value>
+  </data>
+  <data name="REL_PONTOAFD" xml:space="preserve">
+    <value>Relatório Ponto AFD</value>
+  </data>
+  <data name="REL_PONTOATUAL" xml:space="preserve">
+    <value>Relatório Ponto Atual</value>
+  </data>
+  <data name="REL_PONTODETALHADO" xml:space="preserve">
+    <value>Relatório Ponto Detalhado</value>
+  </data>
+  <data name="REMOVER" xml:space="preserve">
+    <value>Remover</value>
+  </data>
+  <data name="REMOVERTODOS" xml:space="preserve">
+    <value>Remover todos</value>
+  </data>
+  <data name="RENAVAM" xml:space="preserve">
+    <value>Renavam</value>
+  </data>
+  <data name="RENAVAM_" xml:space="preserve">
+    <value>Renavam:</value>
+  </data>
+  <data name="REPROVACAO" xml:space="preserve">
+    <value>Reprovação</value>
+  </data>
+  <data name="REPROVADA" xml:space="preserve">
+    <value>Reprovada</value>
+  </data>
+  <data name="REPROVADO" xml:space="preserve">
+    <value>Reprovado</value>
+  </data>
+  <data name="REPROVAR" xml:space="preserve">
+    <value>Reprovar</value>
+  </data>
+  <data name="REQUISITOIMPOTABAST" xml:space="preserve">
+    <value>Para a importação de abastecimento é necessário que sejam previamente cadastrados:
+&lt;br/&gt;&lt;br/&gt;
+ - Funcionários.&lt;br/&gt;
+ - Controle.&lt;br/&gt;
+ - Veículos.&lt;br/&gt;&lt;br/&gt;
+&lt;b&gt;Caso algum destes não estejam configurados corretamente o sistema irá gerar log com a não importação do registro.&lt;/b&gt;</value>
+  </data>
+  <data name="REQUISITOIMPOTSERVICO" xml:space="preserve">
+    <value>Para a importação de serviços é necessário que sejam previamente cadastrados:
+&lt;br/&gt;&lt;br/&gt;
+ - Funcionários.&lt;br/&gt;
+ - Cartões.&lt;br/&gt;
+ - Veículos.&lt;br/&gt;&lt;br/&gt;
+&lt;b&gt;Caso algum destes não estejam configurados corretamente o sistema irá gerar log com a não importação do registro.&lt;/b&gt;</value>
+  </data>
+  <data name="REQUISITOS" xml:space="preserve">
+    <value>Requisitos</value>
+  </data>
+  <data name="RESOLVER_HORA_EXTRA" xml:space="preserve">
+    <value>Definir Hora Extra</value>
+  </data>
+  <data name="RESPONSAVEL" xml:space="preserve">
+    <value>Responsável</value>
+  </data>
+  <data name="RESTAURAR_MARCACAO" xml:space="preserve">
+    <value>Restaurar Marcação</value>
+  </data>
+  <data name="RESTAURAR_MARCACAO_PONTO" xml:space="preserve">
+    <value>Restaurar Marcação de Ponto Mobile</value>
+  </data>
+  <data name="RESUMODORECURSO" xml:space="preserve">
+    <value>Resumo do recurso</value>
+  </data>
+  <data name="RETORNO_ALMOCO" xml:space="preserve">
+    <value>Retorno Intervalo</value>
+  </data>
+  <data name="RETORNO_ALMOCO_MOBILE" xml:space="preserve">
+    <value>Retorno Intervalo Mobile</value>
+  </data>
+  <data name="RETORNO_ALMOCO_WEB" xml:space="preserve">
+    <value>Ult. Ajuste Retorno Intervalo</value>
+  </data>
+  <data name="RG" xml:space="preserve">
+    <value>RG</value>
+  </data>
+  <data name="ROTEIRADOS" xml:space="preserve">
+    <value>Calculados</value>
+  </data>
+  <data name="ROTERARSERVICOS" xml:space="preserve">
+    <value>Calcular quilometragem dos serviços</value>
+  </data>
+  <data name="SABADO" xml:space="preserve">
+    <value>Sabado</value>
+  </data>
+  <data name="SAIDARETORNOALMOCO" xml:space="preserve">
+    <value>Saida e Retorno Intervalo</value>
+  </data>
+  <data name="SAIDA_ALMOCO" xml:space="preserve">
+    <value>Saída Intervalo</value>
+  </data>
+  <data name="SAIDA_ALMOCO_MOBILE" xml:space="preserve">
+    <value>Saída Intervalo Mobile</value>
+  </data>
+  <data name="SAIDA_ALMOCO_WEB" xml:space="preserve">
+    <value>Ult. Ajuste Saída Intervalo</value>
+  </data>
+  <data name="SAIR" xml:space="preserve">
+    <value>Sair</value>
+  </data>
+  <data name="SALDOANTERIOR" xml:space="preserve">
+    <value>Saldo Anterior</value>
+  </data>
+  <data name="SALDOANTERIORL" xml:space="preserve">
+    <value>Saldo Anterior (L)</value>
+  </data>
+  <data name="SALDOATUAL" xml:space="preserve">
+    <value>Saldo Atual</value>
+  </data>
+  <data name="SALDOATUALL" xml:space="preserve">
+    <value>Saldo Atual (L)</value>
+  </data>
+  <data name="SALDOCARTAO_" xml:space="preserve">
+    <value>Saldo:</value>
+  </data>
+  <data name="SALDODINHEIROCARTAO_" xml:space="preserve">
+    <value>Saldo(R$):</value>
+  </data>
+  <data name="SALDOLITROSCARTAO_" xml:space="preserve">
+    <value>Saldo(L):</value>
+  </data>
+  <data name="SALDO_" xml:space="preserve">
+    <value>Saldo:</value>
+  </data>
+  <data name="SCRIPT_DESEJAEMILIMAR" xml:space="preserve">
+    <value>return confirm("Deseja realmente excluir registro ?");</value>
+  </data>
+  <data name="SCRIPT_DESEJAROTERAR" xml:space="preserve">
+    <value>return confirm("Deseja realmente calcular quilometragem dos serviços ?");</value>
+  </data>
+  <data name="SEGMENTO_TRABALHO" xml:space="preserve">
+    <value>Segmento Trabalho</value>
+  </data>
+  <data name="SEGUNDA" xml:space="preserve">
+    <value>Segunda</value>
+  </data>
+  <data name="SEGUNDAFEIRA" xml:space="preserve">
+    <value>Segunda-Feira</value>
+  </data>
+  <data name="SEGURANCA" xml:space="preserve">
+    <value>Segurança</value>
+  </data>
+  <data name="SELECIONADOS_" xml:space="preserve">
+    <value>Selecionados:</value>
+  </data>
+  <data name="SELECIONARARQUIVO" xml:space="preserve">
+    <value>Selecionar arquivo</value>
+  </data>
+  <data name="SELECIONARPLANILHA" xml:space="preserve">
+    <value>Selecionar planilha</value>
+  </data>
+  <data name="SEMCOMUNICADOS" xml:space="preserve">
+    <value>Sem Comunicados até o Momento</value>
+  </data>
+  <data name="SEMJORNADA" xml:space="preserve">
+    <value>Sem Escala</value>
+  </data>
+  <data name="SEM_DADOS_PARA_MOSTRAR" xml:space="preserve">
+    <value>Sem dados para mostrar</value>
+  </data>
+  <data name="SEM_DADOS_PARA_MOSTRAR_JORNADA" xml:space="preserve">
+    <value>Não há funcionários ativos cadastrados ou seu usuário não possui nenhum funcionário sobre sua supervisão.</value>
+  </data>
+  <data name="SEM_GEOREFERENCIAMENTO" xml:space="preserve">
+    <value>Sem GeoReferenciamento</value>
+  </data>
+  <data name="SENHA" xml:space="preserve">
+    <value>Senha</value>
+  </data>
+  <data name="SENHA_" xml:space="preserve">
+    <value>Senha:</value>
+  </data>
+  <data name="SEPARADOR_" xml:space="preserve">
+    <value>Separador:</value>
+  </data>
+  <data name="SERIE_CTPS" xml:space="preserve">
+    <value>Série da CTPS</value>
+  </data>
+  <data name="SERVICO" xml:space="preserve">
+    <value>Serviço</value>
+  </data>
+  <data name="SERVICOS" xml:space="preserve">
+    <value>Serviços</value>
+  </data>
+  <data name="SERVICOSEMEXECUCAO" xml:space="preserve">
+    <value>Serviços em Execução</value>
+  </data>
+  <data name="SERVICO_" xml:space="preserve">
+    <value>Serviço:</value>
+  </data>
+  <data name="SEXTA" xml:space="preserve">
+    <value>Sexta</value>
+  </data>
+  <data name="SEXTAFEIRA" xml:space="preserve">
+    <value>Sexta-Feira</value>
+  </data>
+  <data name="SIGLA" xml:space="preserve">
+    <value>Código</value>
+  </data>
+  <data name="SIM" xml:space="preserve">
+    <value>Sim</value>
+  </data>
+  <data name="SISTEMA_" xml:space="preserve">
+    <value>Sistema:</value>
+  </data>
+  <data name="SITUACAO" xml:space="preserve">
+    <value>Situação</value>
+  </data>
+  <data name="SITUACAOFUNCIONARIO" xml:space="preserve">
+    <value>Situação do Funcionário</value>
+  </data>
+  <data name="SITUACAOVEICULO" xml:space="preserve">
+    <value>Situação do veículo</value>
+  </data>
+  <data name="SITUACAO_FUNCIONARIO" xml:space="preserve">
+    <value>O evento influencia a situação do cadastro de funcionário(?)</value>
+  </data>
+  <data name="SITUACAO_FUNCIONARIO_" xml:space="preserve">
+    <value>Situação:</value>
+  </data>
+  <data name="SITUACAO_VEICULO" xml:space="preserve">
+    <value>Situação</value>
+  </data>
+  <data name="SITUACAO_VEICULO_" xml:space="preserve">
+    <value>Situação:</value>
+  </data>
+  <data name="SOMENTENIMPORTADOS" xml:space="preserve">
+    <value>Somente não importados</value>
+  </data>
+  <data name="SOMENTE_MOBILE" xml:space="preserve">
+    <value>Somente Mobile</value>
+  </data>
+  <data name="SOMENTE_WEB" xml:space="preserve">
+    <value>Somente Web</value>
+  </data>
+  <data name="STATUS" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="STATUSGEOMASSA" xml:space="preserve">
+    <value>Status atual</value>
+  </data>
+  <data name="STATUSIMPORTACAO_" xml:space="preserve">
+    <value>Status importação:</value>
+  </data>
+  <data name="STATUSMOBILE" xml:space="preserve">
+    <value>Status mobile</value>
+  </data>
+  <data name="STATUSSERVICO" xml:space="preserve">
+    <value>Status de serviço</value>
+  </data>
+  <data name="STATUS_SERVICO" xml:space="preserve">
+    <value>Status serviço</value>
+  </data>
+  <data name="STATUS_SERVICO_" xml:space="preserve">
+    <value>Status serviço:</value>
+  </data>
+  <data name="SUASESSAOEXPIROU" xml:space="preserve">
+    <value>Sua Sessão Expirou</value>
+  </data>
+  <data name="SUPERVISOR" xml:space="preserve">
+    <value>Supervisor</value>
+  </data>
+  <data name="TECNICODECIDE" xml:space="preserve">
+    <value>Técnico decide</value>
+  </data>
+  <data name="TELEFONE" xml:space="preserve">
+    <value>Telefone</value>
+  </data>
+  <data name="TELEFONES" xml:space="preserve">
+    <value>Telefone(s)</value>
+  </data>
+  <data name="TELEFONES2" xml:space="preserve">
+    <value>Telefones</value>
+  </data>
+  <data name="TEL_CELULAR" xml:space="preserve">
+    <value>Celular</value>
+  </data>
+  <data name="TEMPLATE_EXCEL" xml:space="preserve">
+    <value>Erro no Template Excel.</value>
+  </data>
+  <data name="TEMVISITA_" xml:space="preserve">
+    <value>Tem visita técnica ?</value>
+  </data>
+  <data name="TERCA" xml:space="preserve">
+    <value>Terça</value>
+  </data>
+  <data name="TERCAFEIRA" xml:space="preserve">
+    <value>Terça-Feira</value>
+  </data>
+  <data name="TERMINO" xml:space="preserve">
+    <value>Saída</value>
+  </data>
+  <data name="TERMINO_ANT" xml:space="preserve">
+    <value>Anterior à Saída</value>
+  </data>
+  <data name="TERMINO_HORA_EXTRA" xml:space="preserve">
+    <value>Hr. Ex. Auto. Fim</value>
+  </data>
+  <data name="TERMINO_JORNADA" xml:space="preserve">
+    <value>Saída</value>
+  </data>
+  <data name="TERMINO_MOBILE" xml:space="preserve">
+    <value>Término Mobile</value>
+  </data>
+  <data name="TERMINO_POS" xml:space="preserve">
+    <value>Máxima Saída</value>
+  </data>
+  <data name="TERMINO_WEB" xml:space="preserve">
+    <value>Ult. Ajuste Saída</value>
+  </data>
+  <data name="TIPO" xml:space="preserve">
+    <value>Tipo</value>
+  </data>
+  <data name="TIPOALTERACAO" xml:space="preserve">
+    <value>Tipo Alteração</value>
+  </data>
+  <data name="TIPOCHECKPOINT" xml:space="preserve">
+    <value>Tipo Check Point</value>
+  </data>
+  <data name="TIPOCOMBUSTIVEL" xml:space="preserve">
+    <value>Tipo de combustível</value>
+  </data>
+  <data name="TIPOCOMBUSTIVEL_" xml:space="preserve">
+    <value>Tipo Combustivel:</value>
+  </data>
+  <data name="TIPOFORNECEDOR" xml:space="preserve">
+    <value>Tipo fornecedor</value>
+  </data>
+  <data name="TIPOFORNECEDOR_" xml:space="preserve">
+    <value>Tipo fornecedor:</value>
+  </data>
+  <data name="TIPOLOGRADOURO_" xml:space="preserve">
+    <value>Tipo logradouro:</value>
+  </data>
+  <data name="TIPOSERVICO" xml:space="preserve">
+    <value>Tipo serviço</value>
+  </data>
+  <data name="TIPOSERVICO_" xml:space="preserve">
+    <value>Tipo serviço:</value>
+  </data>
+  <data name="TIPOVEICULO" xml:space="preserve">
+    <value>Tipo veículo</value>
+  </data>
+  <data name="TIPOVEICULO_" xml:space="preserve">
+    <value>Tipo veículo:</value>
+  </data>
+  <data name="TIPO_" xml:space="preserve">
+    <value>Tipo:</value>
+  </data>
+  <data name="TIPO_ABONO" xml:space="preserve">
+    <value>Tipo Abono</value>
+  </data>
+  <data name="TIPO_ALTERACAO" xml:space="preserve">
+    <value>Tipo Alteração</value>
+  </data>
+  <data name="TIPO_COMBUSTIVEL" xml:space="preserve">
+    <value>Tipo combustível</value>
+  </data>
+  <data name="TIPO_COMBUSTIVEL_" xml:space="preserve">
+    <value>Tipo combustível:</value>
+  </data>
+  <data name="TIPO_FERIADO" xml:space="preserve">
+    <value>Tipo Feriado</value>
+  </data>
+  <data name="TIPO_FUNCIONARIO" xml:space="preserve">
+    <value>Tipo funcionário</value>
+  </data>
+  <data name="TIPO_FUNCIONARIO_" xml:space="preserve">
+    <value>Tipo funcionário:</value>
+  </data>
+  <data name="TIPO_JANELA" xml:space="preserve">
+    <value>Tipo de Janela</value>
+  </data>
+  <data name="TIPO_LOCAL_DESLOCAMENTO" xml:space="preserve">
+    <value>Tipo de Local de Deslocamento</value>
+  </data>
+  <data name="TIPO_LOCAL_PARA_MARCAR_PONTO" xml:space="preserve">
+    <value>Tipos de Local Para Marcar Ponto</value>
+  </data>
+  <data name="TIPO_SERVICO" xml:space="preserve">
+    <value>Tipo serviço</value>
+  </data>
+  <data name="TIPO_SERVICO_" xml:space="preserve">
+    <value>Tipo serviço:</value>
+  </data>
+  <data name="TITULO_DEFINIR_HORA_EXTRA" xml:space="preserve">
+    <value>Hora Extra</value>
+  </data>
+  <data name="TITULO_FOLHA_DE_PONTO" xml:space="preserve">
+    <value>Folha de Ponto</value>
+  </data>
+  <data name="TODAS" xml:space="preserve">
+    <value>Todas</value>
+  </data>
+  <data name="TODOS" xml:space="preserve">
+    <value>Todos</value>
+  </data>
+  <data name="TOLERANCIA" xml:space="preserve">
+    <value>Tolerância</value>
+  </data>
+  <data name="TOLERANCIACOMECO_ANT" xml:space="preserve">
+    <value>Tolerância Anterior à Entrada</value>
+  </data>
+  <data name="TOLERANCIACOMECO_POS" xml:space="preserve">
+    <value>Tolerância Posterior à Entrada</value>
+  </data>
+  <data name="TOLERANCIASAIDARETORNOALMOCO" xml:space="preserve">
+    <value>Tolerância Saida e Retorno Intervalo</value>
+  </data>
+  <data name="TOLERANCIATERMINO_ANT" xml:space="preserve">
+    <value>Tolerância Anterior à Saída</value>
+  </data>
+  <data name="TOLERANCIATERMINO_POS" xml:space="preserve">
+    <value>Tolerância Posterior à Saída</value>
+  </data>
+  <data name="TOTALHORAS" xml:space="preserve">
+    <value>Total Horas</value>
+  </data>
+  <data name="TRANSFERIDO" xml:space="preserve">
+    <value>Transferido</value>
+  </data>
+  <data name="UF" xml:space="preserve">
+    <value>UF</value>
+  </data>
+  <data name="UF_CTPS" xml:space="preserve">
+    <value>UF-CTPS</value>
+  </data>
+  <data name="UF_TRABALHO" xml:space="preserve">
+    <value>UF de Trabalho</value>
+  </data>
+  <data name="ULTIMAALTERACAO_" xml:space="preserve">
+    <value>Ultima alteração:</value>
+  </data>
+  <data name="ULTIMAESCALA" xml:space="preserve">
+    <value>Ultimo Evento</value>
+  </data>
+  <data name="UNIDADE_" xml:space="preserve">
+    <value>Unidade:</value>
+  </data>
+  <data name="UNIDADE_N_CONFORMIDADE" xml:space="preserve">
+    <value>Unidade de não conformidade</value>
+  </data>
+  <data name="UNIDADE_N_CONFORMIDADE_" xml:space="preserve">
+    <value>Unidade de não conformidade:</value>
+  </data>
+  <data name="UPLOAD" xml:space="preserve">
+    <value>Upload de arquivo</value>
+  </data>
+  <data name="URL" xml:space="preserve">
+    <value>URL</value>
+  </data>
+  <data name="URL_" xml:space="preserve">
+    <value>URL:</value>
+  </data>
+  <data name="USUARIO" xml:space="preserve">
+    <value>Usuário</value>
+  </data>
+  <data name="USUARIOCAMPO" xml:space="preserve">
+    <value>Usuário de Campo</value>
+  </data>
+  <data name="USUARIOCRIACAO_" xml:space="preserve">
+    <value>Usuário criação:</value>
+  </data>
+  <data name="USUARIODEFINIUHE" xml:space="preserve">
+    <value>Usuário Definiu HE</value>
+  </data>
+  <data name="USUARIOS" xml:space="preserve">
+    <value>Usuários</value>
+  </data>
+  <data name="USUARIOSEMPERMISSAO_ALTERAR_ESCALA" xml:space="preserve">
+    <value>Você não tem permissão para alterar evento (Área 07)</value>
+  </data>
+  <data name="USUARIO_" xml:space="preserve">
+    <value>Usuário:</value>
+  </data>
+  <data name="USUARIO_ABONO" xml:space="preserve">
+    <value>Usuário Abonou</value>
+  </data>
+  <data name="USUARIO_ACAO" xml:space="preserve">
+    <value>Usuário Ação</value>
+  </data>
+  <data name="UTILIZARASTREADOR" xml:space="preserve">
+    <value>Utiliza rastreador?</value>
+  </data>
+  <data name="VALIDADE" xml:space="preserve">
+    <value>Validade</value>
+  </data>
+  <data name="ValidadeCNH" xml:space="preserve">
+    <value>Validade</value>
+  </data>
+  <data name="VALIDADE_" xml:space="preserve">
+    <value>Validade:</value>
+  </data>
+  <data name="VALORCOMBUSTIVEL" xml:space="preserve">
+    <value>Valor do unitário</value>
+  </data>
+  <data name="VALORCOMBUSTIVEL2" xml:space="preserve">
+    <value>Valor Combustível</value>
+  </data>
+  <data name="VALORCOMBUSTIVELESTABELECIMENTO" xml:space="preserve">
+    <value>Valor combustível no Posto de Gasolina</value>
+  </data>
+  <data name="VALORCOMBUSTIVELREGIAO" xml:space="preserve">
+    <value>Valor combustivel na Região</value>
+  </data>
+  <data name="VALORDINHEIRO_" xml:space="preserve">
+    <value>Valor(R$):</value>
+  </data>
+  <data name="VALORHXH" xml:space="preserve">
+    <value>Valor HxH</value>
+  </data>
+  <data name="VALOR_" xml:space="preserve">
+    <value>Valor:</value>
+  </data>
+  <data name="VALOR_ANTERIOR" xml:space="preserve">
+    <value>Valor Anterior</value>
+  </data>
+  <data name="VALOR_COMBUSTIVEL_" xml:space="preserve">
+    <value>Valor unitário:</value>
+  </data>
+  <data name="VALOR_FILTRO" xml:space="preserve">
+    <value>Valor</value>
+  </data>
+  <data name="VALOR_INVALIDO" xml:space="preserve">
+    <value>Valor Inválido</value>
+  </data>
+  <data name="VALOR_LITRO_" xml:space="preserve">
+    <value>Litros:</value>
+  </data>
+  <data name="VALOR_POS_ALTERACAO" xml:space="preserve">
+    <value>Valor Pos Alteração</value>
+  </data>
+  <data name="VALOR_REQUERIDO" xml:space="preserve">
+    <value>Obrigatório informar {0}</value>
+  </data>
+  <data name="VALOR_UNIT" xml:space="preserve">
+    <value>Valor unitário</value>
+  </data>
+  <data name="VALOR_UNIT_" xml:space="preserve">
+    <value>Valor unitário:</value>
+  </data>
+  <data name="VEICULO" xml:space="preserve">
+    <value>Veiculo</value>
+  </data>
+  <data name="VEICULOATIVO" xml:space="preserve">
+    <value>Veiculo Ativo</value>
+  </data>
+  <data name="VEICULOINATIVO" xml:space="preserve">
+    <value>Veículo Inativo no Aniel_PontoEletronico</value>
+  </data>
+  <data name="VEICULOSANIEL" xml:space="preserve">
+    <value>Veículos fora Aniel_PontoEletronico:</value>
+  </data>
+  <data name="VEICULOSAniel_PontoEletronico" xml:space="preserve">
+    <value>Veículos no Aniel_PontoEletronico:</value>
+  </data>
+  <data name="VEICULO_" xml:space="preserve">
+    <value>Veiculo:</value>
+  </data>
+  <data name="VER_DADOS" xml:space="preserve">
+    <value>Ver Dados</value>
+  </data>
+  <data name="VINCULADOINNOVATION" xml:space="preserve">
+    <value>Vinculado Innovation</value>
+  </data>
+  <data name="VINCULARJORNADAOBS1" xml:space="preserve">
+    <value>Os Funcionários selecionados na página anterior serão vinculados a escala selecionada</value>
+  </data>
+  <data name="VINCULAR_FUNCIONARIO_JORNADA" xml:space="preserve">
+    <value>Vincular Funcionários à Escala</value>
+  </data>
+  <data name="VINCULAR_FUNCIONARIO_JORNADA_LOG" xml:space="preserve">
+    <value>Análise do Vinculo de Escala</value>
+  </data>
+  <data name="VINCULAR_JORNADA" xml:space="preserve">
+    <value>Vincular Escala</value>
+  </data>
+  <data name="VINCULAR_USUARIOPAINEL" xml:space="preserve">
+    <value>Vincular usuário-painel</value>
+  </data>
+  <data name="VINCULAR_VARIOS_FUNC_JORNADA" xml:space="preserve">
+    <value>Vincular Funcionários à Jornada em Lote</value>
+  </data>
+  <data name="VINCULAR_VEICULOGARAGEM" xml:space="preserve">
+    <value>Vincular veiculo-garagem</value>
+  </data>
+  <data name="VINCULODEESCALABEMSUCEDIDO" xml:space="preserve">
+    <value>Vinculo de Escala bem sucedido</value>
+  </data>
+  <data name="VISUALISAR" xml:space="preserve">
+    <value>Visualizar</value>
+  </data>
+  <data name="VISUALIZARLOG" xml:space="preserve">
+    <value>Visualizar log</value>
+  </data>
+  <data name="VISUALIZAR_PONTO" xml:space="preserve">
+    <value>Visualizar Ponto</value>
+  </data>
+  <data name="VOLTAR" xml:space="preserve">
+    <value>Voltar</value>
+  </data>
+  <data name="ZEBRADO" xml:space="preserve">
+    <value>#DDDDDD</value>
+  </data>
+  <data name="_POSTERIOR_A_" xml:space="preserve">
+    <value>{0} maior que {1} </value>
+  </data>
+  <data name="DADOS_CONTRATUAIS" xml:space="preserve">
+    <value>Dados Contratuais</value>
+  </data>
+  <data name="DADOS_GERAIS" xml:space="preserve">
+    <value>Dados Gerais</value>
+  </data>
+  <data name="INFORMACOES_PESSOAIS" xml:space="preserve">
+    <value>Informações Pessoais</value>
+  </data>
+  <data name="LISTA_LOCAIS_HABILITADOS_MARCACAO_FUNCIONARIO" xml:space="preserve">
+    <value>Lista de Locais Habilitados Para Marcação Deste Funcionário</value>
+  </data>
+  <data name="LOCALIZACAO" xml:space="preserve">
+    <value>Localização</value>
+  </data>
+  <data name="LOCAL_PERMITIDO_MARCACAO_PONTO" xml:space="preserve">
+    <value>Definir Locais Permitidos Marcação de Ponto</value>
+  </data>
+  <data name="LOG_FERIAS_AFASTAMENTO" xml:space="preserve">
+    <value>Log de Férias / Afastamentos</value>
+  </data>
+  <data name="LOG_TROCA_JORNADA_FUNCIONARIO" xml:space="preserve">
+    <value>Log de Trocas de Jornada no Funcionário</value>
+  </data>
+  <data name="DATA_DEMISSAO" xml:space="preserve">
+    <value>Data de Demissão</value>
+  </data>
+  <data name="DATA_EMISSAO_CTPS" xml:space="preserve">
+    <value>Data de Emissão CTPS</value>
+  </data>
+  <data name="DATA_EMISSAO_RG" xml:space="preserve">
+    <value>Data de Emissão RG</value>
+  </data>
+  <data name="DEFICIENCIA" xml:space="preserve">
+    <value>Deficiência</value>
+  </data>
+  <data name="ESTADO_TRABALHO" xml:space="preserve">
+    <value>Estado de Trabalho</value>
+  </data>
+  <data name="E_GESTOR" xml:space="preserve">
+    <value>Tornar este funcionário gestor</value>
+  </data>
+  <data name="FOTO_PERFIL" xml:space="preserve">
+    <value>Foto de Perfil</value>
+  </data>
+  <data name="GERAR_QR_CODE_AUTOMATICO" xml:space="preserve">
+    <value>Gerar QrCode Automático</value>
+  </data>
+  <data name="GERAR_QR_CODE_INFORMACAO" xml:space="preserve">
+    <value>Gerar QrCode da Informação</value>
+  </data>
+  <data name="GERAR_SISTEMA" xml:space="preserve">
+    <value>Gerar Pelo Sistema</value>
+  </data>
+  <data name="HORARIO_FIXO" xml:space="preserve">
+    <value>Horário Fixo</value>
+  </data>
+  <data name="INFORMAR_MATRICULA" xml:space="preserve">
+    <value>Informar Matrícula</value>
+  </data>
+  <data name="NATURALIDADE" xml:space="preserve">
+    <value>Naturalidade</value>
+  </data>
+  <data name="N_CTPS" xml:space="preserve">
+    <value>Nº CTPS</value>
+  </data>
+  <data name="ORGAO_EMISSOR_RG" xml:space="preserve">
+    <value>Órgão Emissor RG</value>
+  </data>
+  <data name="PIS_PASEP" xml:space="preserve">
+    <value>PIS/PASEP</value>
+  </data>
+  <data name="TIPO_JORNADA" xml:space="preserve">
+    <value>Tipo de Jornada</value>
+  </data>
+  <data name="UF-RG" xml:space="preserve">
+    <value>UF-RG</value>
+  </data>
+  <data name="VARIAVEL_CARGA_HORARIA" xml:space="preserve">
+    <value>Variável (Carga Horária)</value>
+  </data>
+  <data name="AC" xml:space="preserve">
+    <value>AC</value>
+  </data>
+  <data name="AL" xml:space="preserve">
+    <value>AL</value>
+  </data>
+  <data name="AM" xml:space="preserve">
+    <value>AM</value>
+  </data>
+  <data name="AP" xml:space="preserve">
+    <value>AP</value>
+  </data>
+  <data name="BA" xml:space="preserve">
+    <value>BA</value>
+  </data>
+  <data name="CE" xml:space="preserve">
+    <value>CE</value>
+  </data>
+  <data name="DF" xml:space="preserve">
+    <value>DF</value>
+  </data>
+  <data name="ES" xml:space="preserve">
+    <value>ES</value>
+  </data>
+  <data name="GO" xml:space="preserve">
+    <value>GO</value>
+  </data>
+  <data name="MA" xml:space="preserve">
+    <value>MA</value>
+  </data>
+  <data name="MG" xml:space="preserve">
+    <value>MG</value>
+  </data>
+  <data name="MS" xml:space="preserve">
+    <value>MS</value>
+  </data>
+  <data name="MT" xml:space="preserve">
+    <value>MT</value>
+  </data>
+  <data name="PA" xml:space="preserve">
+    <value>PA</value>
+  </data>
+  <data name="PB" xml:space="preserve">
+    <value>PB</value>
+  </data>
+  <data name="PE" xml:space="preserve">
+    <value>PE</value>
+  </data>
+  <data name="PI" xml:space="preserve">
+    <value>PI</value>
+  </data>
+  <data name="PR" xml:space="preserve">
+    <value>PR</value>
+  </data>
+  <data name="RJ" xml:space="preserve">
+    <value>RJ</value>
+  </data>
+  <data name="RN" xml:space="preserve">
+    <value>RN</value>
+  </data>
+  <data name="RO" xml:space="preserve">
+    <value>RO</value>
+  </data>
+  <data name="RR" xml:space="preserve">
+    <value>RR</value>
+  </data>
+  <data name="RS" xml:space="preserve">
+    <value>RS</value>
+  </data>
+  <data name="SC" xml:space="preserve">
+    <value>SC</value>
+  </data>
+  <data name="SE" xml:space="preserve">
+    <value>SE</value>
+  </data>
+  <data name="SP" xml:space="preserve">
+    <value>SP</value>
+  </data>
+  <data name="TO" xml:space="preserve">
+    <value>TO</value>
+  </data>
+  <data name="GESTOR" xml:space="preserve">
+    <value>Gestor</value>
+  </data>
+  <data name="LOG_ATIVACAO_DESATIVACAO" xml:space="preserve">
+    <value>Log de Admissão / Demissão</value>
+  </data>
+  <data name="LISTAGEM_LOCAL_MARCACAO" xml:space="preserve">
+    <value>Listagem de Local De Marcação</value>
+  </data>
+  <data name="RAIO_DISTANCIA" xml:space="preserve">
+    <value>Raio de Distância da Área do Local (em metros)</value>
+  </data>
+  <data name="GESTOR_DO_FUNCIONARIO" xml:space="preserve">
+    <value>Gestor do Funcionário</value>
+  </data>
+  <data name="BUSCAR_LOCAL_PRECADASTRADO" xml:space="preserve">
+    <value>Buscar Local Pré-Cadastrado</value>
+  </data>
+  <data name="CADASTRAR_LOCAL_SO_FUNCIONARIO" xml:space="preserve">
+    <value>Cadastrar Local Só Para o Funcionário</value>
+  </data>
+  <data name="HABILITAR_LOCAL" xml:space="preserve">
+    <value>Habilitar Local</value>
+  </data>
+  <data name="DESCRICAO_LOCAL" xml:space="preserve">
+    <value>Descrição do Local</value>
+  </data>
+  <data name="ULTIMA_DATAHORA_DESABILITOU" xml:space="preserve">
+    <value>Última Data/Hora Desabilitou</value>
+  </data>
+  <data name="ULTIMA_DATAHORA_HABILITADO" xml:space="preserve">
+    <value>Última Data/Hora Habilitado</value>
+  </data>
+  <data name="ULTIMO_USUARIO_DESABILITOU" xml:space="preserve">
+    <value>Último Usuário Desabilitou</value>
+  </data>
+  <data name="ULTIMO_USUARIO_HABILITOU" xml:space="preserve">
+    <value>Último Usuário Habilitou</value>
+  </data>
+  <data name="LOCAL_PRE_CADASTRADO" xml:space="preserve">
+    <value>Local Pré Cadastrado</value>
+  </data>
+  <data name="HABILITADO" xml:space="preserve">
+    <value>Habilitado</value>
+  </data>
+  <data name="CADASTRO_JORNADA" xml:space="preserve">
+    <value>Cadastro de Jornada</value>
+  </data>
+  <data name="DADOS_DA_JORNADA" xml:space="preserve">
+    <value>Dados da Jornada</value>
+  </data>
+  <data name="HORARIOS_DEFINIDOS" xml:space="preserve">
+    <value>Horários Definidos</value>
+  </data>
+  <data name="HORARIOS_FIXOS" xml:space="preserve">
+    <value>Horário Fixo</value>
+  </data>
+  <data name="HORA_EXTRA" xml:space="preserve">
+    <value>Hora Extra</value>
+  </data>
+  <data name="LISTAGEM_JORNADA" xml:space="preserve">
+    <value>Listagem de Jornada</value>
+  </data>
+  <data name="NOTIFICACOES" xml:space="preserve">
+    <value>Notificações</value>
+  </data>
+  <data name="PADRAO" xml:space="preserve">
+    <value>Padrão</value>
+  </data>
+  <data name="POR_DURACAO" xml:space="preserve">
+    <value>Por Duração</value>
+  </data>
+  <data name="POR_HORARIO_AFIXADO" xml:space="preserve">
+    <value>Por Horário Afixado</value>
+  </data>
+  <data name="TIPO_DE_INTERVALO" xml:space="preserve">
+    <value>Tipo de Intervalo</value>
+  </data>
+  <data name="VARIAVEL" xml:space="preserve">
+    <value>Horário Variável (Carga Horária)</value>
+  </data>
+  <data name="INTERVALO_ALMOCO_PERGUNTA" xml:space="preserve">
+    <value>Precisa registar Intervalo?</value>
+  </data>
+  <data name="TRABALHA_FERIADO_PERGUNTA" xml:space="preserve">
+    <value>Definir Horário Diferenciado para Jornada em Feriado</value>
+  </data>
+  <data name="CONFIG_NOTIFICAÇÔES_PARA_CEL" xml:space="preserve">
+    <value>Configurações Para Celular do Colaborador</value>
+  </data>
+  <data name="LEMBRETE_INICIO_JORNADA" xml:space="preserve">
+    <value>Lembrete para o horário de início da jornada</value>
+  </data>
+  <data name="LEMBRETE_TERMINO_JORNADA" xml:space="preserve">
+    <value>Lembrete para o horário de término da jornada</value>
+  </data>
+  <data name="SOMENTE_JORNADAS_COM_E_S_FIXOS" xml:space="preserve">
+    <value>Somente para jornadas com horário fixo</value>
+  </data>
+  <data name="SOMENTE_TIPO_INTERVALO_A_J_FIXOS" xml:space="preserve">
+    <value>Somente para jornadas com intervalo fixo</value>
+  </data>
+  <data name="DESCANSO_MINIMO" xml:space="preserve">
+    <value>Descanso Mínimo</value>
+  </data>
+  <data name="ESCALA_EM_FERIADO" xml:space="preserve">
+    <value>Escala Em Feriado</value>
+  </data>
+  <data name="FERIAS_AGENDADAS" xml:space="preserve">
+    <value>Férias Agendadas</value>
+  </data>
+  <data name="LEMBRETE_DESCANSO_MINIMO" xml:space="preserve">
+    <value>Informá-lo quando marcar ponto em período do descanso mínimo. Isto não irá impedi-lo de bater o ponto, apenas será alertado antes.</value>
+  </data>
+  <data name="LEMBRETE_ESCALADO_PARA_FERIADO" xml:space="preserve">
+    <value>Lembrete escalado para trabalhar feriado</value>
+  </data>
+  <data name="LEMBRETE_FERIAS_MARCADAS" xml:space="preserve">
+    <value>Lembrete férias marcadas</value>
+  </data>
+  <data name="LEMBRETE_INICIO_ALMOCO" xml:space="preserve">
+    <value>Lembrete para o horário de saída ao intervalo</value>
+  </data>
+  <data name="LEMBRETE_PAUSA_INTERVALO_A_J" xml:space="preserve">
+    <value>Lembrete para pausa para intervalo após:</value>
+  </data>
+  <data name="LEMBRETE_TERMINO_ALMOCO" xml:space="preserve">
+    <value>Lembrete para o horário de retorno do intervalo</value>
+  </data>
+  <data name="SOMENTE_TIPO_INTERVALO_A_J_DURACAO" xml:space="preserve">
+    <value>Somente para jornadas com horário flexível (carga horária)</value>
+  </data>
+  <data name="LISTAGEM_FERIADO" xml:space="preserve">
+    <value>Listagem de Feriado</value>
+  </data>
+  <data name="REGISTRA_INTERVALO" xml:space="preserve">
+    <value>Registra Intervalo</value>
+  </data>
+  <data name="CRITERIO_MARCACAO_PONTO" xml:space="preserve">
+    <value>Critérios de Marcação de Ponto</value>
+  </data>
+  <data name="INTERVALO_MINIMO_ENTRE_DIAS" xml:space="preserve">
+    <value>Intervalo mínimo de descanso entre um dia e outro</value>
+  </data>
+  <data name="PERCENTUAL_ACRESCIMO_HT" xml:space="preserve">
+    <value>Percentual de acréscimo sobre horas trabalhadas período de adicional noturno</value>
+  </data>
+  <data name="PERIODO_ADICIONAL_NOTURNO" xml:space="preserve">
+    <value>Período de Adicional Noturno</value>
+  </data>
+  <data name="MARCACAO_OFF_LINE" xml:space="preserve">
+    <value>Permite bater ponto offline (sem conexão)</value>
+  </data>
+  <data name="REGRA_ADICIONAL_NOTURNO_FIN" xml:space="preserve">
+    <value>Adicional Noturno Termino</value>
+  </data>
+  <data name="REGRA_ADICIONAL_NOTURNO_INI" xml:space="preserve">
+    <value>Adicional Noturno Início</value>
+  </data>
+  <data name="REGRA_DESCANSO_MINIMO" xml:space="preserve">
+    <value>Descanso Mínimo</value>
+  </data>
+  <data name="REGRA_HABILITAR_CERCA" xml:space="preserve">
+    <value>Considerar as cercas definidas para o colaborador</value>
+  </data>
+  <data name="REGRA_PERC_NOTURNO" xml:space="preserve">
+    <value>Percentual Noturno</value>
+  </data>
+  <data name="REGRA_SOLICITAR_FOTO" xml:space="preserve">
+    <value>Solicitar foto para marcar ponto</value>
+  </data>
+  <data name="REGRA_SOLICITAR_QRCODE" xml:space="preserve">
+    <value>Solicitar leitura de Qr. Code para marcar ponto</value>
+  </data>
+  <data name="DEBITA_CREDITA" xml:space="preserve">
+    <value>Debita ou Credita Em:</value>
+  </data>
+  <data name="GERA_MOVIMENTO" xml:space="preserve">
+    <value>Gera Movimento (?)</value>
+  </data>
+  <data name="LANCADO_GESTOR" xml:space="preserve">
+    <value>Lançado pelo Gestor (?)</value>
+  </data>
+  <data name="LISTAGEM_EVENTOS" xml:space="preserve">
+    <value>Listagem de Eventos</value>
+  </data>
+  <data name="MARCAR_PONTO" xml:space="preserve">
+    <value>Necessita Marcar Ponto (?)</value>
+  </data>
+  <data name="SIGLA_EVENTO" xml:space="preserve">
+    <value>Sigla</value>
+  </data>
+  <data name="BANCO" xml:space="preserve">
+    <value>Banco</value>
+  </data>
+  <data name="FOLHA" xml:space="preserve">
+    <value>Folha</value>
+  </data>
+  <data name="PAINEL_EVENTO" xml:space="preserve">
+    <value>Listagem de Eventos</value>
+  </data>
+  <data name="CADASTRO_EVENTOS" xml:space="preserve">
+    <value>Cadastro de Eventos</value>
+  </data>
+  <data name="CATEGORIA_FUNCIONARIO" xml:space="preserve">
+    <value>Informe qual categoria da situação</value>
+  </data>
+  <data name="GRAU_INSTRUCAO" xml:space="preserve">
+    <value>Grau de Instrução</value>
+  </data>
+  <data name="SEXO" xml:space="preserve">
+    <value>Sexo</value>
+  </data>
+  <data name="TIPO_INTERVALO" xml:space="preserve">
+    <value>Tipo de Intervalo</value>
+  </data>
+  <data name="A_PARTIR_DE" xml:space="preserve">
+    <value>A partir de:</value>
+  </data>
+  <data name="FILIAL_LOTADO" xml:space="preserve">
+    <value>Filial Lotado</value>
+  </data>
+  <data name="LOG_ADMISSAO_DEMISSAO" xml:space="preserve">
+    <value>Log de Admissão e Demissão</value>
+  </data>
+  <data name="LOG_TROCA_JORNADA" xml:space="preserve">
+    <value>Log de Trocas de Jornada do Funcionário</value>
+  </data>
+  <data name="DEBITA_CREDITA_DIRETO_FOLHA" xml:space="preserve">
+    <value>Debita ou Credita Direto na Folha(?)</value>
+  </data>
+  <data name="IMPORTAR_FUNCIONARIO_LOTE" xml:space="preserve">
+    <value>Importação de Funcionários em Lote</value>
+  </data>
+  <data name="DOWNLOADPLANILHAPADRAO" xml:space="preserve">
+    <value>Download Planilha Padrão</value>
+  </data>
+  <data name="UPLOADPLANILHAFUNCIONARIOS" xml:space="preserve">
+    <value>Upload Planilha Funcionários</value>
+  </data>
+  <data name="DATA_TERMINO" xml:space="preserve">
+    <value>Data de Término</value>
+  </data>
+  <data name="LOG_FERIAS_E_AFASTAMENTO" xml:space="preserve">
+    <value>Log de Férias e Afastamento</value>
+  </data>
+  <data name="ACIMA_DE" xml:space="preserve">
+    <value>Acima de</value>
+  </data>
+  <data name="CONFIG_GERAL_HORA_EXTRA" xml:space="preserve">
+    <value>Configurações Gerais de Hora Extra</value>
+  </data>
+  <data name="CONSIDERAR_AMBAS" xml:space="preserve">
+    <value>Considerar ambas</value>
+  </data>
+  <data name="CONSIDERA_INTERVALO_HORA_EXTRA_ATRASO" xml:space="preserve">
+    <value>Contar mais tempo de intervalo como atraso e menos tempo como hora extra</value>
+  </data>
+  <data name="HORAS_DIARIAS" xml:space="preserve">
+    <value>horas diárias</value>
+  </data>
+  <data name="HORAS_EXTRAS_REALIZADAS_PERIODO_VIGENTE" xml:space="preserve">
+    <value>horas extras realizadas no período vigente serão enviadas ao banco.</value>
+  </data>
+  <data name="HORA_EXTRA_E_BANCO_HORAS" xml:space="preserve">
+    <value>Hora Extra e Banco de Horas</value>
+  </data>
+  <data name="QUANTIFICA_HORA_EXTRA_SOBREAVISO" xml:space="preserve">
+    <value>Quantificar horas em sobreaviso?</value>
+  </data>
+  <data name="TETO_DIARIO_HORA_EXTRA" xml:space="preserve">
+    <value>Definir um teto diário de horas extras ?</value>
+  </data>
+  <data name="TOLERANCIA_CRITERIO_ATRASO_HORA_EXTRA" xml:space="preserve">
+    <value>Critério para atraso e hora extra</value>
+  </data>
+  <data name="TRABALHA_COMPENSACAO" xml:space="preserve">
+    <value>Trabalhar com compensação?</value>
+  </data>
+  <data name="ULTRAPASSAR_TOLERANCIA_BATIDA" xml:space="preserve">
+    <value>Ao ultrapassar a tolerância da batida</value>
+  </data>
+  <data name="ULTRAPASSAR_TOLERANCIA_DIARIA" xml:space="preserve">
+    <value>Somente quando ultrapassar a tolerância diária</value>
+  </data>
+  <data name="UTILIZA_BANCO_HORA" xml:space="preserve">
+    <value>Utilizará banco de horas ?</value>
+  </data>
+  <data name="ADICIONAR_PERCENTUAL_HORA_EXTRA" xml:space="preserve">
+    <value>Adicionar Percentual Hora Extra</value>
+  </data>
+  <data name="CONTROLE_SEGURANCA_APLICATIVO" xml:space="preserve">
+    <value>Controle de Segurança Para o Aplicativo</value>
+  </data>
+  <data name="ENTRADA" xml:space="preserve">
+    <value>Entrada</value>
+  </data>
+  <data name="FAIXA_HORA_EXTRA_JORNADA" xml:space="preserve">
+    <value>Faixas de Hora Extra Criadas para Jornada</value>
+  </data>
+  <data name="LIMITE_MAX_DIARIO" xml:space="preserve">
+    <value>Limite Máximo Diário</value>
+  </data>
+  <data name="SAIDA" xml:space="preserve">
+    <value>Saída</value>
+  </data>
+  <data name="INTERNOS" xml:space="preserve">
+    <value>Internos</value>
+  </data>
+  <data name="NECESSITA_PONTO_" xml:space="preserve">
+    <value>Necessita Marcar Ponto (?)</value>
+  </data>
+  <data name="STATUS_EVENTO" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="PODE_LANÇAMENTO_GESTOR" xml:space="preserve">
+    <value>Pode ser lançado pelo gestor (?)</value>
+  </data>
+  <data name="DIAS_SEMANA" xml:space="preserve">
+    <value>Dias da Semana</value>
+  </data>
+  <data name="DURACAO" xml:space="preserve">
+    <value>Duração</value>
+  </data>
+  <data name="PERCENTUAL" xml:space="preserve">
+    <value>Percentual</value>
+  </data>
+  <data name="APOS" xml:space="preserve">
+    <value>Após</value>
+  </data>
+  <data name="ATE" xml:space="preserve">
+    <value>Até</value>
+  </data>
+  <data name="TODA_HR_EX_REALIZADA" xml:space="preserve">
+    <value>Toda Hora Extra Realizada</value>
+  </data>
+  <data name="FAIXA_PRE_CADASTRADO" xml:space="preserve">
+    <value>Faixa de Pecentual de Hora Extra</value>
+  </data>
+  <data name="AVALIACAO_AJUSTE_SOLICITADO_COLABORADOR" xml:space="preserve">
+    <value>Avaliação de Ajuste Solicitado Pelo Colaborador(a)</value>
+  </data>
+  <data name="SOBREAVISO" xml:space="preserve">
+    <value>Sobreaviso</value>
+  </data>
+  <data name="SOLICITACAO_AJUSTE" xml:space="preserve">
+    <value>Solicitação de Ajuste</value>
+  </data>
+  <data name="ANIEL_POINT" xml:space="preserve">
+    <value>Aniel Point</value>
+  </data>
+  <data name="CONFIGURACOES_GERAIS" xml:space="preserve">
+    <value>Configurações Gerais</value>
+  </data>
+  <data name="LISTAGEM_CONFIGURACOES_GERAIS" xml:space="preserve">
+    <value>Listagem Configurações Gerais</value>
+  </data>
+  <data name="PERIODO_FECHAMENTO_BANCO_HORAS" xml:space="preserve">
+    <value>Período Fechamento de Banco de Horas </value>
+  </data>
+  <data name="PERIODO_FECHAMENTO_FOLHA_PONTO" xml:space="preserve">
+    <value>Período Fechamento da Folha de Ponto</value>
+  </data>
+  <data name="DATA_FECHAMENTO" xml:space="preserve">
+    <value>Data Fechamento</value>
+  </data>
+  <data name="DURACAO_PERIODO" xml:space="preserve">
+    <value>Duração Período</value>
+  </data>
+  <data name="DATA_E_HORA_DA_CRIACAO" xml:space="preserve">
+    <value>Data e Hora da Criação</value>
+  </data>
+  <data name="DATA_E_HORA_FECHOU" xml:space="preserve">
+    <value>Data e Hora Fechou</value>
+  </data>
+  <data name="FECHAR_PERIODOS_ABERTOS" xml:space="preserve">
+    <value>Fechar Períodos Abertos</value>
+  </data>
+  <data name="HISTORICO_PERIODO_FECHAMENTO_PONTO" xml:space="preserve">
+    <value>Histórico de Períodos Fechados</value>
+  </data>
+  <data name="STATUS_PERIODO" xml:space="preserve">
+    <value>Status Período</value>
+  </data>
+  <data name="USUARIO_CRIACAO" xml:space="preserve">
+    <value>Usuário Criação</value>
+  </data>
+  <data name="USUARIO_FECHOU" xml:space="preserve">
+    <value>Usuário Fechou</value>
+  </data>
+  <data name="PRIMEIRO_BANCO_DE_DADOS_APOS_IMPLANTACAO" xml:space="preserve">
+    <value>do Primeiro Banco de Dados Após Implantação</value>
+  </data>
+  <data name="ALERTAS_E_PRIORIDADES" xml:space="preserve">
+    <value>Alertas e Prioridades</value>
+  </data>
+  <data name="HISTORICO_PERIODO_FECHAMENTO_BANCO_HORAS" xml:space="preserve">
+    <value>Histórico de Períodos de Fechamento Banco de Horas</value>
+  </data>
+  <data name="DATAHORA_CRIACAO_ALTERACAO" xml:space="preserve">
+    <value>Data e Hora Criação/Alteração</value>
+  </data>
+  <data name="DATA_FECHAMENTO_ANTERIOR" xml:space="preserve">
+    <value>Data de Fechamento do Período Anterior</value>
+  </data>
+  <data name="PERIODO_CICLO" xml:space="preserve">
+    <value>Periodicidade do Ciclo</value>
+  </data>
+  <data name="USUARIO_CRIACAO_ALTERACAO" xml:space="preserve">
+    <value>Usuario Criação/Alteração</value>
+  </data>
+  <data name="ULTIMO_PERIODO_VIGENTE_ABERTO" xml:space="preserve">
+    <value>Ultimo Período Vigente em Aberto</value>
+  </data>
+  <data name="EXCLUIR_PERIODO_ATUAL" xml:space="preserve">
+    <value>Excluir Período Atual</value>
+  </data>
+  <data name="PERIODO_NAO_PODE_SER_MAIOR_TRINTA_DIAS" xml:space="preserve">
+    <value>Período Não Pode Ser Maior Que 30 Dias</value>
+  </data>
+  <data name="HISTORICO_ALTERACAO_ESCALA" xml:space="preserve">
+    <value>Histórico de Alterações na Escala de Trabalho</value>
+  </data>
+  <data name="EVENTO_ANTERIOR" xml:space="preserve">
+    <value>Evento Anterior</value>
+  </data>
+  <data name="EVENTO_ATUALIZADO" xml:space="preserve">
+    <value>Evento Atual</value>
+  </data>
+  <data name="FOLHA_PONTO" xml:space="preserve">
+    <value>Folha de Ponto</value>
+  </data>
+  <data name="DEBITO_HORAS" xml:space="preserve">
+    <value>Débito de Horas</value>
+  </data>
+  <data name="HORA_EXTRA_100" xml:space="preserve">
+    <value>Hora Extra (100%)</value>
+  </data>
+  <data name="HORA_EXTRA_50" xml:space="preserve">
+    <value>Hora Extra (50%)</value>
+  </data>
+  <data name="MARCACOES_REGISTRADAS" xml:space="preserve">
+    <value>Marcações Registradas</value>
+  </data>
+  <data name="DUPLICAR_JORNADA" xml:space="preserve">
+    <value>Duplicar Jornada de Trabalho</value>
+  </data>
+  <data name="SELECAO_INVALIDA" xml:space="preserve">
+    <value>Só é possível selecionar apenas um registro para duplicar</value>
+  </data>
+  <data name="EMPREGADO" xml:space="preserve">
+    <value>Empregado</value>
+  </data>
+  <data name="INATIVO" xml:space="preserve">
+    <value>Inativo</value>
+  </data>
+  <data name="FUNCIONARIOS_JA_VINCULADOS_JORNADA" xml:space="preserve">
+    <value>Alguns funcionários selecionados já possuem jornada vinculada. Caso  prossiga com a alteração, o sistema irá manter as batidas realizadas e todos os critérios para horas extras e banco de horas serão considerados com base na jornada anterior até um dia antes da data de troca selecionada. A partir da nova data, o sistema irá considerar os horários e critérios da jornada atual. Deseja realmente alterar a jornada dos funcionários?</value>
+  </data>
+  <data name="FUNCIONARIO_JA_POSSUI_JORNADA" xml:space="preserve">
+    <value>Funcionário já possui jornada vinculada</value>
+  </data>
+  <data name="LOG_FUNCIONARIOS_NAO_VINCULADOS" xml:space="preserve">
+    <value>Funcionários Não Vinculados à Jornada</value>
+  </data>
+  <data name="SOMENTE_FUNCIONARIOS_ATIVOS" xml:space="preserve">
+    <value>Somente os funcionários em situação 'Ativo' podem ser vinculados a jornada</value>
+  </data>
+  <data name="ERRO_ALTERACAO_JORNADA" xml:space="preserve">
+    <value>Não é possível alterar os campos código, tipo de jornada, tipo de intervalo, dias, horários e duração de uma jornada uma vez que nela já existem pontos marcados. Crie uma nova jornada e vincule os colaboradores necessários</value>
+  </data>
+  <data name="JORNADA_ANTERIOR" xml:space="preserve">
+    <value>Jornada Anterior</value>
+  </data>
+  <data name="JORNADA_ATUAL" xml:space="preserve">
+    <value>Jornada Atual</value>
+  </data>
+  <data name="DADOS_COLABORADOR" xml:space="preserve">
+    <value>Dados do Colaborador</value>
+  </data>
+  <data name="DADOS_EMPREGADOR" xml:space="preserve">
+    <value>Dados do Empregador</value>
+  </data>
+  <data name="MARCACOES" xml:space="preserve">
+    <value>Marcações</value>
+  </data>
+  <data name="HORARIO_JORNADA" xml:space="preserve">
+    <value>Horários da Jornada</value>
+  </data>
+  <data name="COLABORADOR" xml:space="preserve">
+    <value>Colaborador</value>
+  </data>
+  <data name="ALERTA_DUPLICAR_JORNADA" xml:space="preserve">
+    <value>É necessário informar um novo código e descrição e clicar em gravar.</value>
+  </data>
+  <data name="DUPLICAR_JORNADA_ATENCAO" xml:space="preserve">
+    <value>Você está preste a criar uma jornada idêntica a esta. Deseja prosseguir?</value>
+  </data>
+  <data name="TETO_PERIODO_BANCO_HORAS" xml:space="preserve">
+    <value>Teto de Banco de Horas Período</value>
+  </data>
+  <data name="DEFINIR_ALERTAS" xml:space="preserve">
+    <value>Definir Alertas</value>
+  </data>
+  <data name="DEFINIR_PERIODOS" xml:space="preserve">
+    <value>Definir Períodos de Fechamento Folha e Banco de Horas</value>
+  </data>
+  <data name="EXISTE_FUNC_VINCULADO" xml:space="preserve">
+    <value>Existem funcionários vinculados a esse gestor.</value>
+  </data>
+  <data name="PRIORIDADE" xml:space="preserve">
+    <value>Prioridade</value>
+  </data>
+  <data name="NAO_PERMITIDO" xml:space="preserve">
+    <value>Não Permitido.</value>
+  </data>
+  <data name="MARCACOES_COM_EVENTO" xml:space="preserve">
+    <value>Marcações registradas em dias com evento na escala que não deveria bater ponto corno; ferias, afastamentos, folgas, licenças...</value>
+  </data>
+  <data name="MARCACOES_RESIDENCIA_FUNCIONARIO" xml:space="preserve">
+    <value>Marcações registradas na residencia do colaborador</value>
+  </data>
+  <data name="MARCACOES_INTERVALO_MINIMO" xml:space="preserve">
+    <value>Marcações registradas em período de intervalo mínimo de descanso entre um dia e outro</value>
+  </data>
+  <data name="MARCACOES_NAO_REGISTRA_ALMOCO" xml:space="preserve">
+    <value>Quando o colaborador (que deveria) não registrar intervalo (almoço/jantar)</value>
+  </data>
+  <data name="MARCACOES_OFFLINE" xml:space="preserve">
+    <value>Marcações registradas sem internet (offline)</value>
+  </data>
+  <data name="MARCACOES_SEM_QR_CODE" xml:space="preserve">
+    <value>Marcações registradas sem leitura de QrCode</value>
+  </data>
+  <data name="MARCACOES_ULTRAPASSA_BANCO_HORAS" xml:space="preserve">
+    <value>Quando colaborador exceder o teto de banco de horas no período vigente do banco</value>
+  </data>
+  <data name="MARCACOES_ULTRAPASSA_TETO_DIARIO" xml:space="preserve">
+    <value>Quando colaborador ultrapassar o teto diário de horas extras</value>
+  </data>
+  <data name="PRIORIDADE_ALTA" xml:space="preserve">
+    <value>Marcações com alertas de prioridade alta</value>
+  </data>
+  <data name="PRIORIDADE_BAIXA" xml:space="preserve">
+    <value>Marcações com alertas de prioridade baixa</value>
+  </data>
+  <data name="PRIORIDADE_MEDIA" xml:space="preserve">
+    <value>Marcações com alertas de prioridade média</value>
+  </data>
+  <data name="MARCACOES_COM_ALERTA" xml:space="preserve">
+    <value>Marcações com alerta de prioridade</value>
+  </data>
+  <data name="MESSAGEM_EVENTO_INTERNO" xml:space="preserve">
+    <value>* Esse evento é interno e não pode ser desativado, algumas de suas configurações padrões não podem ser modificadas.</value>
+  </data>
+  <data name="NAO_FOI_POSSIVEL_LOCALIZAR_LATITUDE" xml:space="preserve">
+    <value>Não foi possível obter os campos latitude e longitude através do número informado. Por favor, informe o campo número novamente e clique na tecla enter.</value>
+  </data>
+  <data name="ATE_APOS" xml:space="preserve">
+    <value>Até / Após</value>
+  </data>
+  <data name="PERCENTUAL_APOS" xml:space="preserve">
+    <value>Percentual Após</value>
+  </data>
+  <data name="FAIXA_EXISTE_NO_DIA" xml:space="preserve">
+    <value>Já existe uma faixa adicionada nessa jornada com o mesmo dia da semana selecionado.</value>
+  </data>
+  <data name="NAO_E_POSSIVEL_HABILITAR_CONDICOES_DIFERENTES" xml:space="preserve">
+    <value>Não é possível habilitar duas faixas com condições distintas para o mesmo dia da semana</value>
+  </data>
+  <data name="INTERVALO_FIXO" xml:space="preserve">
+    <value>Intervalo Fixo</value>
+  </data>
+  <data name="INTERVALO_FLEXIVEL" xml:space="preserve">
+    <value>Intervalo Flexível</value>
+  </data>
+  <data name="PERCENTUAL_ATE" xml:space="preserve">
+    <value>Percentual Até</value>
+  </data>
+  <data name="INICIO" xml:space="preserve">
+    <value>Início</value>
+  </data>
+  <data name="PERIODOSFECHADOSBANCOHORAS" xml:space="preserve">
+    <value>Períodos Fechados Banco Horas</value>
+  </data>
+  <data name="PERIODOVIGENTE" xml:space="preserve">
+    <value>Período Vigente</value>
+  </data>
+  <data name="TERMINOPREVISTO" xml:space="preserve">
+    <value>Término Previsto</value>
+  </data>
+  <data name="FECHARFOLHA" xml:space="preserve">
+    <value>Fechamento de Folhas de Ponto</value>
+  </data>
+  <data name="PRIDATAFECHBANCOSISTEMA" xml:space="preserve">
+    <value>1ª Data Fechamento do Banco no sistema</value>
+  </data>
+  <data name="DEFINIRALERTAS" xml:space="preserve">
+    <value>Definir Alertas</value>
+  </data>
+  <data name="FECHAMENTOBANCOHORAS" xml:space="preserve">
+    <value>Fechamento de Banco de Horas</value>
+  </data>
+  <data name="ENVIAR_PARA_O_BANCO" xml:space="preserve">
+    <value>Enviar para o banco somente até</value>
+  </data>
+  <data name="HORA_EXTRA_DIARIA" xml:space="preserve">
+    <value>horas extras diárias</value>
+  </data>
+  <data name="INFORME_A_BASE_DE_CONVERSÃO" xml:space="preserve">
+    <value>Informe a base de conversão das horas extras para o banco de horas:</value>
+  </data>
+  <data name="COMPENSAR_HORAS" xml:space="preserve">
+    <value>Compensar horas</value>
+  </data>
+  <data name="FORMA_DE_COMPENSACAO" xml:space="preserve">
+    <value>Forma de compensação</value>
+  </data>
+  <data name="DEFINIR_TETO_DE_HORAS" xml:space="preserve">
+    <value>Definir teto de horas extras?</value>
+  </data>
+  <data name="UTILIZARA_TOLERANCIA" xml:space="preserve">
+    <value>Utilizará tolerância</value>
+  </data>
+  <data name="CONSIDERARFAIXAHORAEXTRA" xml:space="preserve">
+    <value>Considerar Faixa de Hora Extra</value>
+  </data>
+  <data name="DIARIA" xml:space="preserve">
+    <value>Diaria</value>
+  </data>
+  <data name="MENSAL" xml:space="preserve">
+    <value>Mensal</value>
+  </data>
+  <data name="UMPARAUM" xml:space="preserve">
+    <value>1 para 1</value>
+  </data>
+  <data name="HORARIO_FLEXIVEL" xml:space="preserve">
+    <value>Horário Flexível (Carga Horária)</value>
+  </data>
+  <data name="CAMPOS_TOLERANCIA_VAZIA" xml:space="preserve">
+    <value>Preencha pelo menos um tipo de tolerância </value>
+  </data>
+  <data name="LISTAGEM_AJUSTE" xml:space="preserve">
+    <value>Painel de Avaliação de Ajustes de Ponto</value>
+  </data>
+  <data name="MARCACAO" xml:space="preserve">
+    <value>Marcação</value>
+  </data>
+  <data name="DATA_AJUSTADA" xml:space="preserve">
+    <value>Data Ajustada</value>
+  </data>
+  <data name="DATA_ORIGINAL" xml:space="preserve">
+    <value>Data Original</value>
+  </data>
+  <data name="JUSTIFICADA" xml:space="preserve">
+    <value>Justificada</value>
+  </data>
+  <data name="AGUARDANDO_AVALIACAO" xml:space="preserve">
+    <value>Aguardando Avaliação</value>
+  </data>
+  <data name="ANEXOS" xml:space="preserve">
+    <value>Anexos</value>
+  </data>
+  <data name="OBSERVACAO_AVALIADOR" xml:space="preserve">
+    <value>Justificativa Avaliação</value>
+  </data>
+  <data name="DATA_AVALIACAO" xml:space="preserve">
+    <value>Data Avaliação</value>
+  </data>
+  <data name="FUNCIONARIO_AVALIACAO" xml:space="preserve">
+    <value>Usuário Avaliação</value>
+  </data>
+  <data name="MENSAGEM_AJUSTE_AVALIADO" xml:space="preserve">
+    <value>Um ajuste foi avaliado pelo setor responsável da empresa. Clique para ver</value>
+  </data>
+  <data name="SOLICIATACAO_AJUSTE" xml:space="preserve">
+    <value>Solicitação de Ajuste</value>
+  </data>
+  <data name="AJUSTES_FOLHA_PONTO" xml:space="preserve">
+    <value>Ajustes na Folha de Ponto</value>
+  </data>
+  <data name="APROVAR" xml:space="preserve">
+    <value>Aprovar</value>
+  </data>
+  <data name="AFASTAMENTO" xml:space="preserve">
+    <value>Afastamento</value>
+  </data>
+  <data name="DESLIGADO" xml:space="preserve">
+    <value>Desligado</value>
+  </data>
+  <data name="DSR" xml:space="preserve">
+    <value>DSR</value>
+  </data>
+  <data name="ESCALADO" xml:space="preserve">
+    <value>Escalado</value>
+  </data>
+  <data name="FALTA_JUSTIFICADA" xml:space="preserve">
+    <value>Falta Justificada</value>
+  </data>
+  <data name="FALTA_NAO_JUSTIFICADA" xml:space="preserve">
+    <value>Falta Não Justificada</value>
+  </data>
+  <data name="FOLGA" xml:space="preserve">
+    <value>Folga</value>
+  </data>
+  <data name="LICENÇA" xml:space="preserve">
+    <value>Licença</value>
+  </data>
+  <data name="NENHUM" xml:space="preserve">
+    <value>Nenhum</value>
+  </data>
+  <data name="SUSPENSO" xml:space="preserve">
+    <value>Suspenso</value>
+  </data>
+  <data name="BANCO_DE_HORAS" xml:space="preserve">
+    <value>Banco de Horas</value>
+  </data>
+  <data name="TOTALIZADOS" xml:space="preserve">
+    <value>Totalizados</value>
+  </data>
+  <data name="MENSAGEM_MUDANCA_ESCALA" xml:space="preserve">
+    <value>Sua escala foi alterada, clique para saber mais.</value>
+  </data>
+  <data name="MENSAGEM_MUDANCA_ESCALA_EM_FERIADO" xml:space="preserve">
+    <value>Você está escalado para o próximo feriado</value>
+  </data>
+  <data name="MENSAGEM_ENTRE_EM_CONTATO_COM_GESTOR" xml:space="preserve">
+    <value>Entre em contato com gestor.</value>
+  </data>
+  <data name="MUDANCA_ESCALA" xml:space="preserve">
+    <value>Mudança de Escala</value>
+  </data>
+  <data name="VISUALIZAR_FUNCIONARIOS_FOLHAS_INCONSISTENTES" xml:space="preserve">
+    <value>Visualizar somente os funcionários que estão com folhas inconsistentes no período informado</value>
+  </data>
+  <data name="ULTIMA_FOLHA_FECHADA" xml:space="preserve">
+    <value>Último Fechamento</value>
+  </data>
+  <data name="HORAS_DEBITO" xml:space="preserve">
+    <value>Hr. Débito</value>
+  </data>
+  <data name="HORAS_TRABALHADAS" xml:space="preserve">
+    <value>Hr. Trabalhadas</value>
+  </data>
+  <data name="SALDO_BANCO_HORAS" xml:space="preserve">
+    <value>Saldo Banco de Horas</value>
+  </data>
+  <data name="ACOES" xml:space="preserve">
+    <value>Ações</value>
+  </data>
+  <data name="HORA_EXTRA_FOLHA" xml:space="preserve">
+    <value>Hr. Extra</value>
+  </data>
+  <data name="NOME_DO_FUNCIONARIO" xml:space="preserve">
+    <value>Nome do Funcionário</value>
+  </data>
+  <data name="MOTIVOS_AJUSTE" xml:space="preserve">
+    <value>Motivos de Ajuste</value>
+  </data>
+  <data name="CADASTRO_MOTIVOS_AJUSTE" xml:space="preserve">
+    <value>Cadastro de Motivos de Ajuste</value>
+  </data>
+  <data name="AVISO_PERIODOS_FECHADOS" xml:space="preserve">
+    <value>Selecione um funcionário para ver o histórico.</value>
+  </data>
+  <data name="DATAHORA_AVALIACAO" xml:space="preserve">
+    <value>Data/Hora Avaliação</value>
+  </data>
+  <data name="DATA_AJUSTE" xml:space="preserve">
+    <value>Data Ajuste</value>
+  </data>
+  <data name="SOLICITACAO" xml:space="preserve">
+    <value>Solicitação</value>
+  </data>
+  <data name="ABONO_DIA_TODO" xml:space="preserve">
+    <value>Abono Dia Todo</value>
+  </data>
+  <data name="AJUSTE" xml:space="preserve">
+    <value>Ajuste</value>
+  </data>
+  <data name="DATAHORA_AJUSTE" xml:space="preserve">
+    <value>Data/Hora Ajuste</value>
+  </data>
+  <data name="DATAHORA_ORIGINAL" xml:space="preserve">
+    <value>Data/Hora Original</value>
+  </data>
+  <data name="DATAHORA_SOLICITACAO" xml:space="preserve">
+    <value>Data/Hora Solicitação</value>
+  </data>
+  <data name="DATA_SOLICITACAO" xml:space="preserve">
+    <value>Data da Solicitação</value>
+  </data>
+  <data name="INCLUSAO" xml:space="preserve">
+    <value>Inclusão</value>
+  </data>
+  <data name="INCLUSAO_MARCACAO_INEXISTENTE" xml:space="preserve">
+    <value>Inclusão</value>
+  </data>
+  <data name="ZERAR_BANCO_PERGUNTA" xml:space="preserve">
+    <value>Deseja realmente zerar o banco de horas do colaborador ?</value>
+  </data>
+  <data name="FECHAR_FOLHAS_BTN" xml:space="preserve">
+    <value>Fechar Folhas</value>
+  </data>
+  <data name="NAO_FOI_POSSIVEL_FECHAR_FOLHA" xml:space="preserve">
+    <value>Não foi possível fechar folha(s)</value>
+  </data>
+  <data name="NAO_FOI_POSSIVEL_ZERAR_BANCO" xml:space="preserve">
+    <value>Não foi possível zerar banco</value>
+  </data>
+  <data name="PERIODO_MAIOR_QUE_31" xml:space="preserve">
+    <value>Período maior que 31 dias</value>
+  </data>
+  <data name="PROCESSAR" xml:space="preserve">
+    <value>Processar</value>
+  </data>
+  <data name="EVENTO_DO_DIA_NAO_PERMITE_MARCACAO" xml:space="preserve">
+    <value>O evento do dia não permite marcar ponto</value>
+  </data>
+  <data name="EXPORTAR_BANCO_HORAS" xml:space="preserve">
+    <value>Deseja exportar os dados do banco de horas?</value>
+  </data>
+  <data name="SEM_HORARIOS_DEFINIDOS" xml:space="preserve">
+    <value>Sem horários definidos para este dia</value>
+  </data>
+  <data name="SINTETICO_HORAS_EXTRAS_REALIZADAS" xml:space="preserve">
+    <value>Relatório Sintético Horas Extras Realizadas</value>
+  </data>
+  <data name="EXIBIR_VALOR_HXH" xml:space="preserve">
+    <value>Exibir Valor HxH</value>
+  </data>
+  <data name="HORA_EXTRA_BANCO" xml:space="preserve">
+    <value>H.E. % em Banco</value>
+  </data>
+  <data name="HORA_EXTRA_NOTURNA" xml:space="preserve">
+    <value>H.E. Noturna</value>
+  </data>
+  <data name="TOTAL_GERAL_HORA_EXTRA" xml:space="preserve">
+    <value>Total Geral H.E.</value>
+  </data>
+  <data name="TOTAL_HORAS_EXTRAS_BANCO" xml:space="preserve">
+    <value>Total de Horas Extras em Banco </value>
+  </data>
+  <data name="TOTAL_HORAS_EXTRAS_FOLHA" xml:space="preserve">
+    <value>Total de Horas Extras em Folha</value>
+  </data>
+  <data name="TOTAL_HORA_EXTRA" xml:space="preserve">
+    <value>Total H.E %</value>
+  </data>
+  <data name="VALOR_FOLHA" xml:space="preserve">
+    <value>Valor em Folha</value>
+  </data>
+  <data name="VALOR_HXH" xml:space="preserve">
+    <value>Valor HxH</value>
+  </data>
+  <data name="H_E" xml:space="preserve">
+    <value>H.E. %</value>
+  </data>
+  <data name="H_E_BANCO" xml:space="preserve">
+    <value>H.E. % em Banco</value>
+  </data>
+  <data name="H_E_FOLHA" xml:space="preserve">
+    <value>H.E. % em Folha</value>
+  </data>
+  <data name="H_E_NOTURNA" xml:space="preserve">
+    <value>H.E. Noturna</value>
+  </data>
+  <data name="TOTAL_GERAL_H_E" xml:space="preserve">
+    <value>Total Geral H.E.</value>
+  </data>
+  <data name="SINTETICO_SALDO_BANCO_HORAS" xml:space="preserve">
+    <value>Relatório Sintético de Saldo de Banco de Horas</value>
+  </data>
+  <data name="BANCO_HORAS" xml:space="preserve">
+    <value>Banco Horas</value>
+  </data>
+  <data name="DESFAZER_IMPORTACAO" xml:space="preserve">
+    <value>Desfazer Importação</value>
+  </data>
+  <data name="IMPORTAR_SALDO_INI_BH" xml:space="preserve">
+    <value>Importar Saldo Inicial de Banco de Horas </value>
+  </data>
+  <data name="UPLOAD_PLANILHA" xml:space="preserve">
+    <value>Upload Planilha</value>
+  </data>
+  <data name="UPLOAD_PLANILHA_SALDO" xml:space="preserve">
+    <value>Upload Planilha Saldo</value>
+  </data>
+  <data name="SINTETICO_HORAS_EFETIVAS" xml:space="preserve">
+    <value>Relatório Sintético de Horas Efetivas</value>
+  </data>
+  <data name="HORAS_PREVISTAS" xml:space="preserve">
+    <value>Horas Previstas</value>
+  </data>
+  <data name="HORAS_ABONADAS" xml:space="preserve">
+    <value>Horas Abonadas</value>
+  </data>
+  <data name="HORAS_DEBITO_TOTAIS" xml:space="preserve">
+    <value>Total de Horas em Débito</value>
+  </data>
+  <data name="HORAS_EXTRAS_TOTAIS" xml:space="preserve">
+    <value>Horas Extras Totais</value>
+  </data>
+  <data name="HORAS_SOBREAVISO" xml:space="preserve">
+    <value>Horas em Sobreaviso</value>
+  </data>
+  <data name="HORAS_ADICIONAL_NOTURNO" xml:space="preserve">
+    <value>Horas de Ad. Noturno</value>
+  </data>
+  <data name="HORAS_EXTRAS_ADICIONAL_NOTURNO" xml:space="preserve">
+    <value>H.E. em Ad. Noturno</value>
+  </data>
+  <data name="ATRASOS" xml:space="preserve">
+    <value>Atrasos</value>
+  </data>
+  <data name="FALTAS" xml:space="preserve">
+    <value>Faltas</value>
+  </data>
+  <data name="IMPORTAR_SALDO_INI_BC_HR" xml:space="preserve">
+    <value>Importar Saldo Inicial de Banco de Horas</value>
+  </data>
+  <data name="NAO_PERMITE_ADICIONAR_MARCACAO_DIA_ATUAL" xml:space="preserve">
+    <value>Não é permitido incluir marcação no dia atual.</value>
+  </data>
+  <data name="ORIGEM" xml:space="preserve">
+    <value>Origem</value>
+  </data>
+  <data name="RELATORIO_AFD" xml:space="preserve">
+    <value>Relatório AFD</value>
+  </data>
+  <data name="DATA_MARCACAO" xml:space="preserve">
+    <value>Data de Marcação</value>
+  </data>
+  <data name="HORA_MARCACAO" xml:space="preserve">
+    <value>Hora da Marcação</value>
+  </data>
+  <data name="TIPO_MARCACAO" xml:space="preserve">
+    <value>Tipo de Marcação</value>
+  </data>
+  <data name="ENDERECO_NAO_PRECISO" xml:space="preserve">
+    <value>Não foi possível encontrar o endereço informado de forma precisa. A latitude e longitude podem estar incorretas, você pode utilizar o mapa para verificar as georefências.Tem certeza que deseja continuar?</value>
+  </data>
+  <data name="CICLO" xml:space="preserve">
+    <value>Ciclo</value>
+  </data>
+  <data name="ABONAR_DEBITO" xml:space="preserve">
+    <value>Abonar Débito</value>
+  </data>
+  <data name="AJUSTADO" xml:space="preserve">
+    <value>Ajustado</value>
+  </data>
+  <data name="MOTIVO_AJUSTE" xml:space="preserve">
+    <value>Motivo do Ajuste</value>
+  </data>
+  <data name="RELATORIO_AFDT" xml:space="preserve">
+    <value>Relatório AFDT</value>
+  </data>
+  <data name="BAIXAR_AFD" xml:space="preserve">
+    <value>Baixar AFD</value>
+  </data>
+  <data name="BAIXAR_AFDT" xml:space="preserve">
+    <value>Baixar AFDT</value>
+  </data>
+  <data name="INSCRICAO" xml:space="preserve">
+    <value>Inscrição</value>
+  </data>
+  <data name="PORTADOR_DEFICIENCIA" xml:space="preserve">
+    <value>Portador de Deficiência</value>
+  </data>
+  <data name="DEFINIR_REGRAS_CERTIFICACAO" xml:space="preserve">
+    <value>Definir Regras de Certificação</value>
+  </data>
+  <data name="CERTIFICACAO_MARCACAO_PONTO" xml:space="preserve">
+    <value>Certificação de Marcação de Ponto</value>
+  </data>
+  <data name="PRIMEIRA_ENTRADA" xml:space="preserve">
+    <value>Primeira Entrada</value>
+  </data>
+  <data name="ULTIMA_SAIDA" xml:space="preserve">
+    <value>Última Saída</value>
+  </data>
+  <data name="MOTIVOS" xml:space="preserve">
+    <value>Primeira Data de Marcação</value>
+  </data>
+  <data name="AVALIAR" xml:space="preserve">
+    <value>Avaliar</value>
+  </data>
+  <data name="PRIMEIRA_HORA" xml:space="preserve">
+    <value>Primeira Hora de Marcação</value>
+  </data>
+  <data name="IMPROCEDENTE" xml:space="preserve">
+    <value>Improcedente</value>
+  </data>
+  <data name="SALDO" xml:space="preserve">
+    <value>Saldo</value>
+  </data>
+  <data name="PROCEDENTE" xml:space="preserve">
+    <value>Procedente</value>
+  </data>
+  <data name="RELATORIO_ACJEF" xml:space="preserve">
+    <value>Relatório ACJEF</value>
+  </data>
+  <data name="PRIMEIRA_MARCACAO_ENTRADA" xml:space="preserve">
+    <value>Primeira Marcação de Entrada</value>
+  </data>
+  <data name="BAIXAR_ACJEF" xml:space="preserve">
+    <value>Baixar ACJEF</value>
+  </data>
+  <data name="ULTIMA_MARCACAO_SAIDA" xml:space="preserve">
+    <value>Última Marcação de Saída</value>
+  </data>
+  <data name="USUARIO_AVALIACAO" xml:space="preserve">
+    <value>Usuário Avaliação</value>
+  </data>
+  <data name="FOLGA_CONCEDIDA" xml:space="preserve">
+    <value>Folga Concedida</value>
+  </data>
+  <data name="FOLGA_FERIADO" xml:space="preserve">
+    <value>Folga de Feriado</value>
+  </data>
+  <data name="HISTORICO_HORAS_EXTRAS" xml:space="preserve">
+    <value>Histórico de Horas Extras</value>
+  </data>
+  <data name="FUNCIONARIOS_ATIVOS" xml:space="preserve">
+    <value>Funcionários Ativos</value>
+  </data>
+  <data name="TOTAL_HORAS_EXTRAS" xml:space="preserve">
+    <value>Total de Horas Extras</value>
+  </data>
+  <data name="BANCO_HORAS_ATUAL" xml:space="preserve">
+    <value>Banco de Horas Atual</value>
+  </data>
+  <data name="TOTAL_DEBITO_HORAS" xml:space="preserve">
+    <value>Total de Débito de Horas</value>
+  </data>
+  <data name="HORAS_DEBITO_POR_DEPTO" xml:space="preserve">
+    <value>Débito de Horas por Departamento</value>
+  </data>
+  <data name="HORAS_EXTRAS_POR_DEPTO" xml:space="preserve">
+    <value>Horas Extras por Departamento</value>
+  </data>
+  <data name="PERCENTUAL_ABSENTEISMO" xml:space="preserve">
+    <value>Percentual Absenteísmo</value>
+  </data>
+  <data name="PERCENTUAL_PONTUALIDADE" xml:space="preserve">
+    <value>Percentual de Pontualidade</value>
+  </data>
+  <data name="PRIMEIRA_DATA" xml:space="preserve">
+    <value>Primeira Data de Marcação</value>
+  </data>
+  <data name="SALDO_BANCO_DATA" xml:space="preserve">
+    <value>Saldo do Banco de Horas na Data</value>
+  </data>
+  <data name="SALDO_CREDITO" xml:space="preserve">
+    <value>Saldo Crédito</value>
+  </data>
+  <data name="SALDO_DEBITO" xml:space="preserve">
+    <value>Saldo Débito</value>
+  </data>
+  <data name="ESSE_FUNCIONARIO_NAO_MARCA_PONTO" xml:space="preserve">
+    <value>Este funcionário não marca ponto</value>
+  </data>
+  <data name="EXPORTAR_PDF_COM_BANCO" xml:space="preserve">
+    <value>Exportar PDF com Banco de Horas</value>
+  </data>
+  <data name="EXPORTAR_PDF_SEM_BANCO" xml:space="preserve">
+    <value>Exportar PDF sem Banco de Horas</value>
+  </data>
+  <data name="HISTORICO_ALERTA" xml:space="preserve">
+    <value>Relatório Histórico de Alertas</value>
+  </data>
+  <data name="NIVEL_PRIORIDADE" xml:space="preserve">
+    <value>Nível de Prioridade</value>
+  </data>
+  <data name="TIPO_ALERTA" xml:space="preserve">
+    <value>Tipo de Alerta</value>
+  </data>
+  <data name="EMITIR_FOLHA_PONTO_MASSA" xml:space="preserve">
+    <value>Emitir Folha de Ponto em Massa</value>
+  </data>
+  <data name="DATA_ALERTA" xml:space="preserve">
+    <value>Data do Alerta</value>
+  </data>
+  <data name="HORA_ALERTA" xml:space="preserve">
+    <value>Hora do Alerta</value>
+  </data>
+  <data name="GERAR_DEBITO_BANCOHORAS" xml:space="preserve">
+    <value>Gerar Débito de Horas no Banco</value>
+  </data>
+  <data name="EMITIDO_POR_EM_AS" xml:space="preserve">
+    <value>Emitido por {0} em {1} às {2} pelo sistema Aniel Point</value>
+  </data>
+  <data name="QTD_HORAS_ABONADAS" xml:space="preserve">
+    <value>Qtd. Hrs. Abonadas</value>
+  </data>
+  <data name="QTD_HORAS_DEBITO_TOTAIS" xml:space="preserve">
+    <value>Qtd. Hrs. Débito Totais</value>
+  </data>
+  <data name="QTD_HORAS_EXTRAS_TOTAIS" xml:space="preserve">
+    <value>Qtd. Hrs. Extras Totais</value>
+  </data>
+  <data name="QTD_HORAS_PREVISTAS" xml:space="preserve">
+    <value>Qtd. Hrs. Previstas</value>
+  </data>
+  <data name="QTD_HORAS_SOBREAVISO" xml:space="preserve">
+    <value>Qtd. Hrs. Sobreaviso</value>
+  </data>
+  <data name="QTD_HORAS_TRABALHADAS" xml:space="preserve">
+    <value>Qtd. Hrs. Trabalhadas</value>
+  </data>
+  <data name="QTD_HORAS_ADIC_NOTURNO" xml:space="preserve">
+    <value>Qtd. Hrs. Adicional Noturno</value>
+  </data>
+  <data name="AVISO_EXPORTACAO_PDF_HORAS_EFETIVAS" xml:space="preserve">
+    <value>Na exportação para PDF as colunas referentes ao detalhamento de horas extras e débitos, não serão exportadas, mesmo se a configuração estiver ativada nos filtros. Se precisar exportá-las utilize a opção em Excel</value>
+  </data>
+  <data name="SALDO_ATUAL_BANCO_HORAS" xml:space="preserve">
+    <value>Saldo Atual no Banco de Horas</value>
+  </data>
+  <data name="PDF_HORAS_REALIZADAS" xml:space="preserve">
+    <value>Na exportação para PDF as colunas referentes ao detalhamento do valor HxH, não serão exportadas, mesmo se a configuração estiver ativada nos filtros. Se precisar exportá-las utilize a opção em Excel</value>
+  </data>
+  <data name="NENHUM_FUNCIONARIO_SELECIONADO" xml:space="preserve">
+    <value>Nenhum funcionário foi selecionado</value>
+  </data>
+  <data name="DATAINICIO_PRIMEIRAFOLHA" xml:space="preserve">
+    <value>Data de início da primeira folha</value>
+  </data>
+  <data name="NAO_POSSUI_JORNADA" xml:space="preserve">
+    <value>O funcionário informado não possui jornada vinculada</value>
+  </data>
+</root>

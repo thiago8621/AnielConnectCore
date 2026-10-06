@@ -1,0 +1,702 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ANUAL" xml:space="preserve">
+    <value>Anual</value>
+  </data>
+  <data name="ASSINANTE" xml:space="preserve">
+    <value>Assinante</value>
+  </data>
+  <data name="ATIVARVALIDADE" xml:space="preserve">
+    <value>Possui Tempo de Validade</value>
+  </data>
+  <data name="ATIVARVALIDADEPRODUTO" xml:space="preserve">
+    <value>Ativar Validade do Produto</value>
+  </data>
+  <data name="ATIVO" xml:space="preserve">
+    <value>Ativo</value>
+  </data>
+  <data name="ATOHABILITACAODOPLANO" xml:space="preserve">
+    <value>No ato da habilitação do plano</value>
+  </data>
+  <data name="ATRIBUIRVALORINTEGRAL" xml:space="preserve">
+    <value>Atribuir Descontos ao Valor Integral</value>
+  </data>
+  <data name="ATRIBUIRVALORINTEGRALPRODUTO" xml:space="preserve">
+    <value>Atribuir Valor Integral do Produto</value>
+  </data>
+  <data name="AUTENTICACAORADIUS" xml:space="preserve">
+    <value>Autenticação no Radius</value>
+  </data>
+  <data name="BIMESTRAL" xml:space="preserve">
+    <value>Bimestral</value>
+  </data>
+  <data name="CANCELAMENTO" xml:space="preserve">
+    <value>Cancelamento</value>
+  </data>
+  <data name="CANCELAMENTOPRODUTO" xml:space="preserve">
+    <value>Cancelamento do Produto</value>
+  </data>
+  <data name="CARENCIACONTRATO" xml:space="preserve">
+    <value>Período de Carência</value>
+  </data>
+  <data name="CARENCIACONTRATOPRODUTO" xml:space="preserve">
+    <value>Carência Contrato do Produto</value>
+  </data>
+  <data name="CARREGA_PLANO_PRODUTO" xml:space="preserve">
+    <value>Carregar Planos e Produtos</value>
+  </data>
+  <data name="CARREGA_VALORES_PLANO_PRODUTO" xml:space="preserve">
+    <value>Carregar Valores dos Planos e Produtos</value>
+  </data>
+  <data name="CFOP" xml:space="preserve">
+    <value>Código CFOP</value>
+  </data>
+  <data name="CFOPPRODUTO" xml:space="preserve">
+    <value>CFOP do Produto</value>
+  </data>
+  <data name="CFPS" xml:space="preserve">
+    <value>Código CFPS</value>
+  </data>
+  <data name="CFPSPRODUTO" xml:space="preserve">
+    <value>CFPS do Produro</value>
+  </data>
+  <data name="COBRANCAINSTALACAO" xml:space="preserve">
+    <value>Instalação será cobrada</value>
+  </data>
+  <data name="COBRANCAUNICA" xml:space="preserve">
+    <value>Cobrança Única</value>
+  </data>
+  <data name="CODIGO" xml:space="preserve">
+    <value>Código</value>
+  </data>
+  <data name="CODIGOPLANO" xml:space="preserve">
+    <value>Código do Plano</value>
+  </data>
+  <data name="CODIGOPRODUTO" xml:space="preserve">
+    <value>Código do Produto</value>
+  </data>
+  <data name="CODIGO_EMPRESA" xml:space="preserve">
+    <value>Código da Empresa</value>
+  </data>
+  <data name="COEFICIENTE" xml:space="preserve">
+    <value>Coeficiente</value>
+  </data>
+  <data name="COFINS" xml:space="preserve">
+    <value>Cofins</value>
+  </data>
+  <data name="COMISSAO" xml:space="preserve">
+    <value>Comissionamento</value>
+  </data>
+  <data name="COMISSIONAMENTO" xml:space="preserve">
+    <value>Comissionamento</value>
+  </data>
+  <data name="COMPOSICAONF" xml:space="preserve">
+    <value>Composição da Nota Fiscal</value>
+  </data>
+  <data name="COMPROVANTEPAGAMENTO" xml:space="preserve">
+    <value>Comprovante de Pagamento</value>
+  </data>
+  <data name="COMPROVANTEPAGAMENTOPRODUTO" xml:space="preserve">
+    <value>Comprovante de Pagamento</value>
+  </data>
+  <data name="CONFIGURACAOADICIONAL" xml:space="preserve">
+    <value>Configurações Adicionais</value>
+  </data>
+  <data name="CONFIGURACAOADICIONALPRODUTO" xml:space="preserve">
+    <value>Configuração Adicional do Produto</value>
+  </data>
+  <data name="CONFIGURACAOPLANO" xml:space="preserve">
+    <value>Configurações do Plano</value>
+  </data>
+  <data name="CONFIGURACAOPRODUTO" xml:space="preserve">
+    <value>Configuração do Produto</value>
+  </data>
+  <data name="CONTAFINANCEIRA" xml:space="preserve">
+    <value>Conta Financeira do Plano</value>
+  </data>
+  <data name="CONTAFINANCEIRAINSTALACAO" xml:space="preserve">
+    <value>Conta Financeira da Instalação</value>
+  </data>
+  <data name="CONTAFINANCEIRAPRODUTO" xml:space="preserve">
+    <value>Conta Financeira do Produto</value>
+  </data>
+  <data name="CONTA_RECORRENTE" xml:space="preserve">
+    <value />
+  </data>
+  <data name="COPIARPLANO" xml:space="preserve">
+    <value>Copiar Dados do Plano</value>
+  </data>
+  <data name="COPIARPRODUTO" xml:space="preserve">
+    <value>Copiar Produto</value>
+  </data>
+  <data name="DADOSPLANO" xml:space="preserve">
+    <value>Dados do Plano</value>
+  </data>
+  <data name="DADOSPRODUTO" xml:space="preserve">
+    <value>Dados do Produto</value>
+  </data>
+  <data name="DATAFECHAMENTOCOBRANCA" xml:space="preserve">
+    <value>Informar data de fechamento do período de cobrança</value>
+  </data>
+  <data name="DATAFECHAMENTOCOBRANCAPRODUTO" xml:space="preserve">
+    <value>Data de Fechamento da Cobrança do Produto</value>
+  </data>
+  <data name="DATA_AGENDAMENTO" xml:space="preserve">
+    <value>Data Agendamento</value>
+  </data>
+  <data name="DESCONTO" xml:space="preserve">
+    <value>Desconto</value>
+  </data>
+  <data name="DESCONTOANTECIPADO" xml:space="preserve">
+    <value>Utilizar Desconto por Pagamento Antecipado</value>
+  </data>
+  <data name="DESCONTOANTECIPADOPRODUTO" xml:space="preserve">
+    <value>Desconto Antecipado do Produto</value>
+  </data>
+  <data name="DESCONTOPRODUTO" xml:space="preserve">
+    <value>Desconto do Produto</value>
+  </data>
+  <data name="DESCONTOPROGRESSIVO" xml:space="preserve">
+    <value>Utilizar Desconto Progressivo</value>
+  </data>
+  <data name="DESCONTOPROGRESSIVOPRODUTO" xml:space="preserve">
+    <value>Desconto Progressivo do Produto</value>
+  </data>
+  <data name="DESCRICAO" xml:space="preserve">
+    <value>Descrição</value>
+  </data>
+  <data name="DESCRICAOATIVIDADE" xml:space="preserve">
+    <value>Descrição da Atividade</value>
+  </data>
+  <data name="DESCRICAOPLANO" xml:space="preserve">
+    <value>Descrição do Plano</value>
+  </data>
+  <data name="DESCRICAOPRODUTO" xml:space="preserve">
+    <value>Descrição do Produto</value>
+  </data>
+  <data name="DESLOCAMENTO" xml:space="preserve">
+    <value>Deslocamento</value>
+  </data>
+  <data name="DETALHES" xml:space="preserve">
+    <value>Detalhes</value>
+  </data>
+  <data name="DETALHESFORMAPAGAMENTO" xml:space="preserve">
+    <value>Detalhes Forma de Pagamento</value>
+  </data>
+  <data name="DETALHESPLANO" xml:space="preserve">
+    <value>Detalhes do Plano</value>
+  </data>
+  <data name="DETALHESPRODUTO" xml:space="preserve">
+    <value>Detalhes do Produto</value>
+  </data>
+  <data name="DIAFECHAMENTOCOBRANCA" xml:space="preserve">
+    <value>Dia de Fechamento</value>
+  </data>
+  <data name="DIAFECHAMENTOCOBRANCAPRODUTO" xml:space="preserve">
+    <value>Dia de Fechamento de Cobrança do Produto</value>
+  </data>
+  <data name="DIAINCLUSAOCLIENTE" xml:space="preserve">
+    <value>Dia de Inclusão do Cliente</value>
+  </data>
+  <data name="DIAINCLUSAOCLIENTEPRODUTO" xml:space="preserve">
+    <value>Dia da Inclusão do Cliente/Produto</value>
+  </data>
+  <data name="DIAPADRAOFECHAMENTO" xml:space="preserve">
+    <value>Definir dia padrão de fechamento</value>
+  </data>
+  <data name="DIAPADRAOFECHAMENTOPRODUTO" xml:space="preserve">
+    <value>Dia Padrão de Fechamento do Produto</value>
+  </data>
+  <data name="DIASTESTE" xml:space="preserve">
+    <value>Dias de Teste</value>
+  </data>
+  <data name="DIASTESTEPRODUTO" xml:space="preserve">
+    <value>Dias de Teste do Produto</value>
+  </data>
+  <data name="DOMINGO" xml:space="preserve">
+    <value>Domingo</value>
+  </data>
+  <data name="DURACAO_TOTAL_VISITA" xml:space="preserve">
+    <value>Duração Todal da Visita</value>
+  </data>
+  <data name="EMITIRCONTRATO" xml:space="preserve">
+    <value>Emitir Contrato</value>
+  </data>
+  <data name="EMITIRCONTRATOPRODUTO" xml:space="preserve">
+    <value>Emitir Contrato do Produto</value>
+  </data>
+  <data name="EXPLICACAOCLIENTE" xml:space="preserve">
+    <value>Explicação para o Cliente</value>
+  </data>
+  <data name="EXPLICACAOOPERADOR" xml:space="preserve">
+    <value>Explicação para o Operador</value>
+  </data>
+  <data name="FAIXAMENSALIDADE" xml:space="preserve">
+    <value>Adicionar Faixa Mensalidade do Plano</value>
+  </data>
+  <data name="FAIXAMENSALIDADEPRODUTO" xml:space="preserve">
+    <value>Adicionar Faixa de Mensalidade do Produto</value>
+  </data>
+  <data name="FAIXA_FINAL" xml:space="preserve">
+    <value>Faixa Final</value>
+  </data>
+  <data name="FAIXA_INICIAL" xml:space="preserve">
+    <value>Faixa Inicial</value>
+  </data>
+  <data name="FERIADOS" xml:space="preserve">
+    <value>Feriados</value>
+  </data>
+  <data name="FIM_ATENDIMENTO" xml:space="preserve">
+    <value>Fim Atendimento</value>
+  </data>
+  <data name="FINANCEIRO" xml:space="preserve">
+    <value>Financeiro</value>
+  </data>
+  <data name="FINANCEIROPRODUTO" xml:space="preserve">
+    <value>Financeiro do Produto</value>
+  </data>
+  <data name="FORMAPAGTOCLIENTE" xml:space="preserve">
+    <value>Forma de Pagamento do Cliente</value>
+  </data>
+  <data name="FORMATOCOBRANCA" xml:space="preserve">
+    <value>Formato de Cobrança</value>
+  </data>
+  <data name="FORMATOCOBRANCAPRODUTO" xml:space="preserve">
+    <value>Formato da Cobrança do Produto</value>
+  </data>
+  <data name="FREQUENCIACOBRANCA" xml:space="preserve">
+    <value>Frequência de Cobrança </value>
+  </data>
+  <data name="FREQUENCIACOBRANCAPRODUTO" xml:space="preserve">
+    <value>Frequência Cobrança de Produto</value>
+  </data>
+  <data name="HABILITACAO" xml:space="preserve">
+    <value>Habilitação</value>
+  </data>
+  <data name="HABILITACAOPRODUTO" xml:space="preserve">
+    <value>Habilitação do Produto</value>
+  </data>
+  <data name="ICMS" xml:space="preserve">
+    <value>ICMS</value>
+  </data>
+  <data name="ID_OLT" xml:space="preserve">
+    <value>OLT</value>
+  </data>
+  <data name="ID_RACK" xml:space="preserve">
+    <value>Rack</value>
+  </data>
+  <data name="IMPEDIRBLOQUEIO" xml:space="preserve">
+    <value>Impedir Bloqueio Automático do Serviço</value>
+  </data>
+  <data name="IMPEDIRBLOQUEIODOMINGO" xml:space="preserve">
+    <value>Impedir Bloqueio no Domingo</value>
+  </data>
+  <data name="IMPEDIRBLOQUEIOFERIADOS" xml:space="preserve">
+    <value>Impedir Bloqueio em Feriados</value>
+  </data>
+  <data name="IMPEDIRBLOQUEIOSABADO" xml:space="preserve">
+    <value>Impedir Bloqueio no Sábado</value>
+  </data>
+  <data name="IMPEDIRBLOQUEIOSEXTA" xml:space="preserve">
+    <value>Impedir Bloqueio na Sexta</value>
+  </data>
+  <data name="INATIVO" xml:space="preserve">
+    <value>Inativo</value>
+  </data>
+  <data name="INFORME_MODOCOBRANCA" xml:space="preserve">
+    <value>Informe o modo de cobrança</value>
+  </data>
+  <data name="INFORME_SERVIDORNAS" xml:space="preserve">
+    <value>Informe o Servidor NAS</value>
+  </data>
+  <data name="INICIO_ATENDIMENTO" xml:space="preserve">
+    <value>Inicio Atendimento</value>
+  </data>
+  <data name="INTERRUPCAO" xml:space="preserve">
+    <value>Interrupção</value>
+  </data>
+  <data name="INTERRUPCAOPRODUTO" xml:space="preserve">
+    <value>Interrupção do Produto</value>
+  </data>
+  <data name="IP" xml:space="preserve">
+    <value>IP</value>
+  </data>
+  <data name="ISS" xml:space="preserve">
+    <value>ISS</value>
+  </data>
+  <data name="LISTA_PLANO_PRODUTO" xml:space="preserve">
+    <value>Listagem de Planos e Produtos</value>
+  </data>
+  <data name="LOCALIZAR_PLANO_PRODUTO" xml:space="preserve">
+    <value>Localizar Plano ou Produto</value>
+  </data>
+  <data name="LOGIN" xml:space="preserve">
+    <value>Login</value>
+  </data>
+  <data name="MENSAL" xml:space="preserve">
+    <value>Mensal</value>
+  </data>
+  <data name="MENSALIDADEFINAL" xml:space="preserve">
+    <value>Mensalidade Final</value>
+  </data>
+  <data name="MENSALIDADEFINALPRODUTO" xml:space="preserve">
+    <value>Mensalidade Final do Produto</value>
+  </data>
+  <data name="MENSALIDADEINICIAL" xml:space="preserve">
+    <value>Mensalidade Inicial</value>
+  </data>
+  <data name="MENSALIDADEINICIALPRODUTO" xml:space="preserve">
+    <value>Mensalidade Inicial do Produto</value>
+  </data>
+  <data name="MODELO21" xml:space="preserve">
+    <value>Modelo 21</value>
+  </data>
+  <data name="MODELO22" xml:space="preserve">
+    <value>Modelo 22</value>
+  </data>
+  <data name="MODELO55" xml:space="preserve">
+    <value>Modelo 55</value>
+  </data>
+  <data name="MODELOCONTRATO" xml:space="preserve">
+    <value>Modelo de Contrato</value>
+  </data>
+  <data name="MODELOCONTRATOPRODUTO" xml:space="preserve">
+    <value>Modelo Contrato do Produto</value>
+  </data>
+  <data name="MODELONOTAFISCAL" xml:space="preserve">
+    <value>Modelo de Nota Fiscal</value>
+  </data>
+  <data name="MODELONOTAFISCALPRODUTO" xml:space="preserve">
+    <value>Modelo de Nota Fiscal do Produto</value>
+  </data>
+  <data name="MODELORECIBO" xml:space="preserve">
+    <value>Modelo do Recibo</value>
+  </data>
+  <data name="MODOCOBRANCAINSTALACAO" xml:space="preserve">
+    <value>Modo de Cobrança da Instalação</value>
+  </data>
+  <data name="NAO" xml:space="preserve">
+    <value>Não</value>
+  </data>
+  <data name="NENHUM" xml:space="preserve">
+    <value>Nenhum</value>
+  </data>
+  <data name="NOME_EMPRESA" xml:space="preserve">
+    <value>Nome da Empresa</value>
+  </data>
+  <data name="NOTAFISCAL" xml:space="preserve">
+    <value>Nota Fiscal</value>
+  </data>
+  <data name="NUMERO_OS" xml:space="preserve">
+    <value>Número OS</value>
+  </data>
+  <data name="OPCAOPRORATA" xml:space="preserve">
+    <value>Ativar o Pró-Rata Para</value>
+  </data>
+  <data name="OPCAOPRORATAPRODUTO" xml:space="preserve">
+    <value>Opção Pró-Rata do Produto</value>
+  </data>
+  <data name="OSTROCAENDERECO" xml:space="preserve">
+    <value>Precisa de OS para Troca do Endereço</value>
+  </data>
+  <data name="PERCENTUALDESCONTO" xml:space="preserve">
+    <value>Percentual de Desconto</value>
+  </data>
+  <data name="PERCENTUALDESCONTOPRODUTO" xml:space="preserve">
+    <value>Percentual de Desconto do Produto</value>
+  </data>
+  <data name="PERGUNTA" xml:space="preserve">
+    <value>Pergunta</value>
+  </data>
+  <data name="PIS" xml:space="preserve">
+    <value>PIS</value>
+  </data>
+  <data name="PISCOFINSCSLL" xml:space="preserve">
+    <value>Pis / Cofins / Csll</value>
+  </data>
+  <data name="PORTA" xml:space="preserve">
+    <value>Porta</value>
+  </data>
+  <data name="POSPAGO" xml:space="preserve">
+    <value>Pós-Pago</value>
+  </data>
+  <data name="PREPAGO" xml:space="preserve">
+    <value>Pré-Pago</value>
+  </data>
+  <data name="PRIMEIROFATURAMENTO" xml:space="preserve">
+    <value>A partir do primeiro faturamento</value>
+  </data>
+  <data name="PRIORIDADE" xml:space="preserve">
+    <value>Prioridade</value>
+  </data>
+  <data name="PRORATA" xml:space="preserve">
+    <value>Utilizar Pró-Rata</value>
+  </data>
+  <data name="PRORATAPRODUTO" xml:space="preserve">
+    <value>Tem Pró-Rata do Produto</value>
+  </data>
+  <data name="QTDDIASATRASO" xml:space="preserve">
+    <value>Dias de Atraso</value>
+  </data>
+  <data name="QTDDIASVENCTO" xml:space="preserve">
+    <value>Quantidade de Dias Até o Vencimento</value>
+  </data>
+  <data name="QTDDIASVENCTOPRODUTO" xml:space="preserve">
+    <value>Dias de Vencimento do Produto</value>
+  </data>
+  <data name="QTDPARCELAS" xml:space="preserve">
+    <value>Quantidade de Parcelas</value>
+  </data>
+  <data name="QUANTIDADE" xml:space="preserve">
+    <value>Quantidade</value>
+  </data>
+  <data name="RADIUS" xml:space="preserve">
+    <value>Radius</value>
+  </data>
+  <data name="RECIBO" xml:space="preserve">
+    <value>Recibo</value>
+  </data>
+  <data name="REDUCAOVELOCIDADE" xml:space="preserve">
+    <value>Haverá Redução de Velocidade</value>
+  </data>
+  <data name="RELATORIOFATURAMENTO" xml:space="preserve">
+    <value>Relatório de Faturamento</value>
+  </data>
+  <data name="RETENCAOIMPOSTO" xml:space="preserve">
+    <value>Há retenção de impostos</value>
+  </data>
+  <data name="SABADO" xml:space="preserve">
+    <value>Sábado</value>
+  </data>
+  <data name="SCRIPTATENDIMENTO" xml:space="preserve">
+    <value>Nome do Script de Atendimento</value>
+  </data>
+  <data name="SECRET" xml:space="preserve">
+    <value>Secret</value>
+  </data>
+  <data name="SELECIONARTIPOATENDIMENTO" xml:space="preserve">
+    <value>Selecionar Tipo de Atendimento</value>
+  </data>
+  <data name="SEMCOBRANCA" xml:space="preserve">
+    <value>Sem Cobrança</value>
+  </data>
+  <data name="SEMESTRAL" xml:space="preserve">
+    <value>Semestral</value>
+  </data>
+  <data name="SENHA" xml:space="preserve">
+    <value>Senha</value>
+  </data>
+  <data name="SERVIDORNAS" xml:space="preserve">
+    <value>Servidor NAS Preferencial</value>
+  </data>
+  <data name="SEXTAFEIRA" xml:space="preserve">
+    <value>Sexta-Feira</value>
+  </data>
+  <data name="SIM" xml:space="preserve">
+    <value>Sim</value>
+  </data>
+  <data name="SITUACAOPLANO" xml:space="preserve">
+    <value>Situação do Plano</value>
+  </data>
+  <data name="SITUACAOPRODUTO" xml:space="preserve">
+    <value>Situação do Produto</value>
+  </data>
+  <data name="SLA_SERVICOS" xml:space="preserve">
+    <value>SLA Serviços</value>
+  </data>
+  <data name="STATUS" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="STATUSINICIAL" xml:space="preserve">
+    <value>Status Inicial do Plano</value>
+  </data>
+  <data name="STATUSINICIALPRODUTO" xml:space="preserve">
+    <value>Status Inicial do Produto</value>
+  </data>
+  <data name="STATUS_EXECUCAO" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="TEMPO_EXECUCAO" xml:space="preserve">
+    <value>Tempo Execução</value>
+  </data>
+  <data name="TEMPO_PARALIZACAO" xml:space="preserve">
+    <value>Tempo Paralização</value>
+  </data>
+  <data name="TESTEGRATIS" xml:space="preserve">
+    <value>Possui Período de Teste Grátis</value>
+  </data>
+  <data name="TESTEGRATISPRODUTO" xml:space="preserve">
+    <value>Teste Grátis do Produto</value>
+  </data>
+  <data name="TIPOATENDIMENTO" xml:space="preserve">
+    <value>Nome do Tipo de Atendimento</value>
+  </data>
+  <data name="TIPO_SERVICO" xml:space="preserve">
+    <value>Tipo Serviço</value>
+  </data>
+  <data name="TRIMESTRAL" xml:space="preserve">
+    <value>Trimestral</value>
+  </data>
+  <data name="UNIDADE" xml:space="preserve">
+    <value>Unidade</value>
+  </data>
+  <data name="VALIDADE" xml:space="preserve">
+    <value>Data de validade do Plano</value>
+  </data>
+  <data name="VALIDADEPRODUTO" xml:space="preserve">
+    <value>Validade do Produto</value>
+  </data>
+  <data name="VALORDESCONTO" xml:space="preserve">
+    <value>Valor do Desconto</value>
+  </data>
+  <data name="VALORDESCONTOANTECIPADOPRODUTO" xml:space="preserve">
+    <value>Valor do Desconto Antecipado do Produto</value>
+  </data>
+  <data name="VALORDESCONTOPRODUTO" xml:space="preserve">
+    <value>Valor de Desconto do Produto</value>
+  </data>
+  <data name="VALORDISCRIMINADO" xml:space="preserve">
+    <value>Valor Discriminado</value>
+  </data>
+  <data name="VALORINSTALACAO" xml:space="preserve">
+    <value>Valor da Instalação</value>
+  </data>
+  <data name="VALORPLANO" xml:space="preserve">
+    <value>Valor do Plano em Reais (R$)</value>
+  </data>
+  <data name="VALORPRODUTO" xml:space="preserve">
+    <value>Valor do Produto</value>
+  </data>
+  <data name="VELOCIDADEDOWNLOAD" xml:space="preserve">
+    <value>Velocidade Download (em Megas)</value>
+  </data>
+  <data name="VELOCIDADEDOWNLOADREDUZIDA" xml:space="preserve">
+    <value>Velocidade de Download Reduzida (em Megas)</value>
+  </data>
+  <data name="VELOCIDADENOMINAL" xml:space="preserve">
+    <value>Velocidade Nominal (em Megas)</value>
+  </data>
+  <data name="VELOCIDADEUPLOAD" xml:space="preserve">
+    <value>Velocidade Upload (em Megas)</value>
+  </data>
+  <data name="VELOCIDADEUPLOADREDUZIDA" xml:space="preserve">
+    <value>Velocidade de Upload Reduzida (em Megas)</value>
+  </data>
+</root>

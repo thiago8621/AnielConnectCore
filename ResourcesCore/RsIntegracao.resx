@@ -1,0 +1,249 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="INTEGRACAOTITULO1" xml:space="preserve">
+    <value>Integração com o Logisitique</value>
+  </data>
+  <data name="OBSINTEGRACAOTITULO1" xml:space="preserve">
+    <value>Obs.: Os recursos disponíveis são para importações de dados para o Logisitque</value>
+  </data>
+  <data name="TIPOINTEGRACAOSELECIONADOREQUIRED" xml:space="preserve">
+    <value>Tipo de Integração Requerido</value>
+  </data>
+  <data name="TIPOINTEGRACAOSELECIONADO" xml:space="preserve">
+    <value>Tipo de Integração</value>
+  </data>
+  <data name="PASSO1" xml:space="preserve">
+    <value>Passo 1 - Informar Planilha</value>
+  </data>
+  <data name="PASSO2" xml:space="preserve">
+    <value>Passo 2 - Vincular Campos</value>
+  </data>
+  <data name="PASSO3" xml:space="preserve">
+    <value>Passo 3 - Validar Dados</value>
+  </data>
+  <data name="INTEGRACAOTITULO2" xml:space="preserve">
+    <value>Importar dados Passo 1</value>
+  </data>
+  <data name="QUALTIPOIMPORTACAO" xml:space="preserve">
+    <value>Qual Tipo de Importação</value>
+  </data>
+  <data name="ERROUPLOADEXCEL" xml:space="preserve">
+    <value>Erro ao fazer UpLoad no arquivo Excel</value>
+  </data>
+  <data name="OBJETO" xml:space="preserve">
+    <value>Objeto</value>
+  </data>
+  <data name="OBJETOREQUIRED" xml:space="preserve">
+    <value>Objeto Requerido</value>
+  </data>
+  <data name="OBSINTEGRACAOTITULO2" xml:space="preserve">
+    <value>Obs.: Informe o Objeto que deseja que seja importado e informe o arquivo que deseja importação.</value>
+  </data>
+  <data name="NENHUMOBJETOENCONTRADO" xml:space="preserve">
+    <value>Nenhum objeto encontrado no sistema</value>
+  </data>
+  <data name="DATETIME" xml:space="preserve">
+    <value>Data/Hora</value>
+  </data>
+  <data name="DOUBLE" xml:space="preserve">
+    <value>Decimal</value>
+  </data>
+  <data name="INT16" xml:space="preserve">
+    <value>Inteiro (até 32,367)</value>
+  </data>
+  <data name="INT32" xml:space="preserve">
+    <value>Inteiro (até 2,147,483,647)</value>
+  </data>
+  <data name="INT64" xml:space="preserve">
+    <value>Inteiro (até 9,223,372,036,854,775,808)</value>
+  </data>
+  <data name="STRING" xml:space="preserve">
+    <value>Alfanumérico</value>
+  </data>
+  <data name="IMPORTAR" xml:space="preserve">
+    <value>Importar</value>
+  </data>
+  <data name="INTEGRACAOTITULO3" xml:space="preserve">
+    <value>Importar dados Passo 2</value>
+  </data>
+  <data name="OBSINTEGRACAOTITULO3" xml:space="preserve">
+    <value>Obs.: Faça a correlação dos campos que deseja importacao. Os campos com * são obrigatórios.</value>
+  </data>
+  <data name="IMPORTADO" xml:space="preserve">
+    <value>Importado</value>
+  </data>
+  <data name="INTEGRACAOTITULO4" xml:space="preserve">
+    <value>Importar dados Passo 3</value>
+  </data>
+  <data name="LINHA" xml:space="preserve">
+    <value>Linha</value>
+  </data>
+  <data name="OBSINTEGRACAOTITULO4" xml:space="preserve">
+    <value>Obs.: Verifique acima se dados foram importados</value>
+  </data>
+  <data name="NOVAIMPORTACAO" xml:space="preserve">
+    <value>Nova Importação</value>
+  </data>
+  <data name="MENSAGEM" xml:space="preserve">
+    <value>Mensagem</value>
+  </data>
+  <data name="STATUS" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="ERRONAIMPORTACAO" xml:space="preserve">
+    <value>Erro</value>
+  </data>
+  <data name="VALIDARPLANILHA" xml:space="preserve">
+    <value>Validar Planilha</value>
+  </data>
+  <data name="IMPORTARMESMOCOMERRO" xml:space="preserve">
+    <value>Importar com Erro</value>
+  </data>
+  <data name="BOOLEAN" xml:space="preserve">
+    <value>Boleano (0 ou 1)</value>
+  </data>
+  <data name="INTEGRACAOTITULO5" xml:space="preserve">
+    <value>Resultado da Importação</value>
+  </data>
+  <data name="PASSO4" xml:space="preserve">
+    <value>Histório da Importação</value>
+  </data>
+  <data name="PRONTOPARAIMPORTAR" xml:space="preserve">
+    <value>Ok</value>
+  </data>
+  <data name="REFAZERVINCULACAO" xml:space="preserve">
+    <value>Refazer Vinculação</value>
+  </data>
+  <data name="NOMEARQUIVO" xml:space="preserve">
+    <value>Nome Arquivo</value>
+  </data>
+  <data name="QTDEIMPORTADO" xml:space="preserve">
+    <value>Qtde. Importado</value>
+  </data>
+  <data name="QTDENIMPORTADO" xml:space="preserve">
+    <value>Qtde. Não Importado</value>
+  </data>
+  <data name="TOTAL" xml:space="preserve">
+    <value>Total</value>
+  </data>
+  <data name="DATAHORAIMPORTACAO" xml:space="preserve">
+    <value>Data/Hora Importação</value>
+  </data>
+</root>

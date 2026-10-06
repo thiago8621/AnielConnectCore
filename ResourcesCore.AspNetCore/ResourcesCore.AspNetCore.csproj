@@ -1,0 +1,93 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Update="RsBase.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>RsBase.resx</DependentUpon>
+    </Compile>
+    <Compile Update="RsCadastros.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>RsCadastros.resx</DependentUpon>
+    </Compile>
+    <Compile Update="RsCherry.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>RsCherry.resx</DependentUpon>
+    </Compile>
+    <Compile Update="RsCompras.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>RsCompras.resx</DependentUpon>
+    </Compile>
+    <Compile Update="RsConfiguracao.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>RsConfiguracao.resx</DependentUpon>
+    </Compile>
+    <Compile Update="RsFinanceiro.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>RsFinanceiro.resx</DependentUpon>
+    </Compile>
+    <Compile Update="RsIntegracao.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>RsIntegracao.resx</DependentUpon>
+    </Compile>
+    <Compile Update="RsRadius.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>RsRadius.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="RsBase.resx">
+      <SubType>Designer</SubType>
+      <LastGenOutput>RsBase.Designer.cs</LastGenOutput>
+      <Generator>PublicResXFileCodeGenerator</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="RsCadastros.resx">
+      <SubType>Designer</SubType>
+      <LastGenOutput>RsCadastros.Designer.cs</LastGenOutput>
+      <Generator>PublicResXFileCodeGenerator</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="RsCherry.resx">
+      <LastGenOutput>RsCherry.Designer.cs</LastGenOutput>
+      <Generator>PublicResXFileCodeGenerator</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="RsCompras.resx">
+      <LastGenOutput>RsCompras.Designer.cs</LastGenOutput>
+      <Generator>PublicResXFileCodeGenerator</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="RsConfiguracao.resx">
+      <LastGenOutput>RsConfiguracao.Designer.cs</LastGenOutput>
+      <Generator>PublicResXFileCodeGenerator</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="RsFinanceiro.resx">
+      <SubType>Designer</SubType>
+      <LastGenOutput>RsFinanceiro.Designer.cs</LastGenOutput>
+      <Generator>PublicResXFileCodeGenerator</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="RsIntegracao.resx">
+      <LastGenOutput>RsIntegracao.Designer.cs</LastGenOutput>
+      <Generator>PublicResXFileCodeGenerator</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="RsPontoEletronicoCore.resx">
+      <SubType>Designer</SubType>
+      <LastGenOutput>RsPontoEletronicoCore.Designer.cs</LastGenOutput>
+      <Generator>PublicResXFileCodeGenerator</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="RsRadius.resx">
+      <LastGenOutput>RsRadius.Designer.cs</LastGenOutput>
+      <Generator>PublicResXFileCodeGenerator</Generator>
+    </EmbeddedResource>
+  </ItemGroup>
+
+</Project>

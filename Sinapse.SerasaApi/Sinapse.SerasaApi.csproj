@@ -1,0 +1,33 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <!--<TargetFramework>net5.0</TargetFramework>-->
+	  <TargetFramework>net462</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Entity\**" />
+    <Compile Remove="Enums\**" />
+    <EmbeddedResource Remove="Entity\**" />
+    <EmbeddedResource Remove="Enums\**" />
+    <None Remove="Entity\**" />
+    <None Remove="Enums\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Remove="Server\SerasaApiBase.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+    <PackageReference Include="RestSharp" Version="106.11.7" />
+    <PackageReference Include="System.Text.Json" Version="7.0.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\AnielConnect\Aniel.Connect.Model\Aniel.Connect.Model.csproj" />
+    <ProjectReference Include="..\Sinapse.JSON\Sinapse.JSON.csproj" />
+    <ProjectReference Include="..\Sinapse.Util\Sinapse.Util.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,192 @@
+﻿.preloaderbar {
+    z-index: 11;
+    position: fixed;
+    top: 50%;
+    left: 0;
+    right: 0;
+    height: 4px;
+    text-align: center;
+}
+
+.overlay {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background: rgba(51,51,51,0.7);
+    z-index: 10;
+}
+
+.preloaderbar .bar {
+    position: absolute;
+    width: 100%;
+    height: 0;
+    text-indent: -9999px;
+    background-color: #23b7e5
+}
+
+.preloaderbar .text {
+    padding-top: 10px;
+    color: white;
+    position: absolute;
+    padding-top: 10px;
+    margin-left: -47px;
+}
+
+
+.preloaderbar .bar:before {
+    position: absolute;
+    right: 50%;
+    left: 50%;
+    height: 4px;
+    background-color: inherit;
+    content: ""
+}
+
+.preloaderbar.active {
+    -webkit-animation: changebar 2.25s infinite 0.75s;
+    -moz-animation: changebar 2.25s infinite 0.75s;
+    animation: changebar 2.25s infinite 0.75s;
+}
+
+    .preloaderbar.active .bar {
+        -webkit-animation: changebar 2.25s infinite;
+        -moz-animation: changebar 2.25s infinite;
+        animation: changebar 2.25s infinite;
+    }
+
+        .preloaderbar.active .bar:before {
+            -webkit-animation: movingbar 0.75s infinite;
+            -moz-animation: movingbar 0.75s infinite;
+            animation: movingbar 0.75s infinite
+        }
+
+@-webkit-keyframes movingbar {
+    0% {
+        right: 50%;
+        left: 50%
+    }
+
+    99.9% {
+        right: 0;
+        left: 0
+    }
+
+    100% {
+        right: 50%;
+        left: 50%
+    }
+}
+
+@-moz-keyframes movingbar {
+    0% {
+        right: 50%;
+        left: 50%
+    }
+
+    99.9% {
+        right: 0;
+        left: 0
+    }
+
+    100% {
+        right: 50%;
+        left: 50%
+    }
+}
+
+@keyframes movingbar {
+    0% {
+        right: 50%;
+        left: 50%
+    }
+
+    99.9% {
+        right: 0;
+        left: 0
+    }
+
+    100% {
+        right: 50%;
+        left: 50%
+    }
+}
+
+@-webkit-keyframes changebar {
+    0% {
+        background-color: #8BC34A
+    }
+
+    33.3% {
+        background-color: #8BC34A
+    }
+
+    33.33% {
+        background-color: #FFCA28
+    }
+
+    66.6% {
+        background-color: #FFCA28
+    }
+
+    66.66% {
+        background-color: #F44336
+    }
+
+    99.9% {
+        background-color: #F44336
+    }
+}
+
+@-moz-keyframes changebar {
+    0% {
+        background-color: #8BC34A
+    }
+
+    33.3% {
+        background-color: #8BC34A
+    }
+
+    33.33% {
+        background-color: #FFCA28
+    }
+
+    66.6% {
+        background-color: #FFCA28
+    }
+
+    66.66% {
+        background-color: #F44336
+    }
+
+    99.9% {
+        background-color: #F44336
+    }
+}
+
+@keyframes changebar {
+    0% {
+        background-color: #8BC34A
+    }
+
+    33.3% {
+        background-color: #8BC34A
+    }
+
+    33.33% {
+        background-color: #FFCA28
+    }
+
+    66.6% {
+        background-color: #FFCA28
+    }
+
+    66.66% {
+        background-color: #F44336
+    }
+
+    99.9% {
+        background-color: #F44336
+    }
+}

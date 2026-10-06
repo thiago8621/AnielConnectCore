@@ -1,0 +1,4410 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ABERTURA" xml:space="preserve">
+    <value>Data de Abertura </value>
+  </data>
+  <data name="ACUMULAR_DESCONTOS_DIFERENTE" xml:space="preserve">
+    <value>Permitir Acumular Descontos de Tipos Diferentes ?</value>
+  </data>
+  <data name="AGUARDANDO" xml:space="preserve">
+    <value>Aguardando</value>
+  </data>
+  <data name="ACUMULAR_DESCONTOS_MESMO_TIPO" xml:space="preserve">
+    <value>Permitir Acumular Descontos de Mesmo Tipo ?</value>
+  </data>
+  <data name="AMBOS" xml:space="preserve">
+    <value>Ambos</value>
+  </data>
+  <data name="ANO_MES_DIA_HORA_SEQUENCIAL" xml:space="preserve">
+    <value>Ano,Mes,Dia,Hora Sequencial</value>
+  </data>
+  <data name="ARQUIVO" xml:space="preserve">
+    <value>Arquivo</value>
+  </data>
+  <data name="ATIVO" xml:space="preserve">
+    <value>Ativo</value>
+  </data>
+  <data name="BAIRRO" xml:space="preserve">
+    <value>Bairro</value>
+  </data>
+  <data name="BOLETO" xml:space="preserve">
+    <value>Boleto</value>
+  </data>
+  <data name="CADASTRO" xml:space="preserve">
+    <value>Cadastro</value>
+  </data>
+  <data name="CANCELADO" xml:space="preserve">
+    <value>Cancelado</value>
+  </data>
+  <data name="CARNE" xml:space="preserve">
+    <value>Carnê</value>
+  </data>
+  <data name="CARTAO_CREDITO" xml:space="preserve">
+    <value>Cartão de Crédito</value>
+  </data>
+  <data name="CARTAO_DEBITO" xml:space="preserve">
+    <value>Cartão de Débito</value>
+  </data>
+  <data name="CATEGORIA" xml:space="preserve">
+    <value>Categoria</value>
+  </data>
+  <data name="CATEGORIA_CLIENTE" xml:space="preserve">
+    <value>Categoria do Cliente</value>
+  </data>
+  <data name="CELULAR" xml:space="preserve">
+    <value>Telefone Celular</value>
+  </data>
+  <data name="CEP" xml:space="preserve">
+    <value>CEP</value>
+  </data>
+  <data name="CIDADE" xml:space="preserve">
+    <value>Cidade</value>
+  </data>
+  <data name="CISCO" xml:space="preserve">
+    <value>Cisco</value>
+  </data>
+  <data name="CLIENTE" xml:space="preserve">
+    <value>Cliente</value>
+  </data>
+  <data name="CNPJ" xml:space="preserve">
+    <value>CNPJ</value>
+  </data>
+  <data name="COBRANCA" xml:space="preserve">
+    <value>Cobrança</value>
+  </data>
+  <data name="CODIGO" xml:space="preserve">
+    <value>Código</value>
+  </data>
+  <data name="CODIGOCAPTCHA" xml:space="preserve">
+    <value>Código Captcha</value>
+  </data>
+  <data name="COMPLEMENTO" xml:space="preserve">
+    <value>Complemento</value>
+  </data>
+  <data name="COMPROVANTEEMISSAODATA" xml:space="preserve">
+    <value>Data de Emissão do Comprovante</value>
+  </data>
+  <data name="COMPROVANTEEMITIDO" xml:space="preserve">
+    <value>Comprovante Emitido</value>
+  </data>
+  <data name="CONCLUIDO" xml:space="preserve">
+    <value>Concluído</value>
+  </data>
+  <data name="CONFIGURACOES" xml:space="preserve">
+    <value>Configurações</value>
+  </data>
+  <data name="CONFIGURACOES_GERAIS" xml:space="preserve">
+    <value>Configurações Gerais</value>
+  </data>
+  <data name="CONFIGURACOES_OLA" xml:space="preserve">
+    <value>Configurações Para o Aplicativo OLA Cliente</value>
+  </data>
+  <data name="CONNECT" xml:space="preserve">
+    <value>Connect</value>
+  </data>
+  <data name="CONTATO" xml:space="preserve">
+    <value>Contato</value>
+  </data>
+  <data name="CONTRATANTE" xml:space="preserve">
+    <value>Contratante</value>
+  </data>
+  <data name="CPF" xml:space="preserve">
+    <value>CPF</value>
+  </data>
+  <data name="CPFCNPJ" xml:space="preserve">
+    <value>CPF/CNPJ</value>
+  </data>
+  <data name="DADOSGERAIS" xml:space="preserve">
+    <value>Dados Gerais</value>
+  </data>
+  <data name="DADOS_PESSOAIS" xml:space="preserve">
+    <value>Dados Pessoais</value>
+  </data>
+  <data name="DATAEMISSAO" xml:space="preserve">
+    <value>Data de Emissão</value>
+  </data>
+  <data name="DATAFATURAMENTO" xml:space="preserve">
+    <value>Data de Faturamento</value>
+  </data>
+  <data name="DATAFECHAMENTO" xml:space="preserve">
+    <value>Dia de Fechamento</value>
+  </data>
+  <data name="DATAFERIADO" xml:space="preserve">
+    <value>Data</value>
+  </data>
+  <data name="DATAFINAL" xml:space="preserve">
+    <value>Data Final</value>
+  </data>
+  <data name="DATAINICIAL" xml:space="preserve">
+    <value>Data Inicial</value>
+  </data>
+  <data name="DATAINSCRICAO" xml:space="preserve">
+    <value>Data Inscrição</value>
+  </data>
+  <data name="DATANASCIMENTO" xml:space="preserve">
+    <value>Data de Nascimento</value>
+  </data>
+  <data name="DATAVENCIMENTO" xml:space="preserve">
+    <value>Dia de Vencimento</value>
+  </data>
+  <data name="DEBITO_CONTA" xml:space="preserve">
+    <value>Débito em Conta</value>
+  </data>
+  <data name="DESCONTO" xml:space="preserve">
+    <value>Desconto</value>
+  </data>
+  <data name="DESCONTO_CAPTACAO" xml:space="preserve">
+    <value>Desconto Captação</value>
+  </data>
+  <data name="DESCRICAO" xml:space="preserve">
+    <value>Descrição</value>
+  </data>
+  <data name="DETALHES_DO_PLANO" xml:space="preserve">
+    <value>Detalhes do Plano</value>
+  </data>
+  <data name="DIGITOVERIFICADOR" xml:space="preserve">
+    <value>Digito Verificador</value>
+  </data>
+  <data name="DINHEIRO" xml:space="preserve">
+    <value>Dinheiro</value>
+  </data>
+  <data name="DTSITUACAOCADASTRAL" xml:space="preserve">
+    <value>Data Situação Cadastral</value>
+  </data>
+  <data name="EMAIL" xml:space="preserve">
+    <value>Email</value>
+  </data>
+  <data name="ENCERRAR_ATENDIMENTO_JUNTO_OS" xml:space="preserve">
+    <value>Encerrar o Atendimento junto a Ordem de Serviço</value>
+  </data>
+  <data name="ENDERECO" xml:space="preserve">
+    <value>Endereco</value>
+  </data>
+  <data name="ENDERECO_COBRANCA" xml:space="preserve">
+    <value>Endereço Cobrança</value>
+  </data>
+  <data name="ENDERECO_INTALACAO" xml:space="preserve">
+    <value>Endereço Instalação</value>
+  </data>
+  <data name="ENDERECO_PRINCIPAL" xml:space="preserve">
+    <value>Endereço Principal</value>
+  </data>
+  <data name="ESTADO" xml:space="preserve">
+    <value>Estado</value>
+  </data>
+  <data name="ESTADOCIVIL" xml:space="preserve">
+    <value>Estado Civil</value>
+  </data>
+  <data name="ESTADUAL" xml:space="preserve">
+    <value>Estadual</value>
+  </data>
+  <data name="EVA" xml:space="preserve">
+    <value>E.V.A</value>
+  </data>
+  <data name="EXPLICACAO_CLIENTE" xml:space="preserve">
+    <value>Orientação ao Cliente</value>
+  </data>
+  <data name="EXPLICACAO_OPERADOR" xml:space="preserve">
+    <value>Explicação ao operador</value>
+  </data>
+  <data name="FILIACAO" xml:space="preserve">
+    <value>Filiação</value>
+  </data>
+  <data name="FINANCEIRO" xml:space="preserve">
+    <value>Financeiro</value>
+  </data>
+  <data name="FISICA" xml:space="preserve">
+    <value>Física</value>
+  </data>
+  <data name="FORMATO_PROTOCOLO_OS" xml:space="preserve">
+    <value>Formato do Protocolo da Ordem de Serviço</value>
+  </data>
+  <data name="GRANDE" xml:space="preserve">
+    <value>Grande</value>
+  </data>
+  <data name="GRAU_DE_INSTRUCAO" xml:space="preserve">
+    <value>Grau de Instrução</value>
+  </data>
+  <data name="HABILITADO" xml:space="preserve">
+    <value>Habilitado</value>
+  </data>
+  <data name="ID" xml:space="preserve">
+    <value>Id</value>
+  </data>
+  <data name="IDENTIFICACAO_CLIENTE" xml:space="preserve">
+    <value>Identificação do Cliente</value>
+  </data>
+  <data name="ID_OLA_CLIENTE" xml:space="preserve">
+    <value>Identificador do OLA Cliente</value>
+  </data>
+  <data name="INATIVO" xml:space="preserve">
+    <value>Inativo</value>
+  </data>
+  <data name="INFODATATABLE" xml:space="preserve">
+    <value>Exibindo {0} até {1} de um total de {2} registro(s).</value>
+  </data>
+  <data name="INNOVATION" xml:space="preserve">
+    <value>Innovation</value>
+  </data>
+  <data name="INSTALACAO" xml:space="preserve">
+    <value>Instalação</value>
+  </data>
+  <data name="INSTRUCAO" xml:space="preserve">
+    <value>Instrução</value>
+  </data>
+  <data name="IP" xml:space="preserve">
+    <value>Ip</value>
+  </data>
+  <data name="JURIDICA" xml:space="preserve">
+    <value>Jurídica</value>
+  </data>
+  <data name="LATITUDE" xml:space="preserve">
+    <value>Latitude</value>
+  </data>
+  <data name="LOCALIZARNOMAPA" xml:space="preserve">
+    <value>Visualizar Mapa</value>
+  </data>
+  <data name="LOGIN" xml:space="preserve">
+    <value>Login</value>
+  </data>
+  <data name="LOGOBS_ALERTA" xml:space="preserve">
+    <value>{0} de Alerta</value>
+  </data>
+  <data name="LOGRADOURO" xml:space="preserve">
+    <value>Logradouro</value>
+  </data>
+  <data name="LONGITUDE" xml:space="preserve">
+    <value>Longitude</value>
+  </data>
+  <data name="MAE" xml:space="preserve">
+    <value>Mãe</value>
+  </data>
+  <data name="MEDIO" xml:space="preserve">
+    <value>Medio </value>
+  </data>
+  <data name="MEIO_CAPTACAO" xml:space="preserve">
+    <value>Meios de Captação</value>
+  </data>
+  <data name="MENSAGEM_ERRO_RECEITA" xml:space="preserve">
+    <value>Não foi possível validar a situação cadastral do documento informado por problemas técnicos na base da receita federal. Tente novamente mais tarde</value>
+  </data>
+  <data name="MIKROTIK" xml:space="preserve">
+    <value>Mikrotik</value>
+  </data>
+  <data name="MODELO_CONTRATO" xml:space="preserve">
+    <value>Modelo de Contrato</value>
+  </data>
+  <data name="MODELO_RECIBO" xml:space="preserve">
+    <value>Modelo de Recibo</value>
+  </data>
+  <data name="MOTIVO_ENCERRAMENTO" xml:space="preserve">
+    <value>Motivo de Encerramento</value>
+  </data>
+  <data name="MOTIVO_STATUS_ATENDIMENTO" xml:space="preserve">
+    <value>Motivo de Status do Atendimento</value>
+  </data>
+  <data name="MULTA_CARENCIA" xml:space="preserve">
+    <value>Multa de Carência</value>
+  </data>
+  <data name="MUNICIPAL" xml:space="preserve">
+    <value>Municipal</value>
+  </data>
+  <data name="MUNICIPIO" xml:space="preserve">
+    <value>Município</value>
+  </data>
+  <data name="NACIONAL" xml:space="preserve">
+    <value>Nacional</value>
+  </data>
+  <data name="NACIONALIDADE" xml:space="preserve">
+    <value>Nacionalidade</value>
+  </data>
+  <data name="NAS" xml:space="preserve">
+    <value>Cadastro de Servidor NAS</value>
+  </data>
+  <data name="NCPF" xml:space="preserve">
+    <value>Nº CPF</value>
+  </data>
+  <data name="NOME" xml:space="preserve">
+    <value>Nome</value>
+  </data>
+  <data name="NOMECOMPLETO" xml:space="preserve">
+    <value>Nome Completo</value>
+  </data>
+  <data name="NOMEDAPF" xml:space="preserve">
+    <value>Nome da Pessoa Física</value>
+  </data>
+  <data name="NOMEFANTASIA" xml:space="preserve">
+    <value>Nome/Fantasia</value>
+  </data>
+  <data name="NOMEOUDOCUMENTO" xml:space="preserve">
+    <value>Nome ou CPF/CNPJ</value>
+  </data>
+  <data name="NOMEPJ" xml:space="preserve">
+    <value>Nome da Pessoa Jurídica</value>
+  </data>
+  <data name="NOMERECADO" xml:space="preserve">
+    <value>Nome para Recado</value>
+  </data>
+  <data name="NOME_CLIENTE_SINAPSE" xml:space="preserve">
+    <value>Nome do Cliente Sinapse</value>
+  </data>
+  <data name="NUMERO" xml:space="preserve">
+    <value>Número</value>
+  </data>
+  <data name="NUMERODECPF" xml:space="preserve">
+    <value>Número de CPF</value>
+  </data>
+  <data name="NUMERODEINSCRICAO" xml:space="preserve">
+    <value>Número de Inscrição</value>
+  </data>
+  <data name="NUMERO_CONTRATO" xml:space="preserve">
+    <value>Número Contrato</value>
+  </data>
+  <data name="OLA_COR_ASSESTS" xml:space="preserve">
+    <value>Cor do Tema do OLA (assets):</value>
+  </data>
+  <data name="OLA_COR_FONTE" xml:space="preserve">
+    <value>Cor da Fonte do OLA</value>
+  </data>
+  <data name="OLA_COR_PRINCIPAL" xml:space="preserve">
+    <value>Cor Principal do OLA </value>
+  </data>
+  <data name="OLA_COR_PRINCIPAL_DARK" xml:space="preserve">
+    <value>Cor principal do OLA Padrao Dark</value>
+  </data>
+  <data name="OLA_URL_LOGO" xml:space="preserve">
+    <value>URL da Logo</value>
+  </data>
+  <data name="ORGAO" xml:space="preserve">
+    <value>Órgão</value>
+  </data>
+  <data name="PAI" xml:space="preserve">
+    <value>Pai</value>
+  </data>
+  <data name="PAINELCARTO_CREDITO" xml:space="preserve">
+    <value>Listagem de Cartao de Crédito</value>
+  </data>
+  <data name="PAINELCATEGORIA_CLIENTE" xml:space="preserve">
+    <value>Listagem de Categoria de Cliente</value>
+  </data>
+  <data name="PAINELCLIENTES" xml:space="preserve">
+    <value>Listagem de Clientes</value>
+  </data>
+  <data name="PAINELCONFIGURACOES_GERAIS" xml:space="preserve">
+    <value>Listagem de Configurações Gerais</value>
+  </data>
+  <data name="PAINELDESCONTO" xml:space="preserve">
+    <value>Listagem de Descontos</value>
+  </data>
+  <data name="PAINELMEIO_CAPTACAO" xml:space="preserve">
+    <value>Listagem de Meios de Captação</value>
+  </data>
+  <data name="PAINELMOTIVO_STATUS_ATENDIMENTO" xml:space="preserve">
+    <value>Listagem de Motivo de Status do Atendimento</value>
+  </data>
+  <data name="PAINELNAS" xml:space="preserve">
+    <value>Listagem de Servidores NAS</value>
+  </data>
+  <data name="PAINELSCRIPT_ATENDIMENTO" xml:space="preserve">
+    <value>Listagem de Scripts de Atendimento</value>
+  </data>
+  <data name="PAINEL_CAIXA_INTERNO" xml:space="preserve">
+    <value>Listagem de Caixa Interno</value>
+  </data>
+  <data name="PAINEL_CONTA_CONTABIL" xml:space="preserve">
+    <value>Listagem de Conta Contábil</value>
+  </data>
+  <data name="PAINEL_CONTA_FINANCEIRA" xml:space="preserve">
+    <value>Listagem de Conta Financeira</value>
+  </data>
+  <data name="PAINEL_MOTIVO_ENCERRAMENTO" xml:space="preserve">
+    <value>Listagem de Motivo de Encerramento</value>
+  </data>
+  <data name="PAINEL_VENCIMENTO" xml:space="preserve">
+    <value>Listagem de Vencimento</value>
+  </data>
+  <data name="PEQUENO" xml:space="preserve">
+    <value>Pequeno</value>
+  </data>
+  <data name="PERCENTUAL" xml:space="preserve">
+    <value>Percentual</value>
+  </data>
+  <data name="PERCENTUAL_DESCONTO" xml:space="preserve">
+    <value>Percentual do Desconto</value>
+  </data>
+  <data name="PERGUNTA" xml:space="preserve">
+    <value>Pergunta</value>
+  </data>
+  <data name="PERIODO_CARENCIA" xml:space="preserve">
+    <value>Período de Carência</value>
+  </data>
+  <data name="PESQUISAR" xml:space="preserve">
+    <value>Pesquisar</value>
+  </data>
+  <data name="PESSOAFISICA" xml:space="preserve">
+    <value>P. Física</value>
+  </data>
+  <data name="PESSOAJURIDICA" xml:space="preserve">
+    <value>P. Jurídica</value>
+  </data>
+  <data name="PLANO" xml:space="preserve">
+    <value>Plano</value>
+  </data>
+  <data name="PLANOS_E_PRODUTOS" xml:space="preserve">
+    <value>Planos e Produtos</value>
+  </data>
+  <data name="POINT" xml:space="preserve">
+    <value>Point</value>
+  </data>
+  <data name="PONTOREFERENCIA" xml:space="preserve">
+    <value>Ponto de Referência</value>
+  </data>
+  <data name="PRINCIPAL" xml:space="preserve">
+    <value>Principal</value>
+  </data>
+  <data name="PRIORIDADE_PADRAO" xml:space="preserve">
+    <value>Prioridade Padrão</value>
+  </data>
+  <data name="PRODUTO" xml:space="preserve">
+    <value>Produto</value>
+  </data>
+  <data name="PROFISSAO" xml:space="preserve">
+    <value>Profissão</value>
+  </data>
+  <data name="QUEMINDICOU" xml:space="preserve">
+    <value>Quem Indicou</value>
+  </data>
+  <data name="REGIONAL" xml:space="preserve">
+    <value>Regional</value>
+  </data>
+  <data name="REPETICOES_DESCONTO" xml:space="preserve">
+    <value>Repetição do Desconto</value>
+  </data>
+  <data name="RESPOSTAS_POSSIVEIS" xml:space="preserve">
+    <value>Respostas Possíveis</value>
+  </data>
+  <data name="RG" xml:space="preserve">
+    <value>RG</value>
+  </data>
+  <data name="SAUDACAO" xml:space="preserve">
+    <value>Olá</value>
+  </data>
+  <data name="SCRIPT_ATENDIMENTO" xml:space="preserve">
+    <value>Script Atendimento</value>
+  </data>
+  <data name="SECRET" xml:space="preserve">
+    <value>Secret</value>
+  </data>
+  <data name="SELECIONAR_PLANO" xml:space="preserve">
+    <value>Selecionar o plano</value>
+  </data>
+  <data name="SEQUENCIAL" xml:space="preserve">
+    <value>Sequencial</value>
+  </data>
+  <data name="SEXO" xml:space="preserve">
+    <value>Sexo</value>
+  </data>
+  <data name="SISTEMA" xml:space="preserve">
+    <value>Sistema</value>
+  </data>
+  <data name="SITUACAO" xml:space="preserve">
+    <value>Situação</value>
+  </data>
+  <data name="SITUACAOCADASTRAL" xml:space="preserve">
+    <value>Situação Cadastral</value>
+  </data>
+  <data name="SOBRE_O_PLANO" xml:space="preserve">
+    <value>Sobre o plano</value>
+  </data>
+  <data name="STATUS" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="STATUS_MOTIVO" xml:space="preserve">
+    <value>Motivo do Status</value>
+  </data>
+  <data name="TECNOLOGIA" xml:space="preserve">
+    <value>Tecnologia</value>
+  </data>
+  <data name="TELEFONE" xml:space="preserve">
+    <value>Telefone</value>
+  </data>
+  <data name="TELEFONEFIXO" xml:space="preserve">
+    <value>Telefone Fixo</value>
+  </data>
+  <data name="TELEFONEFIXO1" xml:space="preserve">
+    <value>Telefone Fixo 1</value>
+  </data>
+  <data name="TELEFONEPRINCIPAL" xml:space="preserve">
+    <value>Telefone Principal</value>
+  </data>
+  <data name="TELEFONERECADO" xml:space="preserve">
+    <value>Telefone de Recado</value>
+  </data>
+  <data name="TEM_CARENCIA" xml:space="preserve">
+    <value>Tem Carência</value>
+  </data>
+  <data name="TEM_DESCONTO" xml:space="preserve">
+    <value>Tem Desconto</value>
+  </data>
+  <data name="TEM_PRO_RATA" xml:space="preserve">
+    <value>Tem Pró-Rata</value>
+  </data>
+  <data name="TIPODEPESSOAFISICA" xml:space="preserve">
+    <value>Tipo de Pessoa Física</value>
+  </data>
+  <data name="TIPOFERIADO" xml:space="preserve">
+    <value>Tipo Feriado</value>
+  </data>
+  <data name="TIPOPESSOA" xml:space="preserve">
+    <value>Tipo Pessoa</value>
+  </data>
+  <data name="TIPO_ATENDIMENTO" xml:space="preserve">
+    <value>Tipo Atendimento</value>
+  </data>
+  <data name="TIPO_RESPOSTA" xml:space="preserve">
+    <value>Resposta</value>
+  </data>
+  <data name="TITULO" xml:space="preserve">
+    <value>Título</value>
+  </data>
+  <data name="TOKEN" xml:space="preserve">
+    <value>Token</value>
+  </data>
+  <data name="TOUCH" xml:space="preserve">
+    <value>Touch</value>
+  </data>
+  <data name="TRAVA_ATENDIMENTO_OS" xml:space="preserve">
+    <value>Travar Atendimento da Ordem de Serviço</value>
+  </data>
+  <data name="UF" xml:space="preserve">
+    <value>UF</value>
+  </data>
+  <data name="URL" xml:space="preserve">
+    <value>Url do Sistema</value>
+  </data>
+  <data name="URL_SISTEMAS" xml:space="preserve">
+    <value>URL do Sistema</value>
+  </data>
+  <data name="VALORFINAL" xml:space="preserve">
+    <value>Valor Final Total</value>
+  </data>
+  <data name="VALOR_DESCONTO" xml:space="preserve">
+    <value>Valor do Desconto</value>
+  </data>
+  <data name="VENCIMENTO" xml:space="preserve">
+    <value>Vencimento</value>
+  </data>
+  <data name="CODIGO_OU_DESCRICAO" xml:space="preserve">
+    <value>Código ou Descrição</value>
+  </data>
+  <data name="ORIGEM_ATENDIMENTO" xml:space="preserve">
+    <value>Origem de Atendimento</value>
+  </data>
+  <data name="PAINELSETOR" xml:space="preserve">
+    <value>Listagem de Setor</value>
+  </data>
+  <data name="PAINEL_ORIGEM_ATENDIMENTO" xml:space="preserve">
+    <value>Listagem de Origem de Atendimento</value>
+  </data>
+  <data name="SETOR" xml:space="preserve">
+    <value>Setor</value>
+  </data>
+  <data name="CATEGORIA_ATENDIMENTO" xml:space="preserve">
+    <value>Categoria Atendimento</value>
+  </data>
+  <data name="PAINEL_CATEGORIA_ATENDIMENTO" xml:space="preserve">
+    <value>Listagem de Categorias de Atendimento</value>
+  </data>
+  <data name="QUAL_MEIO" xml:space="preserve">
+    <value>Qual Meio?</value>
+  </data>
+  <data name="QUEM_INDICOU" xml:space="preserve">
+    <value>Quem indicou</value>
+  </data>
+  <data name="CONFIRMAR_SENHA" xml:space="preserve">
+    <value>Confirmar Senha</value>
+  </data>
+  <data name="LOGIN_RADIUS" xml:space="preserve">
+    <value>Login Radius</value>
+  </data>
+  <data name="MESES_CARENCIA" xml:space="preserve">
+    <value>Meses Carencia</value>
+  </data>
+  <data name="NUMERO_PARCELAS_INSTALACAO" xml:space="preserve">
+    <value>Número de Parcelas Instalação</value>
+  </data>
+  <data name="PERIODO_CARENCIA_MESES" xml:space="preserve">
+    <value>Período de Carência(Meses)</value>
+  </data>
+  <data name="QTDE_DIAS" xml:space="preserve">
+    <value>Quantidade de Dias</value>
+  </data>
+  <data name="SENHA" xml:space="preserve">
+    <value>Senha</value>
+  </data>
+  <data name="TESTE_GRATIS" xml:space="preserve">
+    <value>Dias Teste Grátis</value>
+  </data>
+  <data name="VALOR_FINAL" xml:space="preserve">
+    <value>Valor Final Plano/Produto</value>
+  </data>
+  <data name="VALOR_INSTALACAO_FINAL" xml:space="preserve">
+    <value>Valor Instalação Final</value>
+  </data>
+  <data name="AGENCIA" xml:space="preserve">
+    <value>Agência</value>
+  </data>
+  <data name="BANCO" xml:space="preserve">
+    <value>Banco</value>
+  </data>
+  <data name="CONTA_CORRENTE" xml:space="preserve">
+    <value>Conta Corrente</value>
+  </data>
+  <data name="PAINELPLANOSPRODUTOS" xml:space="preserve">
+    <value>Listagem de Planos e Produtos</value>
+  </data>
+  <data name="DATA" xml:space="preserve">
+    <value>Data</value>
+  </data>
+  <data name="TIPO" xml:space="preserve">
+    <value>Tipo</value>
+  </data>
+  <data name="CONFIGURACAO_FERIADO" xml:space="preserve">
+    <value>Configuração Feriado</value>
+  </data>
+  <data name="PAINEL_FERIADO" xml:space="preserve">
+    <value>Listagem de Feriados</value>
+  </data>
+  <data name="PAINELTIPO_ATENDIMENTO" xml:space="preserve">
+    <value>Listagem de Tipos de Atendimento</value>
+  </data>
+  <data name="ENDERECO_INSTALACAO" xml:space="preserve">
+    <value>Endereço Instalação</value>
+  </data>
+  <data name="CRIAR_OS_ENCERRAR" xml:space="preserve">
+    <value>Criar OS ao Encerrar Atendimento ?</value>
+  </data>
+  <data name="SCRIPT" xml:space="preserve">
+    <value>Script</value>
+  </data>
+  <data name="MOTIVOS_STATUS_ATENDIMENTO" xml:space="preserve">
+    <value>Motivos de Status do Atendimento</value>
+  </data>
+  <data name="PAINELCALENDARIO" xml:space="preserve">
+    <value>Cadastro de Calendário</value>
+  </data>
+  <data name="SLA_ATENDIMENTO" xml:space="preserve">
+    <value>SLA de Atendimento</value>
+  </data>
+  <data name="SLA_EXECUCAO" xml:space="preserve">
+    <value>SLA de Execução de Serviço</value>
+  </data>
+  <data name="TIPO_CALENDARIO" xml:space="preserve">
+    <value>Tipo de Calendário</value>
+  </data>
+  <data name="PARCELA_FIN" xml:space="preserve">
+    <value>Parcela Final</value>
+  </data>
+  <data name="PARCELA_INI" xml:space="preserve">
+    <value>Parcela Inicial</value>
+  </data>
+  <data name="DIAS_CORRIDOS" xml:space="preserve">
+    <value>Dias Corridos</value>
+  </data>
+  <data name="ASSUNTO" xml:space="preserve">
+    <value>Assunto</value>
+  </data>
+  <data name="AGUARDANDO_CRIACAO_OS" xml:space="preserve">
+    <value>Aguardando a Criacao da OS</value>
+  </data>
+  <data name="ATENDIMENTO_GERADO_N" xml:space="preserve">
+    <value>Atendimento Gerado Nº #</value>
+  </data>
+  <data name="DIAS_UTEIS" xml:space="preserve">
+    <value>Dias Úteis</value>
+  </data>
+  <data name="AGUARDANDO_INSTALACAO" xml:space="preserve">
+    <value>Aguardando Instalação</value>
+  </data>
+  <data name="CALENDARIO_PADRAO" xml:space="preserve">
+    <value>Calendário Padrão</value>
+  </data>
+  <data name="CANCELADO_CLIENTE" xml:space="preserve">
+    <value>Cancelado Cliente</value>
+  </data>
+  <data name="HORAS" xml:space="preserve">
+    <value>Horas</value>
+  </data>
+  <data name="SUSPENSO_DEBITO" xml:space="preserve">
+    <value>Suspenso Débito</value>
+  </data>
+  <data name="PAINELSLA_ATENDIMENTO" xml:space="preserve">
+    <value>Listagem de SLA de Atendimento</value>
+  </data>
+  <data name="SUSPENSO_EMPRESA" xml:space="preserve">
+    <value>Suspenso Empresa</value>
+  </data>
+  <data name="PRIORIDADE_ATENDIMENTO" xml:space="preserve">
+    <value>Prioridade de Atendimento</value>
+  </data>
+  <data name="MODELO21" xml:space="preserve">
+    <value>Modelo 21</value>
+  </data>
+  <data name="MODELO22" xml:space="preserve">
+    <value>Modelo 22</value>
+  </data>
+  <data name="MENSAGEM" xml:space="preserve">
+    <value>Mensagem</value>
+  </data>
+  <data name="MODELO55" xml:space="preserve">
+    <value>Modelo 55</value>
+  </data>
+  <data name="MENSAGEM_SISTEMA" xml:space="preserve">
+    <value>Mensagem Sistema</value>
+  </data>
+  <data name="ANUAL" xml:space="preserve">
+    <value>Anual</value>
+  </data>
+  <data name="ORIGEM" xml:space="preserve">
+    <value>Origem</value>
+  </data>
+  <data name="PAINEL_MENSAGEM_SISTEMA" xml:space="preserve">
+    <value>Listagem de Mensagem Sistema</value>
+  </data>
+  <data name="BIMESTRAL" xml:space="preserve">
+    <value>Bimetral</value>
+  </data>
+  <data name="PRIORIDADE" xml:space="preserve">
+    <value>Prioridade</value>
+  </data>
+  <data name="PAINELSLA_EXECUCAO" xml:space="preserve">
+    <value>Listagem de SLA de Execução</value>
+  </data>
+  <data name="PROBLEMA_RELATADO_DETALHES_DO_ASSUNTO" xml:space="preserve">
+    <value>Problema Relatado (Detalhes do Assunto):</value>
+  </data>
+  <data name="COBRANCA_UNICA" xml:space="preserve">
+    <value>Cobrança Única</value>
+  </data>
+  <data name="RESPONSAVEL" xml:space="preserve">
+    <value>Responsavel</value>
+  </data>
+  <data name="MENSAL" xml:space="preserve">
+    <value>Mensal</value>
+  </data>
+  <data name="SETOR_ENVOLVIDO" xml:space="preserve">
+    <value>Setor Envolvido</value>
+  </data>
+  <data name="SEMESTRAL" xml:space="preserve">
+    <value>Semestral</value>
+  </data>
+  <data name="TIPO_ATEDIMENTO" xml:space="preserve">
+    <value>Tipo de Atendimento</value>
+  </data>
+  <data name="SEM_COBRANCA" xml:space="preserve">
+    <value>Sem Cobrança</value>
+  </data>
+  <data name="ULTIMA_ACAO" xml:space="preserve">
+    <value>Ultima Ação</value>
+  </data>
+  <data name="CLIENTE_DESDE" xml:space="preserve">
+    <value>Cliente Desde</value>
+  </data>
+  <data name="TRIMESTRAL" xml:space="preserve">
+    <value>Trimestral</value>
+  </data>
+  <data name="NENHUM" xml:space="preserve">
+    <value>Nenhum</value>
+  </data>
+  <data name="CPFCNPJ_DO_TITULAR" xml:space="preserve">
+    <value>CPF/CNPJ Do Titular</value>
+  </data>
+  <data name="NOTA_FISCAL" xml:space="preserve">
+    <value>Nota Fiscal</value>
+  </data>
+  <data name="ENDERECO_DE_INSTALACAO" xml:space="preserve">
+    <value>Endereço de Instalação</value>
+  </data>
+  <data name="RECIBO" xml:space="preserve">
+    <value>Recibo</value>
+  </data>
+  <data name="FORMA_PAGAMENTO_UTILIZADA" xml:space="preserve">
+    <value>Forma de Pagamento Utilizada</value>
+  </data>
+  <data name="POS_PAGO" xml:space="preserve">
+    <value>Pós pago</value>
+  </data>
+  <data name="LOGIN_DO_RADIUS" xml:space="preserve">
+    <value>Login do Radius</value>
+  </data>
+  <data name="PRE_PAGO" xml:space="preserve">
+    <value>Pré pago</value>
+  </data>
+  <data name="OUTROS" xml:space="preserve">
+    <value>Outros</value>
+  </data>
+  <data name="DEPOIS_PRIMEIRO_FATURAMENTO" xml:space="preserve">
+    <value>Depois do Primeiro Faturamento</value>
+  </data>
+  <data name="PESSOA_QUE_ENTROU_EM_CONTATO" xml:space="preserve">
+    <value>Pessoa que entrou em contato</value>
+  </data>
+  <data name="NA_HABILITACAO" xml:space="preserve">
+    <value>Na Habilitação</value>
+  </data>
+  <data name="PLANO_PRODUTO" xml:space="preserve">
+    <value>Plano/Produto</value>
+  </data>
+  <data name="DETALHES" xml:space="preserve">
+    <value>Detalhes</value>
+  </data>
+  <data name="SOBRE_O_ATENDIMENTO" xml:space="preserve">
+    <value>Sobre o Atendimento</value>
+  </data>
+  <data name="RADIUS" xml:space="preserve">
+    <value>Radius</value>
+  </data>
+  <data name="TITULAR" xml:space="preserve">
+    <value>Titular</value>
+  </data>
+  <data name="DOWNLOAD" xml:space="preserve">
+    <value>Download</value>
+  </data>
+  <data name="VALOR_FINAL_PLANO" xml:space="preserve">
+    <value>Valor Final do Plano</value>
+  </data>
+  <data name="UPLOAD" xml:space="preserve">
+    <value>Upload</value>
+  </data>
+  <data name="VALIDADE" xml:space="preserve">
+    <value>Validade</value>
+  </data>
+  <data name="CONFIRMARSENHA" xml:space="preserve">
+    <value>Confirmar Senha</value>
+  </data>
+  <data name="STATUSINICIAL" xml:space="preserve">
+    <value>Aguardando Intalação</value>
+  </data>
+  <data name="ATENDIMENTO" xml:space="preserve">
+    <value>Atendimento</value>
+  </data>
+  <data name="LISTAGEM_ATENDIMENTO" xml:space="preserve">
+    <value>Listagem de Atendimentos</value>
+  </data>
+  <data name="CPFCNPJ_CADASTRADO" xml:space="preserve">
+    <value>CPF/CNPJ já Lançado</value>
+  </data>
+  <data name="INSCRICAO_ESTADUAL" xml:space="preserve">
+    <value>Inscrição Estadual</value>
+  </data>
+  <data name="INSCRICAO_MUNICIPAL" xml:space="preserve">
+    <value>Inscrição Municipal</value>
+  </data>
+  <data name="PORTE" xml:space="preserve">
+    <value>Porte</value>
+  </data>
+  <data name="RAMO_ATIVIDADE" xml:space="preserve">
+    <value>Ramo de Atividade</value>
+  </data>
+  <data name="RAZAO_SOCIAL" xml:space="preserve">
+    <value>Razão Social</value>
+  </data>
+  <data name="CPF_RESPONSAVEL" xml:space="preserve">
+    <value>CPF Responsável</value>
+  </data>
+  <data name="TIPODEPESSOAJURIDICA" xml:space="preserve">
+    <value>Tipo de Pessoa Juridica</value>
+  </data>
+  <data name="CARGO_RESPONSAVEL" xml:space="preserve">
+    <value>Cargo Responsavel</value>
+  </data>
+  <data name="MOTIVO_STATUS" xml:space="preserve">
+    <value>Motivo Status</value>
+  </data>
+  <data name="DATA_HORA_ABERTURA" xml:space="preserve">
+    <value>Data/Hr. Criação</value>
+  </data>
+  <data name="FERIADO" xml:space="preserve">
+    <value>Feriado</value>
+  </data>
+  <data name="VALIDACAO_CLIENTE" xml:space="preserve">
+    <value>Validação de Cliente</value>
+  </data>
+  <data name="PESQUISA_SATISFACAO" xml:space="preserve">
+    <value>Pesquisa de Satisfação</value>
+  </data>
+  <data name="LOGIN_RADIUS_DISPONIVEL" xml:space="preserve">
+    <value>Login Radius Disponivel</value>
+  </data>
+  <data name="LOGIN_RADIUS_JA_EXISTE" xml:space="preserve">
+    <value>Login Radius já Existe</value>
+  </data>
+  <data name="VALORDISCRIMINADONF" xml:space="preserve">
+    <value>Valor Discriminado NF</value>
+  </data>
+  <data name="COFINS" xml:space="preserve">
+    <value>Cofins</value>
+  </data>
+  <data name="ICMS" xml:space="preserve">
+    <value>ICMS</value>
+  </data>
+  <data name="ISS" xml:space="preserve">
+    <value>ISS</value>
+  </data>
+  <data name="PIS" xml:space="preserve">
+    <value>PIS</value>
+  </data>
+  <data name="ATIVIDADE" xml:space="preserve">
+    <value>Atividade</value>
+  </data>
+  <data name="ATENDIMENTO_CRIADOCOMSUCESSO" xml:space="preserve">
+    <value>Atendimento {0} criado com sucesso!</value>
+  </data>
+  <data name="RESPONSAVEL_ATUAL" xml:space="preserve">
+    <value>Responsavel Atual</value>
+  </data>
+  <data name="TROCAR_ENDERECO_INSTALACAO" xml:space="preserve">
+    <value>Trocar Endereço de Instalação</value>
+  </data>
+  <data name="ID_PLANO_PRODUTO" xml:space="preserve">
+    <value>Id Plano Produto</value>
+  </data>
+  <data name="CADASTRO_PLANO" xml:space="preserve">
+    <value>Cadastro de Plano</value>
+  </data>
+  <data name="CADASTRO_PRODUTO" xml:space="preserve">
+    <value>Cadastro de Produto</value>
+  </data>
+  <data name="CADASTRO_MOTIVO_ENCERRAMENTO" xml:space="preserve">
+    <value>Cadastro de Motivo de Encerramento</value>
+  </data>
+  <data name="CADASTRO_SCRIPT_ATENDIMENTO" xml:space="preserve">
+    <value>Cadastro de Script de Atendimento</value>
+  </data>
+  <data name="CAMPANHA" xml:space="preserve">
+    <value>Campanha</value>
+  </data>
+  <data name="PAINELCAMPANHA" xml:space="preserve">
+    <value>Listagem de Campanha</value>
+  </data>
+  <data name="CADASTROCAMPANHA" xml:space="preserve">
+    <value>Cadastro de Campanha</value>
+  </data>
+  <data name="PAINEL_CAMPANHA" xml:space="preserve">
+    <value>Listagem de Campanhas</value>
+  </data>
+  <data name="ALTERAR_ENDERECO" xml:space="preserve">
+    <value>Alterar Endereço</value>
+  </data>
+  <data name="DETALHES_DO_PRODUTO" xml:space="preserve">
+    <value>Detalhes do Produto</value>
+  </data>
+  <data name="CONSULTAR_DADOS_PLANO_PRODUTO" xml:space="preserve">
+    <value>Consultar Dados Plano / Produto</value>
+  </data>
+  <data name="IMPEDIRBLOQUEIOSEXTA" xml:space="preserve">
+    <value>Impedir bloqueio na Sexta-Feira</value>
+  </data>
+  <data name="PAINELPRODUTO" xml:space="preserve">
+    <value>Listagem de Produtos</value>
+  </data>
+  <data name="CONFIGURACAOPRODUTO" xml:space="preserve">
+    <value>Configuração do Produto</value>
+  </data>
+  <data name="NOMEPLANOPRODUTO" xml:space="preserve">
+    <value>Digite o Plano ou Produto</value>
+  </data>
+  <data name="CADASTRO_CATEGORIA_ATENDIMENTO" xml:space="preserve">
+    <value>Cadastro de Categoria de Atendimento</value>
+  </data>
+  <data name="CADASTRO_DESCONTO" xml:space="preserve">
+    <value>Cadastro de Desconto</value>
+  </data>
+  <data name="CADASTRO_MOTIVO_STATUS_ATENDIMENTO" xml:space="preserve">
+    <value>Cadastro de Motivo Para Alterar Status Atendimento</value>
+  </data>
+  <data name="CADASTRO_ORIGEM_ATENDIMENTO" xml:space="preserve">
+    <value>Cadastro de Origem Atendimento</value>
+  </data>
+  <data name="CADASTRO_TIPO_ATENDIMENTO" xml:space="preserve">
+    <value>Cadastro de Tipo de Atendimento</value>
+  </data>
+  <data name="CALENDARIO" xml:space="preserve">
+    <value>Calendário</value>
+  </data>
+  <data name="COMERCIAL" xml:space="preserve">
+    <value>Comercial</value>
+  </data>
+  <data name="CONFIGURACAO_EMPRESA" xml:space="preserve">
+    <value>Configurações da Empresa</value>
+  </data>
+  <data name="CONSULTA_PLANOS_E_PRODUTOS" xml:space="preserve">
+    <value>Consultar Status Plano/Produto</value>
+  </data>
+  <data name="INDICADOR" xml:space="preserve">
+    <value>Indicador</value>
+  </data>
+  <data name="NOVA_PESQUISA" xml:space="preserve">
+    <value>Criar Nova Pesquisa</value>
+  </data>
+  <data name="PAINEL" xml:space="preserve">
+    <value>Painel</value>
+  </data>
+  <data name="PESQUISA_RESPOSTA" xml:space="preserve">
+    <value>Visualizar Pesquisas e Respostas</value>
+  </data>
+  <data name="RELATORIO" xml:space="preserve">
+    <value>Relatórios</value>
+  </data>
+  <data name="TECNICO" xml:space="preserve">
+    <value>Técnico</value>
+  </data>
+  <data name="USUARIO" xml:space="preserve">
+    <value>Usuário</value>
+  </data>
+  <data name="META" xml:space="preserve">
+    <value>Cadastro de Meta</value>
+  </data>
+  <data name="CHECKIN_CHECKOUT_AUTO" xml:space="preserve">
+    <value>Fazer Check-in / Check-out Automático ?</value>
+  </data>
+  <data name="DIA_MES_FINALIZA_MEDICAO_COMISSAO" xml:space="preserve">
+    <value>Que dia do mês finaliza  a medição para comissão ?</value>
+  </data>
+  <data name="EXIGE_AVALIACAO_COMERCIAL" xml:space="preserve">
+    <value>Exige Avaliação Comercial Para Conclusão de Vendas ?</value>
+  </data>
+  <data name="ID_WIDEPAY" xml:space="preserve">
+    <value>Id Carteira Wide Pay</value>
+  </data>
+  <data name="NUM_CONTRATO_GERADO_AUTO" xml:space="preserve">
+    <value>Numero Contrato Gerado Auto</value>
+  </data>
+  <data name="TOKEN_WIDEPAY" xml:space="preserve">
+    <value>Token de autenticação Wide Pay</value>
+  </data>
+  <data name="PAINELMETA" xml:space="preserve">
+    <value>Listagem de Metas</value>
+  </data>
+  <data name="NOVO_ATENDIMENTO" xml:space="preserve">
+    <value>Novo Atendimento</value>
+  </data>
+  <data name="HISTORICO_ATENDIMENTO" xml:space="preserve">
+    <value>Histórico de Atendimento</value>
+  </data>
+  <data name="DATA_LIMITE" xml:space="preserve">
+    <value>Data Limite</value>
+  </data>
+  <data name="A_INICIAR" xml:space="preserve">
+    <value>A Iniciar  </value>
+  </data>
+  <data name="EM_ANDAMENTO" xml:space="preserve">
+    <value>Em Andamento</value>
+  </data>
+  <data name="CLIENTE_PROSPECTO" xml:space="preserve">
+    <value>Cliente Prospecto</value>
+  </data>
+  <data name="COMISSIONAMENTO" xml:space="preserve">
+    <value>Comissionamento</value>
+  </data>
+  <data name="FAIXA_COMISSIONAMENTO" xml:space="preserve">
+    <value>Faixa Comissionamento</value>
+  </data>
+  <data name="CADASTROATIVIDADENF" xml:space="preserve">
+    <value>Cadastro de Atividade de Nota Fiscal</value>
+  </data>
+  <data name="CODIGO_FILIAL" xml:space="preserve">
+    <value>Código Filial</value>
+  </data>
+  <data name="ATIVIDADE_NF" xml:space="preserve">
+    <value>Atividades de Nota Fiscal</value>
+  </data>
+  <data name="PAINEL_COMISSIONAMENTO" xml:space="preserve">
+    <value>Listagem de Comissionamentos</value>
+  </data>
+  <data name="PAINEL_ATIVIDADE_NF" xml:space="preserve">
+    <value>Listagem de Atividades de Nota Fiscal</value>
+  </data>
+  <data name="DATA_PREVISTA" xml:space="preserve">
+    <value>Data Prevista</value>
+  </data>
+  <data name="OBJETO_REFERENCIADO" xml:space="preserve">
+    <value>Referenciado em outra parte do Sistema</value>
+  </data>
+  <data name="CODIGO_EMPRESA" xml:space="preserve">
+    <value>Codigo da Empresa</value>
+  </data>
+  <data name="EMPRESA" xml:space="preserve">
+    <value>Empresa</value>
+  </data>
+  <data name="NOME_EMPRESA" xml:space="preserve">
+    <value>Nome da Filial</value>
+  </data>
+  <data name="FILIAL" xml:space="preserve">
+    <value>Filial</value>
+  </data>
+  <data name="PAINEL_FILIAL" xml:space="preserve">
+    <value>Listagem de Filial</value>
+  </data>
+  <data name="QUANTIDADE" xml:space="preserve">
+    <value>Quantidade</value>
+  </data>
+  <data name="PAINEL_PONTO_VENDA" xml:space="preserve">
+    <value>Listagem de Ponto Venda</value>
+  </data>
+  <data name="UNIDADE" xml:space="preserve">
+    <value>Unidade</value>
+  </data>
+  <data name="SELECIONAR_CAMPANHA" xml:space="preserve">
+    <value>Selecionar Campanha</value>
+  </data>
+  <data name="PERGUNTA_SCRIPT" xml:space="preserve">
+    <value>Pergunta referente ao script</value>
+  </data>
+  <data name="INSTRUCAO_ATENDENTE" xml:space="preserve">
+    <value>Instruções ao Atendente</value>
+  </data>
+  <data name="INSTRUCAO_CLIENTE" xml:space="preserve">
+    <value>Instruções ao Cliente</value>
+  </data>
+  <data name="OBSERVACAO_ATENDIMENTO" xml:space="preserve">
+    <value>Observações ao Atendimento</value>
+  </data>
+  <data name="RESPOSTA_CLIENTE" xml:space="preserve">
+    <value>Resposta dada pelo cliente</value>
+  </data>
+  <data name="PONTO_VENDA" xml:space="preserve">
+    <value>Ponto Venda</value>
+  </data>
+  <data name="VENDEDOR" xml:space="preserve">
+    <value>Vendedor</value>
+  </data>
+  <data name="VENDEDOR_OU_CEP" xml:space="preserve">
+    <value>Vendedor ou Cep</value>
+  </data>
+  <data name="FILIAL_LISTAGEM" xml:space="preserve">
+    <value>Listagem Filial</value>
+  </data>
+  <data name="CADASTRO_VENDAS" xml:space="preserve">
+    <value>Cadastro de Venda</value>
+  </data>
+  <data name="DADOS_INSERIDOS" xml:space="preserve">
+    <value>Dados Inseridos</value>
+  </data>
+  <data name="LISTA_VENDAS" xml:space="preserve">
+    <value>Listagem de Vendas</value>
+  </data>
+  <data name="DADOS_LIMPOS_SUCESSO" xml:space="preserve">
+    <value>Dados limpos com sucesso</value>
+  </data>
+  <data name="AGUARDANDO_APROVACAO_CLIENTE" xml:space="preserve">
+    <value>Aguardando Aprovação do Cliente</value>
+  </data>
+  <data name="APROVADO_CLIENTE" xml:space="preserve">
+    <value>Aprovado pelo Cliente</value>
+  </data>
+  <data name="AVALIACAO_APROVADA" xml:space="preserve">
+    <value>Avaliação Aprovada</value>
+  </data>
+  <data name="AVALIACAO_REPROVADA" xml:space="preserve">
+    <value>Avaliação Reprovada</value>
+  </data>
+  <data name="VENDA_CANCELADA" xml:space="preserve">
+    <value>Venda Cancelada</value>
+  </data>
+  <data name="CADASTRO_PROSPECTO" xml:space="preserve">
+    <value>Cadastro de Prospecto</value>
+  </data>
+  <data name="PAINEL_PROSPECTO" xml:space="preserve">
+    <value>Listagem de Prospectos</value>
+  </data>
+  <data name="CADASTRAR_PROSPECTO" xml:space="preserve">
+    <value>Cadastro de Prospecto</value>
+  </data>
+  <data name="TIPO_CLIENTE" xml:space="preserve">
+    <value>Tipo Cliente</value>
+  </data>
+  <data name="STATUS_VENDA" xml:space="preserve">
+    <value>Status Venda</value>
+  </data>
+  <data name="ANALISE_CLIENTE" xml:space="preserve">
+    <value>Análise Cliente</value>
+  </data>
+  <data name="DE" xml:space="preserve">
+    <value>De</value>
+  </data>
+  <data name="PARA" xml:space="preserve">
+    <value>Para</value>
+  </data>
+  <data name="PERIODO" xml:space="preserve">
+    <value>Período</value>
+  </data>
+  <data name="STATUS_ATEDIMENTO" xml:space="preserve">
+    <value>Status Atendimento</value>
+  </data>
+  <data name="SUPERVISOR" xml:space="preserve">
+    <value>Supervisor</value>
+  </data>
+  <data name="E_SUPERVISOR" xml:space="preserve">
+    <value>É Supervisor?</value>
+  </data>
+  <data name="E_VENDEDOR" xml:space="preserve">
+    <value>É Vendedor?</value>
+  </data>
+  <data name="FUNCIONARIO" xml:space="preserve">
+    <value>Funcionário</value>
+  </data>
+  <data name="PAINEL_FUNCIONARIO" xml:space="preserve">
+    <value>Listagem de Vendedor/Supervisor</value>
+  </data>
+  <data name="NUMERO_ATENDIMENTO" xml:space="preserve">
+    <value>Nº Atendimento</value>
+  </data>
+  <data name="ULT_RESPONSAVEL" xml:space="preserve">
+    <value>Ult. Responsável</value>
+  </data>
+  <data name="CADASTRO_PESQUISA_SATISFACAO" xml:space="preserve">
+    <value>Cadastro de Pesquisa de Satisfação</value>
+  </data>
+  <data name="ESCALA_LINEAR_FIN" xml:space="preserve">
+    <value>Escala Linear Fim</value>
+  </data>
+  <data name="ESCALA_LINEAR_INI" xml:space="preserve">
+    <value>Escala Linear Início</value>
+  </data>
+  <data name="OBRIGATORIO" xml:space="preserve">
+    <value>Obrigatório</value>
+  </data>
+  <data name="PAINEL_PESQUISA_SATISFACAO" xml:space="preserve">
+    <value>Listagem de Pesquisas de Satisfação</value>
+  </data>
+  <data name="STATUS_RESPOSTA" xml:space="preserve">
+    <value>Status Resposta</value>
+  </data>
+  <data name="AVALIACAO_EMOTICONS" xml:space="preserve">
+    <value>Avaliação Emoticons</value>
+  </data>
+  <data name="AVALIACAO_ESCALA_LINEAR" xml:space="preserve">
+    <value>Avaliação Escala Linear</value>
+  </data>
+  <data name="MULTIPLA_ESCOLHA" xml:space="preserve">
+    <value>Múltipla Escolha</value>
+  </data>
+  <data name="UNICA_ESCOLHA" xml:space="preserve">
+    <value>Única Escolha</value>
+  </data>
+  <data name="PAINELPESQUISA_SATISFACAO" xml:space="preserve">
+    <value>Listagem de Pesquisa Satisfação</value>
+  </data>
+  <data name="DATA_HORA_ENVIO" xml:space="preserve">
+    <value>Data/Hora de Envio</value>
+  </data>
+  <data name="TITULO_DA_PESQUISA" xml:space="preserve">
+    <value>Título Da Pesquisa</value>
+  </data>
+  <data name="DATA_HORA_RESPOSTA" xml:space="preserve">
+    <value>Data/Hora Resposta</value>
+  </data>
+  <data name="MAPA" xml:space="preserve">
+    <value>Mapa</value>
+  </data>
+  <data name="PAINEL_FAIXA_COMISSIONAMENTO" xml:space="preserve">
+    <value>Listagem de Faixas de Comissionamento</value>
+  </data>
+  <data name="AGUARDANDO_AVALIACAO_COMERCIAL" xml:space="preserve">
+    <value>Aguardando Avaliação Comercial</value>
+  </data>
+  <data name="RELATORIO_PRODUCAO" xml:space="preserve">
+    <value>Relatório de Produção</value>
+  </data>
+  <data name="APROVAR_AVALIACAO_COMERCIAL" xml:space="preserve">
+    <value>Aprovar Avaliação Comercial</value>
+  </data>
+  <data name="APROVAR_VENDA" xml:space="preserve">
+    <value>Aprovar Venda</value>
+  </data>
+  <data name="CANCELAR_VENDA" xml:space="preserve">
+    <value>Cancelar Venda</value>
+  </data>
+  <data name="DATA_VENDA" xml:space="preserve">
+    <value>Data Venda</value>
+  </data>
+  <data name="REPROVAR_AVALIACAO_COMERCIAL" xml:space="preserve">
+    <value>Reprovar Avaliação Comercial</value>
+  </data>
+  <data name="VENDA" xml:space="preserve">
+    <value>Venda</value>
+  </data>
+  <data name="MATRICULA" xml:space="preserve">
+    <value>Matrícula</value>
+  </data>
+  <data name="MATRICULASUPERVISOR" xml:space="preserve">
+    <value>Matricula Supervisor</value>
+  </data>
+  <data name="NOMEFUNCIONARIO" xml:space="preserve">
+    <value>Nome Funcionário</value>
+  </data>
+  <data name="CADASTRO_TIPO_CHECKPOINT_VENDEDOR" xml:space="preserve">
+    <value>Cadastro de Tipo Checkpoint</value>
+  </data>
+  <data name="PAINEL_CHECKPOINT_VENDEDOR" xml:space="preserve">
+    <value>Listagem de Checkpoint Vendedor</value>
+  </data>
+  <data name="PAINEL_TIPO_CHECKPOINT_VENDEDOR" xml:space="preserve">
+    <value>Listagem de Tipo Checkpoint</value>
+  </data>
+  <data name="CHECKPOINT_VENDEDOR" xml:space="preserve">
+    <value>Checkpoint Vendedor</value>
+  </data>
+  <data name="TIPO_CHECKPOINT_VENDEDOR" xml:space="preserve">
+    <value>Tipo Checkpoint Vendedor</value>
+  </data>
+  <data name="FAIXA_FINAL" xml:space="preserve">
+    <value>Faixa Final</value>
+  </data>
+  <data name="FAIXA_INICIAL" xml:space="preserve">
+    <value>Faixa Inicial</value>
+  </data>
+  <data name="COEFICIENTE" xml:space="preserve">
+    <value>Coeficiente</value>
+  </data>
+  <data name="CONTROLE_INADIMPLENTES" xml:space="preserve">
+    <value>Controle de Inadimplentes</value>
+  </data>
+  <data name="CARENCIA" xml:space="preserve">
+    <value>Periodo/Multa Carência</value>
+  </data>
+  <data name="FORMA_PAGAMENTO" xml:space="preserve">
+    <value>Forma de Pagamento</value>
+  </data>
+  <data name="PAINEL_FORMA_PAGAMENTO" xml:space="preserve">
+    <value>Listagem de Forma de Pagamento</value>
+  </data>
+  <data name="HORARIO_AGENDAMENTO" xml:space="preserve">
+    <value>Horário de Agendamento</value>
+  </data>
+  <data name="GERARFATURAMENTO" xml:space="preserve">
+    <value>Gerar Faturamento</value>
+  </data>
+  <data name="ABRANGENCIA" xml:space="preserve">
+    <value>Abrangência</value>
+  </data>
+  <data name="GESTAO_VENDAS" xml:space="preserve">
+    <value>Gestão de Vendas</value>
+  </data>
+  <data name="FIXO" xml:space="preserve">
+    <value>Fixo</value>
+  </data>
+  <data name="HORARIO_ATENDIMENTO" xml:space="preserve">
+    <value>Horário de Atendimento</value>
+  </data>
+  <data name="VARIAVEL" xml:space="preserve">
+    <value>Variável</value>
+  </data>
+  <data name="CADASTRO_META" xml:space="preserve">
+    <value>Cadastro de Meta</value>
+  </data>
+  <data name="ESCALA_TRABALHO" xml:space="preserve">
+    <value>Escala de Trabalho</value>
+  </data>
+  <data name="HORARIO_SERVICO" xml:space="preserve">
+    <value>Horário de Serviço</value>
+  </data>
+  <data name="DIA" xml:space="preserve">
+    <value>Dia</value>
+  </data>
+  <data name="CADASTRO_PONTO_VENDA" xml:space="preserve">
+    <value>Cadastro de Ponto de Venda</value>
+  </data>
+  <data name="INDISPONIVEL" xml:space="preserve">
+    <value>Indisponível</value>
+  </data>
+  <data name="FUNCIONARIO_AFASTADO" xml:space="preserve">
+    <value>Afastamento</value>
+  </data>
+  <data name="APENAS_NESTE_DIA" xml:space="preserve">
+    <value>Apenas Neste Dia</value>
+  </data>
+  <data name="CADASTRO_VENDEDOR" xml:space="preserve">
+    <value>Cadastro de Vendedor</value>
+  </data>
+  <data name="HORARIO" xml:space="preserve">
+    <value>Horário</value>
+  </data>
+  <data name="FUNCIONARIO_ATIVO" xml:space="preserve">
+    <value>Ativo</value>
+  </data>
+  <data name="DASHBOARD_VENDA" xml:space="preserve">
+    <value>Painel de Acompanhamento de Vendas</value>
+  </data>
+  <data name="FUNCIONARIO_DEMITIDO" xml:space="preserve">
+    <value>Demitido</value>
+  </data>
+  <data name="LISTAGEM_VENDA" xml:space="preserve">
+    <value>Listagem de Vendas</value>
+  </data>
+  <data name="FUNCIONARIO_FERIAS" xml:space="preserve">
+    <value>Férias</value>
+  </data>
+  <data name="FUNCIONARIO_TRANSFERIDO" xml:space="preserve">
+    <value>Transferido</value>
+  </data>
+  <data name="CADASTROHORARIO" xml:space="preserve">
+    <value>Cadastro de Horários</value>
+  </data>
+  <data name="META_DIA" xml:space="preserve">
+    <value>Meta no Dia</value>
+  </data>
+  <data name="EQUIPE" xml:space="preserve">
+    <value>Técnico</value>
+  </data>
+  <data name="VENDAS_DIA" xml:space="preserve">
+    <value>Vendas Dia</value>
+  </data>
+  <data name="PAINEL_HORARIOS" xml:space="preserve">
+    <value>Listagem de Horarios</value>
+  </data>
+  <data name="VENDAS_MES" xml:space="preserve">
+    <value>Vendas Mês</value>
+  </data>
+  <data name="DOCUMENTO" xml:space="preserve">
+    <value>Documento</value>
+  </data>
+  <data name="DOMINGO" xml:space="preserve">
+    <value>Dom</value>
+  </data>
+  <data name="FATURADO" xml:space="preserve">
+    <value>Faturado</value>
+  </data>
+  <data name="QUARTA" xml:space="preserve">
+    <value>Qua</value>
+  </data>
+  <data name="VALOR" xml:space="preserve">
+    <value>Valor</value>
+  </data>
+  <data name="QUINTA" xml:space="preserve">
+    <value>Qui</value>
+  </data>
+  <data name="SABADO" xml:space="preserve">
+    <value>Sab</value>
+  </data>
+  <data name="SEGUNDA" xml:space="preserve">
+    <value>Seg</value>
+  </data>
+  <data name="SEXTA" xml:space="preserve">
+    <value>Sex</value>
+  </data>
+  <data name="TERCA" xml:space="preserve">
+    <value>Ter</value>
+  </data>
+  <data name="TRABALHAFERIADO" xml:space="preserve">
+    <value>Considerar trabalho em dias que coincidem com feriados</value>
+  </data>
+  <data name="HORARIOS" xml:space="preserve">
+    <value>Horarios</value>
+  </data>
+  <data name="PADRAO" xml:space="preserve">
+    <value>Padrão</value>
+  </data>
+  <data name="HORA_INVALIDA" xml:space="preserve">
+    <value>Hora Inválida</value>
+  </data>
+  <data name="CRIAR_ORDEM_SERVICOS" xml:space="preserve">
+    <value>Criar Ordem de Serviços</value>
+  </data>
+  <data name="VENDA_APROVADA" xml:space="preserve">
+    <value>Venda Aprovada</value>
+  </data>
+  <data name="EQUIPES" xml:space="preserve">
+    <value>Técnicos</value>
+  </data>
+  <data name="GESTAO_EQUIPES" xml:space="preserve">
+    <value>Gestão de Técnicos</value>
+  </data>
+  <data name="MAPA_EQUIPES" xml:space="preserve">
+    <value>Monitoramento de Técnicos no Mapa</value>
+  </data>
+  <data name="PAINEL_ACOMPANHAMENTO_SERVICOS" xml:space="preserve">
+    <value>Acompanhamento de Serviços</value>
+  </data>
+  <data name="PAINEL_SERVICOS" xml:space="preserve">
+    <value>Painel de Serviços</value>
+  </data>
+  <data name="SERVICOS" xml:space="preserve">
+    <value>Serviços</value>
+  </data>
+  <data name="TIMELINE_SERVICOS" xml:space="preserve">
+    <value>Timeline de Serviços</value>
+  </data>
+  <data name="CODIGO_GRUPO" xml:space="preserve">
+    <value>Código Grupo</value>
+  </data>
+  <data name="LISTAGEM_ACOMPANHAMENTOEQUIPES" xml:space="preserve">
+    <value>Acompanhamento de Técnicos</value>
+  </data>
+  <data name="DESCRICAO_GRUPO" xml:space="preserve">
+    <value>Descrição do Grupo</value>
+  </data>
+  <data name="MONITOREQUIPE" xml:space="preserve">
+    <value>Monitor do Técnico</value>
+  </data>
+  <data name="PONTOS" xml:space="preserve">
+    <value>Pontos</value>
+  </data>
+  <data name="SUPERVISOREQUIPE" xml:space="preserve">
+    <value>Supervisor de Técnico</value>
+  </data>
+  <data name="DESCRICAO_SUBGRUPO" xml:space="preserve">
+    <value>Descrição do Subgrupo</value>
+  </data>
+  <data name="ESCALA" xml:space="preserve">
+    <value>Escala</value>
+  </data>
+  <data name="REPLICAR_DIAS" xml:space="preserve">
+    <value>Replicar para os próximos dias</value>
+  </data>
+  <data name="AREA" xml:space="preserve">
+    <value>Área</value>
+  </data>
+  <data name="GRUPO_AREA" xml:space="preserve">
+    <value>Grupo Área</value>
+  </data>
+  <data name="HORARIO_DE_SERVICO" xml:space="preserve">
+    <value>Horário de Serviço</value>
+  </data>
+  <data name="LOCALIDADE" xml:space="preserve">
+    <value>Localidade</value>
+  </data>
+  <data name="TIPO_IMOVEL" xml:space="preserve">
+    <value>Tipo de Imóvel</value>
+  </data>
+  <data name="PAIS" xml:space="preserve">
+    <value>País</value>
+  </data>
+  <data name="COD_AREA" xml:space="preserve">
+    <value>Código de Area</value>
+  </data>
+  <data name="COD_ESCRITORIO" xml:space="preserve">
+    <value>Código de Escritório</value>
+  </data>
+  <data name="COD_LOCALIDADE" xml:space="preserve">
+    <value>Código de Localidade</value>
+  </data>
+  <data name="DISTANCIA" xml:space="preserve">
+    <value>Distância</value>
+  </data>
+  <data name="HABILIDADES" xml:space="preserve">
+    <value>Habilidades</value>
+  </data>
+  <data name="CODIGO_CLIENTE" xml:space="preserve">
+    <value>Codigo do Cliente</value>
+  </data>
+  <data name="CODIGO_ENCERRAMENTO" xml:space="preserve">
+    <value>Código de Encerramento</value>
+  </data>
+  <data name="DATA_HORA_AGENDAMENTO" xml:space="preserve">
+    <value>Data e Hora do Agendamento</value>
+  </data>
+  <data name="DESCRICAO_ENCERRAMENTO" xml:space="preserve">
+    <value>Descrição do Encerramento</value>
+  </data>
+  <data name="NUMERO_OS" xml:space="preserve">
+    <value>Número da OS</value>
+  </data>
+  <data name="STATUS_OS" xml:space="preserve">
+    <value>Status da OS</value>
+  </data>
+  <data name="STATUS_RESPONSAVEL" xml:space="preserve">
+    <value>Status do Responsável</value>
+  </data>
+  <data name="SUBTIPO_SERVICO" xml:space="preserve">
+    <value>Subtipo de Serviço</value>
+  </data>
+  <data name="TIPO_SERVICO" xml:space="preserve">
+    <value>Tipo de Serviço</value>
+  </data>
+  <data name="USUARIO_ABERTURA_OS" xml:space="preserve">
+    <value>Usuário de Abertura OS</value>
+  </data>
+  <data name="USUARIO_AGENDAMENTO" xml:space="preserve">
+    <value>Usuário do Agendamento</value>
+  </data>
+  <data name="HISTORICO_NF" xml:space="preserve">
+    <value>Histórico de Notas Fiscais</value>
+  </data>
+  <data name="CODIGO_NOTA_FISCAL" xml:space="preserve">
+    <value>Código da Nota Fiscal</value>
+  </data>
+  <data name="PAINEL_PONTO_PARTIDA" xml:space="preserve">
+    <value>Listagem de Pontos de Partida</value>
+  </data>
+  <data name="PONTO_PARTIDA" xml:space="preserve">
+    <value>Ponto de Partida</value>
+  </data>
+  <data name="EQUIPE_DISPONIVEL" xml:space="preserve">
+    <value>Técnico Disponivel</value>
+  </data>
+  <data name="PAINEL_EQUIPE" xml:space="preserve">
+    <value>Listagem de Técnico</value>
+  </data>
+  <data name="NATUREZAOS" xml:space="preserve">
+    <value>Natureza da OS</value>
+  </data>
+  <data name="PERIODOABERTURA" xml:space="preserve">
+    <value>Período de Abertura</value>
+  </data>
+  <data name="PERIODOAGENDAMENTO" xml:space="preserve">
+    <value>Período de Agendamento</value>
+  </data>
+  <data name="PERIODOENCERRAMENTO" xml:space="preserve">
+    <value>Período de Encerramento</value>
+  </data>
+  <data name="CRIADO" xml:space="preserve">
+    <value>Criado</value>
+  </data>
+  <data name="ERRO" xml:space="preserve">
+    <value>Erro</value>
+  </data>
+  <data name="PROCESSADO" xml:space="preserve">
+    <value>Processado</value>
+  </data>
+  <data name="PROCESSANDO" xml:space="preserve">
+    <value>Processando</value>
+  </data>
+  <data name="ACOMPANHAMENTO_EQUIPE_MAPA" xml:space="preserve">
+    <value>Acompanhamento do Técnico no Mapa</value>
+  </data>
+  <data name="EM_INTERVALO" xml:space="preserve">
+    <value>Em Intervalo</value>
+  </data>
+  <data name="EQUIPE_MATRICULA" xml:space="preserve">
+    <value>Técnico ou Matrícula</value>
+  </data>
+  <data name="HABILITAR_SERVICOS_EQUIPE" xml:space="preserve">
+    <value>Habilitar Serviços para Técnico</value>
+  </data>
+  <data name="NATUREZA" xml:space="preserve">
+    <value>Natureza</value>
+  </data>
+  <data name="ADICIONAR_NATUREZA_MASSA" xml:space="preserve">
+    <value>Adicionar natureza em massa</value>
+  </data>
+  <data name="ADICIONAR_AREA_MASSA" xml:space="preserve">
+    <value>Adicionar areas em massa</value>
+  </data>
+  <data name="HABILITAR_AREAS_EQUIPE" xml:space="preserve">
+    <value>Habilitar Áreas para Técnico</value>
+  </data>
+  <data name="SLA_SERVICO" xml:space="preserve">
+    <value>Sla de Serviço</value>
+  </data>
+  <data name="PAINELSLA_SERVICO" xml:space="preserve">
+    <value>Listagem de SLA's Para Serviço</value>
+  </data>
+  <data name="CONTAGEM_PRAZO_EM" xml:space="preserve">
+    <value>Contagem do Prazo Em</value>
+  </data>
+  <data name="HORARIO_DE_TRABALHO" xml:space="preserve">
+    <value>Horário de Trabalho</value>
+  </data>
+  <data name="CONTAGEM_PRAZO" xml:space="preserve">
+    <value>Contagem Do Prazo</value>
+  </data>
+  <data name="HORAS_SLA" xml:space="preserve">
+    <value>Horas SLA</value>
+  </data>
+  <data name="SERVICO" xml:space="preserve">
+    <value>Serviço</value>
+  </data>
+  <data name="PAINEL_USUARIOS_CONNECT" xml:space="preserve">
+    <value>Listagem de Usuarios Connect</value>
+  </data>
+  <data name="PAINEL_USUARIOS_MONITORES" xml:space="preserve">
+    <value>Listagem de Usuarios Monitores</value>
+  </data>
+  <data name="USUARIOS_CONNECT" xml:space="preserve">
+    <value>Ususrios Connect</value>
+  </data>
+  <data name="USUARIOS_MONITORES" xml:space="preserve">
+    <value>Usuarios Monitores</value>
+  </data>
+  <data name="DATA_HORA_ENCERRAMENTO" xml:space="preserve">
+    <value>Data/Hr. Encerramento</value>
+  </data>
+  <data name="PAINEL_ROTEIRIZACAO" xml:space="preserve">
+    <value>Painel de Roteirização</value>
+  </data>
+  <data name="ROTEIRIZACAO" xml:space="preserve">
+    <value>Roteirização</value>
+  </data>
+  <data name="ORDEM_SERVICO" xml:space="preserve">
+    <value>Nº Ordem de Serviço</value>
+  </data>
+  <data name="DATA_AGENDAMENTO" xml:space="preserve">
+    <value>Data de Agendamento</value>
+  </data>
+  <data name="DATA_CRIACAO" xml:space="preserve">
+    <value>Data de Criação</value>
+  </data>
+  <data name="SLA" xml:space="preserve">
+    <value>SLA</value>
+  </data>
+  <data name="DATA_A_ROTEIRIZAR" xml:space="preserve">
+    <value>Data para Roteirizar</value>
+  </data>
+  <data name="ROTEIRIZAR" xml:space="preserve">
+    <value>Roteirizar</value>
+  </data>
+  <data name="EXIBIR_EQUIPE" xml:space="preserve">
+    <value>Exibir Técnico</value>
+  </data>
+  <data name="VISUALIZAR_LOG" xml:space="preserve">
+    <value>Visualizar Log</value>
+  </data>
+  <data name="VISUALIZAR_ROTA" xml:space="preserve">
+    <value>Visualizar Rota</value>
+  </data>
+  <data name="HABILITAR_MONITOR" xml:space="preserve">
+    <value>Habilitar Monitor</value>
+  </data>
+  <data name="CRITERIOS_ROTEIRIZACAO" xml:space="preserve">
+    <value>Critérios de Roteirização</value>
+  </data>
+  <data name="ORDEM" xml:space="preserve">
+    <value>Ordem </value>
+  </data>
+  <data name="LOG" xml:space="preserve">
+    <value>Log</value>
+  </data>
+  <data name="LOG_ROTEIRIZACAO" xml:space="preserve">
+    <value>Log de Roteirização</value>
+  </data>
+  <data name="DATA_LOG" xml:space="preserve">
+    <value>Data do Log</value>
+  </data>
+  <data name="ATENCAO_AGENDAMENTO_PRIORITARIO" xml:space="preserve">
+    <value>Atenção ao agendamento prioritário definido no menu configurações gerais e configurações da empresa no aniel</value>
+  </data>
+  <data name="INFORME_ORDEM_PRIORIZACAO" xml:space="preserve">
+    <value>Informe a Ordem de Priorização</value>
+  </data>
+  <data name="CRIAR_FATURAMENTO" xml:space="preserve">
+    <value>Criar Faturamento</value>
+  </data>
+  <data name="NUMERO_ORDEM_SERVICO" xml:space="preserve">
+    <value>Nº. Ordem Serviço</value>
+  </data>
+  <data name="CPFCNPJ_CLIENTE" xml:space="preserve">
+    <value>CPF/CNPJ do Cliente</value>
+  </data>
+  <data name="CRIAR_OS" xml:space="preserve">
+    <value>Criar Ordem de Serviço</value>
+  </data>
+  <data name="ORDEM_SERVICO_GERADA_N" xml:space="preserve">
+    <value>Ordem de Serviço Gerada</value>
+  </data>
+  <data name="ORDEM_SERVICO_CRIADOCOMSUCESSO" xml:space="preserve">
+    <value>Ordem de Serviço Criada com Sucesso</value>
+  </data>
+  <data name="AGENDAMENTO" xml:space="preserve">
+    <value>Agendamento</value>
+  </data>
+  <data name="SEM_DATADISPONIVEL_AGENDAMENTO" xml:space="preserve">
+    <value>Sem data disponível para Agendamento</value>
+  </data>
+  <data name="AGENDAR" xml:space="preserve">
+    <value>Agendar</value>
+  </data>
+  <data name="TEMPO_MEDIO_DESLOCAMENTO" xml:space="preserve">
+    <value>Tempo Médio Padrão de Deslocamento</value>
+  </data>
+  <data name="TEMPO_MEDIO_INVALIDO" xml:space="preserve">
+    <value>Tempo Médio de Deslocamento Inválido</value>
+  </data>
+  <data name="ULTIMO_CONTATO" xml:space="preserve">
+    <value>Último Contato</value>
+  </data>
+  <data name="DESCONTO_PARA" xml:space="preserve">
+    <value>Desconto para</value>
+  </data>
+  <data name="TEMPO_EXECUCAO_PADRAO" xml:space="preserve">
+    <value>Tempo Padrão de Execução de Serviço</value>
+  </data>
+  <data name="TEMPO_EXECUCAO_INVALIDO" xml:space="preserve">
+    <value>Tempo Padrão de Execução Inválido</value>
+  </data>
+  <data name="ACOMPANHAMENTO_SERVICO" xml:space="preserve">
+    <value>Acompanhamento de Serviço</value>
+  </data>
+  <data name="SEGMENTO" xml:space="preserve">
+    <value>Segmento</value>
+  </data>
+  <data name="CADASTRO_CLIENTE" xml:space="preserve">
+    <value>Cadastro de Cliente</value>
+  </data>
+  <data name="CHECKLIST" xml:space="preserve">
+    <value>Checklist</value>
+  </data>
+  <data name="FOTOS_ARQUIVOS" xml:space="preserve">
+    <value>Fotos e Arquivos</value>
+  </data>
+  <data name="HISTORICO_SERVICO" xml:space="preserve">
+    <value>Historico Serviço</value>
+  </data>
+  <data name="MATERIAIS_APLICADOS" xml:space="preserve">
+    <value>Materiais Aplicados</value>
+  </data>
+  <data name="MATERIAIS_RETIRADOS" xml:space="preserve">
+    <value>Materiais Retirados</value>
+  </data>
+  <data name="PROD_LANCADA" xml:space="preserve">
+    <value>Produção Lançada</value>
+  </data>
+  <data name="ORIGEM_ORDEM_SERVICO" xml:space="preserve">
+    <value>Origem Ordem de Serviço</value>
+  </data>
+  <data name="REAGENDAR" xml:space="preserve">
+    <value>Reagendar</value>
+  </data>
+  <data name="OBS_CRIACAO_SERVICO" xml:space="preserve">
+    <value>Observação da Criação do Serviço</value>
+  </data>
+  <data name="OBSERVACAO_OS" xml:space="preserve">
+    <value>Observação Criação Serviço</value>
+  </data>
+  <data name="NOVA_OS" xml:space="preserve">
+    <value>Nova Ordem de Serviço</value>
+  </data>
+  <data name="CRIAR_ORDEM_SERVICO" xml:space="preserve">
+    <value>Criar Ordem Serviço</value>
+  </data>
+  <data name="PRODUCAO_LANCADA" xml:space="preserve">
+    <value>Produção Lançada</value>
+  </data>
+  <data name="TESTE" xml:space="preserve">
+    <value>teste</value>
+  </data>
+  <data name="DATA/HORA_FIM" xml:space="preserve">
+    <value>Data/Hora_Fim</value>
+  </data>
+  <data name="ATRIBUIR_RESPONSAVEL" xml:space="preserve">
+    <value>Atribuir Responsável</value>
+  </data>
+  <data name="HISTORICO" xml:space="preserve">
+    <value>Historico</value>
+  </data>
+  <data name="ATENDIMENTO_FINALIZADO" xml:space="preserve">
+    <value>Atendimento Finalizado</value>
+  </data>
+  <data name="ORIGEM_OS" xml:space="preserve">
+    <value>Origem da OS</value>
+  </data>
+  <data name="MATRICULA_NOME_RESPONSAVEL" xml:space="preserve">
+    <value>Matrícula e Nome do Responsável</value>
+  </data>
+  <data name="TROCAR_RESPONSAVEL_OS" xml:space="preserve">
+    <value>Trocar Responsável da OS</value>
+  </data>
+  <data name="MATRICULA_AUX" xml:space="preserve">
+    <value>Matrícula Auxiliar</value>
+  </data>
+  <data name="TIPO_BAIXA" xml:space="preserve">
+    <value>Tipo de Baixa</value>
+  </data>
+  <data name="COD_DESC_ENCERRAMENTO" xml:space="preserve">
+    <value>Código/Descrição do Encerramento</value>
+  </data>
+  <data name="QUALIDADE_SERVICO" xml:space="preserve">
+    <value>Qualidade do Serviço</value>
+  </data>
+  <data name="CUSTO_SERVICO" xml:space="preserve">
+    <value>Custo Total do Serviço</value>
+  </data>
+  <data name="SINAL_RX" xml:space="preserve">
+    <value>Sinal RX</value>
+  </data>
+  <data name="SINAL_TX" xml:space="preserve">
+    <value>Sinal TX</value>
+  </data>
+  <data name="OBSERVACAO_TECNICO" xml:space="preserve">
+    <value>Observação do Técnico</value>
+  </data>
+  <data name="DATA_HORA_INICIO" xml:space="preserve">
+    <value>Data/Hora Início</value>
+  </data>
+  <data name="DURACAO" xml:space="preserve">
+    <value>Duração</value>
+  </data>
+  <data name="HISTORICO_CONSUMO" xml:space="preserve">
+    <value>Histórico de Consumo</value>
+  </data>
+  <data name="MAC" xml:space="preserve">
+    <value>Mac</value>
+  </data>
+  <data name="TRAFEGO_DOWN" xml:space="preserve">
+    <value>Tráfego Download</value>
+  </data>
+  <data name="TRAFEGO_TOTAL" xml:space="preserve">
+    <value>Tráfego Total</value>
+  </data>
+  <data name="TRAFEGO_UPLOAD" xml:space="preserve">
+    <value>Tráfego Upload</value>
+  </data>
+  <data name="USER" xml:space="preserve">
+    <value>User</value>
+  </data>
+  <data name="TIPO_ARQUIVO" xml:space="preserve">
+    <value>Tipo de Arquivo</value>
+  </data>
+  <data name="CODIGO_COMPLEMENTAR" xml:space="preserve">
+    <value>Código Complementar</value>
+  </data>
+  <data name="EXISTE_CLIENTE" xml:space="preserve">
+    <value>Existe Cliente</value>
+  </data>
+  <data name="QTDE_EXISTENTE_CLIENTE" xml:space="preserve">
+    <value>Quantidade Existente Cliente</value>
+  </data>
+  <data name="QTDE_PRODUCAO_PREVISTA" xml:space="preserve">
+    <value>Quantidade Produção Prevista</value>
+  </data>
+  <data name="QTDE_PRODUCAO_REALIZADA" xml:space="preserve">
+    <value>Quantidade Produção Realizada</value>
+  </data>
+  <data name="QTDE_RETIRADA_CLIENTE" xml:space="preserve">
+    <value>Quantidade Retirada Cliente</value>
+  </data>
+  <data name="CLIENTE_HA" xml:space="preserve">
+    <value>Cliente há</value>
+  </data>
+  <data name="ABERTA_AGUARD_AGENDAMENTO" xml:space="preserve">
+    <value>Aberta Aguardando Agendamento</value>
+  </data>
+  <data name="ABERTA_AGUARD_ATENDIMENTO" xml:space="preserve">
+    <value>Aberta Aguardando Atendimento</value>
+  </data>
+  <data name="ABERTA_AGUARD_FECHAMENTO" xml:space="preserve">
+    <value>Aberta Aguardando Fechamento </value>
+  </data>
+  <data name="ATENDIMENTO_INICIADO_REINICIADO" xml:space="preserve">
+    <value>Atendimento Iniciado</value>
+  </data>
+  <data name="ATENDIMENTO_PARALIZADO" xml:space="preserve">
+    <value>Atendimento Pausado</value>
+  </data>
+  <data name="FECHADA_IMPRODUTIVA" xml:space="preserve">
+    <value>Fechada Improdutiva</value>
+  </data>
+  <data name="FECHADA_PRODUTIVA" xml:space="preserve">
+    <value>Fechada Produtiva</value>
+  </data>
+  <data name="OS_EM_DESLOCAMENTO" xml:space="preserve">
+    <value>OS com Técnico em Deslocamento</value>
+  </data>
+  <data name="REINICIADO_ATENDIMENTO" xml:space="preserve">
+    <value>Reiniciado Atendimento</value>
+  </data>
+  <data name="CODCT" xml:space="preserve">
+    <value>Codigo Contrato</value>
+  </data>
+  <data name="NUM_DOC" xml:space="preserve">
+    <value>Numero Documento</value>
+  </data>
+  <data name="NUM_OBRA" xml:space="preserve">
+    <value>Numero Obra</value>
+  </data>
+  <data name="PROJETO" xml:space="preserve">
+    <value>Projeto</value>
+  </data>
+  <data name="VISUALIZAR_DETALHELOG" xml:space="preserve">
+    <value>Visualizar Detalhe Log</value>
+  </data>
+  <data name="DETALHE_LOG_ROTEIRIZACAO" xml:space="preserve">
+    <value>Detalhe Log Roteirizacao</value>
+  </data>
+  <data name="INFORME_DATAVALIDA" xml:space="preserve">
+    <value>Informe uma Data Válida</value>
+  </data>
+  <data name="INFORME_DATAVALIDADEPLANO" xml:space="preserve">
+    <value>Informe a data de validade do Plano</value>
+  </data>
+  <data name="INFORME_VELOCIDADEDOWNLOADREDUZIDA" xml:space="preserve">
+    <value>Informe a Velocidade de Download Reduzida</value>
+  </data>
+  <data name="INFORME_VELOCIDADEUPLOADREDUZIDA" xml:space="preserve">
+    <value>Informe a Velocidade de Upload Reduzida</value>
+  </data>
+  <data name="SEM_ACESSO_BASE_RECEITA" xml:space="preserve">
+    <value>Sem acesso à base da receita federal.</value>
+  </data>
+  <data name="CHECKLIST_SERVICO_PRODUTIVO" xml:space="preserve">
+    <value>Checklist de Serviço Produtivo</value>
+  </data>
+  <data name="SERVICO_SEM_CHECKLIST" xml:space="preserve">
+    <value>O Serviço Não Possui Checklist</value>
+  </data>
+  <data name="PAINEL_PERFIL_DASHBOARD" xml:space="preserve">
+    <value>Criar Perfil Dashboard</value>
+  </data>
+  <data name="PERFIL_DASHBOARD" xml:space="preserve">
+    <value>Perfil Dashboard</value>
+  </data>
+  <data name="PERFIL_GERENCIAL" xml:space="preserve">
+    <value>Perfil Gerencial</value>
+  </data>
+  <data name="PERFIL_INICIAL" xml:space="preserve">
+    <value>Perfil Inicial</value>
+  </data>
+  <data name="ATENDIMENTO_CLIENTE" xml:space="preserve">
+    <value>Atendimento ao Cliente</value>
+  </data>
+  <data name="GESTAO_ATENDIMENTO" xml:space="preserve">
+    <value>Gestão de Atendimento</value>
+  </data>
+  <data name="GESTAO_CLIENTES" xml:space="preserve">
+    <value>Gestão de Clientes</value>
+  </data>
+  <data name="GESTAO_MATERIAIS" xml:space="preserve">
+    <value>Gestão de Materiais</value>
+  </data>
+  <data name="GESTAO_PRODUCAO" xml:space="preserve">
+    <value>Gestão de Produção</value>
+  </data>
+  <data name="GESTAO_SERVICOS" xml:space="preserve">
+    <value>Gestão de Serviços</value>
+  </data>
+  <data name="INFORME_DATAVALIDADEPRODUTO" xml:space="preserve">
+    <value>Informe a data de validade do Produto</value>
+  </data>
+  <data name="ATIVACAO_PERDA_CLIENTE" xml:space="preserve">
+    <value>Ativação x Perde de Cliente</value>
+  </data>
+  <data name="CARTEIRA_ATUAL_PLANO" xml:space="preserve">
+    <value>Carteira de Cliente atual por Plano</value>
+  </data>
+  <data name="CARTEIRA_CLIENTE_CATEGORIA" xml:space="preserve">
+    <value>Carteira de Cliente por Categoria</value>
+  </data>
+  <data name="CARTEIRA_CLIENTE_FAIXA_VALOR" xml:space="preserve">
+    <value>Cateira de Cliente por Faxia de Valor</value>
+  </data>
+  <data name="CARTEIRA_CLIENTE_LOCALIDADE" xml:space="preserve">
+    <value>Carteira de Cliente por Localidade</value>
+  </data>
+  <data name="CARTEIRA_CLIENTE_TEMPO_PERMANENCIA" xml:space="preserve">
+    <value>Carteira de Cliente por Tempo de Permanencia</value>
+  </data>
+  <data name="CHAT" xml:space="preserve">
+    <value>Chat</value>
+  </data>
+  <data name="EVOLUCAO_CARTEIRA_CLIENTE" xml:space="preserve">
+    <value>Evolução da Carteira de Cliente</value>
+  </data>
+  <data name="META_EQUIPE" xml:space="preserve">
+    <value>Meta do Técnico</value>
+  </data>
+  <data name="MINHA_META" xml:space="preserve">
+    <value>Minha Meta</value>
+  </data>
+  <data name="NOVIDADES_SINAPSE" xml:space="preserve">
+    <value>Novidades Sinapse</value>
+  </data>
+  <data name="VENDAS_AVALIACAO_REPROVADA_MES" xml:space="preserve">
+    <value>Vendas com Avaliação Reprovada no Mês</value>
+  </data>
+  <data name="VENDAS_CANCELADAS_MES" xml:space="preserve">
+    <value>Vendas Canceladas no Mês</value>
+  </data>
+  <data name="VENDAS_EQUIPE_AVALIACAO_REPROVADA" xml:space="preserve">
+    <value>Vendas do Técnico com Avaliação Reprovada</value>
+  </data>
+  <data name="VENDAS_EQUIPE_CANCELADA_MES" xml:space="preserve">
+    <value>Vendas do Técnico Cancelada no Mês</value>
+  </data>
+  <data name="VENDAS_PERDIDAS" xml:space="preserve">
+    <value>Vendas Perdidas</value>
+  </data>
+  <data name="VENDAS_PERDIDAS_EQUIPE" xml:space="preserve">
+    <value>Vendas Perdidas do Técnico</value>
+  </data>
+  <data name="VENDAS_PERDIDAS_EQUIPE_MES" xml:space="preserve">
+    <value>Vendas Perdidas do Técnico no Mês</value>
+  </data>
+  <data name="VENDAS_PERDIDAS_MES" xml:space="preserve">
+    <value>Vendas Perdidas no Mês</value>
+  </data>
+  <data name="COMISSAO_VENDAS" xml:space="preserve">
+    <value>Comissão de Vendas</value>
+  </data>
+  <data name="GESTAO_COMERCIAL" xml:space="preserve">
+    <value>Gestão Comercial</value>
+  </data>
+  <data name="MEDIA_VENDAS" xml:space="preserve">
+    <value>Média de Vendas</value>
+  </data>
+  <data name="PERCENTUAL_VENDAS" xml:space="preserve">
+    <value>Percentual de Vendas</value>
+  </data>
+  <data name="TOTAL_VENDAS_PRODUTO" xml:space="preserve">
+    <value>Total de Vendas/Produto e serviço.</value>
+  </data>
+  <data name="ATENCAO" xml:space="preserve">
+    <value>Atenção</value>
+  </data>
+  <data name="ATENDIMENTOS_MES_GERAL" xml:space="preserve">
+    <value>Total de Atendimento no Mês (Geral)</value>
+  </data>
+  <data name="ATENDIMENTOS_MES_USUARIO" xml:space="preserve">
+    <value>Total de Atendimentos no Mês (Usuário)</value>
+  </data>
+  <data name="ATENDIMENTOS_PENDENTES" xml:space="preserve">
+    <value>Meus Atendimentos Pendentes</value>
+  </data>
+  <data name="ATENDIMENTOS_PENDENTES_EQUIPE" xml:space="preserve">
+    <value>Atendimentos Pendentes com Meu Técnico</value>
+  </data>
+  <data name="DENTRO_PRAZO" xml:space="preserve">
+    <value>Dentro do Prazo</value>
+  </data>
+  <data name="EM_ATENDIMENTO" xml:space="preserve">
+    <value>Em Atendimento</value>
+  </data>
+  <data name="PRAZO_VENCIDO" xml:space="preserve">
+    <value>Prazo Vencido</value>
+  </data>
+  <data name="RISCO_PERDA_PRAZO" xml:space="preserve">
+    <value>Risco de Perda do Prazo</value>
+  </data>
+  <data name="TEMPO_MEDIO_ATENDIMENTO" xml:space="preserve">
+    <value>Tempo Médio de Atendimento </value>
+  </data>
+  <data name="VENCIMENTO_PROXIMO" xml:space="preserve">
+    <value>Próximo do Vencimento</value>
+  </data>
+  <data name="CUSTO_MEDIO_SERVICO" xml:space="preserve">
+    <value>Custo Médio do Serviço</value>
+  </data>
+  <data name="MEDIA_ATRASO" xml:space="preserve">
+    <value>Média de Atraso</value>
+  </data>
+  <data name="PCT_SERVICO_FORA_PRAZO" xml:space="preserve">
+    <value>Percentual de Serviços Fora do Prazo</value>
+  </data>
+  <data name="PRODUTIVIDADE_MES" xml:space="preserve">
+    <value>Produtividade no Mês</value>
+  </data>
+  <data name="RANKING_PROD_MES" xml:space="preserve">
+    <value>Ranking de Produtividade do Mês</value>
+  </data>
+  <data name="SERVICOS_EM_EXECUCAO" xml:space="preserve">
+    <value>Serviços em Execução</value>
+  </data>
+  <data name="SERVICOS_ENCERRADOS" xml:space="preserve">
+    <value>Serviços Encerrados</value>
+  </data>
+  <data name="SERVICOS_FORA_PRAZO" xml:space="preserve">
+    <value>Serviços Fora do Prazo</value>
+  </data>
+  <data name="SERVICOS_NAO_INCIADOS" xml:space="preserve">
+    <value>Serviços Não Iniciados</value>
+  </data>
+  <data name="SERVICOS_NAO_ROTEIRIZADOS" xml:space="preserve">
+    <value>Serviços Não Roteirizados</value>
+  </data>
+  <data name="SERVICOS_PARALISADOS" xml:space="preserve">
+    <value>Serviços Paralisados</value>
+  </data>
+  <data name="SERVICOS_SEM_AGENDAMENTO" xml:space="preserve">
+    <value>Serviços Sem Agendamentos</value>
+  </data>
+  <data name="VENDAS_CANCELADAS_EQUIPE_MES" xml:space="preserve">
+    <value>Vendas do Técnico Canceladas no Mês</value>
+  </data>
+  <data name="VENDAS_REPROVADAS_EQUIPE_MES" xml:space="preserve">
+    <value>Vendas do Técnico Reprovadas no Mês</value>
+  </data>
+  <data name="VENDAS_REPROVADAS_MES" xml:space="preserve">
+    <value>Vendas Reprovadas no Mês</value>
+  </data>
+  <data name="EVOLUCAO_INSTALACOES_MES" xml:space="preserve">
+    <value>Evolução de Instalações mês a mês</value>
+  </data>
+  <data name="EVOLUCAO_TAXA_ABANDONO" xml:space="preserve">
+    <value>Evolução da Taxa de abandono</value>
+  </data>
+  <data name="EVOLUCAO_TMA" xml:space="preserve">
+    <value>Evolução do TMA</value>
+  </data>
+  <data name="MATERIAIS_ESTOQUE_ALTO" xml:space="preserve">
+    <value>Materiais de Estoque Alto</value>
+  </data>
+  <data name="MATERIAIS_MAIS_UTILIZADOS_MES" xml:space="preserve">
+    <value>Materiais mais utilizados no mês</value>
+  </data>
+  <data name="MATERIAIS_SEM_ESTOQUE" xml:space="preserve">
+    <value>Materiais sem estoque</value>
+  </data>
+  <data name="NIVEL_SERVICO" xml:space="preserve">
+    <value>Nível de Serviço</value>
+  </data>
+  <data name="ORDENS_SERVICOS_ABERTAS_TIPO_SERVICOS" xml:space="preserve">
+    <value>Ordens de Serviços abertas por tipo de serviços</value>
+  </data>
+  <data name="RESUMO_CONEXOES_BLOQUEADAS" xml:space="preserve">
+    <value>Resumo de Conexões Bloqueadas</value>
+  </data>
+  <data name="SLA_GRAFICO" xml:space="preserve">
+    <value>SLA Gráfico</value>
+  </data>
+  <data name="TAXA_ABANDONO" xml:space="preserve">
+    <value>Taxa de Abandono</value>
+  </data>
+  <data name="TOP_DEZ_PRODUTIVIDADE" xml:space="preserve">
+    <value>Top 10 – Produtividade</value>
+  </data>
+  <data name="TOTAL_CONTRATADOS_CANCELADOS" xml:space="preserve">
+    <value>Total de Contratados Cancelados</value>
+  </data>
+  <data name="VALOR_MATERIAIS_ESTOQUE" xml:space="preserve">
+    <value>Valor em R$ de materiais Estoque</value>
+  </data>
+  <data name="PAINEL_USUARIO_PERFIL" xml:space="preserve">
+    <value>Listagem de Usuario e Perfil</value>
+  </data>
+  <data name="VINCULAR_USUARIO_PERFIL" xml:space="preserve">
+    <value>Vincular Usuário ao Perfil</value>
+  </data>
+  <data name="PERFIL" xml:space="preserve">
+    <value>Perfil</value>
+  </data>
+  <data name="DASHBOARD_GERENCIAL" xml:space="preserve">
+    <value>Dashboard Gerencial</value>
+  </data>
+  <data name="Dashboard_Inicial" xml:space="preserve">
+    <value>Dashboard Inicial</value>
+  </data>
+  <data name="CADASTRO_OLT" xml:space="preserve">
+    <value>Cadastro de OLT</value>
+  </data>
+  <data name="OLT" xml:space="preserve">
+    <value>OLT</value>
+  </data>
+  <data name="PAINEL_OLT" xml:space="preserve">
+    <value>Listagem de OLT</value>
+  </data>
+  <data name="STATUS_PROSPECTO" xml:space="preserve">
+    <value>Status Prospecto</value>
+  </data>
+  <data name="EFETIVADO" xml:space="preserve">
+    <value>Efetivado</value>
+  </data>
+  <data name="EM_NEGOCIACAO" xml:space="preserve">
+    <value>Em Negociação</value>
+  </data>
+  <data name="INVIABILLIDADE_TECNICA" xml:space="preserve">
+    <value>Inviabilidade Técnica</value>
+  </data>
+  <data name="PRE_CADASTRO" xml:space="preserve">
+    <value>Pré Cadastro</value>
+  </data>
+  <data name="RESTRICAO_COMERCIAL" xml:space="preserve">
+    <value>Restrição Comercial</value>
+  </data>
+  <data name="DESCRICAO_RACK" xml:space="preserve">
+    <value>Descrição Rack</value>
+  </data>
+  <data name="PORTA" xml:space="preserve">
+    <value>Porta</value>
+  </data>
+  <data name="DESCRICAO_OLT" xml:space="preserve">
+    <value>Descrição OLT</value>
+  </data>
+  <data name="IP_RADIUS" xml:space="preserve">
+    <value>IP do Radius</value>
+  </data>
+  <data name="CADASTRO_RADIUS" xml:space="preserve">
+    <value>Cadastro de Servidor Radius</value>
+  </data>
+  <data name="DESCRICAO_RADIUS" xml:space="preserve">
+    <value>Descrição Radius</value>
+  </data>
+  <data name="PAINEL_RADIUS" xml:space="preserve">
+    <value>Listagem de Servidores Radius</value>
+  </data>
+  <data name="ATUALIZAR" xml:space="preserve">
+    <value>Atualizar</value>
+  </data>
+  <data name="RACKID" xml:space="preserve">
+    <value>ID Rack</value>
+  </data>
+  <data name="CADASTRO_SLOT" xml:space="preserve">
+    <value>Cadastro de Slot</value>
+  </data>
+  <data name="SLOT_ID" xml:space="preserve">
+    <value>ID do Slot</value>
+  </data>
+  <data name="DESCRICAO_PON" xml:space="preserve">
+    <value>Descrição PON</value>
+  </data>
+  <data name="PAINEL_SLOT" xml:space="preserve">
+    <value>Listagem de Slot</value>
+  </data>
+  <data name="SLOT" xml:space="preserve">
+    <value>Slot</value>
+  </data>
+  <data name="PONID" xml:space="preserve">
+    <value>ID do PON</value>
+  </data>
+  <data name="DESCRICAO_SUBRACK" xml:space="preserve">
+    <value>Descrição SubRack</value>
+  </data>
+  <data name="DESCRICAO_SLOT" xml:space="preserve">
+    <value>Descrição Slot</value>
+  </data>
+  <data name="CADASTRO_RACK" xml:space="preserve">
+    <value>Cadastro de Rack</value>
+  </data>
+  <data name="LISTA_SUB_RACK" xml:space="preserve">
+    <value>Listagem de SubRack</value>
+  </data>
+  <data name="PAINEL_RACK" xml:space="preserve">
+    <value>Listagem de Rack</value>
+  </data>
+  <data name="RACK" xml:space="preserve">
+    <value>Rack</value>
+  </data>
+  <data name="RESPONSAVEL_FINANCEIRO" xml:space="preserve">
+    <value>Responsável Financeiro</value>
+  </data>
+  <data name="TELEFONEFIXO2" xml:space="preserve">
+    <value>Telefone Fixo 2</value>
+  </data>
+  <data name="PAINEL_SUBRACK" xml:space="preserve">
+    <value>Listagem de SubRack</value>
+  </data>
+  <data name="SUBRACK" xml:space="preserve">
+    <value>SubRack</value>
+  </data>
+  <data name="CADASTRO_SUBRACK" xml:space="preserve">
+    <value>Cadastro de SubRack</value>
+  </data>
+  <data name="LISTA_RACK" xml:space="preserve">
+    <value>Listagem de Rack</value>
+  </data>
+  <data name="SUBRACK_ID" xml:space="preserve">
+    <value>ID SubRack</value>
+  </data>
+  <data name="CADASTRO_PON" xml:space="preserve">
+    <value>Cadastro de PON</value>
+  </data>
+  <data name="PAINEL_PON" xml:space="preserve">
+    <value>Listagem de PON</value>
+  </data>
+  <data name="PON" xml:space="preserve">
+    <value>PON</value>
+  </data>
+  <data name="CADASTRO_POSICAO_PON" xml:space="preserve">
+    <value>Cadastro de Posicao PON</value>
+  </data>
+  <data name="PAINEL_POSICAO_PON" xml:space="preserve">
+    <value>Listagem de Posicao PON</value>
+  </data>
+  <data name="POSICAOID" xml:space="preserve">
+    <value>PosicaoID</value>
+  </data>
+  <data name="POSICAO_PON" xml:space="preserve">
+    <value>Posicao PON</value>
+  </data>
+  <data name="CARGO_RESPONSAVEL_EMPRESA" xml:space="preserve">
+    <value>Cargo Reponsável Empresa</value>
+  </data>
+  <data name="CELULAR1" xml:space="preserve">
+    <value>Celular</value>
+  </data>
+  <data name="CELULAR_REPONSAVEL" xml:space="preserve">
+    <value>Celular Responsável</value>
+  </data>
+  <data name="COMO_FICOU_SABENDO" xml:space="preserve">
+    <value>Como ficou sabendo(?)</value>
+  </data>
+  <data name="COMPLEMENTO_ENDEREÇO" xml:space="preserve">
+    <value>Complemento Endereço</value>
+  </data>
+  <data name="CPF_RESPONSAVEL_EMPRESA" xml:space="preserve">
+    <value>CPF Responsável Empresa</value>
+  </data>
+  <data name="EMAIL_AUXILIAR" xml:space="preserve">
+    <value>E-mail Auxiliar</value>
+  </data>
+  <data name="EMAIL_PRINCIPAL" xml:space="preserve">
+    <value>E-mail Principal</value>
+  </data>
+  <data name="ESTADO_CIVIL" xml:space="preserve">
+    <value>Estado Civil</value>
+  </data>
+  <data name="NOME_MAE" xml:space="preserve">
+    <value>Nome Mãe</value>
+  </data>
+  <data name="NOME_PAI" xml:space="preserve">
+    <value>Nome Pai</value>
+  </data>
+  <data name="PESSOA_RECADO" xml:space="preserve">
+    <value>Pessoa Recado</value>
+  </data>
+  <data name="PONTO_REFERENCIA" xml:space="preserve">
+    <value>Ponto de Referência</value>
+  </data>
+  <data name="REPRESENTANTE" xml:space="preserve">
+    <value>Representante</value>
+  </data>
+  <data name="SITE" xml:space="preserve">
+    <value>Site</value>
+  </data>
+  <data name="TELEFONE1" xml:space="preserve">
+    <value>Telefone 1</value>
+  </data>
+  <data name="TELEFONE2" xml:space="preserve">
+    <value>Telefone 2</value>
+  </data>
+  <data name="TELEFONE3" xml:space="preserve">
+    <value>Telefone 3</value>
+  </data>
+  <data name="TELEFONE_RECADO" xml:space="preserve">
+    <value>Telefone Recado</value>
+  </data>
+  <data name="PROBLEMA_RELATADO" xml:space="preserve">
+    <value>Problema Relatado</value>
+  </data>
+  <data name="CADASTRO_ATIVIDADE_NF" xml:space="preserve">
+    <value>Cadastro de Atividades de NF</value>
+  </data>
+  <data name="CADASTRO_CATEGORIA_CLIENTE" xml:space="preserve">
+    <value>Cadastro de Categoria do Cliente</value>
+  </data>
+  <data name="CADASTRO_FERIADO" xml:space="preserve">
+    <value>Cadastro de Feriados</value>
+  </data>
+  <data name="CADASTRO_SERVIDOR_NAS" xml:space="preserve">
+    <value>Cadastro de Servidor NAS</value>
+  </data>
+  <data name="CAMPOS_OBRIGATORIOS" xml:space="preserve">
+    <value>Definir Campos Obrigatório Cadastros</value>
+  </data>
+  <data name="CONFIGURACOES_FIBRA_OTICA" xml:space="preserve">
+    <value>Configurações de Fibra Ótica</value>
+  </data>
+  <data name="CONFIGURACOES_RADIUS" xml:space="preserve">
+    <value>Configurações Radius</value>
+  </data>
+  <data name="CONFIGURAR_PONTO_PARTIDA" xml:space="preserve">
+    <value>Cadastro de Ponto de Partida</value>
+  </data>
+  <data name="FIBRA_OTICA" xml:space="preserve">
+    <value>Fibra Ótica</value>
+  </data>
+  <data name="HABILITAR_AREA_ATUACAO_EQUIPE" xml:space="preserve">
+    <value>Habilitar Áreas de Atuação para Técnicos</value>
+  </data>
+  <data name="HABILITAR_NATUREZA" xml:space="preserve">
+    <value>Habilitar Natureza</value>
+  </data>
+  <data name="HABILITAR_NATUREZA_SERVICO_EQUIPE" xml:space="preserve">
+    <value>Habilitar Naturezas de Serviço para Técnico</value>
+  </data>
+  <data name="SLA_EXECUCAO_SERVICO" xml:space="preserve">
+    <value>Cadastro de SLA de Execução de Serviço</value>
+  </data>
+  <data name="USUARIO_SENHA_INVALIDOS" xml:space="preserve">
+    <value>Senha Incorreta</value>
+  </data>
+  <data name="LISTA_OLT" xml:space="preserve">
+    <value>Listagem de OLT</value>
+  </data>
+  <data name="CADASTRO_VLAN" xml:space="preserve">
+    <value>Cadastro de VLAN</value>
+  </data>
+  <data name="DESCRICAO_VLAN" xml:space="preserve">
+    <value>Descrição VLAN</value>
+  </data>
+  <data name="PAINEL_VLAN" xml:space="preserve">
+    <value>Listagem de VLAN</value>
+  </data>
+  <data name="VLAN" xml:space="preserve">
+    <value>VLAN</value>
+  </data>
+  <data name="VLAN_ID" xml:space="preserve">
+    <value>Id VLAN</value>
+  </data>
+  <data name="CADASTRO_PERFILBANDA" xml:space="preserve">
+    <value>Cadastro de Perfil de Banda</value>
+  </data>
+  <data name="PAINEL_PERFILBANDA" xml:space="preserve">
+    <value>Listagem de Perfil Banda</value>
+  </data>
+  <data name="PERFILBANDA" xml:space="preserve">
+    <value>Perfil Banda</value>
+  </data>
+  <data name="TAXA_DOWNLOAD" xml:space="preserve">
+    <value>Taxa Download</value>
+  </data>
+  <data name="TAXA_UPLOAD" xml:space="preserve">
+    <value>Taxa Upload</value>
+  </data>
+  <data name="CADASTRO_ONT" xml:space="preserve">
+    <value>Cadastro ONT</value>
+  </data>
+  <data name="LISTA_PERFILBANDA" xml:space="preserve">
+    <value>Listagem de Perfil Banda</value>
+  </data>
+  <data name="LISTA_POSICAO_PON" xml:space="preserve">
+    <value>Listagem Posição PON</value>
+  </data>
+  <data name="LISTA_VLAN" xml:space="preserve">
+    <value>Listagem de VLAN</value>
+  </data>
+  <data name="OBSERVACAO" xml:space="preserve">
+    <value>Observação</value>
+  </data>
+  <data name="ONT" xml:space="preserve">
+    <value>ONT</value>
+  </data>
+  <data name="PAINEL_ONT" xml:space="preserve">
+    <value>Listagem de ONT</value>
+  </data>
+  <data name="PERFILBANDA_ID" xml:space="preserve">
+    <value>Id Perfil Banda</value>
+  </data>
+  <data name="POSICAOPON_ID" xml:space="preserve">
+    <value>Id Posição PON</value>
+  </data>
+  <data name="SERIAL_ID" xml:space="preserve">
+    <value>Id Serial</value>
+  </data>
+  <data name="REAGENDAR_ORDEM_SERVICO" xml:space="preserve">
+    <value>Reagendar OS</value>
+  </data>
+  <data name="EQUIPE_MAPA" xml:space="preserve">
+    <value>Técnico no Mapa</value>
+  </data>
+  <data name="PRODUCAO" xml:space="preserve">
+    <value>Produção</value>
+  </data>
+  <data name="LOCALIZACAO" xml:space="preserve">
+    <value>Localização</value>
+  </data>
+  <data name="CADASTRO_PLANO_PRODUTO" xml:space="preserve">
+    <value>Cadastro de Planos e Produtos</value>
+  </data>
+  <data name="CADASTRO_MEIO_CAPTACAO" xml:space="preserve">
+    <value>Cadastro de Meio de Captação</value>
+  </data>
+  <data name="CADASTRO_SLA_ATENDIMENTO" xml:space="preserve">
+    <value>Cadastro de SLA de Atendimento</value>
+  </data>
+  <data name="HORAS_CORRIDAS" xml:space="preserve">
+    <value>Horas Corridas</value>
+  </data>
+  <data name="HORAS_UTEIS" xml:space="preserve">
+    <value>Horas Úteis</value>
+  </data>
+  <data name="INDIFERENTE" xml:space="preserve">
+    <value>Indiferente</value>
+  </data>
+  <data name="VENDEDOR_SUPERVISOR" xml:space="preserve">
+    <value>Vendedor / Supervisor</value>
+  </data>
+  <data name="DOCUMENTO_CPF_CNPJ" xml:space="preserve">
+    <value>CPF/CNPJ</value>
+  </data>
+  <data name="HORARIO_ATENDIMENTO_SEM_SLA" xml:space="preserve">
+    <value>Horário de Atendimento</value>
+  </data>
+  <data name="DIAS_SEMANA_HORARIOS_INCOMPLETOS" xml:space="preserve">
+    <value>Existem dias da semana com faixas de horários incompletas!</value>
+  </data>
+  <data name="HORARIO_FAIXA_INVALIDO" xml:space="preserve">
+    <value>Horário de faixa inválido. Fim da faixa menor que o início da faixa.</value>
+  </data>
+  <data name="LISTA_HORARIOS" xml:space="preserve">
+    <value>Listagem de Horários</value>
+  </data>
+  <data name="PELO_MENOS_UM_HORARIO" xml:space="preserve">
+    <value>Para criar um novo horário é necessário informar uma faixa de horários para pelo menos um dia da semana</value>
+  </data>
+  <data name="USUARIO_SEM_ACESSO137" xml:space="preserve">
+    <value> Você não possui área de acesso para prosseguir com o cadastro.</value>
+  </data>
+  <data name="INTERNACIONAL" xml:space="preserve">
+    <value>Internacional</value>
+  </data>
+  <data name="CADASTRO_COMISSIONAMENTO" xml:space="preserve">
+    <value>Cadastro de Comissionamento</value>
+  </data>
+  <data name="CADASTRO_FAIXA_COMISSIONAMENTO" xml:space="preserve">
+    <value>Cadastro de Faixa de Comissionamento</value>
+  </data>
+  <data name="CADASTRO_MODELO_CONTRATO" xml:space="preserve">
+    <value>Cadastro de Modelo de Contrato</value>
+  </data>
+  <data name="CADASTRO_MODELO_RECIBO" xml:space="preserve">
+    <value>Cadastro de Modelo de Recibo</value>
+  </data>
+  <data name="OLA_CLIENTE" xml:space="preserve">
+    <value>Ola Cliente</value>
+  </data>
+  <data name="PELO_MENOS_UM_HORARIO_FERIADO" xml:space="preserve">
+    <value>Para criar um novo horário é necessário informar uma faixa de horários para feriado.</value>
+  </data>
+  <data name="PREENCHA_HORA_CORRETAMENTE" xml:space="preserve">
+    <value>Preencha a hora corretamente</value>
+  </data>
+  <data name="VISUALIZAR_MAPA" xml:space="preserve">
+    <value>Visualizar Mapa</value>
+  </data>
+  <data name="AUSENTE" xml:space="preserve">
+    <value>Ausente</value>
+  </data>
+  <data name="DISPONIVEL" xml:space="preserve">
+    <value>Disponível</value>
+  </data>
+  <data name="EM_DESLOCAMENTO" xml:space="preserve">
+    <value>Em Deslocamento</value>
+  </data>
+  <data name="OCUPADO" xml:space="preserve">
+    <value>Ocupado</value>
+  </data>
+  <data name="SEM_STATUS" xml:space="preserve">
+    <value>Sem Status</value>
+  </data>
+  <data name="DESCONTO_TEMPO_INDETERMINADO" xml:space="preserve">
+    <value>Desconto por Tempo Indeterminado</value>
+  </data>
+  <data name="NENHUM_REGISTRO" xml:space="preserve">
+    <value>Nenhum Registro Encontrado</value>
+  </data>
+  <data name="FERIADO_JA_CADASTRO" xml:space="preserve">
+    <value>Feriado Já Cadastrado</value>
+  </data>
+  <data name="DADOS_NAO_INFORMADOS_NA_OS" xml:space="preserve">
+    <value>{0} não informado na OS {1}</value>
+  </data>
+  <data name="NAO_EXISTE_HORARIOS_CONFIGURADOS_FERIADOS" xml:space="preserve">
+    <value>Não existe horários de agendamento configurados nos Feriados</value>
+  </data>
+  <data name="NAO_EXISTE_HORARIOS_CONFIGURADOS_UTEIS" xml:space="preserve">
+    <value>Não existe horários de agendamento configurados</value>
+  </data>
+  <data name="MONITOR" xml:space="preserve">
+    <value>Monitor</value>
+  </data>
+  <data name="STATUS_EQUIPE" xml:space="preserve">
+    <value>Status Técnico</value>
+  </data>
+  <data name="CONFIGURACAO_OS" xml:space="preserve">
+    <value>Configurações Ordem de Serviço</value>
+  </data>
+  <data name="CONFIGURACAO_COMERCIAL_FINANCEIRO" xml:space="preserve">
+    <value>Configurações Comercial / Financeiro</value>
+  </data>
+  <data name="CONFIGURACAO_INTEGRACAO" xml:space="preserve">
+    <value>Configurações Para Integrações</value>
+  </data>
+  <data name="CONFIGURACOES_EMPRESA" xml:space="preserve">
+    <value>Configurações da Empresa</value>
+  </data>
+  <data name="EMPRESA_ROTEIRIZACAO_SERVICO" xml:space="preserve">
+    <value>Empresa Utilizará Roteirização de Serviços ?</value>
+  </data>
+  <data name="EXIGE_AGENDAMENTO_SERVICO" xml:space="preserve">
+    <value>Utilizará agendamento/reagendamento para ordem de serviço? </value>
+  </data>
+  <data name="FORMATO_PROTOCOLO_ATENDIMENTO" xml:space="preserve">
+    <value>Formato do Protocolo de Atendimento</value>
+  </data>
+  <data name="VINCULAR_MONITOR_EQUIPE" xml:space="preserve">
+    <value>Vincular Monitor ao Técnico</value>
+  </data>
+  <data name="ALTA" xml:space="preserve">
+    <value>Alta</value>
+  </data>
+  <data name="BAIXA" xml:space="preserve">
+    <value>Baixa</value>
+  </data>
+  <data name="MEDIA" xml:space="preserve">
+    <value>Média</value>
+  </data>
+  <data name="LISTA_MEIOS_CAPTACAO" xml:space="preserve">
+    <value>Listagem de Meios de Captação</value>
+  </data>
+  <data name="DATA_ABERTURA" xml:space="preserve">
+    <value>Data de Abertura</value>
+  </data>
+  <data name="DATA_ENCERRAMENTO" xml:space="preserve">
+    <value>Data de Encerramento</value>
+  </data>
+  <data name="NOME_ARQUIVO" xml:space="preserve">
+    <value>Nome Arquivo</value>
+  </data>
+  <data name="EXTENSAO_ARQUIVO" xml:space="preserve">
+    <value>Extensão do Arquivo</value>
+  </data>
+  <data name="ORDEM_CLIENTE_EQUIPE" xml:space="preserve">
+    <value>N° Ordem de Serviço/Cliente/Técnico</value>
+  </data>
+  <data name="ATALHO_CADASTRO_CLIENTE" xml:space="preserve">
+    <value>Atalho Cadastro de Cliente</value>
+  </data>
+  <data name="ENVIAR_EMAIL_AO_ASSINANTE" xml:space="preserve">
+    <value>Enviar Email ao Assinante</value>
+  </data>
+  <data name="ENVIAR_PESQUISA_SATISFACAO" xml:space="preserve">
+    <value>Enviar Pesquisa Satisfação</value>
+  </data>
+  <data name="INFORME_CLIENTE" xml:space="preserve">
+    <value>Informe Um Cliente</value>
+  </data>
+  <data name="SLA_SERVICO_PADRAO" xml:space="preserve">
+    <value>SLA de Serviço Padrão</value>
+  </data>
+  <data name="SELECIONE_MOTIVO_STATUS" xml:space="preserve">
+    <value>Selecione um motivo de acordo com o status selecionado</value>
+  </data>
+  <data name="FILTROS_PAINEL_ATENDIMENTO" xml:space="preserve">
+    <value>Filtros Painel de Atendimento</value>
+  </data>
+  <data name="ARQUIVO_DOC" xml:space="preserve">
+    <value>Contrato</value>
+  </data>
+  <data name="ARQUIVO_IMG" xml:space="preserve">
+    <value>Imagem</value>
+  </data>
+  <data name="CONTRATO_AUTOMATICO" xml:space="preserve">
+    <value>Gerar contrato Automático ?</value>
+  </data>
+  <data name="NUMEROS_VALIDOS_1_31" xml:space="preserve">
+    <value>Valor inválido. Os dias disponíveis são de 1 a 31. </value>
+  </data>
+  <data name="QUEM_PREENCHE_" xml:space="preserve">
+    <value>Quem Preenche(?)</value>
+  </data>
+  <data name="DATAHORA_CRIACAO" xml:space="preserve">
+    <value>Data/Hora Criação</value>
+  </data>
+  <data name="ENVIO_AUTOMATICO_" xml:space="preserve">
+    <value>Envio Automático (?)</value>
+  </data>
+  <data name="QTDE_ENVIOS" xml:space="preserve">
+    <value>Qtde. de Envios</value>
+  </data>
+  <data name="QTDE_RESPOSTAS" xml:space="preserve">
+    <value>Qtde. de Respostas</value>
+  </data>
+  <data name="NAO_EXISTE_ENDERECO_INSTALACAO_ASSOCIADO_AO_CLIENTE" xml:space="preserve">
+    <value>Não Existe Endereço de Instalação Associado ao Cliente</value>
+  </data>
+  <data name="ACOMPANHAMENTO_ATENDIMENTO" xml:space="preserve">
+    <value>Acompanhamento do Atendimento</value>
+  </data>
+  <data name="ABERTA_AGUARD_RESPONSAVEL" xml:space="preserve">
+    <value>Aberta Aguardando Responsável</value>
+  </data>
+  <data name="LISTA_CONTRATO" xml:space="preserve">
+    <value>Listagem de Modelos de Contrato</value>
+  </data>
+  <data name="LISTAMOTIVO_STATUS_ATENDIMENTO" xml:space="preserve">
+    <value>Listagem de Motivos Para Alteração de Status Atendimento</value>
+  </data>
+  <data name="CADASTRAR_NOVO_PLANO_PRODUTO" xml:space="preserve">
+    <value>Cadastrar novo Plano/Produto</value>
+  </data>
+  <data name="INSERIRPLANO/PRODUTO" xml:space="preserve">
+    <value>Inserir Plano/Produto</value>
+  </data>
+  <data name="VISUALIZAR_EQUIPES" xml:space="preserve">
+    <value>Visualizar Técnicos</value>
+  </data>
+  <data name="VISUALIZAR_VINCULOS" xml:space="preserve">
+    <value>Visualizar Vínculos</value>
+  </data>
+  <data name="AREA_HABILITADA" xml:space="preserve">
+    <value>Área Habilitada</value>
+  </data>
+  <data name="NATUREZA_HABILITADA" xml:space="preserve">
+    <value>Natureza Habilitada</value>
+  </data>
+  <data name="HORARIO_SERVICO_PADRAO" xml:space="preserve">
+    <value>Horário de Serviço Padrão</value>
+  </data>
+  <data name="LISTA_RECIBO" xml:space="preserve">
+    <value>Listagem de Modelos de Recibo</value>
+  </data>
+  <data name="VIZUALIZAR_ROTAS" xml:space="preserve">
+    <value>Vizualizar Rotas</value>
+  </data>
+  <data name="PAINEL_ROTAS" xml:space="preserve">
+    <value>Painel de Rotas</value>
+  </data>
+  <data name="AMIGO" xml:space="preserve">
+    <value>Amigo</value>
+  </data>
+  <data name="FILHO" xml:space="preserve">
+    <value>Filho</value>
+  </data>
+  <data name="PARENTE" xml:space="preserve">
+    <value>Parente</value>
+  </data>
+  <data name="VIZINHO" xml:space="preserve">
+    <value>Vizinho</value>
+  </data>
+  <data name="CADASTRAR_MOTIVO_STATUS_ATENDIMENTO" xml:space="preserve">
+    <value>Cadastro Motivo do Status Atendimento</value>
+  </data>
+  <data name="DATA_EQUIPE" xml:space="preserve">
+    <value>Data e Técnico</value>
+  </data>
+  <data name="ALTERACAO" xml:space="preserve">
+    <value>Alteração</value>
+  </data>
+  <data name="HORA" xml:space="preserve">
+    <value>Hora</value>
+  </data>
+  <data name="LOG_ALTERACAOOS" xml:space="preserve">
+    <value>Log de Alterações da OS</value>
+  </data>
+  <data name="VALOR_ANT" xml:space="preserve">
+    <value>Valor Anterior</value>
+  </data>
+  <data name="VALOR_ATUAL" xml:space="preserve">
+    <value>Valor Atual</value>
+  </data>
+  <data name="DATA_ACAO" xml:space="preserve">
+    <value>Data Ação</value>
+  </data>
+  <data name="HORARIO_ACAO" xml:space="preserve">
+    <value>Horário Ação</value>
+  </data>
+  <data name="TIPO_ALTERACAO" xml:space="preserve">
+    <value>Tipo Alteração</value>
+  </data>
+  <data name="USUARIO_ACAO" xml:space="preserve">
+    <value>Usuário Ação</value>
+  </data>
+  <data name="DATAFINAL_INFERIORDATAATUAL" xml:space="preserve">
+    <value>Data Final Inferior a Data Atual</value>
+  </data>
+  <data name="DATAFINAL_MES_DIFERENTE1" xml:space="preserve">
+    <value>Data Final em mês diferente ao informado</value>
+  </data>
+  <data name="DATAINICIAL_INFERIORDATAATUAL" xml:space="preserve">
+    <value>Data Inicial Inferior a Data Atual</value>
+  </data>
+  <data name="DATAINICIAL_MES_DIFERENTE" xml:space="preserve">
+    <value>Data Inicial em mês diferente ao informado</value>
+  </data>
+  <data name="EXCLUIR_AREA_MASSA" xml:space="preserve">
+    <value>Excluir Área em Massa</value>
+  </data>
+  <data name="EXCLUIR_NATUREZA_MASSA" xml:space="preserve">
+    <value>Excluir Natureza em Massa</value>
+  </data>
+  <data name="DESCRICAO_40_CARACTERES" xml:space="preserve">
+    <value>A Descrição Deve Ter Até 40 Caracteres</value>
+  </data>
+  <data name="CADASTRO_SCRIPT_SUPORTETECNICO" xml:space="preserve">
+    <value>Cadastro de Script de Suporte Técnico</value>
+  </data>
+  <data name="INFORMACAO" xml:space="preserve">
+    <value>Informação</value>
+  </data>
+  <data name="PAINELSCRIPT_SUPORTETECNICO" xml:space="preserve">
+    <value>Listagem de Scripts de Suporte Técnico</value>
+  </data>
+  <data name="SCRIPT_SUPORTETECNICO" xml:space="preserve">
+    <value>Script Suporte Técnico</value>
+  </data>
+  <data name="NOMESCRIPT" xml:space="preserve">
+    <value>Nome do Script</value>
+  </data>
+  <data name="PERGUNTA_INFORMACAO" xml:space="preserve">
+    <value>Pergunta/Informação</value>
+  </data>
+  <data name="AREAS_ATUACAO" xml:space="preserve">
+    <value>Áreas de Atuação</value>
+  </data>
+  <data name="CRITERIO_DISTANCIA_" xml:space="preserve">
+    <value>Realizar Roteirização Priorizando a Menor Distância?</value>
+  </data>
+  <data name="DEFINIR_CRITERIOS_AGENDAMENTO_ROTEIRIZACAO" xml:space="preserve">
+    <value>Definir Critérios de Agendamento e Roteirização</value>
+  </data>
+  <data name="DISTRIBUICAO_EQUIPE" xml:space="preserve">
+    <value>Distribuição Preenchendo Cada Técnico</value>
+  </data>
+  <data name="DISTRIBUICAO_IGUAL" xml:space="preserve">
+    <value>Distribuição por Igual</value>
+  </data>
+  <data name="FORMATO_DISTRIBUICAO_SERV_ROTERIZADOS_" xml:space="preserve">
+    <value>Formato de Distribuição dos Serviços Roterizados?</value>
+  </data>
+  <data name="HABILIDADES_SKILS" xml:space="preserve">
+    <value>Habilidades (Skills)</value>
+  </data>
+  <data name="SLA_EXECUCAOSERVICO" xml:space="preserve">
+    <value>SLA de Execução de Serviço</value>
+  </data>
+  <data name="CONFIGURACAO_ATENDIMENTO" xml:space="preserve">
+    <value>Configurações Atendimento</value>
+  </data>
+  <data name="USUARIO_ENCERRAMENTO" xml:space="preserve">
+    <value>Usuário do Encerramento</value>
+  </data>
+  <data name="IMPRODUTIVO" xml:space="preserve">
+    <value>Improdutivo</value>
+  </data>
+  <data name="PRODUTIVO" xml:space="preserve">
+    <value>Produtivo</value>
+  </data>
+  <data name="CADASTRO_ATENDIMENTO" xml:space="preserve">
+    <value>Cadastro de Atendimento</value>
+  </data>
+  <data name="DADOSGERAIS_PROSPECTO" xml:space="preserve">
+    <value>Cadastro de Prospecto</value>
+  </data>
+  <data name="VALIDACAO_PROSPECTO" xml:space="preserve">
+    <value>Validação de Prospecto</value>
+  </data>
+  <data name="LISTA_TIPO_DESCONTO" xml:space="preserve">
+    <value>Listagem de Tipos de Desconto</value>
+  </data>
+  <data name="CADASTRO_TIPO_DESCONTO" xml:space="preserve">
+    <value>Cadastro de Tipo de Desconto</value>
+  </data>
+  <data name="TIPO_DESCONTO" xml:space="preserve">
+    <value>Tipo de Desconto</value>
+  </data>
+  <data name="TIPO_DESCONTO_DIFERENTE_NAO_PERMITIDO" xml:space="preserve">
+    <value>Não é possível aplicar desconto ao cliente {0} pois ele já possui um desconto aplicado de outro tipo e o sistema não permite acumulo de descontos de tipo diferentes.</value>
+  </data>
+  <data name="MESMO_TIPO_DESCONTO_NAO_PERMITIDO" xml:space="preserve">
+    <value>Não é possível aplicar desconto ao cliente {0} pois ele já possui um desconto aplicado de um mesmo tipo: {1}</value>
+  </data>
+  <data name="DESCONTO_MAIOR_QUE_VALOR" xml:space="preserve">
+    <value>A Soma dos Descontos é Maior Que o Valor dos Planos</value>
+  </data>
+  <data name="PAINEL_ROTAS_PLANEJADAS" xml:space="preserve">
+    <value>Painel de Rotas Planejadas </value>
+  </data>
+  <data name="INFORMADO_CADASTRO_CLIENTE" xml:space="preserve">
+    <value>Informado Pelo Usuário no Cadastro de Cliente</value>
+  </data>
+  <data name="CONFIGURAR_PERFIL_DASHBOARD" xml:space="preserve">
+    <value>Configurar Perfis Dashboard</value>
+  </data>
+  <data name="NAO" xml:space="preserve">
+    <value>Não</value>
+  </data>
+  <data name="TEMPO_ULTIMO_CONTATO" xml:space="preserve">
+    <value>Tempo Desde o Último Contato</value>
+  </data>
+  <data name="SIM" xml:space="preserve">
+    <value>Sim</value>
+  </data>
+  <data name="DASHBOARD" xml:space="preserve">
+    <value>Dashboard</value>
+  </data>
+  <data name="INDICADORES" xml:space="preserve">
+    <value>Indicadores</value>
+  </data>
+  <data name="PLANO_VALOR_REAL" xml:space="preserve">
+    <value>Valor Real</value>
+  </data>
+  <data name="VALOR_INSTALACAO" xml:space="preserve">
+    <value>Valor da Instalação Real</value>
+  </data>
+  <data name="ANEXAR_ARQUIVOS" xml:space="preserve">
+    <value>Anexar Arquivos</value>
+  </data>
+  <data name="HISTORICO_CONTATOS" xml:space="preserve">
+    <value>Histórico de Contatos</value>
+  </data>
+  <data name="DATA_ATENDIMENTO" xml:space="preserve">
+    <value>Data do Atendimento</value>
+  </data>
+  <data name="HABILIDADE_TECNICA" xml:space="preserve">
+    <value>Habilidade Técnica</value>
+  </data>
+  <data name="VENDAS_DADOS_GERAIS" xml:space="preserve">
+    <value>Vendas Dados Gerais</value>
+  </data>
+  <data name="IDENTIFICACAO_PROSPECTO" xml:space="preserve">
+    <value>Identificação do Prospecto</value>
+  </data>
+  <data name="PROSPECTO_DADOS_GERAIS" xml:space="preserve">
+    <value>Prospecto Dados Gerais</value>
+  </data>
+  <data name="AUTENTICACAO_RADIUS" xml:space="preserve">
+    <value>Autenticação Radius</value>
+  </data>
+  <data name="SEM_PERIODO_CARENCIA" xml:space="preserve">
+    <value>Sem período de carencia</value>
+  </data>
+  <data name="VELOCIDADE NOMINAL" xml:space="preserve">
+    <value>Velocidade Nominal</value>
+  </data>
+  <data name="VELOCIDADE UPLOAD" xml:space="preserve">
+    <value>Velocidade Upload</value>
+  </data>
+  <data name="VELOCIDADE_DOWNLOAD" xml:space="preserve">
+    <value>Velocidade Download</value>
+  </data>
+  <data name="VELOCIDADE_DOWNLOAD_REDUZIDA" xml:space="preserve">
+    <value>Velocidade Download Reduzida</value>
+  </data>
+  <data name="VELOCIDADE_UPLOAD_REDUZIDA" xml:space="preserve">
+    <value>Velocidade Upload Reduzida</value>
+  </data>
+  <data name="BLOQUEIO_AUTOMATICO" xml:space="preserve">
+    <value>Bloqueio Automático</value>
+  </data>
+  <data name="DATA_VALIDADE" xml:space="preserve">
+    <value>Data de Validade</value>
+  </data>
+  <data name="ENVIA_ATIVACAO_OLA" xml:space="preserve">
+    <value>Enviar Confirmação de Ativação no Olá</value>
+  </data>
+  <data name="FILTROS_PRODUCAO" xml:space="preserve">
+    <value>Filtros de Produção</value>
+  </data>
+  <data name="USUARIO_SEM_ACESSO_22" xml:space="preserve">
+    <value>Você não possui acesso a área 22 para visualizar o cadastro completo do cliente. Entre em contato com o administrador do sistema.</value>
+  </data>
+  <data name="USUARIO_SEMACESSO_20" xml:space="preserve">
+    <value>Você não possui acesso a área 20 para incluir cliente ou alterar o cadastro do cliente. Entre em contato com o administrador do sistema</value>
+  </data>
+  <data name="CHECK_IN" xml:space="preserve">
+    <value>Check In</value>
+  </data>
+  <data name="CHECK_OUT" xml:space="preserve">
+    <value>Check Out</value>
+  </data>
+  <data name="LISTAGEM_PONTO_VENDA" xml:space="preserve">
+    <value>Listagem de Pontos de Venda</value>
+  </data>
+  <data name="CADASTRO_SUCESSO" xml:space="preserve">
+    <value>Cadastro de Realizado com Sucesso</value>
+  </data>
+  <data name="ALTERACAO_NAO_PERMITIDA_EFETIVADO" xml:space="preserve">
+    <value>Alteração de Status não Permitida. Não Há Vendas Aguardando Aprovação Comercial Vinculadas ao Prospecto</value>
+  </data>
+  <data name="ALTERACAO_NAO_PERMITIDA_NEGOCIACAO" xml:space="preserve">
+    <value>Alteração de Status Não Permitida. Não Há Vendas Vinculadas ao Prospecto</value>
+  </data>
+  <data name="ALTERACAO_NAO_PERMITIDA_RESTRICAO" xml:space="preserve">
+    <value>Alteração de Status não Permitida. Não Há Vendas com Restrição Comercial Vinculadas ao Prospecto</value>
+  </data>
+  <data name="DATA_ULTIMO_CONTATO" xml:space="preserve">
+    <value>Data do Último Contato</value>
+  </data>
+  <data name="FORMA_CONTATO" xml:space="preserve">
+    <value>Forma do Contato</value>
+  </data>
+  <data name="REENVIAR_CONTRATO" xml:space="preserve">
+    <value>Reenviar contrato</value>
+  </data>
+  <data name="NENHUM_REGISTRO_SELECIONADO" xml:space="preserve">
+    <value>Nenhum Registro Selecionado</value>
+  </data>
+  <data name="PROXIMO" xml:space="preserve">
+    <value>Próximo</value>
+  </data>
+  <data name="FILTROS_ENVIO_DE_PESQUISA" xml:space="preserve">
+    <value>Filtros Envio de Pesquisa</value>
+  </data>
+  <data name="ACOMPANHAMENTO DO ATENDIMENTO" xml:space="preserve">
+    <value>Acompanhamento do Atendimento</value>
+  </data>
+  <data name="DADOS_GRAVADOS_SUCESSO" xml:space="preserve">
+    <value>Dados Gravados com Sucesso</value>
+  </data>
+  <data name="SOMENTE_UM_DESCONTO" xml:space="preserve">
+    <value>Não é possível aplicar desconto ao cliente {0} pois ele já possui um desconto aplicado e o sistema só permite um desconto por cliente.</value>
+  </data>
+  <data name="ATENDIMENTO_TRAVADO" xml:space="preserve">
+    <value>Atendimento só poderá ser concluido se a OS vinculada estiver fechada.</value>
+  </data>
+  <data name="USUARIO_SEM_ACESSO139" xml:space="preserve">
+    <value>Você não possui acesso a área 139. Entre em contato com o administrador do sistema.</value>
+  </data>
+  <data name="ACOMPANHAMENTO_VENDAS" xml:space="preserve">
+    <value>Acompanhamento de Vendas</value>
+  </data>
+  <data name="MAPAS" xml:space="preserve">
+    <value>Mapas</value>
+  </data>
+  <data name="CRIACAO" xml:space="preserve">
+    <value>Criação</value>
+  </data>
+  <data name="PROSPECTO" xml:space="preserve">
+    <value>Prospecto</value>
+  </data>
+  <data name="TIPO_CADASTRO" xml:space="preserve">
+    <value>Tipo de Cadastro</value>
+  </data>
+  <data name="CONTRATO" xml:space="preserve">
+    <value>Contrato</value>
+  </data>
+  <data name="SERVICOS_ROTEIRIZADOS" xml:space="preserve">
+    <value>Serviços Roteirizados</value>
+  </data>
+  <data name="DATA_MAIOR_DATAATUAL" xml:space="preserve">
+    <value>{0} maior que a Data Atual</value>
+  </data>
+  <data name="DATA_MENOR_DATAATUAL" xml:space="preserve">
+    <value>{0} menor que a Data Atual</value>
+  </data>
+  <data name="PERIODO_NAO_EXECUTADOS" xml:space="preserve">
+    <value>Período de Serviços não Executados</value>
+  </data>
+  <data name="PERIODO_PARALISADOS" xml:space="preserve">
+    <value>Período de Serviços Paralisados</value>
+  </data>
+  <data name="PERIODO_ROTEIRIZADOS" xml:space="preserve">
+    <value>Período de Serviços Roteirizados</value>
+  </data>
+  <data name="VISUALIZAR_LOG_ROTEIRIZACAO" xml:space="preserve">
+    <value>Visualizar Log de Roteirização</value>
+  </data>
+  <data name="JUSTIFICATIVA_LOG" xml:space="preserve">
+    <value>Justificativa Log</value>
+  </data>
+  <data name="ROTEIRIZADO_COM_SUCESSO" xml:space="preserve">
+    <value>Roteirizado com Sucesso</value>
+  </data>
+  <data name="ENDERECO_ATUALIZA_ATEND_CON" xml:space="preserve">
+    <value>Endereço será atualizado quando o atendimento for concluido</value>
+  </data>
+  <data name="INFORME_AOMENOSUM_SCRIPT_ATENDIMENTO" xml:space="preserve">
+    <value>ao menos um dos três campos: Pergunta frequente, Explicação ao Operador, Orientação ao Cliente.</value>
+  </data>
+  <data name="EXIBIR_OLA" xml:space="preserve">
+    <value>Exibir no APP Olá</value>
+  </data>
+  <data name="MEIO_CAPTACAO_JA_APLICADO" xml:space="preserve">
+    <value>Meio de Captação Já Aplicado a Outro Desconto</value>
+  </data>
+  <data name="CLIENTE_DADOS_GERAIS" xml:space="preserve">
+    <value>Cliente Dados Gerais</value>
+  </data>
+  <data name="IDENTIFICACAO_CLIENTE_JA_EXISTE" xml:space="preserve">
+    <value>Outro cliente já esta utilizando a identificação escolhida.Por favor , tente outra.</value>
+  </data>
+  <data name="EQUIPE_SEM_PONTO_PARTIDA" xml:space="preserve">
+    <value>Técnico nao possui Ponto de Partida configurado.Nenhuma rota será exibida no mapa.</value>
+  </data>
+  <data name="INTERROMPER_DESLOCAMENTO" xml:space="preserve">
+    <value>Interromper Deslocamento</value>
+  </data>
+  <data name="DEFINIR_FOTO_PERFIL" xml:space="preserve">
+    <value>Definir Como Foto/Imagem de Perfil</value>
+  </data>
+  <data name="VENDEDOR_POSSUIVENDA" xml:space="preserve">
+    <value>Esse(s) Vendedor(es) não pode(m) ser excluído(s) pois possui uma ou mais vendas</value>
+  </data>
+  <data name="ERRO_COMUNICACAO_VALIDACAO_CPF" xml:space="preserve">
+    <value>Não foi possível se comunicar com o servidor de validação de cpf/cnpj. Para prosseguir é necessário ter area de acesso 137.</value>
+  </data>
+  <data name="OUTRO" xml:space="preserve">
+    <value>Outro</value>
+  </data>
+  <data name="REABRIR_ATENDIMENTO" xml:space="preserve">
+    <value>Reabrir Atendimento</value>
+  </data>
+  <data name="USUARIO_SEMACESSO_150" xml:space="preserve">
+    <value>Você não possui acesso a área 150 para incluir cliente ou alterar o cadastro do cliente. Entre em contato com o administrador do sistema</value>
+  </data>
+  <data name="CUSTO_TOTAL_SERVICO" xml:space="preserve">
+    <value>Custo Total Serviço</value>
+  </data>
+  <data name="TEMPO_ATENDIMENTO" xml:space="preserve">
+    <value>Tempo de Atendimento</value>
+  </data>
+  <data name="TEMPO_REAL_DESLOCAMENTO" xml:space="preserve">
+    <value>Tempo Real Deslocamento</value>
+  </data>
+  <data name="TEMPO_TOTAL_ATENDIMENTO" xml:space="preserve">
+    <value>Tempo Total Atendimento</value>
+  </data>
+  <data name="TEMPO_TOTAL_PARALISACOES" xml:space="preserve">
+    <value>Tempo Total Paralisações</value>
+  </data>
+  <data name="DADOS_VENDA" xml:space="preserve">
+    <value>Dados da venda</value>
+  </data>
+  <data name="ADICIONAR_ARQUIVO" xml:space="preserve">
+    <value>Adicionar Arquivo</value>
+  </data>
+  <data name="AGUARDANDO_APROVACAO_VENDA" xml:space="preserve">
+    <value>Aguardando aprovação da venda</value>
+  </data>
+  <data name="ALTERAR_DETALHES" xml:space="preserve">
+    <value>Alterar Detalhes</value>
+  </data>
+  <data name="ATENDIMETO_REABERTO" xml:space="preserve">
+    <value>Atendimento reaberto</value>
+  </data>
+  <data name="TABELA_COMISSIONAMENTO" xml:space="preserve">
+    <value>Tabela de Comissionamento</value>
+  </data>
+  <data name="AREA_NAO_ENCONTRADA" xml:space="preserve">
+    <value>Área não encontrada</value>
+  </data>
+  <data name="GRUPOAREA_NAO_ENCONTRADO" xml:space="preserve">
+    <value>Grupo Área não encontrado</value>
+  </data>
+  <data name="LOCALIDADE_NAO_ENCONTRADA" xml:space="preserve">
+    <value>Localidade não encontrada</value>
+  </data>
+  <data name="JUSTIFICATIVA" xml:space="preserve">
+    <value>Justificativa</value>
+  </data>
+  <data name="MAX_DIAS_SEM_CONTATO" xml:space="preserve">
+    <value>Quantidade máxima de dias sem contato</value>
+  </data>
+  <data name="AC" xml:space="preserve">
+    <value>via AC</value>
+  </data>
+  <data name="SEM_CARREGAR" xml:space="preserve">
+    <value>Não Está Carregando</value>
+  </data>
+  <data name="USB" xml:space="preserve">
+    <value>via USB</value>
+  </data>
+  <data name="WIRELESS" xml:space="preserve">
+    <value>via Wireless</value>
+  </data>
+  <data name="QTDE_DIAS_AVALIACAO_COMERCIAL" xml:space="preserve">
+    <value>Quantidade de dias para avaliação comercial</value>
+  </data>
+  <data name="CAMPO" xml:space="preserve">
+    <value>Campo</value>
+  </data>
+  <data name="CLIENTE__PROSPECTO" xml:space="preserve">
+    <value>Cliente/Prospecto</value>
+  </data>
+  <data name="BLOQUEADO" xml:space="preserve">
+    <value>Bloqueado</value>
+  </data>
+  <data name="TEXTO_RESPOSTAS_SCRIPT_ATENDIMENTO" xml:space="preserve">
+    <value>Escreva a resposta e aperte enter. Repita caso queira acrescentar mais de uma. Clique no 'x' ao lado da resposta caso queira removê-la.</value>
+  </data>
+  <data name="DESCONTO_QUEM_INDICOU_MAIOR_QUE_VALOR" xml:space="preserve">
+    <value>A Soma dos Descontos Para Quem Indicou é Maior Que o Valor dos Planos</value>
+  </data>
+  <data name="DESCONTO_JA_CADASTRADO" xml:space="preserve">
+    <value>Desconto Já Cadastrado</value>
+  </data>
+  <data name="DESCONTO_JA_CADASTRADO_MEIO_CAPTACAO" xml:space="preserve">
+    <value>Não é possível aplicar desconto ao cliente {0} pois já possui o desconto {1} aplicado.</value>
+  </data>
+  <data name="DESCONTO_MAIOR_QUE_VALOR_MEIO_CAPTACAO" xml:space="preserve">
+    <value>Não é possível aplicar desconto ao cliente {0} pois a soma de todos os seus descontos já aplicados é maior que o valor total de planos e produtos contratados.</value>
+  </data>
+  <data name="MESMO_TIPO_DESCONTO_VIEW" xml:space="preserve">
+    <value>Não é permitido acumular descontos de mesmo tipo</value>
+  </data>
+  <data name="SOMENTE_UM_DESCONTO_VIEW" xml:space="preserve">
+    <value>É permitido aplicar somente um desconto por cliente</value>
+  </data>
+  <data name="TIPO_DESCONTO_DIFERENTE_VIEW" xml:space="preserve">
+    <value>Não é permitido acumular descontos de tipos diferentes</value>
+  </data>
+  <data name="ATENDENTE" xml:space="preserve">
+    <value>Atendente</value>
+  </data>
+  <data name="PESQUISA_PADRAO_FIM_SERVICO" xml:space="preserve">
+    <value>Pesquisa padrão de finalização de serviço</value>
+  </data>
+  <data name="PESQUISA_PADRAO_FIM_ATEND" xml:space="preserve">
+    <value>Pesquisa padrão de finalização de atendimento</value>
+  </data>
+  <data name="DISPARO_AUTOMATICO_" xml:space="preserve">
+    <value>Dispara automático(?)</value>
+  </data>
+  <data name="PERMITIR_COMENTARIO_CLIENTE" xml:space="preserve">
+    <value>Permitir Comentário do Cliente na Pesquisa?</value>
+  </data>
+  <data name="CRITICA" xml:space="preserve">
+    <value>Crítica</value>
+  </data>
+  <data name="ELOGIO" xml:space="preserve">
+    <value>Elogio</value>
+  </data>
+  <data name="SUGESTAO" xml:space="preserve">
+    <value>Sugestão</value>
+  </data>
+  <data name="RESPOSTA_CURTA" xml:space="preserve">
+    <value>Resposta Curta</value>
+  </data>
+  <data name="RESPOSTA_LONGA" xml:space="preserve">
+    <value>Resposta Longa</value>
+  </data>
+  <data name="TIPO_CAIXATEXTO" xml:space="preserve">
+    <value>Tipo Caixa de Texto</value>
+  </data>
+  <data name="DIGITO" xml:space="preserve">
+    <value>Digito</value>
+  </data>
+  <data name="PESQUISA_JA_RESPONDIDA" xml:space="preserve">
+    <value>Essa pesquisa já foi respondida</value>
+  </data>
+  <data name="PESQUISA_OBRIGADO" xml:space="preserve">
+    <value>Obrigado por ter respondido a pesquisa</value>
+  </data>
+  <data name="PERGUNTAREQUIRED" xml:space="preserve">
+    <value>Perguta {0} Obrigatória não respondida</value>
+  </data>
+  <data name="PESQUISAS_SELECIONADAS" xml:space="preserve">
+    <value>Pesquisas Selecionadas</value>
+  </data>
+  <data name="EXTRATO_PLANO_PRODUTO" xml:space="preserve">
+    <value>Extrato de Planos e Produtos Vendidos Pelo Vendedor</value>
+  </data>
+  <data name="PAINEL_VENDAS" xml:space="preserve">
+    <value>Painel de Vendas</value>
+  </data>
+  <data name="ROTA_VENDEDOR" xml:space="preserve">
+    <value>Rota do Vendedor</value>
+  </data>
+  <data name="HISTORICO_ATENDIMENTO_CLIENTE" xml:space="preserve">
+    <value>Histórico de Atendimentos deste Cliente</value>
+  </data>
+  <data name="INSERIR_PLANO_PRODUTO" xml:space="preserve">
+    <value>Inserir Novo Plano/Produto</value>
+  </data>
+  <data name="AGENDAMENTO_REAGENDAMENTO_SERVICOS" xml:space="preserve">
+    <value>Agendamento e Reagendamento de Serviço</value>
+  </data>
+  <data name="CADASTRO_PERFIL_DASHBORAD" xml:space="preserve">
+    <value>Cadastro de Perfil Dashboard</value>
+  </data>
+  <data name="LISTAGEM_PERFIS_DASHBOARD" xml:space="preserve">
+    <value>Listagem de Perfis Dashboard</value>
+  </data>
+  <data name="LOCALIZACAO_EQUIPE_MAPA" xml:space="preserve">
+    <value>Localização de Técnicos no Mapa</value>
+  </data>
+  <data name="PAINEL_ACOMPANHAMENTO_EQUIPE" xml:space="preserve">
+    <value>Painel de Acompanhamento de Técnicos</value>
+  </data>
+  <data name="META_INDIVIDUAL_PERIODO" xml:space="preserve">
+    <value>Meta Individual do Período</value>
+  </data>
+  <data name="PERMITIDO_DOC_DOCX" xml:space="preserve">
+    <value>Apenas Permitido DOC e DOCX</value>
+  </data>
+  <data name="VERRESPOSTAS" xml:space="preserve">
+    <value>Ver Respostas</value>
+  </data>
+  <data name="CUSTOMIZAR" xml:space="preserve">
+    <value>Customizar</value>
+  </data>
+  <data name="CADASTRO_PONTO_PARTIDA" xml:space="preserve">
+    <value>Cadastro de Ponto de Partida</value>
+  </data>
+  <data name="CADASTRO_SLASERVICO" xml:space="preserve">
+    <value>Cadastro de SLA de Serviço</value>
+  </data>
+  <data name="DESC_SUBGRUPO_CENTROCUSTO" xml:space="preserve">
+    <value>Sub Grupo Centro de Custo</value>
+  </data>
+  <data name="DATAINICIALMAIOR" xml:space="preserve">
+    <value>A data inicial não pode ser maior que a data final</value>
+  </data>
+  <data name="VENDEDOR_JA_ADICIONADO" xml:space="preserve">
+    <value>Vendedor já adicionado para esse período</value>
+  </data>
+  <data name="NAO_PERMITIDO_18" xml:space="preserve">
+    <value>Não é permitido Cliente menor de 18 anos.</value>
+  </data>
+  <data name="USUARIO_SEMACESSO_95" xml:space="preserve">
+    <value>Você não possui acesso a área 95 para incluir ou alterar o cadastro. Entre em contato com o administrador do sistema</value>
+  </data>
+  <data name="VISUALIZAR_COMENTARIOS_OPINIOES" xml:space="preserve">
+    <value>Visualizar Comentários e Opiniões da pesquisa</value>
+  </data>
+  <data name="NAO_POSSIVEL_ESCALA_DIAS_ANTERIOES" xml:space="preserve">
+    <value>Não é Possível alterar a escala de dias anteriores.</value>
+  </data>
+  <data name="DESCRICAO_OU_CEP" xml:space="preserve">
+    <value>Descrição ou Cep</value>
+  </data>
+  <data name="PREENCHER_PESQUISA_SATISFACAO" xml:space="preserve">
+    <value>Preencher Pesquisa de Satisfação</value>
+  </data>
+  <data name="PROTOCOLO" xml:space="preserve">
+    <value>Protocolo</value>
+  </data>
+  <data name="PESQUISA_SATISFACAO_CLIENTE_SEM_EMAIL" xml:space="preserve">
+    <value>A pesquisa {0} não pôde ser enviada pois o cliente {1} não possui e-mail cadastrado</value>
+  </data>
+  <data name="EMAIL_AUX" xml:space="preserve">
+    <value>E-mail Auxiliar</value>
+  </data>
+  <data name="TELEFONECELULAR" xml:space="preserve">
+    <value>Telefone Celular</value>
+  </data>
+  <data name="DATAHORA" xml:space="preserve">
+    <value>Data/Hora</value>
+  </data>
+  <data name="CODIGO_OU_EQUIPE" xml:space="preserve">
+    <value>Código ou Técnico</value>
+  </data>
+  <data name="FOTOS" xml:space="preserve">
+    <value>Fotos</value>
+  </data>
+  <data name="DESCRICAO_DISTRIBUICAO_IGUAL" xml:space="preserve">
+    <value>Baseia-se a partir do horário de agendamento padrão para montar o agendamento</value>
+  </data>
+  <data name="DESCRICAO_DISTRIBUICAO_PILHA" xml:space="preserve">
+    <value>Baseia-se somente nos horários de serviços dos técnicos disponíveis no dia (escala) para montar o agendamento.</value>
+  </data>
+  <data name="PRODUTIVIDADE" xml:space="preserve">
+    <value>Produtividade</value>
+  </data>
+  <data name="CHERRY_ATENDIMENTO" xml:space="preserve">
+    <value>Atendimento ao Cliente</value>
+  </data>
+  <data name="CHERRY_COMERCIAL" xml:space="preserve">
+    <value>Comercial</value>
+  </data>
+  <data name="CHERRY_FINANCEIRO" xml:space="preserve">
+    <value>Financeiro</value>
+  </data>
+  <data name="CHERRY_LOGISTICA" xml:space="preserve">
+    <value>Logística</value>
+  </data>
+  <data name="CHERRY_OBRAS" xml:space="preserve">
+    <value>Obras &amp; Infraestrutura</value>
+  </data>
+  <data name="CHERRY_OPERACAO" xml:space="preserve">
+    <value>Operação (Técnico e Serviços)</value>
+  </data>
+  <data name="CHERRY_FROTA" xml:space="preserve">
+    <value>Frota</value>
+  </data>
+  <data name="ADCIONAL_1" xml:space="preserve">
+    <value>Adcional 1</value>
+  </data>
+  <data name="ADCIONAL_10" xml:space="preserve">
+    <value>Adcional 10</value>
+  </data>
+  <data name="ADCIONAL_2" xml:space="preserve">
+    <value>Adcional 2</value>
+  </data>
+  <data name="ADCIONAL_3" xml:space="preserve">
+    <value>Adcional 3</value>
+  </data>
+  <data name="ADCIONAL_4" xml:space="preserve">
+    <value>Adcional 4</value>
+  </data>
+  <data name="ADCIONAL_5" xml:space="preserve">
+    <value>Adcional 5</value>
+  </data>
+  <data name="ADCIONAL_6" xml:space="preserve">
+    <value>Adcional 6</value>
+  </data>
+  <data name="ADCIONAL_7" xml:space="preserve">
+    <value>Adcional 7</value>
+  </data>
+  <data name="ADCIONAL_8" xml:space="preserve">
+    <value>Adcional 8</value>
+  </data>
+  <data name="ADCIONAL_9" xml:space="preserve">
+    <value>Adcional 9</value>
+  </data>
+  <data name="ORDEM_SERVICO_ABA" xml:space="preserve">
+    <value>Ordem Serviço</value>
+  </data>
+  <data name="ATENDIMENTOS_MES" xml:space="preserve">
+    <value>Atendimentos de Mês</value>
+  </data>
+  <data name="TOTAL_ATENDIMENTOS" xml:space="preserve">
+    <value>Total de Atendimentos</value>
+  </data>
+  <data name="VENDAS_APROVADAS" xml:space="preserve">
+    <value>Vendas Aprovadas</value>
+  </data>
+  <data name="VENDAS_APROVADAS_EQUIPE" xml:space="preserve">
+    <value>Vendas Aprovadas Técnico</value>
+  </data>
+  <data name="VENDAS_APROVADAS_EQUIPE_MES" xml:space="preserve">
+    <value>Vendas Aprovadas Técnico Mês</value>
+  </data>
+  <data name="VENDAS_APROVADAS_MES" xml:space="preserve">
+    <value>Vendas Aprovadas Mês</value>
+  </data>
+  <data name="VENDAS_PENDENTES_EQUIPE_MES" xml:space="preserve">
+    <value>Vendas Pendentes Técnicos Mês</value>
+  </data>
+  <data name="VENDAS_PENDENTES_MES" xml:space="preserve">
+    <value>Vendas Pendentes Mês</value>
+  </data>
+  <data name="CADASTRAR_PROSPECTO_COMERCIAL" xml:space="preserve">
+    <value>Cadastrar Prospecto Comercial</value>
+  </data>
+  <data name="DATAHORA_ENVIO" xml:space="preserve">
+    <value>Data/Hora de Envio</value>
+  </data>
+  <data name="USUARIO_ENVIO" xml:space="preserve">
+    <value>Usuário de Envio</value>
+  </data>
+  <data name="QUEM_PREENCHE" xml:space="preserve">
+    <value>Quem Preenche</value>
+  </data>
+  <data name="APLICAR" xml:space="preserve">
+    <value>Aplicar</value>
+  </data>
+  <data name="AJUDA" xml:space="preserve">
+    <value>Ajuda</value>
+  </data>
+  <data name="INICIO" xml:space="preserve">
+    <value>Início</value>
+  </data>
+  <data name="DATA_VENCIMENTO" xml:space="preserve">
+    <value>Data de Vencimento</value>
+  </data>
+  <data name="FILTRO_FERIADO" xml:space="preserve">
+    <value>Filtro de Feriado</value>
+  </data>
+  <data name="TIPOATENDIMENTO" xml:space="preserve">
+    <value>Tipo Atendimento</value>
+  </data>
+  <data name="DIA_VENCIMENTO" xml:space="preserve">
+    <value>Dia Vencimento</value>
+  </data>
+  <data name="FORMA_ENVIO_FATURA" xml:space="preserve">
+    <value>Forma Envio Fatura</value>
+  </data>
+  <data name="CORREIO" xml:space="preserve">
+    <value>Correio</value>
+  </data>
+  <data name="DATAHORA_CRIACAO_BOLETO" xml:space="preserve">
+    <value>Data Criação Boleto</value>
+  </data>
+  <data name="DATAHORA_REGISTRO_BOLETO" xml:space="preserve">
+    <value>Data Registro Boleto</value>
+  </data>
+  <data name="FILTRO_LISTAGEM_FERIADO" xml:space="preserve">
+    <value>Filtro da Listagem de Feriados</value>
+  </data>
+  <data name="EXIBIR_RDOS" xml:space="preserve">
+    <value>Exibir RDOs?</value>
+  </data>
+  <data name="PCT_COFINS" xml:space="preserve">
+    <value>Percentual do COFINS</value>
+  </data>
+  <data name="PCT_ICMS" xml:space="preserve">
+    <value>Percentual de ICMS</value>
+  </data>
+  <data name="PCT_IMPOSTO" xml:space="preserve">
+    <value>Percentual de Impostos</value>
+  </data>
+  <data name="PCT_ISS" xml:space="preserve">
+    <value>Percentual do ISS</value>
+  </data>
+  <data name="PCT_PIS" xml:space="preserve">
+    <value>Percentual do PIS</value>
+  </data>
+  <data name="HORA_AGENDAMENTO" xml:space="preserve">
+    <value>Hora Agendamento</value>
+  </data>
+  <data name="TIPO_ATIVIDADE" xml:space="preserve">
+    <value>Tipo de Atividade</value>
+  </data>
+  <data name="MODELO_NOTA_FISCAL" xml:space="preserve">
+    <value>Modelo de Nota Fiscal</value>
+  </data>
+  <data name="NAO_FOI_POSSIVEL_ESTABELCER_ROTA_PLANEJADA" xml:space="preserve">
+    <value>Não foi possivel estabelecer rota planejada, verifique as georeferencias que estão associadas a OS.</value>
+  </data>
+  <data name="DASHBOARD_VENDEDOR" xml:space="preserve">
+    <value>Painel de Acompanhamento de Vendedores</value>
+  </data>
+  <data name="DETALHES_DA_OS" xml:space="preserve">
+    <value>Detalhes da OS</value>
+  </data>
+  <data name="PERCIGUALSOMIMP1" xml:space="preserve">
+    <value>Percentual Tem Que Ser </value>
+  </data>
+  <data name="PERCIGUALSOMIMP2" xml:space="preserve">
+    <value>Soma de Icms, Pis, Cofins, Iss</value>
+  </data>
+  <data name="ABERTO" xml:space="preserve">
+    <value>Aberto</value>
+  </data>
+  <data name="FECHADO" xml:space="preserve">
+    <value>Fechado</value>
+  </data>
+  <data name="PERMITIDO_XLS_XLSX" xml:space="preserve">
+    <value>Apenas Permitido XLS e XLSX</value>
+  </data>
+  <data name="BRIDGE" xml:space="preserve">
+    <value>BRIDGE</value>
+  </data>
+  <data name="DHCP" xml:space="preserve">
+    <value>DHCP</value>
+  </data>
+  <data name="IP_ESTATICO" xml:space="preserve">
+    <value>IP ESTÁTICO</value>
+  </data>
+  <data name="PPPOE" xml:space="preserve">
+    <value>PPPoE</value>
+  </data>
+  <data name="ESTRUTURA_REDE_OPTICA" xml:space="preserve">
+    <value>Estrutura de Rede Fibra Óptica</value>
+  </data>
+  <data name="GERENCIAMENTO_REDE" xml:space="preserve">
+    <value>Gerenciamento de Rede</value>
+  </data>
+  <data name="GER_REDE" xml:space="preserve">
+    <value>Ger. de Rede</value>
+  </data>
+  <data name="FIBERHOME" xml:space="preserve">
+    <value>FiberHome</value>
+  </data>
+  <data name="DNS_PRIMARIO" xml:space="preserve">
+    <value>DNS Primário</value>
+  </data>
+  <data name="DNS_SECUNDARIO" xml:space="preserve">
+    <value>DNS Secundário</value>
+  </data>
+  <data name="FINAL_RANGE" xml:space="preserve">
+    <value>Final Range</value>
+  </data>
+  <data name="GERENCIA_LOGIN" xml:space="preserve">
+    <value>Gerência Login</value>
+  </data>
+  <data name="GERENCIA_SENHA" xml:space="preserve">
+    <value>Gerência Senha</value>
+  </data>
+  <data name="INICIO_RANGE" xml:space="preserve">
+    <value>Início Range</value>
+  </data>
+  <data name="LAN_IP" xml:space="preserve">
+    <value>LAN IP</value>
+  </data>
+  <data name="LAN_MASCARA" xml:space="preserve">
+    <value>LAN Mascara</value>
+  </data>
+  <data name="SERVIDOR_GERENCIA" xml:space="preserve">
+    <value>Servidor Gerência</value>
+  </data>
+  <data name="CONFIGURAR_MARCACAO_MENSAGEM" xml:space="preserve">
+    <value>Ao configurar o endereço do colaborador como restrito à marcação, sempre que o ponto dele for batido neste local a empresa receberá um alerta. Isto não impedirá,em nenhum momento, que seu funcionário realize a marcação do ponto normalmente. Ele também não receberá nenhum tipo de alerta sobre isso no aplicativo.</value>
+  </data>
+  <data name="CONFIGURAR_RESIDENCIA_RESTRITO" xml:space="preserve">
+    <value>Configurar residência como local restrito à marcação ?</value>
+  </data>
+  <data name="FUNCIONARIO_QR_CODE_INPUT" xml:space="preserve">
+    <value>Qr Code/Código de Barras de Identificação:</value>
+  </data>
+  <data name="CADASTRO_SERVIDORGERENCIA" xml:space="preserve">
+    <value>Cadastro de Servidor Gerência</value>
+  </data>
+  <data name="PAINELSERVIDORGERENCIA" xml:space="preserve">
+    <value>Listagem de Servidor Gerência</value>
+  </data>
+  <data name="SERVIDORGERENCIA" xml:space="preserve">
+    <value>Servidor Gerência</value>
+  </data>
+  <data name="IP_TESTE1" xml:space="preserve">
+    <value>IP Teste 1</value>
+  </data>
+  <data name="IP_TESTE2" xml:space="preserve">
+    <value>IP Teste 2</value>
+  </data>
+  <data name="LOGIN_GERENCIA" xml:space="preserve">
+    <value>Login Gerência</value>
+  </data>
+  <data name="MASCARA_REDE_GERENCIA" xml:space="preserve">
+    <value>Máscara Rede Gerência</value>
+  </data>
+  <data name="PORTA_GERENCIA_PADRAO" xml:space="preserve">
+    <value>Porta Gerência Padrão</value>
+  </data>
+  <data name="REDE_GERENCIA" xml:space="preserve">
+    <value>Rede Gerência</value>
+  </data>
+  <data name="SENHA_GERENCIA" xml:space="preserve">
+    <value>Senha Gerência</value>
+  </data>
+  <data name="SINAL_MAXIMO_ACEITAVEL" xml:space="preserve">
+    <value>Sinal máximo aceitável</value>
+  </data>
+  <data name="SINAL_MINIMO_ACEITAVEL" xml:space="preserve">
+    <value>Sinal mínimo aceitável</value>
+  </data>
+  <data name="VLAN_GERENCIA" xml:space="preserve">
+    <value>VLAN de Gerência</value>
+  </data>
+  <data name="GRUPO" xml:space="preserve">
+    <value>Grupo</value>
+  </data>
+  <data name="FABRICANTE" xml:space="preserve">
+    <value>Fabricante</value>
+  </data>
+  <data name="ID_VLAN_DADOS" xml:space="preserve">
+    <value>ID Vlan Dados</value>
+  </data>
+  <data name="ID_VLAN_MULTICAST" xml:space="preserve">
+    <value>ID Vlan Multicast</value>
+  </data>
+  <data name="ID_VLAN_VOZ" xml:space="preserve">
+    <value>ID Vlan de Voz</value>
+  </data>
+  <data name="REFERENCIA" xml:space="preserve">
+    <value>Referência</value>
+  </data>
+  <data name="GESTAO" xml:space="preserve">
+    <value>Gestão</value>
+  </data>
+  <data name="PROVISIONAMENTO" xml:space="preserve">
+    <value>Provisionamento</value>
+  </data>
+  <data name="ONU" xml:space="preserve">
+    <value>ONU</value>
+  </data>
+  <data name="ONU_PENDENTES_REGISTROS" xml:space="preserve">
+    <value>ONU Pendentes de Registro</value>
+  </data>
+  <data name="TIPO_ONU" xml:space="preserve">
+    <value>Tipo ONU</value>
+  </data>
+  <data name="VINCULAR_ONU" xml:space="preserve">
+    <value>Vincular ONU</value>
+  </data>
+  <data name="CLIENTE_PLANO" xml:space="preserve">
+    <value>Cliente/Plano</value>
+  </data>
+  <data name="CONECTIVIDADE" xml:space="preserve">
+    <value>Conectividade</value>
+  </data>
+  <data name="DETALHES_IP_ESTATICO" xml:space="preserve">
+    <value>Detalhes do IP Estático</value>
+  </data>
+  <data name="GATEWAY" xml:space="preserve">
+    <value>Gateway</value>
+  </data>
+  <data name="IP_FINAL" xml:space="preserve">
+    <value>IP Final</value>
+  </data>
+  <data name="IP_INICIO" xml:space="preserve">
+    <value>IP Início</value>
+  </data>
+  <data name="IP_MASK" xml:space="preserve">
+    <value>IP Mask</value>
+  </data>
+  <data name="LOGIN_ADMIN" xml:space="preserve">
+    <value>Login Admin</value>
+  </data>
+  <data name="LOGIN_PPPOE" xml:space="preserve">
+    <value>Login PPPOE</value>
+  </data>
+  <data name="NRO_IP" xml:space="preserve">
+    <value>Nro IP</value>
+  </data>
+  <data name="PORTA_VLAN" xml:space="preserve">
+    <value>Porta Vlan</value>
+  </data>
+  <data name="SENHA_ADMIN" xml:space="preserve">
+    <value>Senha Admin</value>
+  </data>
+  <data name="SENHA_PPPOE" xml:space="preserve">
+    <value>Senha PPPOE</value>
+  </data>
+  <data name="SENHA_WPA2" xml:space="preserve">
+    <value>Senha WPA2</value>
+  </data>
+  <data name="SERIAL" xml:space="preserve">
+    <value>Serial</value>
+  </data>
+  <data name="TIPO_DE_CONEXAO" xml:space="preserve">
+    <value>Tipo de Conexão</value>
+  </data>
+  <data name="TIPO_IDENTIFICACAO" xml:space="preserve">
+    <value>Tipo Identificação</value>
+  </data>
+  <data name="WIRELESS_SSID" xml:space="preserve">
+    <value>Wireless SSID</value>
+  </data>
+  <data name="INFORMACOES_TECNICAS" xml:space="preserve">
+    <value>Informações Técnicas</value>
+  </data>
+  <data name="ALTERAR_LOGIN" xml:space="preserve">
+    <value>Alterar Login</value>
+  </data>
+  <data name="FUNCIONARIO_FOLGA" xml:space="preserve">
+    <value>Folga</value>
+  </data>
+  <data name="CONFIGURACOES_EQUIPAMENTO" xml:space="preserve">
+    <value>Configurações de Equipamento</value>
+  </data>
+  <data name="CPU" xml:space="preserve">
+    <value>CPU</value>
+  </data>
+  <data name="DNS SLAVE" xml:space="preserve">
+    <value>DNS SLAVE</value>
+  </data>
+  <data name="DNS_MASTER" xml:space="preserve">
+    <value>DNS MASTER</value>
+  </data>
+  <data name="HARDWARE" xml:space="preserve">
+    <value>Hardware</value>
+  </data>
+  <data name="INFORMACOES_BASICAS" xml:space="preserve">
+    <value>Informações Básicas</value>
+  </data>
+  <data name="INFO_AUTENTICACAO" xml:space="preserve">
+    <value>Informação de Autentificação</value>
+  </data>
+  <data name="IP_GATEWAY" xml:space="preserve">
+    <value>IP GATEWAY</value>
+  </data>
+  <data name="MEMORIA" xml:space="preserve">
+    <value>Memória</value>
+  </data>
+  <data name="MODELO" xml:space="preserve">
+    <value>Modelo</value>
+  </data>
+  <data name="MODO_CONEXAO" xml:space="preserve">
+    <value>Modo de Conexão</value>
+  </data>
+  <data name="NAT" xml:space="preserve">
+    <value>NAT</value>
+  </data>
+  <data name="NOME_SERVICO" xml:space="preserve">
+    <value>Nome do Serviço</value>
+  </data>
+  <data name="PING_EXTERNO" xml:space="preserve">
+    <value>Ping</value>
+  </data>
+  <data name="PORTA_ONU" xml:space="preserve">
+    <value>Porta ONU</value>
+  </data>
+  <data name="PPPOE_MODE" xml:space="preserve">
+    <value>PPPOE MODE</value>
+  </data>
+  <data name="PPPOE_PROXY" xml:space="preserve">
+    <value>PPPOE PROXY</value>
+  </data>
+  <data name="PPPOE_SERVICENAME" xml:space="preserve">
+    <value>PPPOE SERVICE NAME</value>
+  </data>
+  <data name="PPPOE_USUARIO" xml:space="preserve">
+    <value>PPPOE USUARIO</value>
+  </data>
+  <data name="QOS" xml:space="preserve">
+    <value>Qos</value>
+  </data>
+  <data name="REINICIAR_EQUIPAMENTO" xml:space="preserve">
+    <value>Reiniciar Equiapemento</value>
+  </data>
+  <data name="STATUS_EQUIPAMENTO" xml:space="preserve">
+    <value>Status do Equipamento</value>
+  </data>
+  <data name="TIPO_AUTENTICACAO" xml:space="preserve">
+    <value>Tipo de Autentificação</value>
+  </data>
+  <data name="TIPO_CONEXAO" xml:space="preserve">
+    <value>Tipo de Conexão</value>
+  </data>
+  <data name="TIPO_IP" xml:space="preserve">
+    <value>Tipo de Ip</value>
+  </data>
+  <data name="VERSAO_SOFTWARE" xml:space="preserve">
+    <value>Versão do Software</value>
+  </data>
+  <data name="VLAN_COS" xml:space="preserve">
+    <value>VLAN COS</value>
+  </data>
+  <data name="PRE_CONFIGURACAO_ONU" xml:space="preserve">
+    <value>Pré Configuração ONU</value>
+  </data>
+  <data name="EQUIPAMENTO" xml:space="preserve">
+    <value>Equipamento</value>
+  </data>
+  <data name="NOME_E_MATRICULA" xml:space="preserve">
+    <value>Nome ou Matrícula</value>
+  </data>
+  <data name="MYSQL" xml:space="preserve">
+    <value>Mysql</value>
+  </data>
+  <data name="CADASTRO_PONTO_ACESSO" xml:space="preserve">
+    <value>Cadastro de Ponto de Acesso</value>
+  </data>
+  <data name="PAINEL_PONTO_ACESSO" xml:space="preserve">
+    <value>Painel de Ponto de Acesso</value>
+  </data>
+  <data name="PONTO_ACESSO" xml:space="preserve">
+    <value>Ponto de Acesso</value>
+  </data>
+  <data name="CADASTRO_POOL_IP" xml:space="preserve">
+    <value>Cadastro de Pool de Ip</value>
+  </data>
+  <data name="PAINEL_POOL_IP" xml:space="preserve">
+    <value>Listagem de Pool de Ip</value>
+  </data>
+  <data name="POOL_IP" xml:space="preserve">
+    <value>Pool de Ip</value>
+  </data>
+  <data name="MASCARA_IP" xml:space="preserve">
+    <value>Máscara de Ip</value>
+  </data>
+  <data name="OTHER" xml:space="preserve">
+    <value>other</value>
+  </data>
+  <data name="NAO_FOI_POSSIVEL_CONECTAR_RADIUS" xml:space="preserve">
+    <value>Não Foi Possível se Conectar com o Servidor Radius</value>
+  </data>
+  <data name="HISTORICO_FATURA" xml:space="preserve">
+    <value>Histórico de Fatura</value>
+  </data>
+  <data name="DATA_PAGAMENTO" xml:space="preserve">
+    <value>Data Pagamento</value>
+  </data>
+  <data name="NUMERO_FATURA" xml:space="preserve">
+    <value>Nº da Fatura</value>
+  </data>
+  <data name="VALOR_FATURA" xml:space="preserve">
+    <value>Valor da Fatura</value>
+  </data>
+  <data name="VALOR_PAGO" xml:space="preserve">
+    <value>Valor Pago</value>
+  </data>
+  <data name="ANIEL" xml:space="preserve">
+    <value>Aniel</value>
+  </data>
+  <data name="LOGISTICA" xml:space="preserve">
+    <value>Logística</value>
+  </data>
+  <data name="ANIEL_LOGISTICA" xml:space="preserve">
+    <value>Aniel Logística</value>
+  </data>
+  <data name="SERVICO_NAO_ENCONTRADO" xml:space="preserve">
+    <value>Serviço não encontrado</value>
+  </data>
+  <data name="CHERRY" xml:space="preserve">
+    <value>Cherry</value>
+  </data>
+  <data name="COMPRAS" xml:space="preserve">
+    <value>Compras</value>
+  </data>
+  <data name="FROTA" xml:space="preserve">
+    <value>Frota</value>
+  </data>
+  <data name="GESTAO_MANUTENCAO_ENGENHARIA" xml:space="preserve">
+    <value>Manutenção e Engenharia</value>
+  </data>
+  <data name="GESTAO_MATERIAL" xml:space="preserve">
+    <value>Gestão de Material</value>
+  </data>
+  <data name="PONTO_ELETRONICO" xml:space="preserve">
+    <value>Ponto Eletrônico</value>
+  </data>
+  <data name="GESTOR_MATERIAL" xml:space="preserve">
+    <value>Gestor de Material</value>
+  </data>
+  <data name="VALOR_DISCRIMINADO" xml:space="preserve">
+    <value>Valor Discriminado</value>
+  </data>
+  <data name="FUNCIONARIO_ESCALADO" xml:space="preserve">
+    <value>Escalado</value>
+  </data>
+  <data name="HISTORICO_NOTA_FISCAL" xml:space="preserve">
+    <value>Histórico de Notas Fiscais</value>
+  </data>
+  <data name="NUMERO_NOTA_FISCAL" xml:space="preserve">
+    <value>Nº Nota Fiscal</value>
+  </data>
+  <data name="ANIEL_CHERRY" xml:space="preserve">
+    <value>Aniel Cherry</value>
+  </data>
+  <data name="ANIEL_COMPRAS" xml:space="preserve">
+    <value>Aniel Compras</value>
+  </data>
+  <data name="ANIEL_FROTA" xml:space="preserve">
+    <value>Aniel Frota</value>
+  </data>
+  <data name="ANIEL_OBRAS" xml:space="preserve">
+    <value>Aniel Obras</value>
+  </data>
+  <data name="ANIEL_POINT" xml:space="preserve">
+    <value>Aniel Point</value>
+  </data>
+  <data name="BI" xml:space="preserve">
+    <value>BI</value>
+  </data>
+  <data name="LOCALIDADE_VINCULADA_PROJETO_INATIVO" xml:space="preserve">
+    <value>Localidade vinculada a um projeto inativo</value>
+  </data>
+  <data name="PERCENTUAL_IMPOSTO" xml:space="preserve">
+    <value>Percentual do Imposto</value>
+  </data>
+  <data name="SOMA_COMPOSICAO_NOTA_FISCAL" xml:space="preserve">
+    <value>A soma dos valores da composição da Nota Fiscal é diferente do Valor do Plano</value>
+  </data>
+  <data name="LOG_LOCALIDADE_EQUIPE" xml:space="preserve">
+    <value>Log de Localidade</value>
+  </data>
+  <data name="PLANOSPRODUTOS_CLIENTE" xml:space="preserve">
+    <value>Planos/Produtos do Cliente</value>
+  </data>
+  <data name="AREAS_HABILITADAS" xml:space="preserve">
+    <value>Visualizar Áreas Habilitadas para Técnico</value>
+  </data>
+  <data name="LOG_NATUREZA_EQUIPE" xml:space="preserve">
+    <value>Log de Naturezas</value>
+  </data>
+  <data name="NATUREZAS_HABILITADAS" xml:space="preserve">
+    <value>Visualizar Naturezas Habilitadas para Técnico</value>
+  </data>
+  <data name="ABERTURA_ATENDIMENTOS_EMAIL" xml:space="preserve">
+    <value>Abertura de Atendimentos por E-mail</value>
+  </data>
+  <data name="UTILIZAR_CRIACAO_EMAIL_ATENDIMENTO" xml:space="preserve">
+    <value>Utilizar criação de atendimento por  Conta de E-mail</value>
+  </data>
+  <data name="UTILIZAR_CRIACAO_DOMINIOEMAIL_ATENDIMENTO" xml:space="preserve">
+    <value>Utilizar criação de atendimento por domínio de e-mail?</value>
+  </data>
+  <data name="DATA_VENCIMENTO_" xml:space="preserve">
+    <value>Data Vencimento</value>
+  </data>
+  <data name="CNPJ_EMPRESA" xml:space="preserve">
+    <value>CNPJ Empresa</value>
+  </data>
+  <data name="NOME_DA_EMPRESA" xml:space="preserve">
+    <value>Nome Da Empresa</value>
+  </data>
+  <data name="CHERRY_SERVICOS_PRODUCAO" xml:space="preserve">
+    <value>Serviços e Produção</value>
+  </data>
+  <data name="CADASTRO_ORGANIZACAO" xml:space="preserve">
+    <value>Cadastro de Organização(Empresa)</value>
+  </data>
+  <data name="LISTAGEM_ORGANIZACOES" xml:space="preserve">
+    <value>Listagem de Organizações(Empresas)</value>
+  </data>
+  <data name="PEQUENA" xml:space="preserve">
+    <value>Pequena</value>
+  </data>
+  <data name="CLASSIFICACAO" xml:space="preserve">
+    <value>Classificação</value>
+  </data>
+  <data name="DOMINIO" xml:space="preserve">
+    <value>Domínio</value>
+  </data>
+  <data name="PORTA_ENVIO" xml:space="preserve">
+    <value>Porta de Envio</value>
+  </data>
+  <data name="PORTA_RECEBIMENTO" xml:space="preserve">
+    <value>Porta de Recebimento</value>
+  </data>
+  <data name="SERVIDOR_ENVIO" xml:space="preserve">
+    <value>Servidor de Envio</value>
+  </data>
+  <data name="SERVIDOR_RECEBIMENTO" xml:space="preserve">
+    <value>Servidor de Recebimento</value>
+  </data>
+  <data name="ORGANIZACAO" xml:space="preserve">
+    <value>Organização</value>
+  </data>
+  <data name="FACEBOOK" xml:space="preserve">
+    <value>Facebook</value>
+  </data>
+  <data name="TIPO_CONTATO" xml:space="preserve">
+    <value>Tipo de Contato</value>
+  </data>
+  <data name="PAINEL_AGENTES" xml:space="preserve">
+    <value>Listagem de Perfis de Agentes</value>
+  </data>
+  <data name="AGENTE" xml:space="preserve">
+    <value>Agente</value>
+  </data>
+  <data name="CADASTRO_AGENTE" xml:space="preserve">
+    <value>Cadastro de Perfil de Agente</value>
+  </data>
+  <data name="SOMENTE_NAO_ROTERIZADOS" xml:space="preserve">
+    <value>Somente não Roterizados</value>
+  </data>
+  <data name="SOMENTE_ROTERIZADOS" xml:space="preserve">
+    <value>Somente Roterizados</value>
+  </data>
+  <data name="TOTAL_VISITAS" xml:space="preserve">
+    <value>Total de Visitas</value>
+  </data>
+  <data name="TOTAL_VISITAS_IMPRODUTIVAS" xml:space="preserve">
+    <value>Total de Visitas Improdutivas</value>
+  </data>
+  <data name="TOTAL_VISITAS_PRODUTIVAS" xml:space="preserve">
+    <value>Total de Visitas Produtivas</value>
+  </data>
+  <data name="UPLOADPLANILHAPROSPECTOS" xml:space="preserve">
+    <value>Upload Planilha Prospectos</value>
+  </data>
+  <data name="IMPORTAR_PROSPECTOS" xml:space="preserve">
+    <value>Importar Prospectos</value>
+  </data>
+  <data name="IMPORTACAO_PROSPECTO_FINALIZADA" xml:space="preserve">
+    <value>Importação de prospectos concluída com sucesso</value>
+  </data>
+  <data name="BAIXAR" xml:space="preserve">
+    <value>Baixar</value>
+  </data>
+  <data name="EXIBIR" xml:space="preserve">
+    <value>Exibir</value>
+  </data>
+  <data name="EXTENSAO" xml:space="preserve">
+    <value>Ext.</value>
+  </data>
+  <data name="EVENTO_PROXIMO" xml:space="preserve">
+    <value>Próximo Evento</value>
+  </data>
+  <data name="EVENTO_RESPOSTAS" xml:space="preserve">
+    <value>Respostas</value>
+  </data>
+  <data name="GBS" xml:space="preserve">
+    <value>Gb/s</value>
+  </data>
+  <data name="KBS" xml:space="preserve">
+    <value>Kb/s</value>
+  </data>
+  <data name="MBS" xml:space="preserve">
+    <value>Mb/s</value>
+  </data>
+  <data name="NAO_DISPONIVEL" xml:space="preserve">
+    <value>Indisponível</value>
+  </data>
+  <data name="OFFLINE" xml:space="preserve">
+    <value>Off-line</value>
+  </data>
+  <data name="ONLINE" xml:space="preserve">
+    <value>Online</value>
+  </data>
+  <data name="CABO_METALICO" xml:space="preserve">
+    <value>Cabo Metálico</value>
+  </data>
+  <data name="COAXIAL" xml:space="preserve">
+    <value>Cabo Coaxial</value>
+  </data>
+  <data name="DASHED" xml:space="preserve">
+    <value>Dashed</value>
+  </data>
+  <data name="DOTTED" xml:space="preserve">
+    <value>Dotted</value>
+  </data>
+  <data name="FIBRA" xml:space="preserve">
+    <value>Cabo Fibra óptica</value>
+  </data>
+  <data name="GROOVE" xml:space="preserve">
+    <value>Groove</value>
+  </data>
+  <data name="INSET" xml:space="preserve">
+    <value>Inset</value>
+  </data>
+  <data name="OUTSET" xml:space="preserve">
+    <value>Outset</value>
+  </data>
+  <data name="RIDGE" xml:space="preserve">
+    <value>Ridge</value>
+  </data>
+  <data name="SOLID" xml:space="preserve">
+    <value>Solid</value>
+  </data>
+  <data name="UTP" xml:space="preserve">
+    <value>Cabo UTP</value>
+  </data>
+  <data name="AGUARDA_AVALIACAO_GESTOR" xml:space="preserve">
+    <value>Aguarda Avaliação do Gestor</value>
+  </data>
+  <data name="APROVACAO_COM_INSTALACAO" xml:space="preserve">
+    <value>Aprovação com Instalação</value>
+  </data>
+  <data name="APROVACAO_SEM_INSTALACAO" xml:space="preserve">
+    <value>Aprovação sem Instalação</value>
+  </data>
+  <data name="REPROVADO" xml:space="preserve">
+    <value>Reprovado</value>
+  </data>
+  <data name="CANCELADO_MUDANCA_PLANO" xml:space="preserve">
+    <value>Cancelado (Mudança de Plano)</value>
+  </data>
+  <data name="CIANET" xml:space="preserve">
+    <value>Cianet</value>
+  </data>
+  <data name="DATACOM" xml:space="preserve">
+    <value>Datacom</value>
+  </data>
+  <data name="FIBERHOME_A_B" xml:space="preserve">
+    <value>Fiberhome (Firmware Version A e B)</value>
+  </data>
+  <data name="FIBERHOME_A1" xml:space="preserve">
+    <value>Fiberhome (Firmware Version A/1)</value>
+  </data>
+  <data name="HSGQ" xml:space="preserve">
+    <value>HSGQ</value>
+  </data>
+  <data name="HUAWEI" xml:space="preserve">
+    <value>Huawei</value>
+  </data>
+  <data name="INTELBRAS" xml:space="preserve">
+    <value>Intelbras</value>
+  </data>
+  <data name="NOKIA" xml:space="preserve">
+    <value>Nokia</value>
+  </data>
+  <data name="PARKS" xml:space="preserve">
+    <value>Parks</value>
+  </data>
+  <data name="VSOL" xml:space="preserve">
+    <value>VSOL</value>
+  </data>
+  <data name="ZTE" xml:space="preserve">
+    <value>ZTE</value>
+  </data>
+  <data name="CADASTRO_MOTIVO_CANCELAMENTO_CONTRATUAL" xml:space="preserve">
+    <value>Cadastro de Motivo de Cancelamento Contratual</value>
+  </data>
+  <data name="PAINEL_HISTORICO_AUTENTICACOES" xml:space="preserve">
+    <value>Painel de Histórico de Autenticações de Login Radius</value>
+  </data>
+  <data name="RP700" xml:space="preserve">
+    <value>RP700</value>
+  </data>
+  <data name="RP1200" xml:space="preserve">
+    <value>RP1200</value>
+  </data>
+  <data name="RP1800" xml:space="preserve">
+    <value>RP1800</value>
+  </data>
+  <data name="OCULTAR_AGENDAMENTO_OS_PREMIER" xml:space="preserve">
+    <value>Ocultar Agendamento OS Premier</value>
+  </data>
+</root>

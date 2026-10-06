@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="IPAddressRange" Version="4.2.0" />
+    <PackageReference Include="Telnet" Version="0.11.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Aniel.Connect.Core.AspNetCore\Aniel.Connect.Core.AspNetCore.csproj" />
+    <ProjectReference Include="..\Sinapse.Core.AspNetCore\Sinapse.Core.AspNetCore.csproj" />
+    <ProjectReference Include="..\Sinapse.DAO.AspNetCore\Sinapse.DAO.AspNetCore.csproj" />
+    <ProjectReference Include="..\Sinapse.Util.AspNetCore\Sinapse.Util.AspNetCore.csproj" />
+  </ItemGroup>
+
+</Project>

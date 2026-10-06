@@ -1,0 +1,63 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>CrazyBeavers.Geodesy</name>
+    </assembly>
+    <members>
+        <member name="M:CrazyBeavers.Geodesy.DistanceCalculator.Haversine(CrazyBeavers.Geodesy.GeodeticCoordinate,CrazyBeavers.Geodesy.GeodeticCoordinate)">
+            <summary>
+            Calculates the distance between two geodetic coordinates using the Haversine formula.
+            </summary>
+            <param name="coordinate1">The first coordinate.</param>
+            <param name="coordinate2">The second coordinate.</param>
+            <returns>The distance between the coordinates in kilometers.</returns>
+        </member>
+        <member name="M:CrazyBeavers.Geodesy.DistanceCalculator.Spherical(CrazyBeavers.Geodesy.GeodeticCoordinate,CrazyBeavers.Geodesy.GeodeticCoordinate)">
+            <summary>
+            Calculates the distance between two geodetic coordinates using the Spherical law of cosines.
+            </summary>
+            <param name="coordinate1">The first coordinate.</param>
+            <param name="coordinate2">The second coordinate.</param>
+            <returns>The distance between the coordinates in kilometers.</returns>
+        </member>
+        <member name="M:CrazyBeavers.Geodesy.DistanceCalculator.CoordFromDistance(CrazyBeavers.Geodesy.GeodeticCoordinate,System.Double,System.Double)">
+            <summary>
+            Calculates a new coordinate from a bearing and distance from a specified coordinate.
+            </summary>
+            <param name="start">The initial coordinate.</param>
+            <param name="bearing">The bearing from the initial coordinate in degrees.</param>
+            <param name="distance">The distance from the initial coordinate in kilometers.</param>
+            <returns>A new geodetic coordinate representing the new point.</returns>
+        </member>
+        <member name="T:CrazyBeavers.Geodesy.GaussKruger">
+            <summary>
+            Implementation of the Gauss Kruger formula for converting between geodetic coordinates and grid coordinates.
+            </summary>
+        </member>
+        <member name="M:CrazyBeavers.Geodesy.GaussKruger.GeodeticToGrid(CrazyBeavers.Geodesy.GeodeticCoordinate,CrazyBeavers.Geodesy.Projections.Projection)">
+            <summary>
+            Converts a geodetic coordinate to a grid coordinate.
+            </summary>
+            <param name="coordinate">The geodetic coordinate to convert.</param>
+            <param name="projection">The projection to use in the conversion.</param>
+            <returns>The grid representation of the initial coordinate.</returns>
+        </member>
+        <member name="M:CrazyBeavers.Geodesy.GaussKruger.GridToGeodetic(CrazyBeavers.Geodesy.GridCoordinate)">
+            <summary>
+            Converts a grid coordinate to a geodetic coordinate.
+            </summary>
+            <param name="coordinate">The grid coordinate to convert.</param>
+            <returns>The geodetic representation of the initial coordinate.</returns>
+        </member>
+        <member name="T:CrazyBeavers.Geodesy.GeodeticCoordinate">
+            <summary>
+            Represents a geodetic coordinate
+            </summary>
+        </member>
+        <member name="T:CrazyBeavers.Geodesy.GridCoordinate">
+            <summary>
+            Represents a coordinate projected on a grid
+            </summary>
+        </member>
+    </members>
+</doc>
